@@ -4,7 +4,3959 @@
       "39518253958-1": 45
     }
   },
+  "monitoring_started_at": "2026-10-20T23:57:04.879879+00:00",
   "pilot_verified": false,
   "schema_version": 1,
-  "vods": {}
+  "vods": {
+    "0050d914-3dca-46e8-b588-c43600798487": {
+      "attempts": 0,
+      "date": "2026-08-20",
+      "first_seen": "2026-10-20T23:57:04.879215+00:00",
+      "id": "0050d914-3dca-46e8-b588-c43600798487",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0050d914-3dca-46e8-b588-c43600798487/",
+      "status": "discovered",
+      "title": "2026-08-20 The time has come."
+    },
+    "007a6ff2-3861-4c00-af25-e5aff3e9d04c": {
+      "attempts": 0,
+      "date": "2026-07-27",
+      "first_seen": "2026-10-20T23:57:04.879236+00:00",
+      "id": "007a6ff2-3861-4c00-af25-e5aff3e9d04c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/007a6ff2-3861-4c00-af25-e5aff3e9d04c/",
+      "status": "discovered",
+      "title": "2026-07-27 COMMUNISM WINNING | INFRAWOKE | DEBATING ENEMIES"
+    },
+    "00b7ceb7-35a5-41a4-b2ee-daf64436764d": {
+      "attempts": 0,
+      "date": "2023-10-23",
+      "first_seen": "2026-10-20T23:57:04.879855+00:00",
+      "id": "00b7ceb7-35a5-41a4-b2ee-daf64436764d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/00b7ceb7-35a5-41a4-b2ee-daf64436764d/",
+      "status": "discovered",
+      "title": "2023-10-23 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "00e75c5d-493b-453c-9b4b-bca9603c6ed7": {
+      "attempts": 0,
+      "date": "2026-07-31",
+      "first_seen": "2026-10-20T23:57:04.879229+00:00",
+      "id": "00e75c5d-493b-453c-9b4b-bca9603c6ed7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/00e75c5d-493b-453c-9b4b-bca9603c6ed7/",
+      "status": "discovered",
+      "title": "2026-07-31 COMMUNISM WINNING | WE'RE SO BACK"
+    },
+    "01119c8c-ac23-48e1-a585-3de9ea8cf908": {
+      "attempts": 0,
+      "date": "2023-11-10",
+      "first_seen": "2026-10-20T23:57:04.879840+00:00",
+      "id": "01119c8c-ac23-48e1-a585-3de9ea8cf908",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/01119c8c-ac23-48e1-a585-3de9ea8cf908/",
+      "status": "discovered",
+      "title": "2023-11-10 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "013652d8-af3c-4acf-a404-8c3c2cceae55": {
+      "attempts": 0,
+      "date": "2024-07-01",
+      "first_seen": "2026-10-20T23:57:04.879715+00:00",
+      "id": "013652d8-af3c-4acf-a404-8c3c2cceae55",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/013652d8-af3c-4acf-a404-8c3c2cceae55/",
+      "status": "discovered",
+      "title": "2024-07-01 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 |"
+    },
+    "01b75999-cac8-4153-b7fe-53ddacd54b59": {
+      "attempts": 0,
+      "date": "2026-04-08",
+      "first_seen": "2026-10-20T23:57:04.879299+00:00",
+      "id": "01b75999-cac8-4153-b7fe-53ddacd54b59",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/01b75999-cac8-4153-b7fe-53ddacd54b59/",
+      "status": "discovered",
+      "title": "2026-04-08 FBI AFTER ME! | IRAN CEASEFIRE"
+    },
+    "01ce5fb1-e574-44bd-96a6-4908eccbed5a": {
+      "attempts": 0,
+      "date": "2024-08-02",
+      "first_seen": "2026-10-20T23:57:04.879702+00:00",
+      "id": "01ce5fb1-e574-44bd-96a6-4908eccbed5a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/01ce5fb1-e574-44bd-96a6-4908eccbed5a/",
+      "status": "discovered",
+      "title": "2024-08-02 \ud83d\udd34 RED NEWS | CIA AFTER JACKSON?! | VENEZUELA | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "02ad00f4-907f-4e5e-8799-5b901830c0a8": {
+      "attempts": 0,
+      "date": "2023-10-18",
+      "first_seen": "2026-10-20T23:57:04.879859+00:00",
+      "id": "02ad00f4-907f-4e5e-8799-5b901830c0a8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/02ad00f4-907f-4e5e-8799-5b901830c0a8/",
+      "status": "discovered",
+      "title": "2023-10-18 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "02b060db-7ed8-4d8c-a7ef-c573160cc1e7": {
+      "attempts": 0,
+      "date": "2023-11-13",
+      "first_seen": "2026-10-20T23:57:04.879837+00:00",
+      "id": "02b060db-7ed8-4d8c-a7ef-c573160cc1e7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/02b060db-7ed8-4d8c-a7ef-c573160cc1e7/",
+      "status": "discovered",
+      "title": "2023-11-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "04d35e46-1127-4b4c-b34a-0cce2f3920c5": {
+      "attempts": 0,
+      "date": "2023-12-08",
+      "first_seen": "2026-10-20T23:57:04.879816+00:00",
+      "id": "04d35e46-1127-4b4c-b34a-0cce2f3920c5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/04d35e46-1127-4b4c-b34a-0cce2f3920c5/",
+      "status": "discovered",
+      "title": "2023-12-08 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "0565a95f-b1d5-427e-bda3-70412ad7d294": {
+      "attempts": 0,
+      "date": "2025-09-23",
+      "first_seen": "2026-10-20T23:57:04.879469+00:00",
+      "id": "0565a95f-b1d5-427e-bda3-70412ad7d294",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0565a95f-b1d5-427e-bda3-70412ad7d294/",
+      "status": "discovered",
+      "title": "2025-09-23 VIBE SHIFT"
+    },
+    "05f82265-ee8a-4016-bf9b-ac473018800d": {
+      "attempts": 0,
+      "date": "2026-07-29",
+      "first_seen": "2026-10-20T23:57:04.879231+00:00",
+      "id": "05f82265-ee8a-4016-bf9b-ac473018800d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/05f82265-ee8a-4016-bf9b-ac473018800d/",
+      "status": "discovered",
+      "title": "2026-07-29 COMMUNISM RISING"
+    },
+    "0611ca77-3967-4e8d-9a99-0e5ce125788e": {
+      "attempts": 0,
+      "date": "2024-04-12",
+      "first_seen": "2026-10-20T23:57:04.879758+00:00",
+      "id": "0611ca77-3967-4e8d-9a99-0e5ce125788e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0611ca77-3967-4e8d-9a99-0e5ce125788e/",
+      "status": "discovered",
+      "title": "2024-04-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "06cc7338-aaa2-407c-a1b7-d50771b2effc": {
+      "attempts": 0,
+      "date": "2026-07-13",
+      "first_seen": "2026-10-20T23:57:04.879246+00:00",
+      "id": "06cc7338-aaa2-407c-a1b7-d50771b2effc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/06cc7338-aaa2-407c-a1b7-d50771b2effc/",
+      "status": "discovered",
+      "title": "2026-07-13 COMMUNISM WINNING | LESBIAN GRAHAM DEAD"
+    },
+    "07274b7b-0196-4bcf-8711-fcd1640071af": {
+      "attempts": 0,
+      "date": "2025-05-29",
+      "first_seen": "2026-10-20T23:57:04.879551+00:00",
+      "id": "07274b7b-0196-4bcf-8711-fcd1640071af",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/07274b7b-0196-4bcf-8711-fcd1640071af/",
+      "status": "discovered",
+      "title": "2025-05-29 Huge updates"
+    },
+    "07511e70-48ea-4551-bdbf-4c3d69156c1a": {
+      "attempts": 0,
+      "date": "2024-11-08",
+      "first_seen": "2026-10-20T23:57:04.879658+00:00",
+      "id": "07511e70-48ea-4551-bdbf-4c3d69156c1a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/07511e70-48ea-4551-bdbf-4c3d69156c1a/",
+      "status": "discovered",
+      "title": "2024-11-08 \ud83d\udd34 RED NEWS | ELECTION!!!!!!| AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "0822ea53-8911-49ee-b2d8-044ad7fd9113": {
+      "attempts": 0,
+      "date": "2025-06-04",
+      "first_seen": "2026-10-20T23:57:04.879545+00:00",
+      "id": "0822ea53-8911-49ee-b2d8-044ad7fd9113",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0822ea53-8911-49ee-b2d8-044ad7fd9113/",
+      "status": "discovered",
+      "title": "2025-06-04 MASSIVE Developments"
+    },
+    "08d60422-20ba-4d98-a3f9-0a2306427852": {
+      "attempts": 0,
+      "date": "2023-10-26",
+      "first_seen": "2026-10-20T23:57:04.879850+00:00",
+      "id": "08d60422-20ba-4d98-a3f9-0a2306427852",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/08d60422-20ba-4d98-a3f9-0a2306427852/",
+      "status": "discovered",
+      "title": "2023-10-26 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "0a270183-0af7-42e9-b87e-1913555d402d": {
+      "attempts": 0,
+      "date": "2024-06-22",
+      "first_seen": "2026-10-20T23:57:04.879718+00:00",
+      "id": "0a270183-0af7-42e9-b87e-1913555d402d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0a270183-0af7-42e9-b87e-1913555d402d/",
+      "status": "discovered",
+      "title": "2024-06-22 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
+    },
+    "0a74ca2f-b808-4cb3-9dfa-38539c1a0c6b": {
+      "attempts": 0,
+      "date": "2026-02-04",
+      "first_seen": "2026-10-20T23:57:04.879339+00:00",
+      "id": "0a74ca2f-b808-4cb3-9dfa-38539c1a0c6b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0a74ca2f-b808-4cb3-9dfa-38539c1a0c6b/",
+      "status": "discovered",
+      "title": "2026-02-04 EPSTEIN TRUTH | WAR COMING | COOKING GROYPERS"
+    },
+    "0ab331a8-b562-4a0a-8cbc-9d5d0d34c90f": {
+      "attempts": 0,
+      "date": "2026-01-12",
+      "first_seen": "2026-10-20T23:57:04.879374+00:00",
+      "id": "0ab331a8-b562-4a0a-8cbc-9d5d0d34c90f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0ab331a8-b562-4a0a-8cbc-9d5d0d34c90f/",
+      "status": "discovered",
+      "title": "2026-01-12 DEBATING BLACKPILL"
+    },
+    "0c383ecb-e747-41b7-a5f7-e798f2b19ac1": {
+      "attempts": 0,
+      "date": "2024-05-14",
+      "first_seen": "2026-10-20T23:57:04.879739+00:00",
+      "id": "0c383ecb-e747-41b7-a5f7-e798f2b19ac1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0c383ecb-e747-41b7-a5f7-e798f2b19ac1/",
+      "status": "discovered",
+      "title": "2024-05-14 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "0c48108e-c25e-421e-8777-5c364f1f455d": {
+      "attempts": 0,
+      "date": "2023-12-24",
+      "first_seen": "2026-10-20T23:57:04.879806+00:00",
+      "id": "0c48108e-c25e-421e-8777-5c364f1f455d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0c48108e-c25e-421e-8777-5c364f1f455d/",
+      "status": "discovered",
+      "title": "2023-12-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "0d5b8c28-8d94-42b9-b27a-a7b865fbdd67": {
+      "attempts": 0,
+      "date": "2025-09-09",
+      "first_seen": "2026-10-20T23:57:04.879477+00:00",
+      "id": "0d5b8c28-8d94-42b9-b27a-a7b865fbdd67",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0d5b8c28-8d94-42b9-b27a-a7b865fbdd67/",
+      "status": "discovered",
+      "title": "2025-09-09 IRL COLLEGE DEBATES \ud83d\udd25"
+    },
+    "0e568818-36f9-4962-b5a4-b7649717f71b": {
+      "attempts": 0,
+      "date": "2025-10-10",
+      "first_seen": "2026-10-20T23:57:04.879457+00:00",
+      "id": "0e568818-36f9-4962-b5a4-b7649717f71b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0e568818-36f9-4962-b5a4-b7649717f71b/",
+      "status": "discovered",
+      "title": "2025-10-10 WARFARE"
+    },
+    "0f03338e-7eb5-451e-ba0f-4b3be98c088f": {
+      "attempts": 0,
+      "date": "2025-11-19",
+      "first_seen": "2026-10-20T23:57:04.879434+00:00",
+      "id": "0f03338e-7eb5-451e-ba0f-4b3be98c088f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0f03338e-7eb5-451e-ba0f-4b3be98c088f/",
+      "status": "discovered",
+      "title": "2025-11-19 RESPONDING TO OPPOSITION"
+    },
+    "0f7c08ea-3a3f-4a62-bfa0-69d5531d0cc6": {
+      "attempts": 0,
+      "date": "2025-12-15",
+      "first_seen": "2026-10-20T23:57:04.879389+00:00",
+      "id": "0f7c08ea-3a3f-4a62-bfa0-69d5531d0cc6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0f7c08ea-3a3f-4a62-bfa0-69d5531d0cc6/",
+      "status": "discovered",
+      "title": "2025-12-15 \ud83d\udd34 TRUE RED PILL NEWS, INSIGHT AND FACTS"
+    },
+    "0fa002d0-8a45-49a1-8a22-f5e9a11743db": {
+      "attempts": 0,
+      "date": "2026-06-04",
+      "first_seen": "2026-10-20T23:57:04.879270+00:00",
+      "id": "0fa002d0-8a45-49a1-8a22-f5e9a11743db",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0fa002d0-8a45-49a1-8a22-f5e9a11743db/",
+      "status": "discovered",
+      "title": "2026-06-04 ACP ON TOP | LIVE WITH JACKSON TURKEY"
+    },
+    "10490016-ebb3-49bf-bb38-d78fa30e8b57": {
+      "attempts": 0,
+      "date": "2025-04-30",
+      "first_seen": "2026-10-20T23:57:04.879566+00:00",
+      "id": "10490016-ebb3-49bf-bb38-d78fa30e8b57",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/10490016-ebb3-49bf-bb38-d78fa30e8b57/",
+      "status": "discovered",
+      "title": "2025-04-30 VICTORY STREAM"
+    },
+    "10ec3a31-ea24-45c9-8219-68350a003135": {
+      "attempts": 0,
+      "date": "2026-04-10",
+      "first_seen": "2026-10-20T23:57:04.879297+00:00",
+      "id": "10ec3a31-ea24-45c9-8219-68350a003135",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/10ec3a31-ea24-45c9-8219-68350a003135/",
+      "status": "discovered",
+      "title": "2026-04-10 INTENSE DEBATES | FBI ATTACK | IRAN 'CEASEFIRE?'"
+    },
+    "115738ad-8474-49be-a6e0-0a84ac54ab5c": {
+      "attempts": 0,
+      "date": "2024-04-02",
+      "first_seen": "2026-10-20T23:57:04.879763+00:00",
+      "id": "115738ad-8474-49be-a6e0-0a84ac54ab5c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/115738ad-8474-49be-a6e0-0a84ac54ab5c/",
+      "status": "discovered",
+      "title": "2024-04-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "11a0fa31-2b5d-4bb0-9510-6118cab765e6": {
+      "attempts": 0,
+      "date": "2025-12-08",
+      "first_seen": "2026-10-20T23:57:04.879424+00:00",
+      "id": "11a0fa31-2b5d-4bb0-9510-6118cab765e6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/11a0fa31-2b5d-4bb0-9510-6118cab765e6/",
+      "status": "discovered",
+      "title": "2025-12-08 HIGH INTENSITY DEBATES"
+    },
+    "135190d8-114b-4279-ab24-c1f84a2aa7d5": {
+      "attempts": 0,
+      "date": "2026-10-01",
+      "first_seen": "2026-10-20T23:57:04.879187+00:00",
+      "id": "135190d8-114b-4279-ab24-c1f84a2aa7d5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/",
+      "status": "discovered",
+      "title": "2026-10-01 War"
+    },
+    "139f2930-1633-49b8-b152-bc7784124ca9": {
+      "attempts": 0,
+      "date": "2026-03-04",
+      "first_seen": "2026-10-20T23:57:04.879324+00:00",
+      "id": "139f2930-1633-49b8-b152-bc7784124ca9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/139f2930-1633-49b8-b152-bc7784124ca9/",
+      "status": "discovered",
+      "title": "2026-03-04 IRAN WAR - US LOSING?!"
+    },
+    "13bffea4-a1bc-4c77-919f-43de805535c1": {
+      "attempts": 0,
+      "date": "2024-11-06",
+      "first_seen": "2026-10-20T23:57:04.879659+00:00",
+      "id": "13bffea4-a1bc-4c77-919f-43de805535c1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/13bffea4-a1bc-4c77-919f-43de805535c1/",
+      "status": "discovered",
+      "title": "2024-11-06 \ud83d\udd34 RED NEWS | ELECTION!!!!!!| AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "1416a582-8469-4c78-9776-c662db1aae81": {
+      "attempts": 0,
+      "date": "2025-09-12",
+      "first_seen": "2026-10-20T23:57:04.879476+00:00",
+      "id": "1416a582-8469-4c78-9776-c662db1aae81",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1416a582-8469-4c78-9776-c662db1aae81/",
+      "status": "discovered",
+      "title": "2025-09-12 Charlie Kirk is Dead - the Truth"
+    },
+    "14f94259-9bf5-4ae8-aaed-31205e0fd690": {
+      "attempts": 0,
+      "date": "2023-12-21",
+      "first_seen": "2026-10-20T23:57:04.879808+00:00",
+      "id": "14f94259-9bf5-4ae8-aaed-31205e0fd690",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/14f94259-9bf5-4ae8-aaed-31205e0fd690/",
+      "status": "discovered",
+      "title": "2023-12-21 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "155e4244-f428-43ed-896d-69380691f25b": {
+      "attempts": 0,
+      "date": "2024-05-31",
+      "first_seen": "2026-10-20T23:57:04.879727+00:00",
+      "id": "155e4244-f428-43ed-896d-69380691f25b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/155e4244-f428-43ed-896d-69380691f25b/",
+      "status": "discovered",
+      "title": "2024-05-31 \ud83d\udd34 RED PILL NEWS | TRUMP FOUND GUILTY! | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "15e927ba-7350-446f-8c8c-ca97e17ba2cf": {
+      "attempts": 0,
+      "date": "2025-04-28",
+      "first_seen": "2026-10-20T23:57:04.879570+00:00",
+      "id": "15e927ba-7350-446f-8c8c-ca97e17ba2cf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/15e927ba-7350-446f-8c8c-ca97e17ba2cf/",
+      "status": "discovered",
+      "title": "2025-04-28 Debating CRAZY Tweaker"
+    },
+    "16a7013b-5961-47cd-98a5-ba6e8d012ecc": {
+      "attempts": 0,
+      "date": "2025-01-09",
+      "first_seen": "2026-10-20T23:57:04.879626+00:00",
+      "id": "16a7013b-5961-47cd-98a5-ba6e8d012ecc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/16a7013b-5961-47cd-98a5-ba6e8d012ecc/",
+      "status": "discovered",
+      "title": "2025-01-09 \ud83d\udd34 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "17227559-7bf9-4b1d-ab3f-0d3ecc54102d": {
+      "attempts": 0,
+      "date": "2023-11-12",
+      "first_seen": "2026-10-20T23:57:04.879839+00:00",
+      "id": "17227559-7bf9-4b1d-ab3f-0d3ecc54102d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/17227559-7bf9-4b1d-ab3f-0d3ecc54102d/",
+      "status": "discovered",
+      "title": "2023-11-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "17595dbf-d61c-4899-afd4-f64d5e5de3ea": {
+      "attempts": 0,
+      "date": "2026-04-03",
+      "first_seen": "2026-10-20T23:57:04.879300+00:00",
+      "id": "17595dbf-d61c-4899-afd4-f64d5e5de3ea",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/17595dbf-d61c-4899-afd4-f64d5e5de3ea/",
+      "status": "discovered",
+      "title": "2026-04-03 IRAN MOGGING | INTENSE DEBATES | ALLAHU AKBAR"
+    },
+    "17ff0284-3aa3-4a1f-b5c5-8c38213ca0a8": {
+      "attempts": 0,
+      "date": "2024-03-29",
+      "first_seen": "2026-10-20T23:57:04.879768+00:00",
+      "id": "17ff0284-3aa3-4a1f-b5c5-8c38213ca0a8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/17ff0284-3aa3-4a1f-b5c5-8c38213ca0a8/",
+      "status": "discovered",
+      "title": "2024-03-29 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "1939b0d8-8a60-4706-8b88-fdb51c4dc88b": {
+      "attempts": 0,
+      "date": "2026-04-14",
+      "first_seen": "2026-10-20T23:57:04.879296+00:00",
+      "id": "1939b0d8-8a60-4706-8b88-fdb51c4dc88b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1939b0d8-8a60-4706-8b88-fdb51c4dc88b/",
+      "status": "discovered",
+      "title": "2026-04-14 They're FREAKING OUT about us | Iran NEGOTIATIONS BREAKDOWN"
+    },
+    "1977a95a-da0a-428c-97e6-b9c443fa93ae": {
+      "attempts": 0,
+      "date": "2026-09-23",
+      "first_seen": "2026-10-20T23:57:04.879194+00:00",
+      "id": "1977a95a-da0a-428c-97e6-b9c443fa93ae",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/",
+      "status": "discovered",
+      "title": "2026-09-23 WW3 IMMINENT"
+    },
+    "1988a99a-2691-4789-97c5-8f599b4079d6": {
+      "attempts": 0,
+      "date": "2026-05-22",
+      "first_seen": "2026-10-20T23:57:04.879279+00:00",
+      "id": "1988a99a-2691-4789-97c5-8f599b4079d6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1988a99a-2691-4789-97c5-8f599b4079d6/",
+      "status": "discovered",
+      "title": "2026-05-22 HASAN PIKER CIVIL WAR | INTENSE DEBATES | 24hr SUBATHON?"
+    },
+    "1a7a545c-b436-47d1-a367-09f5fe91eaf7": {
+      "attempts": 0,
+      "date": "2024-06-18",
+      "first_seen": "2026-10-20T23:57:04.879720+00:00",
+      "id": "1a7a545c-b436-47d1-a367-09f5fe91eaf7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1a7a545c-b436-47d1-a367-09f5fe91eaf7/",
+      "status": "discovered",
+      "title": "2024-06-18 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
+    },
+    "1aeb6780-e9ea-4f60-94b1-0862c10241c6": {
+      "attempts": 0,
+      "date": "2026-05-13",
+      "first_seen": "2026-10-20T23:57:04.879290+00:00",
+      "id": "1aeb6780-e9ea-4f60-94b1-0862c10241c6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1aeb6780-e9ea-4f60-94b1-0862c10241c6/",
+      "status": "discovered",
+      "title": "2026-05-13 ITS HEATING UP \ud83d\udd25 | DEBATES | IRAN WAR"
+    },
+    "1d909978-3652-4149-9fcc-58b9073fe460": {
+      "attempts": 0,
+      "date": "2026-03-16",
+      "first_seen": "2026-10-20T23:57:04.879315+00:00",
+      "id": "1d909978-3652-4149-9fcc-58b9073fe460",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1d909978-3652-4149-9fcc-58b9073fe460/",
+      "status": "discovered",
+      "title": "2026-03-16 IRAN IS WINNING!"
+    },
+    "1dd9eea7-7952-4d18-9c22-53247e9bdd24": {
+      "attempts": 0,
+      "date": "2026-06-10",
+      "first_seen": "2026-10-20T23:57:04.879269+00:00",
+      "id": "1dd9eea7-7952-4d18-9c22-53247e9bdd24",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1dd9eea7-7952-4d18-9c22-53247e9bdd24/",
+      "status": "discovered",
+      "title": "2026-06-10 IRAN WAR RESUMES | ACP BIG NEWS | DEBATES"
+    },
+    "1e03f0e6-4004-4b01-bb14-439e08e03a7c": {
+      "attempts": 0,
+      "date": "2026-01-26",
+      "first_seen": "2026-10-20T23:57:04.879364+00:00",
+      "id": "1e03f0e6-4004-4b01-bb14-439e08e03a7c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1e03f0e6-4004-4b01-bb14-439e08e03a7c/",
+      "status": "discovered",
+      "title": "2026-01-26 ANTI-ICE UPRISING MINNEAPOLIS | CATFISH EXPOSED | MUCH MORE"
+    },
+    "20153b9a-72e3-4878-9f97-86602310c9a9": {
+      "attempts": 0,
+      "date": "2026-08-12",
+      "first_seen": "2026-10-20T23:57:04.879220+00:00",
+      "id": "20153b9a-72e3-4878-9f97-86602310c9a9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/20153b9a-72e3-4878-9f97-86602310c9a9/",
+      "status": "discovered",
+      "title": "2026-08-12 Shocking news."
+    },
+    "2152d152-92af-4763-8daf-575cb48ea564": {
+      "attempts": 0,
+      "date": "2024-09-04",
+      "first_seen": "2026-10-20T23:57:04.879686+00:00",
+      "id": "2152d152-92af-4763-8daf-575cb48ea564",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2152d152-92af-4763-8daf-575cb48ea564/",
+      "status": "discovered",
+      "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "224c259f-3b51-487e-9da1-6173bee55ecb": {
+      "attempts": 0,
+      "date": "2025-05-30",
+      "first_seen": "2026-10-20T23:57:04.879550+00:00",
+      "id": "224c259f-3b51-487e-9da1-6173bee55ecb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/224c259f-3b51-487e-9da1-6173bee55ecb/",
+      "status": "discovered",
+      "title": "2025-05-30 HEATED political debate"
+    },
+    "2301ca2e-bd86-476e-beaf-d21a28174407": {
+      "attempts": 0,
+      "date": "2026-03-09",
+      "first_seen": "2026-10-20T23:57:04.879320+00:00",
+      "id": "2301ca2e-bd86-476e-beaf-d21a28174407",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2301ca2e-bd86-476e-beaf-d21a28174407/",
+      "status": "discovered",
+      "title": "2026-03-09 IRAN WAR | NEW AYATOLLAH | GENOCIDAL ATTACK"
+    },
+    "2431f848-7799-4907-94bf-c623e9c5d0bb": {
+      "attempts": 0,
+      "date": "2024-09-04",
+      "first_seen": "2026-10-20T23:57:04.879687+00:00",
+      "id": "2431f848-7799-4907-94bf-c623e9c5d0bb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2431f848-7799-4907-94bf-c623e9c5d0bb/",
+      "status": "discovered",
+      "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "246f2156-0541-4f1a-9dbe-2009b8442b1f": {
+      "attempts": 0,
+      "date": "2024-04-16",
+      "first_seen": "2026-10-20T23:57:04.879755+00:00",
+      "id": "246f2156-0541-4f1a-9dbe-2009b8442b1f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/246f2156-0541-4f1a-9dbe-2009b8442b1f/",
+      "status": "discovered",
+      "title": "2024-04-16 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "260a933b-ffa9-43b9-9922-ddf20d78b781": {
+      "attempts": 0,
+      "date": "2023-11-01",
+      "first_seen": "2026-10-20T23:57:04.879847+00:00",
+      "id": "260a933b-ffa9-43b9-9922-ddf20d78b781",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/260a933b-ffa9-43b9-9922-ddf20d78b781/",
+      "status": "discovered",
+      "title": "2023-11-01 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "26d61ca5-5ffa-49b8-944e-d07c16d19f7e": {
+      "attempts": 0,
+      "date": "2024-04-05",
+      "first_seen": "2026-10-20T23:57:04.879762+00:00",
+      "id": "26d61ca5-5ffa-49b8-944e-d07c16d19f7e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/26d61ca5-5ffa-49b8-944e-d07c16d19f7e/",
+      "status": "discovered",
+      "title": "2024-04-05 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "27017bba-ad38-4f80-83d7-77edf58e818d": {
+      "attempts": 0,
+      "date": "2024-02-12",
+      "first_seen": "2026-10-20T23:57:04.879789+00:00",
+      "id": "27017bba-ad38-4f80-83d7-77edf58e818d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/27017bba-ad38-4f80-83d7-77edf58e818d/",
+      "status": "discovered",
+      "title": "2024-02-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "27ba0dc5-1eff-4729-8ffe-dabe454ea245": {
+      "attempts": 0,
+      "date": "2026-03-30",
+      "first_seen": "2026-10-20T23:57:04.879303+00:00",
+      "id": "27ba0dc5-1eff-4729-8ffe-dabe454ea245",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/27ba0dc5-1eff-4729-8ffe-dabe454ea245/",
+      "status": "discovered",
+      "title": "2026-03-30 ISR*EL LOSING | IRAN INVASION | NO KINGS"
+    },
+    "27ebcb3d-b7ba-48fa-9e39-857873b503ea": {
+      "attempts": 0,
+      "date": "2025-02-04",
+      "first_seen": "2026-10-20T23:57:04.879609+00:00",
+      "id": "27ebcb3d-b7ba-48fa-9e39-857873b503ea",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/27ebcb3d-b7ba-48fa-9e39-857873b503ea/",
+      "status": "discovered",
+      "title": "2025-02-04 We are winning."
+    },
+    "28522a2c-5501-4634-8a80-b0a995dfd29a": {
+      "attempts": 0,
+      "date": "2026-06-26",
+      "first_seen": "2026-10-20T23:57:04.879256+00:00",
+      "id": "28522a2c-5501-4634-8a80-b0a995dfd29a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/28522a2c-5501-4634-8a80-b0a995dfd29a/",
+      "status": "discovered",
+      "title": "2026-06-26 INFRARED RENAISSANCE"
+    },
+    "291743a3-98d0-44fe-83fc-c5cfca54440d": {
+      "attempts": 0,
+      "date": "2023-12-13",
+      "first_seen": "2026-10-20T23:57:04.879813+00:00",
+      "id": "291743a3-98d0-44fe-83fc-c5cfca54440d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/291743a3-98d0-44fe-83fc-c5cfca54440d/",
+      "status": "discovered",
+      "title": "2023-12-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "2aaac100-82e8-4b5e-b568-7b49cfaac04f": {
+      "attempts": 0,
+      "date": "2025-07-29",
+      "first_seen": "2026-10-20T23:57:04.879500+00:00",
+      "id": "2aaac100-82e8-4b5e-b568-7b49cfaac04f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2aaac100-82e8-4b5e-b568-7b49cfaac04f/",
+      "status": "discovered",
+      "title": "2025-07-29 DEBATE BLOODSPORTS (MASSIVE BEEF!)"
+    },
+    "2b1280c3-6b98-4be2-8f94-fef64a557fd9": {
+      "attempts": 0,
+      "date": "2024-11-01",
+      "first_seen": "2026-10-20T23:57:04.879662+00:00",
+      "id": "2b1280c3-6b98-4be2-8f94-fef64a557fd9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2b1280c3-6b98-4be2-8f94-fef64a557fd9/",
+      "status": "discovered",
+      "title": "2024-11-01 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "2c4525ce-738a-4f16-9277-8f3b9d9f8068": {
+      "attempts": 0,
+      "date": "2024-03-11",
+      "first_seen": "2026-10-20T23:57:04.879783+00:00",
+      "id": "2c4525ce-738a-4f16-9277-8f3b9d9f8068",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2c4525ce-738a-4f16-9277-8f3b9d9f8068/",
+      "status": "discovered",
+      "title": "2024-03-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "2d1ebdec-de63-4a81-be9d-17a254901bc5": {
+      "attempts": 0,
+      "date": "2024-05-15",
+      "first_seen": "2026-10-20T23:57:04.879737+00:00",
+      "id": "2d1ebdec-de63-4a81-be9d-17a254901bc5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2d1ebdec-de63-4a81-be9d-17a254901bc5/",
+      "status": "discovered",
+      "title": "2024-05-15 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "2d9fb3c9-82c4-4213-9b11-15a9f546521b": {
+      "attempts": 0,
+      "date": "2026-06-15",
+      "first_seen": "2026-10-20T23:57:04.879266+00:00",
+      "id": "2d9fb3c9-82c4-4213-9b11-15a9f546521b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2d9fb3c9-82c4-4213-9b11-15a9f546521b/",
+      "status": "discovered",
+      "title": "2026-06-15 ACP VISION | POLITICS DEBATE HQ"
+    },
+    "2dcb4da3-5d57-492f-a4b3-acf85fd88466": {
+      "attempts": 0,
+      "date": "2025-07-21",
+      "first_seen": "2026-10-20T23:57:04.879503+00:00",
+      "id": "2dcb4da3-5d57-492f-a4b3-acf85fd88466",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2dcb4da3-5d57-492f-a4b3-acf85fd88466/",
+      "status": "discovered",
+      "title": "2025-07-21 UCLA COLLEGE LIBS CONFRONT THE CHAIRMAN"
+    },
+    "2ddd2d78-2193-45bf-874d-7b5976daee61": {
+      "attempts": 0,
+      "date": "2025-04-25",
+      "first_seen": "2026-10-20T23:57:04.879572+00:00",
+      "id": "2ddd2d78-2193-45bf-874d-7b5976daee61",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2ddd2d78-2193-45bf-874d-7b5976daee61/",
+      "status": "discovered",
+      "title": "2025-04-25 Political bloodsports debate"
+    },
+    "2e61447b-33fe-49b6-94e5-737e448629fa": {
+      "attempts": 0,
+      "date": "2026-07-22",
+      "first_seen": "2026-10-20T23:57:04.879239+00:00",
+      "id": "2e61447b-33fe-49b6-94e5-737e448629fa",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2e61447b-33fe-49b6-94e5-737e448629fa/",
+      "status": "discovered",
+      "title": "2026-07-22 ACP VICTORY | COMMUNISM WINNING"
+    },
+    "30fd6627-4d87-4131-91a3-e87252caab43": {
+      "attempts": 0,
+      "date": "2024-05-10",
+      "first_seen": "2026-10-20T23:57:04.879742+00:00",
+      "id": "30fd6627-4d87-4131-91a3-e87252caab43",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/30fd6627-4d87-4131-91a3-e87252caab43/",
+      "status": "discovered",
+      "title": "2024-05-10 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "314927c0-d2da-41bf-beae-17d92a0e18a5": {
+      "attempts": 0,
+      "date": "2024-02-05",
+      "first_seen": "2026-10-20T23:57:04.879792+00:00",
+      "id": "314927c0-d2da-41bf-beae-17d92a0e18a5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/314927c0-d2da-41bf-beae-17d92a0e18a5/",
+      "status": "discovered",
+      "title": "2024-02-05 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "3210a2c9-0c8c-406c-b838-1f5873805d71": {
+      "attempts": 0,
+      "date": "2026-01-23",
+      "first_seen": "2026-10-20T23:57:04.879366+00:00",
+      "id": "3210a2c9-0c8c-406c-b838-1f5873805d71",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3210a2c9-0c8c-406c-b838-1f5873805d71/",
+      "status": "discovered",
+      "title": "2026-01-23 MAJOR VICTORY | HEATED DEBATE COOKING GROYPERS \ud83d\udd25"
+    },
+    "32188035-664c-4c95-ae2a-be1d87f4fefa": {
+      "attempts": 0,
+      "date": "2023-10-09",
+      "first_seen": "2026-10-20T23:57:04.879873+00:00",
+      "id": "32188035-664c-4c95-ae2a-be1d87f4fefa",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/32188035-664c-4c95-ae2a-be1d87f4fefa/",
+      "status": "discovered",
+      "title": "2023-10-09 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "3220980c-b1ff-46e4-b425-4c8e1c8e9a31": {
+      "attempts": 0,
+      "date": "2025-11-14",
+      "first_seen": "2026-10-20T23:57:04.879437+00:00",
+      "id": "3220980c-b1ff-46e4-b425-4c8e1c8e9a31",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3220980c-b1ff-46e4-b425-4c8e1c8e9a31/",
+      "status": "discovered",
+      "title": "2025-11-14 EPSTEIN APOCALYPSE + VENEZUELA INVASION NOW? + DARK MA LI + MORE"
+    },
+    "327ad028-b746-4274-9bb2-f33ccaa5fd6a": {
+      "attempts": 0,
+      "date": "2025-03-26",
+      "first_seen": "2026-10-20T23:57:04.879590+00:00",
+      "id": "327ad028-b746-4274-9bb2-f33ccaa5fd6a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/327ad028-b746-4274-9bb2-f33ccaa5fd6a/",
+      "status": "discovered",
+      "title": "2025-03-26 Heated political debate"
+    },
+    "3418cfde-fd73-4827-bee0-5ba230f3ccb8": {
+      "attempts": 0,
+      "date": "2025-08-01",
+      "first_seen": "2026-10-20T23:57:04.879497+00:00",
+      "id": "3418cfde-fd73-4827-bee0-5ba230f3ccb8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3418cfde-fd73-4827-bee0-5ba230f3ccb8/",
+      "status": "discovered",
+      "title": "2025-08-01 MASSIVE DEBATE with UNHINGED Enemies"
+    },
+    "34d1beb8-3e1c-4024-8626-e7ec64ed9b88": {
+      "attempts": 0,
+      "date": "2026-01-03",
+      "first_seen": "2026-10-20T23:57:04.879378+00:00",
+      "id": "34d1beb8-3e1c-4024-8626-e7ec64ed9b88",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/34d1beb8-3e1c-4024-8626-e7ec64ed9b88/",
+      "status": "discovered",
+      "title": "2026-01-03 VENEZUELA"
+    },
+    "355581a9-203d-4c7e-ac45-3977fe2460b3": {
+      "attempts": 0,
+      "date": "2025-12-26",
+      "first_seen": "2026-10-20T23:57:04.879380+00:00",
+      "id": "355581a9-203d-4c7e-ac45-3977fe2460b3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/355581a9-203d-4c7e-ac45-3977fe2460b3/",
+      "status": "discovered",
+      "title": "2025-12-26 RED CHRISTMAS - BLOODY DEBATES"
+    },
+    "362b1585-3eff-4da0-b79b-93f38a85cc52": {
+      "attempts": 0,
+      "date": "2025-08-25",
+      "first_seen": "2026-10-20T23:57:04.879488+00:00",
+      "id": "362b1585-3eff-4da0-b79b-93f38a85cc52",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/362b1585-3eff-4da0-b79b-93f38a85cc52/",
+      "status": "discovered",
+      "title": "2025-08-25 THE OPPS RUNNING SCARED"
+    },
+    "3744af92-1de6-4a21-917a-d7ff274fa298": {
+      "attempts": 0,
+      "date": "2024-08-07",
+      "first_seen": "2026-10-20T23:57:04.879700+00:00",
+      "id": "3744af92-1de6-4a21-917a-d7ff274fa298",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3744af92-1de6-4a21-917a-d7ff274fa298/",
+      "status": "discovered",
+      "title": "2024-08-07 \ud83d\udd34 RED NEWS | UK RACE RIOTS | IRAN WAR | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "38f06028-e353-4f38-aa84-ddc64909240c": {
+      "attempts": 0,
+      "date": "2025-04-14",
+      "first_seen": "2026-10-20T23:57:04.879578+00:00",
+      "id": "38f06028-e353-4f38-aa84-ddc64909240c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/38f06028-e353-4f38-aa84-ddc64909240c/",
+      "status": "discovered",
+      "title": "2025-04-14 MAGA Communism"
+    },
+    "396d691c-63ce-40ba-a1b5-882f3c88109e": {
+      "attempts": 0,
+      "date": "2024-05-20",
+      "first_seen": "2026-10-20T23:57:04.879732+00:00",
+      "id": "396d691c-63ce-40ba-a1b5-882f3c88109e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/396d691c-63ce-40ba-a1b5-882f3c88109e/",
+      "status": "discovered",
+      "title": "2024-05-20 \ud83d\udd34 RED PILL NEWS | IRAN PRESIDENT DEAD? | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "39715f0a-1ba0-49b9-883e-49a64ebd6828": {
+      "attempts": 0,
+      "date": "2024-03-19",
+      "first_seen": "2026-10-20T23:57:04.879779+00:00",
+      "id": "39715f0a-1ba0-49b9-883e-49a64ebd6828",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/39715f0a-1ba0-49b9-883e-49a64ebd6828/",
+      "status": "discovered",
+      "title": "2024-03-19 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "3a1c08b6-9105-42b9-8b27-1e91e3b4440d": {
+      "attempts": 0,
+      "date": "2025-07-21",
+      "first_seen": "2026-10-20T23:57:04.879505+00:00",
+      "id": "3a1c08b6-9105-42b9-8b27-1e91e3b4440d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3a1c08b6-9105-42b9-8b27-1e91e3b4440d/",
+      "status": "discovered",
+      "title": "2025-07-21 UCLA COLLEGE LIBS CONFRONT THE CHAIRMAN"
+    },
+    "3ce5e79d-e91a-4ee4-89dc-1148bc90bb26": {
+      "attempts": 0,
+      "date": "2025-01-17",
+      "first_seen": "2026-10-20T23:57:04.879620+00:00",
+      "id": "3ce5e79d-e91a-4ee4-89dc-1148bc90bb26",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3ce5e79d-e91a-4ee4-89dc-1148bc90bb26/",
+      "status": "discovered",
+      "title": "2025-01-17 The Full Truth"
+    },
+    "3dd87841-adb1-4dc9-864f-c5547651da33": {
+      "attempts": 0,
+      "date": "2025-09-19",
+      "first_seen": "2026-10-20T23:57:04.879471+00:00",
+      "id": "3dd87841-adb1-4dc9-864f-c5547651da33",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3dd87841-adb1-4dc9-864f-c5547651da33/",
+      "status": "discovered",
+      "title": "2025-09-19 Nick Fuentes Running from Me"
+    },
+    "3de0cc69-30f9-489a-bd95-18d01e40f9c8": {
+      "attempts": 0,
+      "date": "2026-09-11",
+      "first_seen": "2026-10-20T23:57:04.879203+00:00",
+      "id": "3de0cc69-30f9-489a-bd95-18d01e40f9c8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3de0cc69-30f9-489a-bd95-18d01e40f9c8/",
+      "status": "discovered",
+      "title": "2026-09-11 NUMBER #1 BASED STREAM ONLINE"
+    },
+    "3e321ced-3aae-4fd5-9e66-058539c42f68": {
+      "attempts": 0,
+      "date": "2025-11-24",
+      "first_seen": "2026-10-20T23:57:04.879431+00:00",
+      "id": "3e321ced-3aae-4fd5-9e66-058539c42f68",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3e321ced-3aae-4fd5-9e66-058539c42f68/",
+      "status": "discovered",
+      "title": "2025-11-24 THE NEW ERA"
+    },
+    "3e4943c0-ffae-4018-bd02-5dd174aa3bc4": {
+      "attempts": 0,
+      "date": "2025-03-14",
+      "first_seen": "2026-10-20T23:57:04.879595+00:00",
+      "id": "3e4943c0-ffae-4018-bd02-5dd174aa3bc4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3e4943c0-ffae-4018-bd02-5dd174aa3bc4/",
+      "status": "discovered",
+      "title": "2025-03-14 Heated political debate"
+    },
+    "3e60df89-7bfc-44ae-a082-902b51092e49": {
+      "attempts": 0,
+      "date": "2025-06-04",
+      "first_seen": "2026-10-20T23:57:04.879547+00:00",
+      "id": "3e60df89-7bfc-44ae-a082-902b51092e49",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3e60df89-7bfc-44ae-a082-902b51092e49/",
+      "status": "discovered",
+      "title": "2025-06-04 MASSIVE Developments"
+    },
+    "3e81fed5-9ac9-4945-baa7-362d936dcbeb": {
+      "attempts": 0,
+      "date": "2025-07-20",
+      "first_seen": "2026-10-20T23:57:04.879509+00:00",
+      "id": "3e81fed5-9ac9-4945-baa7-362d936dcbeb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3e81fed5-9ac9-4945-baa7-362d936dcbeb/",
+      "status": "discovered",
+      "title": "2025-07-20 IRL ACP STREAM"
+    },
+    "40799e01-af90-46c4-98b2-5fe4aad967ae": {
+      "attempts": 0,
+      "date": "2025-06-18",
+      "first_seen": "2026-10-20T23:57:04.879534+00:00",
+      "id": "40799e01-af90-46c4-98b2-5fe4aad967ae",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/40799e01-af90-46c4-98b2-5fe4aad967ae/",
+      "status": "discovered",
+      "title": "2025-06-18 IRAN WAR - MAJOR ESCALATION"
+    },
+    "41c52adf-7ca1-470a-9921-5563ea0a99d0": {
+      "attempts": 0,
+      "date": "2025-02-14",
+      "first_seen": "2026-10-20T23:57:04.879606+00:00",
+      "id": "41c52adf-7ca1-470a-9921-5563ea0a99d0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/41c52adf-7ca1-470a-9921-5563ea0a99d0/",
+      "status": "discovered",
+      "title": "2025-02-14 Racking up Ws"
+    },
+    "42d54b74-83c4-4108-9e38-fa55b2264aab": {
+      "attempts": 0,
+      "date": "2025-03-17",
+      "first_seen": "2026-10-20T23:57:04.879594+00:00",
+      "id": "42d54b74-83c4-4108-9e38-fa55b2264aab",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/42d54b74-83c4-4108-9e38-fa55b2264aab/",
+      "status": "discovered",
+      "title": "2025-03-17 War in Yemen"
+    },
+    "42e52ed4-772d-467f-aeb6-23dbdc63cc45": {
+      "attempts": 0,
+      "date": "2026-09-21",
+      "first_seen": "2026-10-20T23:57:04.879196+00:00",
+      "id": "42e52ed4-772d-467f-aeb6-23dbdc63cc45",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/42e52ed4-772d-467f-aeb6-23dbdc63cc45/",
+      "status": "discovered",
+      "title": "2026-09-21 War has come."
+    },
+    "439b93bf-5728-48d9-9c81-fc1b084aaf43": {
+      "attempts": 0,
+      "date": "2024-07-09",
+      "first_seen": "2026-10-20T23:57:04.879712+00:00",
+      "id": "439b93bf-5728-48d9-9c81-fc1b084aaf43",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/439b93bf-5728-48d9-9c81-fc1b084aaf43/",
+      "status": "discovered",
+      "title": "2024-07-09 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 |"
+    },
+    "441898fe-67c8-4945-b857-dbd0991efd57": {
+      "attempts": 0,
+      "date": "2024-09-02",
+      "first_seen": "2026-10-20T23:57:04.879690+00:00",
+      "id": "441898fe-67c8-4945-b857-dbd0991efd57",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/441898fe-67c8-4945-b857-dbd0991efd57/",
+      "status": "discovered",
+      "title": "2024-09-02 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "44e3ea44-2f2e-4890-939b-acec08e81c77": {
+      "attempts": 0,
+      "date": "2025-05-19",
+      "first_seen": "2026-10-20T23:57:04.879558+00:00",
+      "id": "44e3ea44-2f2e-4890-939b-acec08e81c77",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/44e3ea44-2f2e-4890-939b-acec08e81c77/",
+      "status": "discovered",
+      "title": "2025-05-19 War"
+    },
+    "45191ab1-8c6f-4fae-8f13-dc964bd3010c": {
+      "attempts": 0,
+      "date": "2025-03-05",
+      "first_seen": "2026-10-20T23:57:04.879598+00:00",
+      "id": "45191ab1-8c6f-4fae-8f13-dc964bd3010c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/45191ab1-8c6f-4fae-8f13-dc964bd3010c/",
+      "status": "discovered",
+      "title": "2025-03-05 Trump speech"
+    },
+    "45b71375-b22f-4dee-bca6-333c769b07ce": {
+      "attempts": 0,
+      "date": "2026-09-07",
+      "first_seen": "2026-10-20T23:57:04.879207+00:00",
+      "id": "45b71375-b22f-4dee-bca6-333c769b07ce",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/45b71375-b22f-4dee-bca6-333c769b07ce/",
+      "status": "discovered",
+      "title": "2026-09-07 Stomp on all snake bitches"
+    },
+    "4660f51f-2614-4f93-aacc-2cc83e03ee13": {
+      "attempts": 0,
+      "date": "2023-11-27",
+      "first_seen": "2026-10-20T23:57:04.879824+00:00",
+      "id": "4660f51f-2614-4f93-aacc-2cc83e03ee13",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4660f51f-2614-4f93-aacc-2cc83e03ee13/",
+      "status": "discovered",
+      "title": "2023-11-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "46d634c7-e4e4-42c8-8c54-b6004a88ca2b": {
+      "attempts": 0,
+      "date": "2025-02-12",
+      "first_seen": "2026-10-20T23:57:04.879607+00:00",
+      "id": "46d634c7-e4e4-42c8-8c54-b6004a88ca2b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/46d634c7-e4e4-42c8-8c54-b6004a88ca2b/",
+      "status": "discovered",
+      "title": "2025-02-12 The future is ours"
+    },
+    "47e67c34-14a4-45d3-ac1b-15544e0bcedb": {
+      "attempts": 0,
+      "date": "2023-11-22",
+      "first_seen": "2026-10-20T23:57:04.879830+00:00",
+      "id": "47e67c34-14a4-45d3-ac1b-15544e0bcedb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/47e67c34-14a4-45d3-ac1b-15544e0bcedb/",
+      "status": "discovered",
+      "title": "2023-11-22 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "498f1c60-eac5-4df7-b192-1edb95365f2d": {
+      "attempts": 0,
+      "date": "2025-08-29",
+      "first_seen": "2026-10-20T23:57:04.879485+00:00",
+      "id": "498f1c60-eac5-4df7-b192-1edb95365f2d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/498f1c60-eac5-4df7-b192-1edb95365f2d/",
+      "status": "discovered",
+      "title": "2025-08-29 DOMINATING LIBS/N*ZIS/GROYPRS/OPPS"
+    },
+    "4c390950-5d9d-48b2-abd7-3608b6e2fc1d": {
+      "attempts": 0,
+      "date": "2025-04-02",
+      "first_seen": "2026-10-20T23:57:04.879585+00:00",
+      "id": "4c390950-5d9d-48b2-abd7-3608b6e2fc1d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4c390950-5d9d-48b2-abd7-3608b6e2fc1d/",
+      "status": "discovered",
+      "title": "2025-04-02 Heated political debate"
+    },
+    "4cee4334-7ff7-4b9e-81a6-8b99f82ca3fe": {
+      "attempts": 0,
+      "date": "2025-12-12",
+      "first_seen": "2026-10-20T23:57:04.879391+00:00",
+      "id": "4cee4334-7ff7-4b9e-81a6-8b99f82ca3fe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4cee4334-7ff7-4b9e-81a6-8b99f82ca3fe/",
+      "status": "discovered",
+      "title": "2025-12-12 HEATED INTENSE DEBATE (CRASHOUTS!)"
+    },
+    "4e0647b7-fce2-442b-a503-9c359c8d0afc": {
+      "attempts": 0,
+      "date": "2026-09-16",
+      "first_seen": "2026-10-20T23:57:04.879200+00:00",
+      "id": "4e0647b7-fce2-442b-a503-9c359c8d0afc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4e0647b7-fce2-442b-a503-9c359c8d0afc/",
+      "status": "discovered",
+      "title": "2026-09-16 Important."
+    },
+    "4ee74e0b-1fe5-4b5f-8e48-14438a5cfb41": {
+      "attempts": 0,
+      "date": "2025-03-07",
+      "first_seen": "2026-10-20T23:57:04.879597+00:00",
+      "id": "4ee74e0b-1fe5-4b5f-8e48-14438a5cfb41",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4ee74e0b-1fe5-4b5f-8e48-14438a5cfb41/",
+      "status": "discovered",
+      "title": "2025-03-07 Heated political debate"
+    },
+    "4f263eea-e676-4b55-815f-dcc5de6b0018": {
+      "attempts": 0,
+      "date": "2024-08-12",
+      "first_seen": "2026-10-20T23:57:04.879698+00:00",
+      "id": "4f263eea-e676-4b55-815f-dcc5de6b0018",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4f263eea-e676-4b55-815f-dcc5de6b0018/",
+      "status": "discovered",
+      "title": "2024-08-12 \ud83d\udd34 RED NEWS | HEZBOLLAH ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "4f2b4de2-717d-4a25-8365-c5bc0329af5b": {
+      "attempts": 0,
+      "date": "2026-03-06",
+      "first_seen": "2026-10-20T23:57:04.879322+00:00",
+      "id": "4f2b4de2-717d-4a25-8365-c5bc0329af5b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4f2b4de2-717d-4a25-8365-c5bc0329af5b/",
+      "status": "discovered",
+      "title": "2026-03-06 IRAN WAR | MASSIVE DEBATES!"
+    },
+    "4fe938ff-5297-49b2-8df1-e5906d5c1dad": {
+      "attempts": 0,
+      "date": "2025-08-22",
+      "first_seen": "2026-10-20T23:57:04.879489+00:00",
+      "id": "4fe938ff-5297-49b2-8df1-e5906d5c1dad",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4fe938ff-5297-49b2-8df1-e5906d5c1dad/",
+      "status": "discovered",
+      "title": "2025-08-22 DEBATING LIBS/GROYPERS/SEETHING OPS"
+    },
+    "50155ce0-af8c-434a-97f8-9162f2cfc351": {
+      "attempts": 0,
+      "date": "2026-01-27",
+      "first_seen": "2026-10-20T23:57:04.879361+00:00",
+      "id": "50155ce0-af8c-434a-97f8-9162f2cfc351",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/50155ce0-af8c-434a-97f8-9162f2cfc351/",
+      "status": "discovered",
+      "title": "2026-01-27 ICE UPRISING | UNDER ATTACK! | MAJOR UPDATES"
+    },
+    "5054392e-fc38-4675-a815-56a547534c8f": {
+      "attempts": 0,
+      "date": "2026-02-13",
+      "first_seen": "2026-10-20T23:57:04.879331+00:00",
+      "id": "5054392e-fc38-4675-a815-56a547534c8f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5054392e-fc38-4675-a815-56a547534c8f/",
+      "status": "discovered",
+      "title": "2026-02-13 DEBATING THE FAR-RIGHT (AND WINNING)"
+    },
+    "50f873cc-6e55-4218-b6e4-d448a8951840": {
+      "attempts": 0,
+      "date": "2025-06-06",
+      "first_seen": "2026-10-20T23:57:04.879544+00:00",
+      "id": "50f873cc-6e55-4218-b6e4-d448a8951840",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/50f873cc-6e55-4218-b6e4-d448a8951840/",
+      "status": "discovered",
+      "title": "2025-06-06 Politics DEBATE - ELON MUSK CRASHING OUT on TRUMP!"
+    },
+    "51f2bba2-5656-4ee0-a4c1-ece5653283c8": {
+      "attempts": 0,
+      "date": "2026-09-15",
+      "first_seen": "2026-10-20T23:57:04.879202+00:00",
+      "id": "51f2bba2-5656-4ee0-a4c1-ece5653283c8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/51f2bba2-5656-4ee0-a4c1-ece5653283c8/",
+      "status": "discovered",
+      "title": "2026-09-15 CONQUEST."
+    },
+    "5238adaf-ad40-4806-8532-3cc90fb0e5ed": {
+      "attempts": 0,
+      "date": "2025-06-23",
+      "first_seen": "2026-10-20T23:57:04.879531+00:00",
+      "id": "5238adaf-ad40-4806-8532-3cc90fb0e5ed",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5238adaf-ad40-4806-8532-3cc90fb0e5ed/",
+      "status": "discovered",
+      "title": "2025-06-23 IRAN WAR - US HAS JOINED"
+    },
+    "5489aec9-2e98-489d-9bb9-5b15921d588c": {
+      "attempts": 0,
+      "date": "2025-08-15",
+      "first_seen": "2026-10-20T23:57:04.879494+00:00",
+      "id": "5489aec9-2e98-489d-9bb9-5b15921d588c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5489aec9-2e98-489d-9bb9-5b15921d588c/",
+      "status": "discovered",
+      "title": "2025-08-15 DEBATING REAL HATERS!"
+    },
+    "54a69955-dbb5-40b1-b7fc-53f386531346": {
+      "attempts": 0,
+      "date": "2026-05-18",
+      "first_seen": "2026-10-20T23:57:04.879285+00:00",
+      "id": "54a69955-dbb5-40b1-b7fc-53f386531346",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/54a69955-dbb5-40b1-b7fc-53f386531346/",
+      "status": "discovered",
+      "title": "2026-05-18 ACP UNDER ATTACK | NONSTOP DEBATE CONTENT"
+    },
+    "54ae9915-bc88-44fd-801a-eac3268f5078": {
+      "attempts": 0,
+      "date": "2023-10-20",
+      "first_seen": "2026-10-20T23:57:04.879857+00:00",
+      "id": "54ae9915-bc88-44fd-801a-eac3268f5078",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/54ae9915-bc88-44fd-801a-eac3268f5078/",
+      "status": "discovered",
+      "title": "2023-10-20 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "54b4669d-632d-45a5-a2e7-8b44ca3c563d": {
+      "attempts": 0,
+      "date": "2025-05-21",
+      "first_seen": "2026-10-20T23:57:04.879556+00:00",
+      "id": "54b4669d-632d-45a5-a2e7-8b44ca3c563d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/54b4669d-632d-45a5-a2e7-8b44ca3c563d/",
+      "status": "discovered",
+      "title": "2025-05-21 Big winning"
+    },
+    "5527bf8b-f7ce-4161-8516-29566bcbcd7f": {
+      "attempts": 0,
+      "date": "2023-12-17",
+      "first_seen": "2026-10-20T23:57:04.879811+00:00",
+      "id": "5527bf8b-f7ce-4161-8516-29566bcbcd7f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5527bf8b-f7ce-4161-8516-29566bcbcd7f/",
+      "status": "discovered",
+      "title": "2023-12-17 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "5533ed63-5383-4848-8efc-38194bbf0dc8": {
+      "attempts": 0,
+      "date": "2025-03-21",
+      "first_seen": "2026-10-20T23:57:04.879591+00:00",
+      "id": "5533ed63-5383-4848-8efc-38194bbf0dc8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5533ed63-5383-4848-8efc-38194bbf0dc8/",
+      "status": "discovered",
+      "title": "2025-03-21 Heated political debate"
+    },
+    "5572804f-7b1c-4b7f-bdd2-4966326112ce": {
+      "attempts": 0,
+      "date": "2023-12-27",
+      "first_seen": "2026-10-20T23:57:04.879803+00:00",
+      "id": "5572804f-7b1c-4b7f-bdd2-4966326112ce",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5572804f-7b1c-4b7f-bdd2-4966326112ce/",
+      "status": "discovered",
+      "title": "2023-12-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "55c4bf15-453a-42c2-bb6a-910eec32f2bf": {
+      "attempts": 0,
+      "date": "2025-05-12",
+      "first_seen": "2026-10-20T23:57:04.879562+00:00",
+      "id": "55c4bf15-453a-42c2-bb6a-910eec32f2bf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/55c4bf15-453a-42c2-bb6a-910eec32f2bf/",
+      "status": "discovered",
+      "title": "2025-05-12 It has begun."
+    },
+    "55cb0709-77b2-44df-aabd-5e65b14ed1fb": {
+      "attempts": 0,
+      "date": "2024-12-09",
+      "first_seen": "2026-10-20T23:57:04.879630+00:00",
+      "id": "55cb0709-77b2-44df-aabd-5e65b14ed1fb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/55cb0709-77b2-44df-aabd-5e65b14ed1fb/",
+      "status": "discovered",
+      "title": "2024-12-09 \ud83d\udd34 RED NEWS | SYRIA HAS FALLEN | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "562ad3ef-a289-42cc-b934-e6ad229eb9c0": {
+      "attempts": 0,
+      "date": "2025-08-20",
+      "first_seen": "2026-10-20T23:57:04.879491+00:00",
+      "id": "562ad3ef-a289-42cc-b934-e6ad229eb9c0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/562ad3ef-a289-42cc-b934-e6ad229eb9c0/",
+      "status": "discovered",
+      "title": "2025-08-20 THE SICK, DARK TRUTH"
+    },
+    "5679e633-79f8-4bf0-8764-31bd4d79b415": {
+      "attempts": 0,
+      "date": "2025-10-31",
+      "first_seen": "2026-10-20T23:57:04.879445+00:00",
+      "id": "5679e633-79f8-4bf0-8764-31bd4d79b415",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5679e633-79f8-4bf0-8764-31bd4d79b415/",
+      "status": "discovered",
+      "title": "2025-10-31 WARFIGHTER"
+    },
+    "56ccea8d-0ff9-408e-8577-4bf91e1ad1e0": {
+      "attempts": 0,
+      "date": "2024-09-05",
+      "first_seen": "2026-10-20T23:57:04.879684+00:00",
+      "id": "56ccea8d-0ff9-408e-8577-4bf91e1ad1e0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/56ccea8d-0ff9-408e-8577-4bf91e1ad1e0/",
+      "status": "discovered",
+      "title": "2024-09-05 \ud83d\udd34 RED NEWS | \"RUSSIAN AGENTS\" ARRESTED! | DEBATING NEO-N*ZI | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "56fd23d0-7aed-4973-8a96-6aed3a9e7478": {
+      "attempts": 0,
+      "date": "2025-11-26",
+      "first_seen": "2026-10-20T23:57:04.879429+00:00",
+      "id": "56fd23d0-7aed-4973-8a96-6aed3a9e7478",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/56fd23d0-7aed-4973-8a96-6aed3a9e7478/",
+      "status": "discovered",
+      "title": "2025-11-26 CURBSTOMPING THE ENEMY"
+    },
+    "57da53ac-db55-4798-81b3-5b45f1802a76": {
+      "attempts": 0,
+      "date": "2025-04-11",
+      "first_seen": "2026-10-20T23:57:04.879579+00:00",
+      "id": "57da53ac-db55-4798-81b3-5b45f1802a76",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/57da53ac-db55-4798-81b3-5b45f1802a76/",
+      "status": "discovered",
+      "title": "2025-04-11 Heated political debate"
+    },
+    "5813535b-a45c-4234-8f96-23b301f239d0": {
+      "attempts": 0,
+      "date": "2023-11-02",
+      "first_seen": "2026-10-20T23:57:04.879846+00:00",
+      "id": "5813535b-a45c-4234-8f96-23b301f239d0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5813535b-a45c-4234-8f96-23b301f239d0/",
+      "status": "discovered",
+      "title": "2023-11-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "5863d015-ab50-4efa-afb5-db5295db1b4e": {
+      "attempts": 0,
+      "date": "2024-10-21",
+      "first_seen": "2026-10-20T23:57:04.879668+00:00",
+      "id": "5863d015-ab50-4efa-afb5-db5295db1b4e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5863d015-ab50-4efa-afb5-db5295db1b4e/",
+      "status": "discovered",
+      "title": "2024-10-21 \ud83d\udd34 RED NEWS | ISRAEL IS GETTING DESTROYED | DEBATING LIBERAL | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "58b7fe80-7751-46b3-b349-4d5823b6043f": {
+      "attempts": 0,
+      "date": "2024-08-09",
+      "first_seen": "2026-10-20T23:57:04.879699+00:00",
+      "id": "58b7fe80-7751-46b3-b349-4d5823b6043f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/58b7fe80-7751-46b3-b349-4d5823b6043f/",
+      "status": "discovered",
+      "title": "2024-08-09 \ud83d\udd34 RED NEWS | UK RACE RIOTS | IRAN WAR | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "5919767e-d21e-4b7f-86c6-41b7e3e98afa": {
+      "attempts": 0,
+      "date": "2025-09-25",
+      "first_seen": "2026-10-20T23:57:04.879468+00:00",
+      "id": "5919767e-d21e-4b7f-86c6-41b7e3e98afa",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5919767e-d21e-4b7f-86c6-41b7e3e98afa/",
+      "status": "discovered",
+      "title": "2025-09-25 WARFARE"
+    },
+    "59383758-a5d0-4ae5-9712-da17f6252184": {
+      "attempts": 0,
+      "date": "2024-06-04",
+      "first_seen": "2026-10-20T23:57:04.879726+00:00",
+      "id": "59383758-a5d0-4ae5-9712-da17f6252184",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59383758-a5d0-4ae5-9712-da17f6252184/",
+      "status": "discovered",
+      "title": "2024-06-04 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
+    },
+    "598e6c70-1af9-4763-b2b6-8c96a3f49c0f": {
+      "attempts": 0,
+      "date": "2025-11-17",
+      "first_seen": "2026-10-20T23:57:04.879435+00:00",
+      "id": "598e6c70-1af9-4763-b2b6-8c96a3f49c0f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/598e6c70-1af9-4763-b2b6-8c96a3f49c0f/",
+      "status": "discovered",
+      "title": "2025-11-17 SUPREMACY"
+    },
+    "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4": {
+      "attempts": 0,
+      "date": "2026-10-03",
+      "first_seen": "2026-10-20T23:57:04.879172+00:00",
+      "id": "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
+      "status": "discovered",
+      "title": "2026-10-03 Allahu Akbar."
+    },
+    "5c4126ec-a5b4-4f94-a1e3-31c124dfbd06": {
+      "attempts": 0,
+      "date": "2024-04-08",
+      "first_seen": "2026-10-20T23:57:04.879761+00:00",
+      "id": "5c4126ec-a5b4-4f94-a1e3-31c124dfbd06",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5c4126ec-a5b4-4f94-a1e3-31c124dfbd06/",
+      "status": "discovered",
+      "title": "2024-04-08 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "5c5a7759-516b-45e3-80f8-9fce88524171": {
+      "attempts": 0,
+      "date": "2026-05-27",
+      "first_seen": "2026-10-20T23:57:04.879275+00:00",
+      "id": "5c5a7759-516b-45e3-80f8-9fce88524171",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5c5a7759-516b-45e3-80f8-9fce88524171/",
+      "status": "discovered",
+      "title": "2026-05-27 ACP FULL SPECTRUM DOMINANCE | HIGH ENERGY DEBATE"
+    },
+    "5cc353cc-a916-4da3-b315-e367aa7e502e": {
+      "attempts": 0,
+      "date": "2026-07-16",
+      "first_seen": "2026-10-20T23:57:04.879244+00:00",
+      "id": "5cc353cc-a916-4da3-b315-e367aa7e502e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5cc353cc-a916-4da3-b315-e367aa7e502e/",
+      "status": "discovered",
+      "title": "2026-07-16 COMMUNISM IS RISING | HUGE DRAMA"
+    },
+    "5d4b21f7-0538-4a9b-a2fe-edf61e4be566": {
+      "attempts": 0,
+      "date": "2024-08-15",
+      "first_seen": "2026-10-20T23:57:04.879696+00:00",
+      "id": "5d4b21f7-0538-4a9b-a2fe-edf61e4be566",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5d4b21f7-0538-4a9b-a2fe-edf61e4be566/",
+      "status": "discovered",
+      "title": "2024-08-15 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "5d543f38-4144-415e-b571-291a260b38fc": {
+      "attempts": 0,
+      "date": "2024-05-30",
+      "first_seen": "2026-10-20T23:57:04.879729+00:00",
+      "id": "5d543f38-4144-415e-b571-291a260b38fc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5d543f38-4144-415e-b571-291a260b38fc/",
+      "status": "discovered",
+      "title": "2024-05-30 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "5df2b057-6dcc-4df9-8131-9ef88b3af4bc": {
+      "attempts": 0,
+      "date": "2024-08-19",
+      "first_seen": "2026-10-20T23:57:04.879693+00:00",
+      "id": "5df2b057-6dcc-4df9-8131-9ef88b3af4bc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5df2b057-6dcc-4df9-8131-9ef88b3af4bc/",
+      "status": "discovered",
+      "title": "2024-08-19 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "5e76e0d7-c4cc-459e-b8b1-65ade98827ae": {
+      "attempts": 0,
+      "date": "2024-10-28",
+      "first_seen": "2026-10-20T23:57:04.879666+00:00",
+      "id": "5e76e0d7-c4cc-459e-b8b1-65ade98827ae",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5e76e0d7-c4cc-459e-b8b1-65ade98827ae/",
+      "status": "discovered",
+      "title": "2024-10-28 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "5ed11713-63ad-441e-b292-f26fdae01147": {
+      "attempts": 0,
+      "date": "2025-09-08",
+      "first_seen": "2026-10-20T23:57:04.879480+00:00",
+      "id": "5ed11713-63ad-441e-b292-f26fdae01147",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5ed11713-63ad-441e-b292-f26fdae01147/",
+      "status": "discovered",
+      "title": "2025-09-08 War"
+    },
+    "5fbfc6dc-82b7-4464-ae32-c8165f5bd588": {
+      "attempts": 0,
+      "date": "2024-05-17",
+      "first_seen": "2026-10-20T23:57:04.879735+00:00",
+      "id": "5fbfc6dc-82b7-4464-ae32-c8165f5bd588",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5fbfc6dc-82b7-4464-ae32-c8165f5bd588/",
+      "status": "discovered",
+      "title": "2024-05-17 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "5fd70829-d694-4fbe-96f5-201de4da848f": {
+      "attempts": 0,
+      "date": "2024-09-13",
+      "first_seen": "2026-10-20T23:57:04.879675+00:00",
+      "id": "5fd70829-d694-4fbe-96f5-201de4da848f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5fd70829-d694-4fbe-96f5-201de4da848f/",
+      "status": "discovered",
+      "title": "2024-09-13 \ud83d\udd34 RED NEWS | DEBATING A HUGE LOSER | AMERICAN COMMUNIST PARTY UPDATESH"
+    },
+    "61e7847d-1566-4605-aaef-3ae07918ce3e": {
+      "attempts": 0,
+      "date": "2025-07-15",
+      "first_seen": "2026-10-20T23:57:04.879515+00:00",
+      "id": "61e7847d-1566-4605-aaef-3ae07918ce3e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/61e7847d-1566-4605-aaef-3ae07918ce3e/",
+      "status": "discovered",
+      "title": "2025-07-15 BARBARIC TRUTH"
+    },
+    "6215ed47-24c3-4a00-8ea8-d18a9d63309a": {
+      "attempts": 0,
+      "date": "2025-06-25",
+      "first_seen": "2026-10-20T23:57:04.879529+00:00",
+      "id": "6215ed47-24c3-4a00-8ea8-d18a9d63309a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6215ed47-24c3-4a00-8ea8-d18a9d63309a/",
+      "status": "discovered",
+      "title": "2025-06-25 IRAN WAR - ZOHRAN TRUTH"
+    },
+    "62d54dc1-2c5d-4e1c-9e1a-3f1865f7e245": {
+      "attempts": 0,
+      "date": "2025-07-02",
+      "first_seen": "2026-10-20T23:57:04.879525+00:00",
+      "id": "62d54dc1-2c5d-4e1c-9e1a-3f1865f7e245",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/62d54dc1-2c5d-4e1c-9e1a-3f1865f7e245/",
+      "status": "discovered",
+      "title": "2025-07-02 JIHAD"
+    },
+    "62ebfe00-69c0-419c-903e-ab3642a64fbe": {
+      "attempts": 0,
+      "date": "2025-03-28",
+      "first_seen": "2026-10-20T23:57:04.879588+00:00",
+      "id": "62ebfe00-69c0-419c-903e-ab3642a64fbe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/62ebfe00-69c0-419c-903e-ab3642a64fbe/",
+      "status": "discovered",
+      "title": "2025-03-28 Heated political debate"
+    },
+    "6310c46e-f893-4b5f-962d-37f33d127da0": {
+      "attempts": 0,
+      "date": "2026-08-04",
+      "first_seen": "2026-10-20T23:57:04.879227+00:00",
+      "id": "6310c46e-f893-4b5f-962d-37f33d127da0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6310c46e-f893-4b5f-962d-37f33d127da0/",
+      "status": "discovered",
+      "title": "2026-08-04 We need to talk."
+    },
+    "63bb4f77-470d-4134-9ba2-42878e63f678": {
+      "attempts": 0,
+      "date": "2024-07-17",
+      "first_seen": "2026-10-20T23:57:04.879710+00:00",
+      "id": "63bb4f77-470d-4134-9ba2-42878e63f678",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/63bb4f77-470d-4134-9ba2-42878e63f678/",
+      "status": "discovered",
+      "title": "2024-07-17 \ud83d\udd34 RED PILL NEWS | TRUMP GOT SHOT! | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "64443189-26fb-4fa8-a694-4622cdf84533": {
+      "attempts": 0,
+      "date": "2025-05-26",
+      "first_seen": "2026-10-20T23:57:04.879553+00:00",
+      "id": "64443189-26fb-4fa8-a694-4622cdf84533",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/64443189-26fb-4fa8-a694-4622cdf84533/",
+      "status": "discovered",
+      "title": "2025-05-26 Stop coping and accept reality"
+    },
+    "652a622d-617c-48cf-bd56-541f62af6c68": {
+      "attempts": 0,
+      "date": "2025-07-20",
+      "first_seen": "2026-10-20T23:57:04.879510+00:00",
+      "id": "652a622d-617c-48cf-bd56-541f62af6c68",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/652a622d-617c-48cf-bd56-541f62af6c68/",
+      "status": "discovered",
+      "title": "2025-07-20 SOLDIERS REPORT FOR DUTY"
+    },
+    "6591aaed-5497-41c1-9b9d-119baee640a2": {
+      "attempts": 0,
+      "date": "2023-10-11",
+      "first_seen": "2026-10-20T23:57:04.879870+00:00",
+      "id": "6591aaed-5497-41c1-9b9d-119baee640a2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6591aaed-5497-41c1-9b9d-119baee640a2/",
+      "status": "discovered",
+      "title": "2023-10-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "6662dea8-a20a-46f9-a32f-b9d5e379f6f0": {
+      "attempts": 0,
+      "date": "2026-05-22",
+      "first_seen": "2026-10-20T23:57:04.879280+00:00",
+      "id": "6662dea8-a20a-46f9-a32f-b9d5e379f6f0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6662dea8-a20a-46f9-a32f-b9d5e379f6f0/",
+      "status": "discovered",
+      "title": "2026-05-22 HASAN PIKER CIVIL WAR | INTENSE DEBATES | 24hr SUBATHON?"
+    },
+    "67a81965-64f1-40b4-ab59-eb004fde2309": {
+      "attempts": 0,
+      "date": "2026-04-17",
+      "first_seen": "2026-10-20T23:57:04.879294+00:00",
+      "id": "67a81965-64f1-40b4-ab59-eb004fde2309",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/67a81965-64f1-40b4-ab59-eb004fde2309/",
+      "status": "discovered",
+      "title": "2026-04-17 IN LAS VEGAS | IRAN WAR"
+    },
+    "67d56a4c-ecb1-40a6-b47f-df7dcd9c5726": {
+      "attempts": 0,
+      "date": "2024-09-09",
+      "first_seen": "2026-10-20T23:57:04.879680+00:00",
+      "id": "67d56a4c-ecb1-40a6-b47f-df7dcd9c5726",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/67d56a4c-ecb1-40a6-b47f-df7dcd9c5726/",
+      "status": "discovered",
+      "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "69436080-2c41-4516-aa79-8acb721f0550": {
+      "attempts": 0,
+      "date": "2025-10-15",
+      "first_seen": "2026-10-20T23:57:04.879452+00:00",
+      "id": "69436080-2c41-4516-aa79-8acb721f0550",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/69436080-2c41-4516-aa79-8acb721f0550/",
+      "status": "discovered",
+      "title": "2025-10-15 POWERFUL TRUKE BOMBS"
+    },
+    "6a6684ff-4a37-4137-8d21-e9569d637669": {
+      "attempts": 0,
+      "date": "2025-01-17",
+      "first_seen": "2026-10-20T23:57:04.879621+00:00",
+      "id": "6a6684ff-4a37-4137-8d21-e9569d637669",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6a6684ff-4a37-4137-8d21-e9569d637669/",
+      "status": "discovered",
+      "title": "2025-01-17 \ud83d\udd34 RED NEWS | DEBATE | RIP DAVID LYNCH | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "6be7401d-a8e2-42d1-9f91-586bc6732093": {
+      "attempts": 0,
+      "date": "2023-12-02",
+      "first_seen": "2026-10-20T23:57:04.879821+00:00",
+      "id": "6be7401d-a8e2-42d1-9f91-586bc6732093",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6be7401d-a8e2-42d1-9f91-586bc6732093/",
+      "status": "discovered",
+      "title": "2023-12-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "6d217dd1-aca1-4715-aa56-717d127d0baf": {
+      "attempts": 0,
+      "date": "2025-10-23",
+      "first_seen": "2026-10-20T23:57:04.879451+00:00",
+      "id": "6d217dd1-aca1-4715-aa56-717d127d0baf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6d217dd1-aca1-4715-aa56-717d127d0baf/",
+      "status": "discovered",
+      "title": "2025-10-23 CHINA | US REGIME HARASSING ME"
+    },
+    "6d4f48cf-d7a0-4e6c-a72e-c1bb1145cff6": {
+      "attempts": 0,
+      "date": "2026-06-04",
+      "first_seen": "2026-10-20T23:57:04.879272+00:00",
+      "id": "6d4f48cf-d7a0-4e6c-a72e-c1bb1145cff6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6d4f48cf-d7a0-4e6c-a72e-c1bb1145cff6/",
+      "status": "discovered",
+      "title": "2026-06-04 ACP ON TOP | LIVE WITH JACKSON TURKEY"
+    },
+    "6e6a6ada-5c30-4542-b400-55039e5772fe": {
+      "attempts": 0,
+      "date": "2024-09-11",
+      "first_seen": "2026-10-20T23:57:04.879679+00:00",
+      "id": "6e6a6ada-5c30-4542-b400-55039e5772fe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6e6a6ada-5c30-4542-b400-55039e5772fe/",
+      "status": "discovered",
+      "title": "2024-09-11 \ud83d\udd34 RED NEWS | KAMALA TRUMP DEBATE! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "6e743e93-4e00-472e-b2f4-563aa8a43dcc": {
+      "attempts": 0,
+      "date": "2024-11-01",
+      "first_seen": "2026-10-20T23:57:04.879663+00:00",
+      "id": "6e743e93-4e00-472e-b2f4-563aa8a43dcc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6e743e93-4e00-472e-b2f4-563aa8a43dcc/",
+      "status": "discovered",
+      "title": "2024-11-01 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "6ea05eca-b73b-454b-9b4b-f15b4309e164": {
+      "attempts": 0,
+      "date": "2025-12-22",
+      "first_seen": "2026-10-20T23:57:04.879383+00:00",
+      "id": "6ea05eca-b73b-454b-9b4b-f15b4309e164",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6ea05eca-b73b-454b-9b4b-f15b4309e164/",
+      "status": "discovered",
+      "title": "2025-12-22 POWER."
+    },
+    "6efa8fa7-b4b7-423b-80eb-9e7eb5d798b4": {
+      "attempts": 0,
+      "date": "2024-09-04",
+      "first_seen": "2026-10-20T23:57:04.879689+00:00",
+      "id": "6efa8fa7-b4b7-423b-80eb-9e7eb5d798b4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6efa8fa7-b4b7-423b-80eb-9e7eb5d798b4/",
+      "status": "discovered",
+      "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "6f373043-ca75-403b-9052-8b20561c09e5": {
+      "attempts": 0,
+      "date": "2024-02-20",
+      "first_seen": "2026-10-20T23:57:04.879786+00:00",
+      "id": "6f373043-ca75-403b-9052-8b20561c09e5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6f373043-ca75-403b-9052-8b20561c09e5/",
+      "status": "discovered",
+      "title": "2024-02-20 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "717e86ff-0377-4737-b117-43867d3e3bb6": {
+      "attempts": 0,
+      "date": "2026-03-02",
+      "first_seen": "2026-10-20T23:57:04.879325+00:00",
+      "id": "717e86ff-0377-4737-b117-43867d3e3bb6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/717e86ff-0377-4737-b117-43867d3e3bb6/",
+      "status": "discovered",
+      "title": "2026-03-02 IRAN WAR"
+    },
+    "718e175d-eb6b-44d1-99de-f1818cca1c6e": {
+      "attempts": 0,
+      "date": "2024-03-29",
+      "first_seen": "2026-10-20T23:57:04.879769+00:00",
+      "id": "718e175d-eb6b-44d1-99de-f1818cca1c6e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/718e175d-eb6b-44d1-99de-f1818cca1c6e/",
+      "status": "discovered",
+      "title": "2024-03-29 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "719fe1a3-9236-4146-8fa6-fea14dd28802": {
+      "attempts": 0,
+      "date": "2024-04-14",
+      "first_seen": "2026-10-20T23:57:04.879756+00:00",
+      "id": "719fe1a3-9236-4146-8fa6-fea14dd28802",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/719fe1a3-9236-4146-8fa6-fea14dd28802/",
+      "status": "discovered",
+      "title": "2024-04-14 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "71dc5d33-5a32-4d03-babc-050d83e01fe4": {
+      "attempts": 0,
+      "date": "2024-10-15",
+      "first_seen": "2026-10-20T23:57:04.879671+00:00",
+      "id": "71dc5d33-5a32-4d03-babc-050d83e01fe4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/71dc5d33-5a32-4d03-babc-050d83e01fe4/",
+      "status": "discovered",
+      "title": "2024-10-15 \ud83d\udd34 RED NEWS | MY TRIP TO RUSSIA & MORE| AMERICAN COMMUNIST PARTY UPDATESH"
+    },
+    "73af2734-2a65-445d-9f77-2be9057cf2e2": {
+      "attempts": 0,
+      "date": "2026-09-18",
+      "first_seen": "2026-10-20T23:57:04.879198+00:00",
+      "id": "73af2734-2a65-445d-9f77-2be9057cf2e2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/73af2734-2a65-445d-9f77-2be9057cf2e2/",
+      "status": "discovered",
+      "title": "2026-09-18 Rise of the Horde."
+    },
+    "75ae8ac1-73da-4671-be6e-97846e2a0896": {
+      "attempts": 0,
+      "date": "2024-12-04",
+      "first_seen": "2026-10-20T23:57:04.879633+00:00",
+      "id": "75ae8ac1-73da-4671-be6e-97846e2a0896",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/75ae8ac1-73da-4671-be6e-97846e2a0896/",
+      "status": "discovered",
+      "title": "2024-12-04 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "76caa4ff-fd85-453b-b67b-10a7f26dedc6": {
+      "attempts": 0,
+      "date": "2026-09-24",
+      "first_seen": "2026-10-20T23:57:04.879193+00:00",
+      "id": "76caa4ff-fd85-453b-b67b-10a7f26dedc6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/",
+      "status": "discovered",
+      "title": "2026-09-24 WW3| High IQ Interview"
+    },
+    "76e38dd0-c63b-48c0-ab5e-85b95dee9d0b": {
+      "attempts": 0,
+      "date": "2023-10-26",
+      "first_seen": "2026-10-20T23:57:04.879851+00:00",
+      "id": "76e38dd0-c63b-48c0-ab5e-85b95dee9d0b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76e38dd0-c63b-48c0-ab5e-85b95dee9d0b/",
+      "status": "discovered",
+      "title": "2023-10-26 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "77c77bec-6cbe-4db6-820e-bf1e0d4bfe2f": {
+      "attempts": 0,
+      "date": "2024-01-04",
+      "first_seen": "2026-10-20T23:57:04.879800+00:00",
+      "id": "77c77bec-6cbe-4db6-820e-bf1e0d4bfe2f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/77c77bec-6cbe-4db6-820e-bf1e0d4bfe2f/",
+      "status": "discovered",
+      "title": "2024-01-04 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "7830e01e-204e-4f6b-9d17-0d6efa6367f1": {
+      "attempts": 0,
+      "date": "2025-01-29",
+      "first_seen": "2026-10-20T23:57:04.879612+00:00",
+      "id": "7830e01e-204e-4f6b-9d17-0d6efa6367f1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7830e01e-204e-4f6b-9d17-0d6efa6367f1/",
+      "status": "discovered",
+      "title": "2025-01-29 BIG WINNING"
+    },
+    "783271bc-4914-4dee-a789-77201481f18f": {
+      "attempts": 0,
+      "date": "2024-03-07",
+      "first_seen": "2026-10-20T23:57:04.879785+00:00",
+      "id": "783271bc-4914-4dee-a789-77201481f18f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/783271bc-4914-4dee-a789-77201481f18f/",
+      "status": "discovered",
+      "title": "2024-03-07 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "78727f1b-bfd6-49fc-863e-bf67603855f7": {
+      "attempts": 0,
+      "date": "2024-11-11",
+      "first_seen": "2026-10-20T23:57:04.879656+00:00",
+      "id": "78727f1b-bfd6-49fc-863e-bf67603855f7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/78727f1b-bfd6-49fc-863e-bf67603855f7/",
+      "status": "discovered",
+      "title": "2024-11-11 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "788136f6-a62e-4be0-be72-cc9a506a3df8": {
+      "attempts": 0,
+      "date": "2025-07-04",
+      "first_seen": "2026-10-20T23:57:04.879524+00:00",
+      "id": "788136f6-a62e-4be0-be72-cc9a506a3df8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/788136f6-a62e-4be0-be72-cc9a506a3df8/",
+      "status": "discovered",
+      "title": "2025-07-04 Its happening..."
+    },
+    "78b1eda8-34db-4126-b444-7867c854caab": {
+      "attempts": 0,
+      "date": "2026-03-18",
+      "first_seen": "2026-10-20T23:57:04.879314+00:00",
+      "id": "78b1eda8-34db-4126-b444-7867c854caab",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/78b1eda8-34db-4126-b444-7867c854caab/",
+      "status": "discovered",
+      "title": "2026-03-18 IRAN IS WINNING | OUR PLANS"
+    },
+    "7912e0c1-916d-4dc6-bb0c-e6d5e3652cf2": {
+      "attempts": 0,
+      "date": "2023-10-06",
+      "first_seen": "2026-10-20T23:57:04.879876+00:00",
+      "id": "7912e0c1-916d-4dc6-bb0c-e6d5e3652cf2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7912e0c1-916d-4dc6-bb0c-e6d5e3652cf2/",
+      "status": "discovered",
+      "title": "2023-10-06 \ud83d\udd34 RED PILL NEWS | HELL IS COMING"
+    },
+    "794654a7-69dd-4d11-b7a1-5566850dbf84": {
+      "attempts": 0,
+      "date": "2024-07-14",
+      "first_seen": "2026-10-20T23:57:04.879711+00:00",
+      "id": "794654a7-69dd-4d11-b7a1-5566850dbf84",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/794654a7-69dd-4d11-b7a1-5566850dbf84/",
+      "status": "discovered",
+      "title": "2024-07-14 \ud83d\udd34 RED PILL NEWS | TRUMP GOT SHOT! | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | DEBATING A N*ZI"
+    },
+    "7b68f52e-40ab-4a1b-bbda-1f8cc14a7aad": {
+      "attempts": 0,
+      "date": "2026-09-09",
+      "first_seen": "2026-10-20T23:57:04.879205+00:00",
+      "id": "7b68f52e-40ab-4a1b-bbda-1f8cc14a7aad",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7b68f52e-40ab-4a1b-bbda-1f8cc14a7aad/",
+      "status": "discovered",
+      "title": "2026-09-09 GREATEST SHOW ON EARTH"
+    },
+    "7bc6538c-fc63-48d5-bf8e-c649d8ee65c1": {
+      "attempts": 0,
+      "date": "2025-01-27",
+      "first_seen": "2026-10-20T23:57:04.879614+00:00",
+      "id": "7bc6538c-fc63-48d5-bf8e-c649d8ee65c1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7bc6538c-fc63-48d5-bf8e-c649d8ee65c1/",
+      "status": "discovered",
+      "title": "2025-01-27 Here's how it happened..."
+    },
+    "7c1557ed-6b49-468a-be0b-32bb1ab5e158": {
+      "attempts": 0,
+      "date": "2024-04-01",
+      "first_seen": "2026-10-20T23:57:04.879765+00:00",
+      "id": "7c1557ed-6b49-468a-be0b-32bb1ab5e158",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7c1557ed-6b49-468a-be0b-32bb1ab5e158/",
+      "status": "discovered",
+      "title": "2024-04-01 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "7c7451fb-bb3b-4e4d-9903-ef1f9ee3883d": {
+      "attempts": 0,
+      "date": "2025-07-10",
+      "first_seen": "2026-10-20T23:57:04.879520+00:00",
+      "id": "7c7451fb-bb3b-4e4d-9903-ef1f9ee3883d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7c7451fb-bb3b-4e4d-9903-ef1f9ee3883d/",
+      "status": "discovered",
+      "title": "2025-07-10 MAJOR UPDATES"
+    },
+    "7cb2dc9b-35aa-469c-9b69-528bf2271330": {
+      "attempts": 0,
+      "date": "2023-10-19",
+      "first_seen": "2026-10-20T23:57:04.879858+00:00",
+      "id": "7cb2dc9b-35aa-469c-9b69-528bf2271330",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7cb2dc9b-35aa-469c-9b69-528bf2271330/",
+      "status": "discovered",
+      "title": "2023-10-19 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "7cb5cb1d-3e33-4b2b-ac16-17c93b98a636": {
+      "attempts": 0,
+      "date": "2025-06-11",
+      "first_seen": "2026-10-20T23:57:04.879541+00:00",
+      "id": "7cb5cb1d-3e33-4b2b-ac16-17c93b98a636",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7cb5cb1d-3e33-4b2b-ac16-17c93b98a636/",
+      "status": "discovered",
+      "title": "2025-06-11 LA RIOTS | CIVIL WAR IS HERE"
+    },
+    "7d11cb9b-1941-4aa9-a59c-5dd26b3704b4": {
+      "attempts": 0,
+      "date": "2023-10-05",
+      "first_seen": "2026-10-20T23:57:04.879877+00:00",
+      "id": "7d11cb9b-1941-4aa9-a59c-5dd26b3704b4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d11cb9b-1941-4aa9-a59c-5dd26b3704b4/",
+      "status": "discovered",
+      "title": "2023-10-05 \ud83d\udd34 RED PILL NEWS | DESTROYING RIGHT WINGERS"
+    },
+    "7d286765-0c23-4307-bdf8-e5e35a754889": {
+      "attempts": 0,
+      "date": "2024-12-03",
+      "first_seen": "2026-10-20T23:57:04.879634+00:00",
+      "id": "7d286765-0c23-4307-bdf8-e5e35a754889",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d286765-0c23-4307-bdf8-e5e35a754889/",
+      "status": "discovered",
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "7d2b7bb5-12f6-4279-9fed-b0deaefb7fb3": {
+      "attempts": 0,
+      "date": "2024-03-25",
+      "first_seen": "2026-10-20T23:57:04.879776+00:00",
+      "id": "7d2b7bb5-12f6-4279-9fed-b0deaefb7fb3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d2b7bb5-12f6-4279-9fed-b0deaefb7fb3/",
+      "status": "discovered",
+      "title": "2024-03-25 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "7d30ce86-789b-48b0-a0d3-40ac665e4b20": {
+      "attempts": 0,
+      "date": "2023-10-08",
+      "first_seen": "2026-10-20T23:57:04.879874+00:00",
+      "id": "7d30ce86-789b-48b0-a0d3-40ac665e4b20",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d30ce86-789b-48b0-a0d3-40ac665e4b20/",
+      "status": "discovered",
+      "title": "2023-10-08 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "7d797b18-43cd-42a9-83fa-0b61182ca15b": {
+      "attempts": 0,
+      "date": "2025-05-09",
+      "first_seen": "2026-10-20T23:57:04.879563+00:00",
+      "id": "7d797b18-43cd-42a9-83fa-0b61182ca15b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d797b18-43cd-42a9-83fa-0b61182ca15b/",
+      "status": "discovered",
+      "title": "2025-05-09 Red lines have been crossed."
+    },
+    "7de4f1d0-0a06-4a5c-b045-b5a2d720b376": {
+      "attempts": 0,
+      "date": "2025-12-17",
+      "first_seen": "2026-10-20T23:57:04.879387+00:00",
+      "id": "7de4f1d0-0a06-4a5c-b045-b5a2d720b376",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7de4f1d0-0a06-4a5c-b045-b5a2d720b376/",
+      "status": "discovered",
+      "title": "2025-12-17 HIGH ENERGY ONLY"
+    },
+    "7ea8a0a2-7343-47c7-9f76-363287c9c2cb": {
+      "attempts": 0,
+      "date": "2024-06-25",
+      "first_seen": "2026-10-20T23:57:04.879717+00:00",
+      "id": "7ea8a0a2-7343-47c7-9f76-363287c9c2cb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7ea8a0a2-7343-47c7-9f76-363287c9c2cb/",
+      "status": "discovered",
+      "title": "2024-06-25 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | LEBANON WAR??"
+    },
+    "7ebeda26-697e-41bd-b949-223e80043b3f": {
+      "attempts": 0,
+      "date": "2025-10-11",
+      "first_seen": "2026-10-20T23:57:04.879454+00:00",
+      "id": "7ebeda26-697e-41bd-b949-223e80043b3f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7ebeda26-697e-41bd-b949-223e80043b3f/",
+      "status": "discovered",
+      "title": "2025-10-11 UNSTOPPABLE"
+    },
+    "7f50c58a-b00a-4c05-bc33-81cc060cc037": {
+      "attempts": 0,
+      "date": "2026-06-16",
+      "first_seen": "2026-10-20T23:57:04.879264+00:00",
+      "id": "7f50c58a-b00a-4c05-bc33-81cc060cc037",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7f50c58a-b00a-4c05-bc33-81cc060cc037/",
+      "status": "discovered",
+      "title": "2026-06-16 ACP BIG MOVES | KICK POLITICS HQ | NEWS | DEBATES"
+    },
+    "801ff230-161f-41ca-877e-2d78d0c94528": {
+      "attempts": 0,
+      "date": "2023-12-11",
+      "first_seen": "2026-10-20T23:57:04.879815+00:00",
+      "id": "801ff230-161f-41ca-877e-2d78d0c94528",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/801ff230-161f-41ca-877e-2d78d0c94528/",
+      "status": "discovered",
+      "title": "2023-12-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "81614933-2df3-4be5-9bb5-56b603299784": {
+      "attempts": 0,
+      "date": "2023-11-27",
+      "first_seen": "2026-10-20T23:57:04.879825+00:00",
+      "id": "81614933-2df3-4be5-9bb5-56b603299784",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/81614933-2df3-4be5-9bb5-56b603299784/",
+      "status": "discovered",
+      "title": "2023-11-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "81a64991-3a22-4cc4-b512-6cc60c1d892c": {
+      "attempts": 0,
+      "date": "2024-05-28",
+      "first_seen": "2026-10-20T23:57:04.879730+00:00",
+      "id": "81a64991-3a22-4cc4-b512-6cc60c1d892c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/81a64991-3a22-4cc4-b512-6cc60c1d892c/",
+      "status": "discovered",
+      "title": "2024-05-28 \ud83d\udd34 RED PILL NEWS | IRAN PRESIDENT DEAD? | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
+    },
+    "81ac0c46-da3f-47f1-b081-728b4b1705b7": {
+      "attempts": 0,
+      "date": "2025-04-01",
+      "first_seen": "2026-10-20T23:57:04.879587+00:00",
+      "id": "81ac0c46-da3f-47f1-b081-728b4b1705b7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/81ac0c46-da3f-47f1-b081-728b4b1705b7/",
+      "status": "discovered",
+      "title": "2025-04-01 Heated political debate"
+    },
+    "81e765c7-9bdb-4e32-8bc1-e0843540b577": {
+      "attempts": 0,
+      "date": "2025-06-20",
+      "first_seen": "2026-10-20T23:57:04.879532+00:00",
+      "id": "81e765c7-9bdb-4e32-8bc1-e0843540b577",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/81e765c7-9bdb-4e32-8bc1-e0843540b577/",
+      "status": "discovered",
+      "title": "2025-06-20 IRAN WAR - US BOMBING THIS WEEKEND?!"
+    },
+    "82611274-0415-4d46-8f75-9f417656fdcd": {
+      "attempts": 0,
+      "date": "2023-10-24",
+      "first_seen": "2026-10-20T23:57:04.879854+00:00",
+      "id": "82611274-0415-4d46-8f75-9f417656fdcd",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82611274-0415-4d46-8f75-9f417656fdcd/",
+      "status": "discovered",
+      "title": "2023-10-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "82a0ad0e-fb6c-4849-91bd-a8e43497c4fc": {
+      "attempts": 0,
+      "date": "2026-06-23",
+      "first_seen": "2026-10-20T23:57:04.879259+00:00",
+      "id": "82a0ad0e-fb6c-4849-91bd-a8e43497c4fc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82a0ad0e-fb6c-4849-91bd-a8e43497c4fc/",
+      "status": "discovered",
+      "title": "2026-06-23 WAR"
+    },
+    "82ab4dfc-cf41-482d-9faa-e205dd43cd22": {
+      "attempts": 0,
+      "date": "2024-04-25",
+      "first_seen": "2026-10-20T23:57:04.879750+00:00",
+      "id": "82ab4dfc-cf41-482d-9faa-e205dd43cd22",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82ab4dfc-cf41-482d-9faa-e205dd43cd22/",
+      "status": "discovered",
+      "title": "2024-04-25 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "82ab676c-f66b-4f7f-b522-a1f07234acbf": {
+      "attempts": 0,
+      "date": "2026-05-16",
+      "first_seen": "2026-10-20T23:57:04.879287+00:00",
+      "id": "82ab676c-f66b-4f7f-b522-a1f07234acbf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82ab676c-f66b-4f7f-b522-a1f07234acbf/",
+      "status": "discovered",
+      "title": "2026-05-16 ACP FULL DOMINATION | INTENSE DEBATES | CUBA"
+    },
+    "82b597b8-0b08-4cb1-816a-a6e5a5c5792a": {
+      "attempts": 0,
+      "date": "2026-07-17",
+      "first_seen": "2026-10-20T23:57:04.879242+00:00",
+      "id": "82b597b8-0b08-4cb1-816a-a6e5a5c5792a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82b597b8-0b08-4cb1-816a-a6e5a5c5792a/",
+      "status": "discovered",
+      "title": "2026-07-17 COMMUNISM WINNING"
+    },
+    "846cdb23-e201-46d2-bc99-f9f2457bf340": {
+      "attempts": 0,
+      "date": "2025-07-16",
+      "first_seen": "2026-10-20T23:57:04.879514+00:00",
+      "id": "846cdb23-e201-46d2-bc99-f9f2457bf340",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/846cdb23-e201-46d2-bc99-f9f2457bf340/",
+      "status": "discovered",
+      "title": "2025-07-16 SOLDIERS REPORT FOR DUTY"
+    },
+    "848b416c-b932-4a84-b2c1-14caaa7da55d": {
+      "attempts": 0,
+      "date": "2025-04-16",
+      "first_seen": "2026-10-20T23:57:04.879576+00:00",
+      "id": "848b416c-b932-4a84-b2c1-14caaa7da55d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/848b416c-b932-4a84-b2c1-14caaa7da55d/",
+      "status": "discovered",
+      "title": "2025-04-16 MAGA Communism"
+    },
+    "854e1c5d-8053-4ea6-bbca-445788649735": {
+      "attempts": 0,
+      "date": "2024-03-27",
+      "first_seen": "2026-10-20T23:57:04.879774+00:00",
+      "id": "854e1c5d-8053-4ea6-bbca-445788649735",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/854e1c5d-8053-4ea6-bbca-445788649735/",
+      "status": "discovered",
+      "title": "2024-03-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "859cda52-73d9-4dad-b974-8997ae069598": {
+      "attempts": 0,
+      "date": "2023-10-27",
+      "first_seen": "2026-10-20T23:57:04.879848+00:00",
+      "id": "859cda52-73d9-4dad-b974-8997ae069598",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/859cda52-73d9-4dad-b974-8997ae069598/",
+      "status": "discovered",
+      "title": "2023-10-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "86499ced-8cf7-4f2b-9f1f-a61490fb22d7": {
+      "attempts": 0,
+      "date": "2023-11-16",
+      "first_seen": "2026-10-20T23:57:04.879834+00:00",
+      "id": "86499ced-8cf7-4f2b-9f1f-a61490fb22d7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/86499ced-8cf7-4f2b-9f1f-a61490fb22d7/",
+      "status": "discovered",
+      "title": "2023-11-16 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "86c96611-8fe4-4f02-9243-552dd9b72c10": {
+      "attempts": 0,
+      "date": "2025-07-22",
+      "first_seen": "2026-10-20T23:57:04.879501+00:00",
+      "id": "86c96611-8fe4-4f02-9243-552dd9b72c10",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/86c96611-8fe4-4f02-9243-552dd9b72c10/",
+      "status": "discovered",
+      "title": "2025-07-22 UCLA COLLEGE LIBS CONFRONT THE CHAIRMAN"
+    },
+    "8700d673-3d37-412d-a398-1dc9d19a5fae": {
+      "attempts": 0,
+      "date": "2025-04-04",
+      "first_seen": "2026-10-20T23:57:04.879584+00:00",
+      "id": "8700d673-3d37-412d-a398-1dc9d19a5fae",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8700d673-3d37-412d-a398-1dc9d19a5fae/",
+      "status": "discovered",
+      "title": "2025-04-04 HEATED politics debate"
+    },
+    "872e8aa7-7df1-4082-bb2d-4dbc6f6c8d9b": {
+      "attempts": 0,
+      "date": "2026-05-11",
+      "first_seen": "2026-10-20T23:57:04.879291+00:00",
+      "id": "872e8aa7-7df1-4082-bb2d-4dbc6f6c8d9b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/872e8aa7-7df1-4082-bb2d-4dbc6f6c8d9b/",
+      "status": "discovered",
+      "title": "2026-05-11 I'VE RETURNED. | SOVINTERN"
+    },
+    "87538d33-ac14-40e6-982c-a64793e19070": {
+      "attempts": 0,
+      "date": "2026-03-30",
+      "first_seen": "2026-10-20T23:57:04.879305+00:00",
+      "id": "87538d33-ac14-40e6-982c-a64793e19070",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/87538d33-ac14-40e6-982c-a64793e19070/",
+      "status": "discovered",
+      "title": "2026-03-30 ISR*EL LOSING | IRAN INVASION | NO KINGS"
+    },
+    "87ce0210-2d8e-44bc-9faa-57378b811b7d": {
+      "attempts": 0,
+      "date": "2024-11-04",
+      "first_seen": "2026-10-20T23:57:04.879660+00:00",
+      "id": "87ce0210-2d8e-44bc-9faa-57378b811b7d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/87ce0210-2d8e-44bc-9faa-57378b811b7d/",
+      "status": "discovered",
+      "title": "2024-11-04 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "87f9a389-f0e7-4c8c-a971-3ba413b87ae2": {
+      "attempts": 0,
+      "date": "2026-01-16",
+      "first_seen": "2026-10-20T23:57:04.879372+00:00",
+      "id": "87f9a389-f0e7-4c8c-a971-3ba413b87ae2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/87f9a389-f0e7-4c8c-a971-3ba413b87ae2/",
+      "status": "discovered",
+      "title": "2026-01-16 DEBATES NONSTOP | IRAN"
+    },
+    "880dcb20-2e8c-4697-828c-822f01999554": {
+      "attempts": 0,
+      "date": "2026-09-28",
+      "first_seen": "2026-10-20T23:57:04.879190+00:00",
+      "id": "880dcb20-2e8c-4697-828c-822f01999554",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/",
+      "status": "discovered",
+      "title": "2026-09-28 Prepare for nuclear war."
+    },
+    "8870382f-9c8c-471f-a781-05b5c0634ea6": {
+      "attempts": 0,
+      "date": "2026-06-22",
+      "first_seen": "2026-10-20T23:57:04.879260+00:00",
+      "id": "8870382f-9c8c-471f-a781-05b5c0634ea6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8870382f-9c8c-471f-a781-05b5c0634ea6/",
+      "status": "discovered",
+      "title": "2026-06-22 HUGE DRAMA | CUBA | POLITICS DEBATES"
+    },
+    "8927e7b8-556e-447b-8f44-12a5f05c8223": {
+      "attempts": 0,
+      "date": "2025-09-29",
+      "first_seen": "2026-10-20T23:57:04.879465+00:00",
+      "id": "8927e7b8-556e-447b-8f44-12a5f05c8223",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8927e7b8-556e-447b-8f44-12a5f05c8223/",
+      "status": "discovered",
+      "title": "2025-09-29 REVOLUTIONARY DOMINANCE (WINNING)"
+    },
+    "8945ef2b-4e7e-4e8b-96ad-11c844bbe6f2": {
+      "attempts": 0,
+      "date": "2025-12-18",
+      "first_seen": "2026-10-20T23:57:04.879386+00:00",
+      "id": "8945ef2b-4e7e-4e8b-96ad-11c844bbe6f2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8945ef2b-4e7e-4e8b-96ad-11c844bbe6f2/",
+      "status": "discovered",
+      "title": "2025-12-18 TRUMP ANNOUNCING WAR WITH VENEZUELA?!"
+    },
+    "8a24928d-747f-4706-8a7f-244028ddcdd1": {
+      "attempts": 0,
+      "date": "2025-02-28",
+      "first_seen": "2026-10-20T23:57:04.879602+00:00",
+      "id": "8a24928d-747f-4706-8a7f-244028ddcdd1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8a24928d-747f-4706-8a7f-244028ddcdd1/",
+      "status": "discovered",
+      "title": "2025-02-28 Debating the actor from LOST and Lucifer"
+    },
+    "8a4ea0da-47db-4e54-82df-fb8fcc402662": {
+      "attempts": 0,
+      "date": "2025-01-10",
+      "first_seen": "2026-10-20T23:57:04.879624+00:00",
+      "id": "8a4ea0da-47db-4e54-82df-fb8fcc402662",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8a4ea0da-47db-4e54-82df-fb8fcc402662/",
+      "status": "discovered",
+      "title": "2025-01-10 \ud83d\udd34 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "8c4f10dd-f5ee-4532-bbfa-da58aeb5aa96": {
+      "attempts": 0,
+      "date": "2024-09-17",
+      "first_seen": "2026-10-20T23:57:04.879674+00:00",
+      "id": "8c4f10dd-f5ee-4532-bbfa-da58aeb5aa96",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8c4f10dd-f5ee-4532-bbfa-da58aeb5aa96/",
+      "status": "discovered",
+      "title": "2024-09-17 \ud83d\udd34 RED NEWS | TRUMP ASSASSINATION?! | AMERICAN COMMUNIST PARTY UPDATESH"
+    },
+    "8c6032ba-3cd5-4516-bc3f-d57c57fb3379": {
+      "attempts": 0,
+      "date": "2025-07-21",
+      "first_seen": "2026-10-20T23:57:04.879506+00:00",
+      "id": "8c6032ba-3cd5-4516-bc3f-d57c57fb3379",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8c6032ba-3cd5-4516-bc3f-d57c57fb3379/",
+      "status": "discovered",
+      "title": "2025-07-21 UCLA COLLEGE LIBS CONFRONT THE CHAIRMAN"
+    },
+    "8d775f2e-6a7f-4a4c-adba-24073d6971c4": {
+      "attempts": 0,
+      "date": "2024-07-31",
+      "first_seen": "2026-10-20T23:57:04.879703+00:00",
+      "id": "8d775f2e-6a7f-4a4c-adba-24073d6971c4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8d775f2e-6a7f-4a4c-adba-24073d6971c4/",
+      "status": "discovered",
+      "title": "2024-07-31 \ud83d\udd34 RED NEWS | VENEZUELA | LEBANON | KAMALA | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "8dc26ab4-fa2c-4abe-96ee-04c70b9a5ec2": {
+      "attempts": 0,
+      "date": "2025-06-30",
+      "first_seen": "2026-10-20T23:57:04.879527+00:00",
+      "id": "8dc26ab4-fa2c-4abe-96ee-04c70b9a5ec2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8dc26ab4-fa2c-4abe-96ee-04c70b9a5ec2/",
+      "status": "discovered",
+      "title": "2025-06-30 CIA GRIFTERS EXPOSED"
+    },
+    "8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1": {
+      "attempts": 0,
+      "date": "2024-02-16",
+      "first_seen": "2026-10-20T23:57:04.879788+00:00",
+      "id": "8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1/",
+      "status": "discovered",
+      "title": "2024-02-16 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "8f71d070-737d-481f-a525-a4b3f39bd387": {
+      "attempts": 0,
+      "date": "2024-03-13",
+      "first_seen": "2026-10-20T23:57:04.879782+00:00",
+      "id": "8f71d070-737d-481f-a525-a4b3f39bd387",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8f71d070-737d-481f-a525-a4b3f39bd387/",
+      "status": "discovered",
+      "title": "2024-03-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "901d78ea-cb93-4ac1-9afd-e46070aae6eb": {
+      "attempts": 0,
+      "date": "2025-06-09",
+      "first_seen": "2026-10-20T23:57:04.879542+00:00",
+      "id": "901d78ea-cb93-4ac1-9afd-e46070aae6eb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/901d78ea-cb93-4ac1-9afd-e46070aae6eb/",
+      "status": "discovered",
+      "title": "2025-06-09 LA RIOTS | US CIVIL WAR 2"
+    },
+    "90a59ba7-c790-43e9-92e6-dce919a0ed8b": {
+      "attempts": 0,
+      "date": "2025-10-11",
+      "first_seen": "2026-10-20T23:57:04.879456+00:00",
+      "id": "90a59ba7-c790-43e9-92e6-dce919a0ed8b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/90a59ba7-c790-43e9-92e6-dce919a0ed8b/",
+      "status": "discovered",
+      "title": "2025-10-11 UNSTOPPABLE"
+    },
+    "90b46eb4-5aff-4566-97b0-ae8e6133b78e": {
+      "attempts": 0,
+      "date": "2025-10-24",
+      "first_seen": "2026-10-20T23:57:04.879449+00:00",
+      "id": "90b46eb4-5aff-4566-97b0-ae8e6133b78e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/90b46eb4-5aff-4566-97b0-ae8e6133b78e/",
+      "status": "discovered",
+      "title": "2025-10-24 MASSIVE CHINA DEBATE"
+    },
+    "90f904fe-7d4d-4a69-9a1a-4ea7e1e834cc": {
+      "attempts": 0,
+      "date": "2026-03-11",
+      "first_seen": "2026-10-20T23:57:04.879319+00:00",
+      "id": "90f904fe-7d4d-4a69-9a1a-4ea7e1e834cc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/90f904fe-7d4d-4a69-9a1a-4ea7e1e834cc/",
+      "status": "discovered",
+      "title": "2026-03-11 IRAN WAR | MASSIVE REDDIT DRAMA!!!!"
+    },
+    "91349282-c781-45f5-984e-8b2215959a62": {
+      "attempts": 0,
+      "date": "2024-11-25",
+      "first_seen": "2026-10-20T23:57:04.879642+00:00",
+      "id": "91349282-c781-45f5-984e-8b2215959a62",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/91349282-c781-45f5-984e-8b2215959a62/",
+      "status": "discovered",
+      "title": "2024-11-25 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "9146b61f-71c3-4459-8a24-1897e4d1bca6": {
+      "attempts": 0,
+      "date": "2026-06-29",
+      "first_seen": "2026-10-20T23:57:04.879254+00:00",
+      "id": "9146b61f-71c3-4459-8a24-1897e4d1bca6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9146b61f-71c3-4459-8a24-1897e4d1bca6/",
+      "status": "discovered",
+      "title": "2026-06-29 INFRARED RENAISSANCE"
+    },
+    "91478ac3-f8b1-4ca5-8fe6-0361ec19ea26": {
+      "attempts": 0,
+      "date": "2025-02-26",
+      "first_seen": "2026-10-20T23:57:04.879603+00:00",
+      "id": "91478ac3-f8b1-4ca5-8fe6-0361ec19ea26",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/91478ac3-f8b1-4ca5-8fe6-0361ec19ea26/",
+      "status": "discovered",
+      "title": "2025-02-26 Crazy story..."
+    },
+    "9248a8eb-c344-4f39-8ce7-991b3d23449a": {
+      "attempts": 0,
+      "date": "2025-07-11",
+      "first_seen": "2026-10-20T23:57:04.879519+00:00",
+      "id": "9248a8eb-c344-4f39-8ce7-991b3d23449a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9248a8eb-c344-4f39-8ce7-991b3d23449a/",
+      "status": "discovered",
+      "title": "2025-07-11 CHARGING INTO BATTLE"
+    },
+    "940b7617-aca9-4f71-88f6-f8cb38148ecf": {
+      "attempts": 0,
+      "date": "2025-05-06",
+      "first_seen": "2026-10-20T23:57:04.879565+00:00",
+      "id": "940b7617-aca9-4f71-88f6-f8cb38148ecf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/940b7617-aca9-4f71-88f6-f8cb38148ecf/",
+      "status": "discovered",
+      "title": "2025-05-06 RECAP & MORE"
+    },
+    "948c3a09-3f57-4dd1-ba7c-447cccbd57b9": {
+      "attempts": 0,
+      "date": "2026-08-10",
+      "first_seen": "2026-10-20T23:57:04.879222+00:00",
+      "id": "948c3a09-3f57-4dd1-ba7c-447cccbd57b9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/948c3a09-3f57-4dd1-ba7c-447cccbd57b9/",
+      "status": "discovered",
+      "title": "2026-08-10 Victory is ours, Allahu Akbar"
+    },
+    "95122277-194d-4d28-a67a-a8eaf1dc4d5b": {
+      "attempts": 0,
+      "date": "2026-02-02",
+      "first_seen": "2026-10-20T23:57:04.879357+00:00",
+      "id": "95122277-194d-4d28-a67a-a8eaf1dc4d5b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/95122277-194d-4d28-a67a-a8eaf1dc4d5b/",
+      "status": "discovered",
+      "title": "2026-02-02 EPSTEIN TRUTH | MAJOR UPDATES"
+    },
+    "9522afb1-e150-4a24-be71-8755ef6973fe": {
+      "attempts": 0,
+      "date": "2024-03-24",
+      "first_seen": "2026-10-20T23:57:04.879777+00:00",
+      "id": "9522afb1-e150-4a24-be71-8755ef6973fe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9522afb1-e150-4a24-be71-8755ef6973fe/",
+      "status": "discovered",
+      "title": "2024-03-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "96e22190-2dc5-45bd-8a96-0fa3465c83c2": {
+      "attempts": 0,
+      "date": "2024-09-09",
+      "first_seen": "2026-10-20T23:57:04.879682+00:00",
+      "id": "96e22190-2dc5-45bd-8a96-0fa3465c83c2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/96e22190-2dc5-45bd-8a96-0fa3465c83c2/",
+      "status": "discovered",
+      "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "9a193e58-82ba-40c7-b75d-ee13fd7717c5": {
+      "attempts": 0,
+      "date": "2026-03-21",
+      "first_seen": "2026-10-20T23:57:04.879312+00:00",
+      "id": "9a193e58-82ba-40c7-b75d-ee13fd7717c5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9a193e58-82ba-40c7-b75d-ee13fd7717c5/",
+      "status": "discovered",
+      "title": "2026-03-21 IRAN WINNING | DEBATE ME"
+    },
+    "9a2660d6-add0-43a2-a738-5151da9f7ab4": {
+      "attempts": 0,
+      "date": "2026-05-26",
+      "first_seen": "2026-10-20T23:57:04.879277+00:00",
+      "id": "9a2660d6-add0-43a2-a738-5151da9f7ab4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9a2660d6-add0-43a2-a738-5151da9f7ab4/",
+      "status": "discovered",
+      "title": "2026-05-26 ACP DOMINATING | PIKER UNDER ATTACK | DEBATES"
+    },
+    "9d9025a5-5e00-404f-9387-7163e63354a4": {
+      "attempts": 0,
+      "date": "2026-01-05",
+      "first_seen": "2026-10-20T23:57:04.879376+00:00",
+      "id": "9d9025a5-5e00-404f-9387-7163e63354a4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9d9025a5-5e00-404f-9387-7163e63354a4/",
+      "status": "discovered",
+      "title": "2026-01-05 VENEZUELA: TRUMP FAILS BIGTIME"
+    },
+    "9f2fb630-b57c-4c93-aa19-dbb825f9a3df": {
+      "attempts": 0,
+      "date": "2025-10-29",
+      "first_seen": "2026-10-20T23:57:04.879446+00:00",
+      "id": "9f2fb630-b57c-4c93-aa19-dbb825f9a3df",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9f2fb630-b57c-4c93-aa19-dbb825f9a3df/",
+      "status": "discovered",
+      "title": "2025-10-29 DRAGON AWAKENED"
+    },
+    "9fb28adf-8dc1-4f3e-b8cf-77d379dd6f6b": {
+      "attempts": 0,
+      "date": "2024-02-08",
+      "first_seen": "2026-10-20T23:57:04.879790+00:00",
+      "id": "9fb28adf-8dc1-4f3e-b8cf-77d379dd6f6b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9fb28adf-8dc1-4f3e-b8cf-77d379dd6f6b/",
+      "status": "discovered",
+      "title": "2024-02-08 \ud83d\udd34 RED PILL NEWS | TUCKER x PUTIN \ud83c\uddf5\ud83c\uddf8"
+    },
+    "a046025b-18b5-4306-8302-9a3aab2c703f": {
+      "attempts": 0,
+      "date": "2026-01-21",
+      "first_seen": "2026-10-20T23:57:04.879368+00:00",
+      "id": "a046025b-18b5-4306-8302-9a3aab2c703f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a046025b-18b5-4306-8302-9a3aab2c703f/",
+      "status": "discovered",
+      "title": "2026-01-21 GREENLAND | COOKING GROYPERS \ud83d\udd25 | ICE | IRAN UPDATES"
+    },
+    "a0bfa6af-e42c-4c62-b729-f260235fdd62": {
+      "attempts": 0,
+      "date": "2025-12-01",
+      "first_seen": "2026-10-20T23:57:04.879426+00:00",
+      "id": "a0bfa6af-e42c-4c62-b729-f260235fdd62",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a0bfa6af-e42c-4c62-b729-f260235fdd62/",
+      "status": "discovered",
+      "title": "2025-12-01 INVASION OF VENEZUALA HAPPENING NOW"
+    },
+    "a0e792cb-e2fb-4ff4-8f81-14a968359209": {
+      "attempts": 0,
+      "date": "2025-11-12",
+      "first_seen": "2026-10-20T23:57:04.879438+00:00",
+      "id": "a0e792cb-e2fb-4ff4-8f81-14a968359209",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a0e792cb-e2fb-4ff4-8f81-14a968359209/",
+      "status": "discovered",
+      "title": "2025-11-12 VIBE SHIFT + HASAN IN CHINA + CRAZY FED PLOT + ACP NEWS + MORE"
+    },
+    "a1074ddf-7f5a-45b0-a2d6-89da5c702d97": {
+      "attempts": 0,
+      "date": "2024-04-10",
+      "first_seen": "2026-10-20T23:57:04.879759+00:00",
+      "id": "a1074ddf-7f5a-45b0-a2d6-89da5c702d97",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a1074ddf-7f5a-45b0-a2d6-89da5c702d97/",
+      "status": "discovered",
+      "title": "2024-04-10 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "a23a7bee-eb4c-4223-ad0b-f1b87ff51a1a": {
+      "attempts": 0,
+      "date": "2024-04-28",
+      "first_seen": "2026-10-20T23:57:04.879748+00:00",
+      "id": "a23a7bee-eb4c-4223-ad0b-f1b87ff51a1a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a23a7bee-eb4c-4223-ad0b-f1b87ff51a1a/",
+      "status": "discovered",
+      "title": "2024-04-28 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "a3690d71-08cc-49a6-bee5-ba155a6617bd": {
+      "attempts": 0,
+      "date": "2024-11-22",
+      "first_seen": "2026-10-20T23:57:04.879643+00:00",
+      "id": "a3690d71-08cc-49a6-bee5-ba155a6617bd",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a3690d71-08cc-49a6-bee5-ba155a6617bd/",
+      "status": "discovered",
+      "title": "2024-11-22 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "a437c609-2373-479b-b540-46db6bb9bfe4": {
+      "attempts": 0,
+      "date": "2025-03-02",
+      "first_seen": "2026-10-20T23:57:04.879600+00:00",
+      "id": "a437c609-2373-479b-b540-46db6bb9bfe4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a437c609-2373-479b-b540-46db6bb9bfe4/",
+      "status": "discovered",
+      "title": "2025-03-02 Here's the truth"
+    },
+    "a54c9386-4da7-40c7-954c-5a7f40eb170b": {
+      "attempts": 0,
+      "date": "2026-05-20",
+      "first_seen": "2026-10-20T23:57:04.879282+00:00",
+      "id": "a54c9386-4da7-40c7-954c-5a7f40eb170b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a54c9386-4da7-40c7-954c-5a7f40eb170b/",
+      "status": "discovered",
+      "title": "2026-05-20 ACP WAR | THOMAS MASSIE LOSES + WHY | DEBATES"
+    },
+    "a601b723-98f3-45fc-95f1-e02bfa8fe42e": {
+      "attempts": 0,
+      "date": "2026-07-20",
+      "first_seen": "2026-10-20T23:57:04.879241+00:00",
+      "id": "a601b723-98f3-45fc-95f1-e02bfa8fe42e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a601b723-98f3-45fc-95f1-e02bfa8fe42e/",
+      "status": "discovered",
+      "title": "2026-07-20 SPAIN W, IRAN W, COMMUNISM W"
+    },
+    "a85ea7c1-d475-4142-984e-8c31c28b630e": {
+      "attempts": 0,
+      "date": "2024-08-22",
+      "first_seen": "2026-10-20T23:57:04.879692+00:00",
+      "id": "a85ea7c1-d475-4142-984e-8c31c28b630e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a85ea7c1-d475-4142-984e-8c31c28b630e/",
+      "status": "discovered",
+      "title": "2024-08-22 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "a94d9738-400d-438e-a5fc-b1302aaa3552": {
+      "attempts": 0,
+      "date": "2025-10-08",
+      "first_seen": "2026-10-20T23:57:04.879462+00:00",
+      "id": "a94d9738-400d-438e-a5fc-b1302aaa3552",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a94d9738-400d-438e-a5fc-b1302aaa3552/",
+      "status": "discovered",
+      "title": "2025-10-08 PROVEN RIGHT: ISRAEL DID IT!"
+    },
+    "a9985436-5c65-4121-93c6-d64d050e1c27": {
+      "attempts": 0,
+      "date": "2024-11-13",
+      "first_seen": "2026-10-20T23:57:04.879653+00:00",
+      "id": "a9985436-5c65-4121-93c6-d64d050e1c27",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a9985436-5c65-4121-93c6-d64d050e1c27/",
+      "status": "discovered",
+      "title": "2024-11-13 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "a9e0d8a0-25e0-4347-8c91-37e07194d71c": {
+      "attempts": 0,
+      "date": "2024-07-08",
+      "first_seen": "2026-10-20T23:57:04.879714+00:00",
+      "id": "a9e0d8a0-25e0-4347-8c91-37e07194d71c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a9e0d8a0-25e0-4347-8c91-37e07194d71c/",
+      "status": "discovered",
+      "title": "2024-07-08 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 |"
+    },
+    "aa1a9692-631d-413a-8d5e-3e1d083feb22": {
+      "attempts": 0,
+      "date": "2026-03-25",
+      "first_seen": "2026-10-20T23:57:04.879309+00:00",
+      "id": "aa1a9692-631d-413a-8d5e-3e1d083feb22",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/aa1a9692-631d-413a-8d5e-3e1d083feb22/",
+      "status": "discovered",
+      "title": "2026-03-25 US IRAN INVASION BEINGS | HEATED DEBATES!"
+    },
+    "ab3ede0b-b7dc-4edd-b768-2c005ee5f691": {
+      "attempts": 0,
+      "date": "2025-11-03",
+      "first_seen": "2026-10-20T23:57:04.879443+00:00",
+      "id": "ab3ede0b-b7dc-4edd-b768-2c005ee5f691",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ab3ede0b-b7dc-4edd-b768-2c005ee5f691/",
+      "status": "discovered",
+      "title": "2025-11-03 BOMBSHELL"
+    },
+    "ac7127be-c7ec-4048-a6af-946f6b7fce8c": {
+      "attempts": 0,
+      "date": "2025-10-09",
+      "first_seen": "2026-10-20T23:57:04.879460+00:00",
+      "id": "ac7127be-c7ec-4048-a6af-946f6b7fce8c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ac7127be-c7ec-4048-a6af-946f6b7fce8c/",
+      "status": "discovered",
+      "title": "2025-10-09 HOLY SH*T - BREAKING NEWS"
+    },
+    "acd9cb5e-8df6-4ef9-9a02-29a98461be48": {
+      "attempts": 0,
+      "date": "2025-09-15",
+      "first_seen": "2026-10-20T23:57:04.879474+00:00",
+      "id": "acd9cb5e-8df6-4ef9-9a02-29a98461be48",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/acd9cb5e-8df6-4ef9-9a02-29a98461be48/",
+      "status": "discovered",
+      "title": "2025-09-15 Who Killed Charlie Kirk?"
+    },
+    "acd9d2fc-065c-43ff-bb32-c34ebe37b7f6": {
+      "attempts": 0,
+      "date": "2026-06-12",
+      "first_seen": "2026-10-20T23:57:04.879267+00:00",
+      "id": "acd9d2fc-065c-43ff-bb32-c34ebe37b7f6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/acd9d2fc-065c-43ff-bb32-c34ebe37b7f6/",
+      "status": "discovered",
+      "title": "2026-06-12 ACP ON TOP"
+    },
+    "ad1f79f6-7bcd-4806-9fcb-969c8c770a08": {
+      "attempts": 0,
+      "date": "2026-08-21",
+      "first_seen": "2026-10-20T23:57:04.879213+00:00",
+      "id": "ad1f79f6-7bcd-4806-9fcb-969c8c770a08",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ad1f79f6-7bcd-4806-9fcb-969c8c770a08/",
+      "status": "discovered",
+      "title": "2026-08-21 You won't believe this."
+    },
+    "ad4069a6-4863-4285-8045-760554ca7cd3": {
+      "attempts": 0,
+      "date": "2025-01-16",
+      "first_seen": "2026-10-20T23:57:04.879623+00:00",
+      "id": "ad4069a6-4863-4285-8045-760554ca7cd3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ad4069a6-4863-4285-8045-760554ca7cd3/",
+      "status": "discovered",
+      "title": "2025-01-16 \ud83d\udd34 RED NEWS | PALESTINE CEASEFIRE?!! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "af481095-265a-48fd-a35d-ab4a2d1045b0": {
+      "attempts": 0,
+      "date": "2024-05-07",
+      "first_seen": "2026-10-20T23:57:04.879744+00:00",
+      "id": "af481095-265a-48fd-a35d-ab4a2d1045b0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/af481095-265a-48fd-a35d-ab4a2d1045b0/",
+      "status": "discovered",
+      "title": "2024-05-07 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "afef4b78-7652-4a16-a622-32d5c8ccb9e3": {
+      "attempts": 0,
+      "date": "2025-02-17",
+      "first_seen": "2026-10-20T23:57:04.879605+00:00",
+      "id": "afef4b78-7652-4a16-a622-32d5c8ccb9e3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/afef4b78-7652-4a16-a622-32d5c8ccb9e3/",
+      "status": "discovered",
+      "title": "2025-02-17 HEATED Political debate..."
+    },
+    "b0676b51-3987-42be-adeb-afec11d6729a": {
+      "attempts": 0,
+      "date": "2024-08-17",
+      "first_seen": "2026-10-20T23:57:04.879695+00:00",
+      "id": "b0676b51-3987-42be-adeb-afec11d6729a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b0676b51-3987-42be-adeb-afec11d6729a/",
+      "status": "discovered",
+      "title": "2024-08-17 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "b1316057-a1a8-4934-bb44-1d54422dd926": {
+      "attempts": 0,
+      "date": "2026-02-09",
+      "first_seen": "2026-10-20T23:57:04.879336+00:00",
+      "id": "b1316057-a1a8-4934-bb44-1d54422dd926",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b1316057-a1a8-4934-bb44-1d54422dd926/",
+      "status": "discovered",
+      "title": "2026-02-09 VICTORY | RISING POWER | HEATED DEBATES"
+    },
+    "b148c2f1-9543-49a5-94e2-315be9a38e09": {
+      "attempts": 0,
+      "date": "2023-10-25",
+      "first_seen": "2026-10-20T23:57:04.879852+00:00",
+      "id": "b148c2f1-9543-49a5-94e2-315be9a38e09",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b148c2f1-9543-49a5-94e2-315be9a38e09/",
+      "status": "discovered",
+      "title": "2023-10-25 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "b183be3f-7035-4b49-a50d-f8bdff715e7e": {
+      "attempts": 0,
+      "date": "2026-05-14",
+      "first_seen": "2026-10-20T23:57:04.879288+00:00",
+      "id": "b183be3f-7035-4b49-a50d-f8bdff715e7e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b183be3f-7035-4b49-a50d-f8bdff715e7e/",
+      "status": "discovered",
+      "title": "2026-05-14 ACP ON TOP | TRUMP IN CHINA | DEBATES"
+    },
+    "b1ac4ccd-9d88-4157-95c2-aaf1de8c1ed4": {
+      "attempts": 0,
+      "date": "2024-06-11",
+      "first_seen": "2026-10-20T23:57:04.879723+00:00",
+      "id": "b1ac4ccd-9d88-4157-95c2-aaf1de8c1ed4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b1ac4ccd-9d88-4157-95c2-aaf1de8c1ed4/",
+      "status": "discovered",
+      "title": "2024-06-11 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
+    },
+    "b2da819c-8e71-4dab-aabf-f6412dc56deb": {
+      "attempts": 0,
+      "date": "2023-11-21",
+      "first_seen": "2026-10-20T23:57:04.879831+00:00",
+      "id": "b2da819c-8e71-4dab-aabf-f6412dc56deb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b2da819c-8e71-4dab-aabf-f6412dc56deb/",
+      "status": "discovered",
+      "title": "2023-11-21 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "b2e02cb7-5f90-448f-9a6e-5b923d5dba6d": {
+      "attempts": 0,
+      "date": "2025-12-19",
+      "first_seen": "2026-10-20T23:57:04.879384+00:00",
+      "id": "b2e02cb7-5f90-448f-9a6e-5b923d5dba6d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b2e02cb7-5f90-448f-9a6e-5b923d5dba6d/",
+      "status": "discovered",
+      "title": "2025-12-19 HEATED DEBATE BATTLES"
+    },
+    "b40805c9-feaf-4ecf-be58-03add0b2393e": {
+      "attempts": 0,
+      "date": "2024-11-28",
+      "first_seen": "2026-10-20T23:57:04.879640+00:00",
+      "id": "b40805c9-feaf-4ecf-be58-03add0b2393e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b40805c9-feaf-4ecf-be58-03add0b2393e/",
+      "status": "discovered",
+      "title": "2024-11-28 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "b44aa1e0-392e-4571-99cd-e7f3202f393c": {
+      "attempts": 0,
+      "date": "2023-10-16",
+      "first_seen": "2026-10-20T23:57:04.879862+00:00",
+      "id": "b44aa1e0-392e-4571-99cd-e7f3202f393c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b44aa1e0-392e-4571-99cd-e7f3202f393c/",
+      "status": "discovered",
+      "title": "2023-10-16 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "b526b283-c991-407a-ad73-0b320cf32c2d": {
+      "attempts": 0,
+      "date": "2023-10-17",
+      "first_seen": "2026-10-20T23:57:04.879861+00:00",
+      "id": "b526b283-c991-407a-ad73-0b320cf32c2d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b526b283-c991-407a-ad73-0b320cf32c2d/",
+      "status": "discovered",
+      "title": "2023-10-17 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "b632b0d8-318d-4639-9709-31ee47ae5c06": {
+      "attempts": 0,
+      "date": "2025-07-21",
+      "first_seen": "2026-10-20T23:57:04.879508+00:00",
+      "id": "b632b0d8-318d-4639-9709-31ee47ae5c06",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b632b0d8-318d-4639-9709-31ee47ae5c06/",
+      "status": "discovered",
+      "title": "2025-07-21 IRL ACP STREAM"
+    },
+    "b68642ac-8c75-41e7-a39b-dcec6c73cb6c": {
+      "attempts": 0,
+      "date": "2024-10-17",
+      "first_seen": "2026-10-20T23:57:04.879669+00:00",
+      "id": "b68642ac-8c75-41e7-a39b-dcec6c73cb6c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b68642ac-8c75-41e7-a39b-dcec6c73cb6c/",
+      "status": "discovered",
+      "title": "2024-10-17 \ud83d\udd34 RED NEWS | ISRAEL IS GETTING DESTROYED | DEBATING LIBERAL | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "b6b05111-fa79-43b9-bf9d-48c096215146": {
+      "attempts": 0,
+      "date": "2025-09-05",
+      "first_seen": "2026-10-20T23:57:04.879482+00:00",
+      "id": "b6b05111-fa79-43b9-bf9d-48c096215146",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b6b05111-fa79-43b9-bf9d-48c096215146/",
+      "status": "discovered",
+      "title": "2025-09-05 MASSIVE DEBATE WAR"
+    },
+    "b752af18-058c-44f7-843e-cd5e524b1b09": {
+      "attempts": 0,
+      "date": "2024-11-12",
+      "first_seen": "2026-10-20T23:57:04.879655+00:00",
+      "id": "b752af18-058c-44f7-843e-cd5e524b1b09",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b752af18-058c-44f7-843e-cd5e524b1b09/",
+      "status": "discovered",
+      "title": "2024-11-12 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "b828b021-f1e2-4163-9019-5f27aefcb00a": {
+      "attempts": 0,
+      "date": "2024-10-30",
+      "first_seen": "2026-10-20T23:57:04.879665+00:00",
+      "id": "b828b021-f1e2-4163-9019-5f27aefcb00a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b828b021-f1e2-4163-9019-5f27aefcb00a/",
+      "status": "discovered",
+      "title": "2024-10-30 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "b98ce08f-7d9a-4a7e-97dd-1981fa2b29b5": {
+      "attempts": 0,
+      "date": "2023-11-07",
+      "first_seen": "2026-10-20T23:57:04.879841+00:00",
+      "id": "b98ce08f-7d9a-4a7e-97dd-1981fa2b29b5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b98ce08f-7d9a-4a7e-97dd-1981fa2b29b5/",
+      "status": "discovered",
+      "title": "2023-11-07 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "ba428f60-492c-4580-97e4-063cf833b893": {
+      "attempts": 0,
+      "date": "2024-01-28",
+      "first_seen": "2026-10-20T23:57:04.879795+00:00",
+      "id": "ba428f60-492c-4580-97e4-063cf833b893",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ba428f60-492c-4580-97e4-063cf833b893/",
+      "status": "discovered",
+      "title": "2024-01-28 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "ba48d60e-0eb7-4baa-9882-f6900fb521a3": {
+      "attempts": 0,
+      "date": "2026-08-06",
+      "first_seen": "2026-10-20T23:57:04.879226+00:00",
+      "id": "ba48d60e-0eb7-4baa-9882-f6900fb521a3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ba48d60e-0eb7-4baa-9882-f6900fb521a3/",
+      "status": "discovered",
+      "title": "2026-08-06 The time is now."
+    },
+    "ba91d6fe-fdf8-4e2f-a018-970ac61c931c": {
+      "attempts": 0,
+      "date": "2026-06-24",
+      "first_seen": "2026-10-20T23:57:04.879257+00:00",
+      "id": "ba91d6fe-fdf8-4e2f-a018-970ac61c931c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ba91d6fe-fdf8-4e2f-a018-970ac61c931c/",
+      "status": "discovered",
+      "title": "2026-06-24 COMMUNISM RISING"
+    },
+    "bbbc8120-f458-476c-b4d0-a097a620b3e4": {
+      "attempts": 0,
+      "date": "2023-11-04",
+      "first_seen": "2026-10-20T23:57:04.879844+00:00",
+      "id": "bbbc8120-f458-476c-b4d0-a097a620b3e4",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/bbbc8120-f458-476c-b4d0-a097a620b3e4/",
+      "status": "discovered",
+      "title": "2023-11-04 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "bc254742-1602-42e8-94ed-d3d452dc38e9": {
+      "attempts": 0,
+      "date": "2023-12-02",
+      "first_seen": "2026-10-20T23:57:04.879823+00:00",
+      "id": "bc254742-1602-42e8-94ed-d3d452dc38e9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/bc254742-1602-42e8-94ed-d3d452dc38e9/",
+      "status": "discovered",
+      "title": "2023-12-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "be192658-8b5b-4685-a3a7-20208338113d": {
+      "attempts": 0,
+      "date": "2026-09-02",
+      "first_seen": "2026-10-20T23:57:04.879208+00:00",
+      "id": "be192658-8b5b-4685-a3a7-20208338113d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/be192658-8b5b-4685-a3a7-20208338113d/",
+      "status": "discovered",
+      "title": "2026-09-02 You won't believe this."
+    },
+    "c1089d5c-403d-4ae7-930c-16e8943a12cc": {
+      "attempts": 0,
+      "date": "2026-01-09",
+      "first_seen": "2026-10-20T23:57:04.879375+00:00",
+      "id": "c1089d5c-403d-4ae7-930c-16e8943a12cc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c1089d5c-403d-4ae7-930c-16e8943a12cc/",
+      "status": "discovered",
+      "title": "2026-01-09 ICE PROTESTS"
+    },
+    "c16cee68-152c-463c-b1ea-0e05f935c85d": {
+      "attempts": 0,
+      "date": "2025-06-27",
+      "first_seen": "2026-10-20T23:57:04.879528+00:00",
+      "id": "c16cee68-152c-463c-b1ea-0e05f935c85d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c16cee68-152c-463c-b1ea-0e05f935c85d/",
+      "status": "discovered",
+      "title": "2025-06-27 EXPOSING DEMOCRAT SCAM MACHINE!"
+    },
+    "c1cec2f6-ecfa-475f-abaa-3ad12ef750da": {
+      "attempts": 0,
+      "date": "2023-11-18",
+      "first_seen": "2026-10-20T23:57:04.879833+00:00",
+      "id": "c1cec2f6-ecfa-475f-abaa-3ad12ef750da",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c1cec2f6-ecfa-475f-abaa-3ad12ef750da/",
+      "status": "discovered",
+      "title": "2023-11-18 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "c1e72606-0097-4288-94b5-457c48230f85": {
+      "attempts": 0,
+      "date": "2025-04-18",
+      "first_seen": "2026-10-20T23:57:04.879575+00:00",
+      "id": "c1e72606-0097-4288-94b5-457c48230f85",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c1e72606-0097-4288-94b5-457c48230f85/",
+      "status": "discovered",
+      "title": "2025-04-18 Political bloodsports"
+    },
+    "c2d4ee2e-c237-4210-9652-619bcb2a0b0a": {
+      "attempts": 0,
+      "date": "2023-11-06",
+      "first_seen": "2026-10-20T23:57:04.879843+00:00",
+      "id": "c2d4ee2e-c237-4210-9652-619bcb2a0b0a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c2d4ee2e-c237-4210-9652-619bcb2a0b0a/",
+      "status": "discovered",
+      "title": "2023-11-06 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "c3041118-984a-4306-80ad-e12bea395139": {
+      "attempts": 0,
+      "date": "2026-02-26",
+      "first_seen": "2026-10-20T23:57:04.879327+00:00",
+      "id": "c3041118-984a-4306-80ad-e12bea395139",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c3041118-984a-4306-80ad-e12bea395139/",
+      "status": "discovered",
+      "title": "2026-02-26 DOMINATION of ALL Enemies"
+    },
+    "c39c240a-e17c-4389-b2b8-1e845c724f34": {
+      "attempts": 0,
+      "date": "2024-04-22",
+      "first_seen": "2026-10-20T23:57:04.879752+00:00",
+      "id": "c39c240a-e17c-4389-b2b8-1e845c724f34",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c39c240a-e17c-4389-b2b8-1e845c724f34/",
+      "status": "discovered",
+      "title": "2024-04-22 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "c40870a4-f990-4e35-8ea5-9c2a5e8245a3": {
+      "attempts": 0,
+      "date": "2025-04-25",
+      "first_seen": "2026-10-20T23:57:04.879573+00:00",
+      "id": "c40870a4-f990-4e35-8ea5-9c2a5e8245a3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c40870a4-f990-4e35-8ea5-9c2a5e8245a3/",
+      "status": "discovered",
+      "title": "2025-04-25 Political bloodsports debate"
+    },
+    "c6c56887-bb39-404c-9499-f43a41220d4f": {
+      "attempts": 0,
+      "date": "2024-07-26",
+      "first_seen": "2026-10-20T23:57:04.879705+00:00",
+      "id": "c6c56887-bb39-404c-9499-f43a41220d4f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c6c56887-bb39-404c-9499-f43a41220d4f/",
+      "status": "discovered",
+      "title": "2024-07-26 \ud83d\udd34 THE AMERICAN COMMUNIST PARTY IS HERE"
+    },
+    "c79c2a28-1fa6-42be-be86-1c89d1010e1f": {
+      "attempts": 0,
+      "date": "2025-12-10",
+      "first_seen": "2026-10-20T23:57:04.879392+00:00",
+      "id": "c79c2a28-1fa6-42be-be86-1c89d1010e1f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c79c2a28-1fa6-42be-be86-1c89d1010e1f/",
+      "status": "discovered",
+      "title": "2025-12-10 GLORY IS OURS - ACP BIG WINNING"
+    },
+    "c85f8a1c-7cba-468d-be4a-1e2890cb225e": {
+      "attempts": 0,
+      "date": "2026-08-31",
+      "first_seen": "2026-10-20T23:57:04.879210+00:00",
+      "id": "c85f8a1c-7cba-468d-be4a-1e2890cb225e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c85f8a1c-7cba-468d-be4a-1e2890cb225e/",
+      "status": "discovered",
+      "title": "2026-08-31 You won't believe this."
+    },
+    "c8bd9daa-3531-4d0f-b7fe-ff8c58edb2e0": {
+      "attempts": 0,
+      "date": "2023-11-25",
+      "first_seen": "2026-10-20T23:57:04.879827+00:00",
+      "id": "c8bd9daa-3531-4d0f-b7fe-ff8c58edb2e0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c8bd9daa-3531-4d0f-b7fe-ff8c58edb2e0/",
+      "status": "discovered",
+      "title": "2023-11-25 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "c909c03d-1069-4640-bc4c-085d73f0228f": {
+      "attempts": 0,
+      "date": "2024-12-03",
+      "first_seen": "2026-10-20T23:57:04.879636+00:00",
+      "id": "c909c03d-1069-4640-bc4c-085d73f0228f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c909c03d-1069-4640-bc4c-085d73f0228f/",
+      "status": "discovered",
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "c93622ab-bea4-49cf-a380-44ec5c929b85": {
+      "attempts": 0,
+      "date": "2023-10-12",
+      "first_seen": "2026-10-20T23:57:04.879868+00:00",
+      "id": "c93622ab-bea4-49cf-a380-44ec5c929b85",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c93622ab-bea4-49cf-a380-44ec5c929b85/",
+      "status": "discovered",
+      "title": "2023-10-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "c95234f3-c643-4fae-91df-0c3c34601e9b": {
+      "attempts": 0,
+      "date": "2026-07-02",
+      "first_seen": "2026-10-20T23:57:04.879253+00:00",
+      "id": "c95234f3-c643-4fae-91df-0c3c34601e9b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c95234f3-c643-4fae-91df-0c3c34601e9b/",
+      "status": "discovered",
+      "title": "2026-07-02 ACP UNDER ATTACK!!!! | JIHAD"
+    },
+    "c9b49fc1-bac1-482e-b964-87bc27b61802": {
+      "attempts": 0,
+      "date": "2025-09-03",
+      "first_seen": "2026-10-20T23:57:04.879483+00:00",
+      "id": "c9b49fc1-bac1-482e-b964-87bc27b61802",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c9b49fc1-bac1-482e-b964-87bc27b61802/",
+      "status": "discovered",
+      "title": "2025-09-03 I WIN."
+    },
+    "ca8d9a19-6d19-4c6c-8c5d-7197a9b47c11": {
+      "attempts": 0,
+      "date": "2026-03-27",
+      "first_seen": "2026-10-20T23:57:04.879308+00:00",
+      "id": "ca8d9a19-6d19-4c6c-8c5d-7197a9b47c11",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ca8d9a19-6d19-4c6c-8c5d-7197a9b47c11/",
+      "status": "discovered",
+      "title": "2026-03-27 IRAN WAR UPDATES | INTENSE DEBATES"
+    },
+    "cab9eeea-58c6-41bf-ac3d-59b17ee2d6fe": {
+      "attempts": 0,
+      "date": "2025-01-07",
+      "first_seen": "2026-10-20T23:57:04.879627+00:00",
+      "id": "cab9eeea-58c6-41bf-ac3d-59b17ee2d6fe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cab9eeea-58c6-41bf-ac3d-59b17ee2d6fe/",
+      "status": "discovered",
+      "title": "2025-01-07 \ud83d\udd34 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "cbba7aeb-e0b4-41da-87d8-0c6d62d1f4e7": {
+      "attempts": 0,
+      "date": "2023-12-15",
+      "first_seen": "2026-10-20T23:57:04.879812+00:00",
+      "id": "cbba7aeb-e0b4-41da-87d8-0c6d62d1f4e7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cbba7aeb-e0b4-41da-87d8-0c6d62d1f4e7/",
+      "status": "discovered",
+      "title": "2023-12-15 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "cbc8905c-cb18-4d08-9c0b-81611388e7d8": {
+      "attempts": 0,
+      "date": "2024-03-29",
+      "first_seen": "2026-10-20T23:57:04.879773+00:00",
+      "id": "cbc8905c-cb18-4d08-9c0b-81611388e7d8",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cbc8905c-cb18-4d08-9c0b-81611388e7d8/",
+      "status": "discovered",
+      "title": "2024-03-29 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "ccd49dd8-1610-4b73-b9a1-f35ed922b139": {
+      "attempts": 0,
+      "date": "2026-07-08",
+      "first_seen": "2026-10-20T23:57:04.879251+00:00",
+      "id": "ccd49dd8-1610-4b73-b9a1-f35ed922b139",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ccd49dd8-1610-4b73-b9a1-f35ed922b139/",
+      "status": "discovered",
+      "title": "2026-07-08 COMMUNISM IS RISING"
+    },
+    "cdac014e-714a-4067-a20f-6b7f5fa89780": {
+      "attempts": 0,
+      "date": "2024-12-03",
+      "first_seen": "2026-10-20T23:57:04.879637+00:00",
+      "id": "cdac014e-714a-4067-a20f-6b7f5fa89780",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cdac014e-714a-4067-a20f-6b7f5fa89780/",
+      "status": "discovered",
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "ceac6b33-6fed-453f-90a6-b88b1c55d4da": {
+      "attempts": 0,
+      "date": "2026-07-24",
+      "first_seen": "2026-10-20T23:57:04.879237+00:00",
+      "id": "ceac6b33-6fed-453f-90a6-b88b1c55d4da",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ceac6b33-6fed-453f-90a6-b88b1c55d4da/",
+      "status": "discovered",
+      "title": "2026-07-24 COMMUNISM WINNING | ACP RISING"
+    },
+    "d0dc6344-d750-4899-bb1e-7b19a2250b4c": {
+      "attempts": 0,
+      "date": "2025-08-13",
+      "first_seen": "2026-10-20T23:57:04.879495+00:00",
+      "id": "d0dc6344-d750-4899-bb1e-7b19a2250b4c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d0dc6344-d750-4899-bb1e-7b19a2250b4c/",
+      "status": "discovered",
+      "title": "2025-08-13 IRAQ | NICK FUENTES v TUCKER | DSA CRINGE"
+    },
+    "d12ab561-28fe-47cc-b2a9-340c9dd80133": {
+      "attempts": 0,
+      "date": "2026-01-20",
+      "first_seen": "2026-10-20T23:57:04.879369+00:00",
+      "id": "d12ab561-28fe-47cc-b2a9-340c9dd80133",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d12ab561-28fe-47cc-b2a9-340c9dd80133/",
+      "status": "discovered",
+      "title": "2026-01-20 VICTORY | COOKING GROYPERS \ud83d\udd25 | ICE | IRAN WAR"
+    },
+    "d18dffec-1ea2-49b7-9e7e-cd45e9629700": {
+      "attempts": 0,
+      "date": "2026-01-20",
+      "first_seen": "2026-10-20T23:57:04.879371+00:00",
+      "id": "d18dffec-1ea2-49b7-9e7e-cd45e9629700",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d18dffec-1ea2-49b7-9e7e-cd45e9629700/",
+      "status": "discovered",
+      "title": "2026-01-20 VICTORY | COOKING GROYPERS \ud83d\udd25 | ICE | IRAN WAR"
+    },
+    "d1d6cf1b-49e1-4797-9b5f-d5938aba10a6": {
+      "attempts": 0,
+      "date": "2025-10-01",
+      "first_seen": "2026-10-20T23:57:04.879463+00:00",
+      "id": "d1d6cf1b-49e1-4797-9b5f-d5938aba10a6",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d1d6cf1b-49e1-4797-9b5f-d5938aba10a6/",
+      "status": "discovered",
+      "title": "2025-10-01 The OPS are RUNNING"
+    },
+    "d26107ed-f3cf-44c3-b9b6-cc2eee611042": {
+      "attempts": 0,
+      "date": "2024-05-04",
+      "first_seen": "2026-10-20T23:57:04.879747+00:00",
+      "id": "d26107ed-f3cf-44c3-b9b6-cc2eee611042",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d26107ed-f3cf-44c3-b9b6-cc2eee611042/",
+      "status": "discovered",
+      "title": "2024-05-04 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "d2d6c416-bda6-44b8-a12d-2b158747dead": {
+      "attempts": 0,
+      "date": "2026-04-23",
+      "first_seen": "2026-10-20T23:57:04.879293+00:00",
+      "id": "d2d6c416-bda6-44b8-a12d-2b158747dead",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d2d6c416-bda6-44b8-a12d-2b158747dead/",
+      "status": "discovered",
+      "title": "2026-04-23 VICTORY | LEBANON | MASSIVE DEBATES | MORE"
+    },
+    "d363709b-1c16-410e-9a93-60dd02fdf18c": {
+      "attempts": 0,
+      "date": "2025-05-14",
+      "first_seen": "2026-10-20T23:57:04.879560+00:00",
+      "id": "d363709b-1c16-410e-9a93-60dd02fdf18c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d363709b-1c16-410e-9a93-60dd02fdf18c/",
+      "status": "discovered",
+      "title": "2025-05-14 Groundbreaking."
+    },
+    "d363df77-0ee4-4719-9d01-957f604d92ad": {
+      "attempts": 0,
+      "date": "2024-12-15",
+      "first_seen": "2026-10-20T23:57:04.879628+00:00",
+      "id": "d363df77-0ee4-4719-9d01-957f604d92ad",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d363df77-0ee4-4719-9d01-957f604d92ad/",
+      "status": "discovered",
+      "title": "2024-12-15 \ud83d\udd34 RED NEWS | SYRIA HAS FALLEN | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "d393c2f1-835a-43ec-999f-104884dff00b": {
+      "attempts": 0,
+      "date": "2025-07-20",
+      "first_seen": "2026-10-20T23:57:04.879512+00:00",
+      "id": "d393c2f1-835a-43ec-999f-104884dff00b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d393c2f1-835a-43ec-999f-104884dff00b/",
+      "status": "discovered",
+      "title": "2025-07-20 SOLDIERS REPORT FOR DUTY"
+    },
+    "d7269efb-7696-4ac4-b78d-ad1015aa8cdf": {
+      "attempts": 0,
+      "date": "2024-04-19",
+      "first_seen": "2026-10-20T23:57:04.879753+00:00",
+      "id": "d7269efb-7696-4ac4-b78d-ad1015aa8cdf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d7269efb-7696-4ac4-b78d-ad1015aa8cdf/",
+      "status": "discovered",
+      "title": "2024-04-19 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "d83f4d1c-050f-4b81-bb1b-7b8420326aad": {
+      "attempts": 0,
+      "date": "2025-01-31",
+      "first_seen": "2026-10-20T23:57:04.879611+00:00",
+      "id": "d83f4d1c-050f-4b81-bb1b-7b8420326aad",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d83f4d1c-050f-4b81-bb1b-7b8420326aad/",
+      "status": "discovered",
+      "title": "2025-01-31 Confronting the enemy..."
+    },
+    "d84a0e0b-bcfb-46e4-82c4-c733053bad11": {
+      "attempts": 0,
+      "date": "2025-01-24",
+      "first_seen": "2026-10-20T23:57:04.879616+00:00",
+      "id": "d84a0e0b-bcfb-46e4-82c4-c733053bad11",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d84a0e0b-bcfb-46e4-82c4-c733053bad11/",
+      "status": "discovered",
+      "title": "2025-01-24 Confronting the enemy..."
+    },
+    "d8cd2558-e8e3-4b51-8c49-38e3b8efee0b": {
+      "attempts": 0,
+      "date": "2025-11-29",
+      "first_seen": "2026-10-20T23:57:04.879427+00:00",
+      "id": "d8cd2558-e8e3-4b51-8c49-38e3b8efee0b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d8cd2558-e8e3-4b51-8c49-38e3b8efee0b/",
+      "status": "discovered",
+      "title": "2025-11-29 DOMINATION (I WIN, REDDIT)"
+    },
+    "d926a308-98c3-41a5-808f-03058f72e996": {
+      "attempts": 0,
+      "date": "2023-12-30",
+      "first_seen": "2026-10-20T23:57:04.879801+00:00",
+      "id": "d926a308-98c3-41a5-808f-03058f72e996",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d926a308-98c3-41a5-808f-03058f72e996/",
+      "status": "discovered",
+      "title": "2023-12-30 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "d96e2155-2f2e-4f00-b00f-c083f53eff7b": {
+      "attempts": 0,
+      "date": "2024-05-06",
+      "first_seen": "2026-10-20T23:57:04.879745+00:00",
+      "id": "d96e2155-2f2e-4f00-b00f-c083f53eff7b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d96e2155-2f2e-4f00-b00f-c083f53eff7b/",
+      "status": "discovered",
+      "title": "2024-05-06 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
+    },
+    "d9aa75be-8ef3-471f-bb42-f6b273f106cd": {
+      "attempts": 0,
+      "date": "2024-07-24",
+      "first_seen": "2026-10-20T23:57:04.879708+00:00",
+      "id": "d9aa75be-8ef3-471f-bb42-f6b273f106cd",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d9aa75be-8ef3-471f-bb42-f6b273f106cd/",
+      "status": "discovered",
+      "title": "2024-07-24 \ud83d\udd34 THE AMERICAN COMMUNIST PARTY IS HERE"
+    },
+    "da7b7d01-3d2a-449f-a380-3c01353acb63": {
+      "attempts": 0,
+      "date": "2026-02-21",
+      "first_seen": "2026-10-20T23:57:04.879330+00:00",
+      "id": "da7b7d01-3d2a-449f-a380-3c01353acb63",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/da7b7d01-3d2a-449f-a380-3c01353acb63/",
+      "status": "discovered",
+      "title": "2026-02-21 LIVE FROM MOSCOW MOGGING"
+    },
+    "db1071a6-24b5-43cc-89ad-fede65b2045b": {
+      "attempts": 0,
+      "date": "2026-06-19",
+      "first_seen": "2026-10-20T23:57:04.879263+00:00",
+      "id": "db1071a6-24b5-43cc-89ad-fede65b2045b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/db1071a6-24b5-43cc-89ad-fede65b2045b/",
+      "status": "discovered",
+      "title": "2026-06-19 TOTAL IRAN VICTORY | MASSIVE DRAMA | POLITICS DEBATES"
+    },
+    "db5196ff-3f00-4e32-896e-0e627d76ffc0": {
+      "attempts": 0,
+      "date": "2025-07-10",
+      "first_seen": "2026-10-20T23:57:04.879522+00:00",
+      "id": "db5196ff-3f00-4e32-896e-0e627d76ffc0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/db5196ff-3f00-4e32-896e-0e627d76ffc0/",
+      "status": "discovered",
+      "title": "2025-07-10 MAJOR UPDATES"
+    },
+    "db882ba6-daa6-42b8-b5d8-850560ef19e2": {
+      "attempts": 0,
+      "date": "2025-11-05",
+      "first_seen": "2026-10-20T23:57:04.879441+00:00",
+      "id": "db882ba6-daa6-42b8-b5d8-850560ef19e2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/db882ba6-daa6-42b8-b5d8-850560ef19e2/",
+      "status": "discovered",
+      "title": "2025-11-05 WE UP"
+    },
+    "dc6964e8-16d8-4297-8e2f-0c6171ea2bf3": {
+      "attempts": 0,
+      "date": "2025-07-31",
+      "first_seen": "2026-10-20T23:57:04.879498+00:00",
+      "id": "dc6964e8-16d8-4297-8e2f-0c6171ea2bf3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/dc6964e8-16d8-4297-8e2f-0c6171ea2bf3/",
+      "status": "discovered",
+      "title": "2025-07-31 The real truth"
+    },
+    "dc7b195d-9403-444e-82bb-1b87a9eb4bdd": {
+      "attempts": 0,
+      "date": "2026-02-11",
+      "first_seen": "2026-10-20T23:57:04.879334+00:00",
+      "id": "dc7b195d-9403-444e-82bb-1b87a9eb4bdd",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/dc7b195d-9403-444e-82bb-1b87a9eb4bdd/",
+      "status": "discovered",
+      "title": "2026-02-11 TOTAL DOMINATION | MAJOR UPDATES"
+    },
+    "dd8e9248-05ea-412f-8b04-447ee8220bc3": {
+      "attempts": 0,
+      "date": "2025-09-09",
+      "first_seen": "2026-10-20T23:57:04.879479+00:00",
+      "id": "dd8e9248-05ea-412f-8b04-447ee8220bc3",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/dd8e9248-05ea-412f-8b04-447ee8220bc3/",
+      "status": "discovered",
+      "title": "2025-09-09 IRL COLLEGE DEBATES \ud83d\udd25"
+    },
+    "ddc623f7-7c9f-4d95-94fd-3f5e2c7ca1c5": {
+      "attempts": 0,
+      "date": "2025-01-20",
+      "first_seen": "2026-10-20T23:57:04.879619+00:00",
+      "id": "ddc623f7-7c9f-4d95-94fd-3f5e2c7ca1c5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ddc623f7-7c9f-4d95-94fd-3f5e2c7ca1c5/",
+      "status": "discovered",
+      "title": "2025-01-20 What's next..."
+    },
+    "e03e2aec-16a5-4109-889d-a06712c461a0": {
+      "attempts": 0,
+      "date": "2023-12-05",
+      "first_seen": "2026-10-20T23:57:04.879819+00:00",
+      "id": "e03e2aec-16a5-4109-889d-a06712c461a0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e03e2aec-16a5-4109-889d-a06712c461a0/",
+      "status": "discovered",
+      "title": "2023-12-05 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "e16bd305-6ef9-44a5-b08b-1f0b4b073d60": {
+      "attempts": 0,
+      "date": "2025-11-10",
+      "first_seen": "2026-10-20T23:57:04.879440+00:00",
+      "id": "e16bd305-6ef9-44a5-b08b-1f0b4b073d60",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e16bd305-6ef9-44a5-b08b-1f0b4b073d60/",
+      "status": "discovered",
+      "title": "2025-11-10 ZOHRAN MAMDANI"
+    },
+    "e1f4fb52-60a3-4f89-8048-9d316730d5e5": {
+      "attempts": 0,
+      "date": "2024-03-15",
+      "first_seen": "2026-10-20T23:57:04.879780+00:00",
+      "id": "e1f4fb52-60a3-4f89-8048-9d316730d5e5",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e1f4fb52-60a3-4f89-8048-9d316730d5e5/",
+      "status": "discovered",
+      "title": "2024-03-15 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "e23f3ef9-12e3-4fef-9197-1b3152fc51eb": {
+      "attempts": 0,
+      "date": "2026-03-30",
+      "first_seen": "2026-10-20T23:57:04.879306+00:00",
+      "id": "e23f3ef9-12e3-4fef-9197-1b3152fc51eb",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e23f3ef9-12e3-4fef-9197-1b3152fc51eb/",
+      "status": "discovered",
+      "title": "2026-03-30 ISR*EL LOSING | IRAN INVASION | NO KINGS"
+    },
+    "e4ec0eb0-1a24-4ca0-b7ec-c79e3019bd0a": {
+      "attempts": 0,
+      "date": "2025-06-13",
+      "first_seen": "2026-10-20T23:57:04.879537+00:00",
+      "id": "e4ec0eb0-1a24-4ca0-b7ec-c79e3019bd0a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e4ec0eb0-1a24-4ca0-b7ec-c79e3019bd0a/",
+      "status": "discovered",
+      "title": "2025-06-13 \ud83d\udea8IRAN UNDER ATTACK - WW3?!!"
+    },
+    "e4ec55d6-85c0-4d92-8d24-a8b20d4c1542": {
+      "attempts": 0,
+      "date": "2023-11-24",
+      "first_seen": "2026-10-20T23:57:04.879828+00:00",
+      "id": "e4ec55d6-85c0-4d92-8d24-a8b20d4c1542",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e4ec55d6-85c0-4d92-8d24-a8b20d4c1542/",
+      "status": "discovered",
+      "title": "2023-11-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "e602f81b-dd17-4f1e-9d7b-48c56d938a76": {
+      "attempts": 0,
+      "date": "2024-01-06",
+      "first_seen": "2026-10-20T23:57:04.879798+00:00",
+      "id": "e602f81b-dd17-4f1e-9d7b-48c56d938a76",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e602f81b-dd17-4f1e-9d7b-48c56d938a76/",
+      "status": "discovered",
+      "title": "2024-01-06 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "e736c7f1-2f52-4c9c-84fd-90b5ac1335b2": {
+      "attempts": 0,
+      "date": "2023-10-10",
+      "first_seen": "2026-10-20T23:57:04.879871+00:00",
+      "id": "e736c7f1-2f52-4c9c-84fd-90b5ac1335b2",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e736c7f1-2f52-4c9c-84fd-90b5ac1335b2/",
+      "status": "discovered",
+      "title": "2023-10-10 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "e9083de8-8ac2-4892-a322-f18509b62832": {
+      "attempts": 0,
+      "date": "2026-07-10",
+      "first_seen": "2026-10-20T23:57:04.879247+00:00",
+      "id": "e9083de8-8ac2-4892-a322-f18509b62832",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e9083de8-8ac2-4892-a322-f18509b62832/",
+      "status": "discovered",
+      "title": "2026-07-10 COMMUNISM WINNING"
+    },
+    "e9633f71-15ef-4d96-a417-6e6e8d04c4f9": {
+      "attempts": 0,
+      "date": "2025-10-27",
+      "first_seen": "2026-10-20T23:57:04.879448+00:00",
+      "id": "e9633f71-15ef-4d96-a417-6e6e8d04c4f9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e9633f71-15ef-4d96-a417-6e6e8d04c4f9/",
+      "status": "discovered",
+      "title": "2025-10-27 ITS HAPPENING!"
+    },
+    "ea89af36-b19c-4008-8f61-35191660d64e": {
+      "attempts": 0,
+      "date": "2026-07-29",
+      "first_seen": "2026-10-20T23:57:04.879232+00:00",
+      "id": "ea89af36-b19c-4008-8f61-35191660d64e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ea89af36-b19c-4008-8f61-35191660d64e/",
+      "status": "discovered",
+      "title": "2026-07-29 COMMUNISM WINNING | INFRAWOKE"
+    },
+    "eaed4796-b36e-4531-8d19-63b1d2b1e13f": {
+      "attempts": 0,
+      "date": "2025-09-17",
+      "first_seen": "2026-10-20T23:57:04.879472+00:00",
+      "id": "eaed4796-b36e-4531-8d19-63b1d2b1e13f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/eaed4796-b36e-4531-8d19-63b1d2b1e13f/",
+      "status": "discovered",
+      "title": "2025-09-17 Nick Fuentes Lost the Plot & Broken"
+    },
+    "ebaacde6-3ace-451b-b017-05bc67fd32b9": {
+      "attempts": 0,
+      "date": "2026-07-29",
+      "first_seen": "2026-10-20T23:57:04.879234+00:00",
+      "id": "ebaacde6-3ace-451b-b017-05bc67fd32b9",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ebaacde6-3ace-451b-b017-05bc67fd32b9/",
+      "status": "discovered",
+      "title": "2026-07-29 COMMUNISM WINNING | INFRAWOKE"
+    },
+    "ebab802d-96d7-4c9b-b8a1-8de00e630d7f": {
+      "attempts": 0,
+      "date": "2026-08-18",
+      "first_seen": "2026-10-20T23:57:04.879216+00:00",
+      "id": "ebab802d-96d7-4c9b-b8a1-8de00e630d7f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ebab802d-96d7-4c9b-b8a1-8de00e630d7f/",
+      "status": "discovered",
+      "title": "2026-08-18 Don't lose hope."
+    },
+    "ebcce1ce-8193-4906-b8d3-4b38f3ccb056": {
+      "attempts": 0,
+      "date": "2026-02-06",
+      "first_seen": "2026-10-20T23:57:04.879337+00:00",
+      "id": "ebcce1ce-8193-4906-b8d3-4b38f3ccb056",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ebcce1ce-8193-4906-b8d3-4b38f3ccb056/",
+      "status": "discovered",
+      "title": "2026-02-06 HEATED DEBATES | \ud83d\udd25 COOKING GROYPERS \ud83d\udd25 | LEFT vs. RIGHT"
+    },
+    "ec232361-856b-4291-9f4b-9fb5a765a7ed": {
+      "attempts": 0,
+      "date": "2024-09-09",
+      "first_seen": "2026-10-20T23:57:04.879683+00:00",
+      "id": "ec232361-856b-4291-9f4b-9fb5a765a7ed",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ec232361-856b-4291-9f4b-9fb5a765a7ed/",
+      "status": "discovered",
+      "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "ec3656b6-862a-44c6-a17e-288387f9662e": {
+      "attempts": 0,
+      "date": "2026-03-13",
+      "first_seen": "2026-10-20T23:57:04.879317+00:00",
+      "id": "ec3656b6-862a-44c6-a17e-288387f9662e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ec3656b6-862a-44c6-a17e-288387f9662e/",
+      "status": "discovered",
+      "title": "2026-03-13 IRAN: NO SURRENDER | HEATED DEBATES"
+    },
+    "ecbbb7b6-31bd-488e-a7dc-7c7a2b5a1c6d": {
+      "attempts": 0,
+      "date": "2025-12-24",
+      "first_seen": "2026-10-20T23:57:04.879381+00:00",
+      "id": "ecbbb7b6-31bd-488e-a7dc-7c7a2b5a1c6d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ecbbb7b6-31bd-488e-a7dc-7c7a2b5a1c6d/",
+      "status": "discovered",
+      "title": "2025-12-24 DOGWALKING ALL ENEMIES"
+    },
+    "ed3d4301-1fad-4679-ab6d-0b006f2a18c1": {
+      "attempts": 0,
+      "date": "2026-02-25",
+      "first_seen": "2026-10-20T23:57:04.879328+00:00",
+      "id": "ed3d4301-1fad-4679-ab6d-0b006f2a18c1",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ed3d4301-1fad-4679-ab6d-0b006f2a18c1/",
+      "status": "discovered",
+      "title": "2026-02-25 WE ARE BACK | BIG NEWS | TRUMP STATE OF THE UNION"
+    },
+    "edddce63-10e2-4a5a-90b5-ef32dd74c09e": {
+      "attempts": 0,
+      "date": "2023-10-13",
+      "first_seen": "2026-10-20T23:57:04.879867+00:00",
+      "id": "edddce63-10e2-4a5a-90b5-ef32dd74c09e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/edddce63-10e2-4a5a-90b5-ef32dd74c09e/",
+      "status": "discovered",
+      "title": "2023-10-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "ef135d74-fffc-418c-ac5b-9ee3dc37e8df": {
+      "attempts": 0,
+      "date": "2025-04-09",
+      "first_seen": "2026-10-20T23:57:04.879580+00:00",
+      "id": "ef135d74-fffc-418c-ac5b-9ee3dc37e8df",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ef135d74-fffc-418c-ac5b-9ee3dc37e8df/",
+      "status": "discovered",
+      "title": "2025-04-09 POLITICS DEBATE BLOODSPORTS"
+    },
+    "efe82ca0-7f6a-4bc3-84a0-5fcc00a4637a": {
+      "attempts": 0,
+      "date": "2026-08-07",
+      "first_seen": "2026-10-20T23:57:04.879224+00:00",
+      "id": "efe82ca0-7f6a-4bc3-84a0-5fcc00a4637a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/efe82ca0-7f6a-4bc3-84a0-5fcc00a4637a/",
+      "status": "discovered",
+      "title": "2026-08-07 Something is happening."
+    },
+    "f08ec0db-f133-4a25-a90e-5b8a17ee380b": {
+      "attempts": 0,
+      "date": "2025-06-13",
+      "first_seen": "2026-10-20T23:57:04.879539+00:00",
+      "id": "f08ec0db-f133-4a25-a90e-5b8a17ee380b",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f08ec0db-f133-4a25-a90e-5b8a17ee380b/",
+      "status": "discovered",
+      "title": "2025-06-13 \ud83d\udea8IRAN UNDER ATTACK - WW3?!!"
+    },
+    "f2745ed7-e09b-4762-b44e-c656fb85d7fe": {
+      "attempts": 0,
+      "date": "2026-08-24",
+      "first_seen": "2026-10-20T23:57:04.879212+00:00",
+      "id": "f2745ed7-e09b-4762-b44e-c656fb85d7fe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f2745ed7-e09b-4762-b44e-c656fb85d7fe/",
+      "status": "discovered",
+      "title": "2026-08-24 Shit just got real."
+    },
+    "f2f8ff00-bc15-4bab-8fd8-96fc3f215858": {
+      "attempts": 0,
+      "date": "2025-06-16",
+      "first_seen": "2026-10-20T23:57:04.879536+00:00",
+      "id": "f2f8ff00-bc15-4bab-8fd8-96fc3f215858",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f2f8ff00-bc15-4bab-8fd8-96fc3f215858/",
+      "status": "discovered",
+      "title": "2025-06-16 IRAN WAR - WHAT COMES NEXT"
+    },
+    "f36895e1-1430-4501-b924-220ce509f680": {
+      "attempts": 0,
+      "date": "2024-06-08",
+      "first_seen": "2026-10-20T23:57:04.879724+00:00",
+      "id": "f36895e1-1430-4501-b924-220ce509f680",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f36895e1-1430-4501-b924-220ce509f680/",
+      "status": "discovered",
+      "title": "2024-06-08 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
+    },
+    "f3d05425-d33a-4285-ac98-0ab03715102d": {
+      "attempts": 0,
+      "date": "2024-06-17",
+      "first_seen": "2026-10-20T23:57:04.879721+00:00",
+      "id": "f3d05425-d33a-4285-ac98-0ab03715102d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f3d05425-d33a-4285-ac98-0ab03715102d/",
+      "status": "discovered",
+      "title": "2024-06-17 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
+    },
+    "f4e2598f-2c22-42e6-ba52-5420ef6f6159": {
+      "attempts": 0,
+      "date": "2025-05-23",
+      "first_seen": "2026-10-20T23:57:04.879554+00:00",
+      "id": "f4e2598f-2c22-42e6-ba52-5420ef6f6159",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f4e2598f-2c22-42e6-ba52-5420ef6f6159/",
+      "status": "discovered",
+      "title": "2025-05-23 DEBATE BLOODSPORTS"
+    },
+    "f512e534-0936-4e1c-8dd1-04e7f4fc9c91": {
+      "attempts": 0,
+      "date": "2024-11-15",
+      "first_seen": "2026-10-20T23:57:04.879646+00:00",
+      "id": "f512e534-0936-4e1c-8dd1-04e7f4fc9c91",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f512e534-0936-4e1c-8dd1-04e7f4fc9c91/",
+      "status": "discovered",
+      "title": "2024-11-15 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "f5b75a5a-df4e-4b36-8449-059b6f4b4806": {
+      "attempts": 0,
+      "date": "2025-01-22",
+      "first_seen": "2026-10-20T23:57:04.879617+00:00",
+      "id": "f5b75a5a-df4e-4b36-8449-059b6f4b4806",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f5b75a5a-df4e-4b36-8449-059b6f4b4806/",
+      "status": "discovered",
+      "title": "2025-01-22 We're going to war"
+    },
+    "f7f81a97-1007-4359-9e8e-0310992983fa": {
+      "attempts": 0,
+      "date": "2025-03-20",
+      "first_seen": "2026-10-20T23:57:04.879592+00:00",
+      "id": "f7f81a97-1007-4359-9e8e-0310992983fa",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f7f81a97-1007-4359-9e8e-0310992983fa/",
+      "status": "discovered",
+      "title": "2025-03-20 Heated political debate"
+    },
+    "f8039275-ec0b-46f2-b80f-bbc3c96826c0": {
+      "attempts": 0,
+      "date": "2024-01-11",
+      "first_seen": "2026-10-20T23:57:04.879797+00:00",
+      "id": "f8039275-ec0b-46f2-b80f-bbc3c96826c0",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f8039275-ec0b-46f2-b80f-bbc3c96826c0/",
+      "status": "discovered",
+      "title": "2024-01-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "f88e8e62-186f-4817-96f6-18843315aa79": {
+      "attempts": 0,
+      "date": "2026-08-14",
+      "first_seen": "2026-10-20T23:57:04.879218+00:00",
+      "id": "f88e8e62-186f-4817-96f6-18843315aa79",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f88e8e62-186f-4817-96f6-18843315aa79/",
+      "status": "discovered",
+      "title": "2026-08-14 It finally happened."
+    },
+    "f9199805-4d6f-4cd3-9677-64ab267bbdbe": {
+      "attempts": 0,
+      "date": "2025-06-04",
+      "first_seen": "2026-10-20T23:57:04.879548+00:00",
+      "id": "f9199805-4d6f-4cd3-9677-64ab267bbdbe",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f9199805-4d6f-4cd3-9677-64ab267bbdbe/",
+      "status": "discovered",
+      "title": "2025-06-04 MASSIVE Developments"
+    },
+    "f955b25d-dc1a-458e-9702-0dcf2cd17bc7": {
+      "attempts": 0,
+      "date": "2024-11-17",
+      "first_seen": "2026-10-20T23:57:04.879645+00:00",
+      "id": "f955b25d-dc1a-458e-9702-0dcf2cd17bc7",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f955b25d-dc1a-458e-9702-0dcf2cd17bc7/",
+      "status": "discovered",
+      "title": "2024-11-17 \ud83d\udd34 RED NEWS | DEBATING NEON*ZI | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "f9a6048d-51f2-4c52-a17e-5c562d068820": {
+      "attempts": 0,
+      "date": "2026-03-22",
+      "first_seen": "2026-10-20T23:57:04.879311+00:00",
+      "id": "f9a6048d-51f2-4c52-a17e-5c562d068820",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f9a6048d-51f2-4c52-a17e-5c562d068820/",
+      "status": "discovered",
+      "title": "2026-03-22 IRAN WINNING! | DEFEATING ALL ENEMIES"
+    },
+    "fac9a5c8-7ef1-4dfe-b038-3aca2a6169cf": {
+      "attempts": 0,
+      "date": "2025-11-21",
+      "first_seen": "2026-10-20T23:57:04.879432+00:00",
+      "id": "fac9a5c8-7ef1-4dfe-b038-3aca2a6169cf",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fac9a5c8-7ef1-4dfe-b038-3aca2a6169cf/",
+      "status": "discovered",
+      "title": "2025-11-21 MASSIVE BATTLE | INTENSE DEBATES"
+    },
+    "fb3939d1-3450-4074-97fb-cac01d83f615": {
+      "attempts": 0,
+      "date": "2024-12-03",
+      "first_seen": "2026-10-20T23:57:04.879638+00:00",
+      "id": "fb3939d1-3450-4074-97fb-cac01d83f615",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fb3939d1-3450-4074-97fb-cac01d83f615/",
+      "status": "discovered",
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "fbd0cf26-68e0-4fcb-a897-7796dfeed23f": {
+      "attempts": 0,
+      "date": "2025-09-26",
+      "first_seen": "2026-10-20T23:57:04.879466+00:00",
+      "id": "fbd0cf26-68e0-4fcb-a897-7796dfeed23f",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fbd0cf26-68e0-4fcb-a897-7796dfeed23f/",
+      "status": "discovered",
+      "title": "2025-09-26 UNLIMITED WARFARE"
+    },
+    "fcb122f0-5342-4c4f-bfbc-695e6145de35": {
+      "attempts": 0,
+      "date": "2024-04-01",
+      "first_seen": "2026-10-20T23:57:04.879766+00:00",
+      "id": "fcb122f0-5342-4c4f-bfbc-695e6145de35",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fcb122f0-5342-4c4f-bfbc-695e6145de35/",
+      "status": "discovered",
+      "title": "2024-04-01 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "fcb2dbf5-38f3-40ae-8cce-a90949beca2e": {
+      "attempts": 0,
+      "date": "2023-10-15",
+      "first_seen": "2026-10-20T23:57:04.879863+00:00",
+      "id": "fcb2dbf5-38f3-40ae-8cce-a90949beca2e",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fcb2dbf5-38f3-40ae-8cce-a90949beca2e/",
+      "status": "discovered",
+      "title": "2023-10-15 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "fd010a84-2b39-424f-8826-dda5d1f6760c": {
+      "attempts": 0,
+      "date": "2023-12-18",
+      "first_seen": "2026-10-20T23:57:04.879809+00:00",
+      "id": "fd010a84-2b39-424f-8826-dda5d1f6760c",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fd010a84-2b39-424f-8826-dda5d1f6760c/",
+      "status": "discovered",
+      "title": "2023-12-18 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
+    },
+    "fd1f0682-f404-4e7e-8976-3e330fd449bc": {
+      "attempts": 0,
+      "date": "2025-05-16",
+      "first_seen": "2026-10-20T23:57:04.879559+00:00",
+      "id": "fd1f0682-f404-4e7e-8976-3e330fd449bc",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fd1f0682-f404-4e7e-8976-3e330fd449bc/",
+      "status": "discovered",
+      "title": "2025-05-16 DEBATE BLOODSPORTS"
+    },
+    "fd29fdb6-5247-4098-b0b7-c959a2a22b52": {
+      "attempts": 0,
+      "date": "2025-10-10",
+      "first_seen": "2026-10-20T23:57:04.879458+00:00",
+      "id": "fd29fdb6-5247-4098-b0b7-c959a2a22b52",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fd29fdb6-5247-4098-b0b7-c959a2a22b52/",
+      "status": "discovered",
+      "title": "2025-10-10 WARFARE"
+    },
+    "fd65cc50-b342-456f-ac30-cae21d4ee70d": {
+      "attempts": 0,
+      "date": "2024-09-23",
+      "first_seen": "2026-10-20T23:57:04.879672+00:00",
+      "id": "fd65cc50-b342-456f-ac30-cae21d4ee70d",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fd65cc50-b342-456f-ac30-cae21d4ee70d/",
+      "status": "discovered",
+      "title": "2024-09-23 \ud83d\udd34 RED NEWS | CNN HIT PIECE| AMERICAN COMMUNIST PARTY UPDATESH"
+    },
+    "fe0274df-4699-4173-b521-1ddf6a6feb1a": {
+      "attempts": 0,
+      "date": "2025-08-27",
+      "first_seen": "2026-10-20T23:57:04.879486+00:00",
+      "id": "fe0274df-4699-4173-b521-1ddf6a6feb1a",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fe0274df-4699-4173-b521-1ddf6a6feb1a/",
+      "status": "discovered",
+      "title": "2025-08-27 2025 HYPERWAR"
+    },
+    "fe62c0a0-d71f-47e4-9c1d-5b4676462eba": {
+      "attempts": 0,
+      "date": "2026-04-01",
+      "first_seen": "2026-10-20T23:57:04.879302+00:00",
+      "id": "fe62c0a0-d71f-47e4-9c1d-5b4676462eba",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fe62c0a0-d71f-47e4-9c1d-5b4676462eba/",
+      "status": "discovered",
+      "title": "2026-04-01 IRAN WON | NO KINGS CRINGE | DEBATES"
+    },
+    "fef424ac-fa44-4a25-85f4-cfbbdf8f8160": {
+      "attempts": 0,
+      "date": "2024-12-07",
+      "first_seen": "2026-10-20T23:57:04.879631+00:00",
+      "id": "fef424ac-fa44-4a25-85f4-cfbbdf8f8160",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fef424ac-fa44-4a25-85f4-cfbbdf8f8160/",
+      "status": "discovered",
+      "title": "2024-12-07 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "ffccb99e-67e1-441e-b89a-a5a2ef9ed267": {
+      "attempts": 0,
+      "date": "2025-08-18",
+      "first_seen": "2026-10-20T23:57:04.879492+00:00",
+      "id": "ffccb99e-67e1-441e-b89a-a5a2ef9ed267",
+      "new_since_monitoring": false,
+      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ffccb99e-67e1-441e-b89a-a5a2ef9ed267/",
+      "status": "discovered",
+      "title": "2025-08-18 Destroying and DUMPSTERING Far Right"
+    }
+  }
 }
