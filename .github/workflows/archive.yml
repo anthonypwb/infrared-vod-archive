@@ -1,0 +1,55 @@
+name: Archive Infrared VODs
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pilot uploads one complete VOD; verify checks existing uploads; discover downloads metadata only'
+        type: choice
+        options: [discover, pilot, verify, auto]
+        default: discover
+      vod_id:
+        description: 'Optional exact Infrared VOD UUID for the pilot'
+        type: string
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: infrared-archive-worker
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check runtime
+        run: python3 --version
+      - name: Run archive worker
+        env:
+          MODE: ${{ inputs.mode || 'auto' }}
+          VOD_ID: ${{ inputs.vod_id }}
+          GH_TOKEN: ${{ github.token }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+        run: |
+          args=()
+          if [[ -n "$VOD_ID" ]]; then args+=(--vod-id "$VOD_ID"); fi
+          python3 -m archive.worker "$MODE" "${args[@]}"
+      - name: Keep small diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: report.json
+          if-no-files-found: ignore
+          retention-days: 7

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+client_secret*.json
+credentials*.json
+token*.json
+.env
+*.mp4
+*.ts
+*.m3u8
+*.log
+report.json
