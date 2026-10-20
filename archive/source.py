@@ -110,6 +110,7 @@ class Page(HTMLParser):
             self.video = True
         if tag == "h1":
             self.h1 = True
+            self.title = ""
         if (tag == "video" or (tag == "source" and self.video)) and attrs.get("src"):
             self.sources.add(attrs["src"])
         if tag == "time" and attrs.get("datetime"):

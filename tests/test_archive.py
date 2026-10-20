@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import Mock, patch
 from archive.core import ArchiveError, allowed_url, read_config, reserve, settle, upload_metadata
-from archive.source import acquire, eligible_date, parse_inventory, parse_playlist, resolve
+from archive.source import Page, acquire, eligible_date, parse_inventory, parse_playlist, resolve
 from archive.worker import can_attempt, merge_inventory, reconcile, weekly_count
 from archive.youtube import YouTube, duration_seconds, next_offset
 
@@ -17,6 +17,11 @@ NOW = datetime(2026, 10, 20, 22, tzinfo=timezone.utc)
 
 
 class DiscoveryTests(unittest.TestCase):
+    def test_site_heading_does_not_prefix_stream_title(self):
+        page = Page()
+        page.feed('<h1>Infrared Content Catalog</h1><main><h1>Stream title</h1></main>')
+        self.assertEqual(page.title, 'Stream title')
+
     def test_only_exact_infrared_kick_paths_and_matching_date(self):
         html = f'''<ul><li>2026-10-20 <a href="/en/kick/infrared/{VOD}/">Stream</a></li>
         <li><a href="/en/youtube/infrared/{VOD}/">Other</a></li>
