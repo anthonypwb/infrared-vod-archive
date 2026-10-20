@@ -1409,13 +1409,14 @@
       "title": "2025-11-17 SUPREMACY"
     },
     "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-10-03",
       "first_seen": "2026-10-20T23:57:04.879172+00:00",
       "id": "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4",
+      "is_pilot": true,
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
-      "status": "discovered",
+      "status": "downloading",
       "title": "2026-10-03 Allahu Akbar."
     },
     "5c4126ec-a5b4-4f94-a1e3-31c124dfbd06": {
