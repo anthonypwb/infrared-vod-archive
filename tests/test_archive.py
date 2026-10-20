@@ -75,6 +75,15 @@ class StateTests(unittest.TestCase):
         merge_inventory(state, [{"id": VOD, "date": "2026-10-20", "title": "New label"}])
         self.assertEqual(state["vods"][VOD]["status"], "archived")
 
+    def test_delayed_transcript_can_be_new_without_bulk_backfill(self):
+        row = {"id": VOD, "date": "2026-10-19", "title": "Delayed indexing"}
+        initial = {"vods": {}}
+        merge_inventory(initial, [row])
+        self.assertFalse(initial["vods"][VOD]["new_since_monitoring"])
+        running = {"vods": {}, "monitoring_started_at": NOW.isoformat()}
+        merge_inventory(running, [row])
+        self.assertTrue(running["vods"][VOD]["new_since_monitoring"])
+
     def test_uncertain_upload_is_reconciled_without_reupload(self):
         state = {"pilot_verified": False, "vods": {VOD: {"id": VOD, "status": "uploading", "is_pilot": True}}}
         youtube, store = Mock(), Mock()

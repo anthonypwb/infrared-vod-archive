@@ -24,7 +24,8 @@ def discover(config):
 def merge_inventory(state, rows):
     for row in rows:
         if row["id"] not in state["vods"]:
-            state["vods"][row["id"]] = {**row, "status": "discovered", "attempts": 0, "first_seen": timestamp()}
+            state["vods"][row["id"]] = {**row, "status": "discovered", "attempts": 0, "first_seen": timestamp(),
+                "new_since_monitoring": bool(state.get("monitoring_started_at"))}
         else:
             existing = state["vods"][row["id"]]
             if not existing.get("date") and row.get("date"):
@@ -79,6 +80,17 @@ def run(mode, vod_id=None):
         report = {"entries": len(rows), "dated_entries": sum(bool(v["date"]) for v in rows),
                   "recent_entries": sum(eligible_date(v["date"], config["max_source_age_days"]) for v in rows),
                   "examples": rows[:5], "media_downloaded": False}
+        recent = [v for v in rows if eligible_date(v["date"], config["max_source_age_days"])]
+        if recent:
+            latest = sorted(recent, key=lambda v: (v["date"], v["id"]), reverse=True)[0]
+            try:
+                variant, playlist = resolve(read_page(latest))
+                segments = parse_playlist(playlist, variant)
+                report["source_preflight"] = {"id": latest["id"], "status": "accessible_complete_playlist",
+                    "segments": len(segments), "duration_seconds": sum(s["duration"] for s in segments)}
+            except Exception as exc:
+                report["source_preflight"] = {"id": latest["id"], "status": "blocked",
+                    "reason": str(exc) if isinstance(exc, ArchiveError) else type(exc).__name__}
         print(json.dumps(report, indent=2))
         return
     store = StateStore()
@@ -104,8 +116,12 @@ def run(mode, vod_id=None):
         if mode == "verify":
             return
         if mode == "auto" and not state["pilot_verified"]:
-            print("Waiting for a successful pilot upload; automatic transfers have not started.")
-            return
+            retry_pilots = [v for v in state["vods"].values() if v.get("is_pilot") and can_attempt(v, config)]
+            if retry_pilots:
+                mode, vod_id = "pilot", retry_pilots[0]["id"]
+            else:
+                print("Waiting for a successful pilot upload; automatic transfers have not started.")
+                return
         if mode == "pilot" and state["pilot_verified"]:
             print("Pilot already verified; use the recurring workflow.")
             return
@@ -139,7 +155,8 @@ def run(mode, vod_id=None):
         elif mode == "auto":
             # Archive newly appearing streams; historical bulk backfill is not automatic.
             start_date = datetime.fromisoformat(state["monitoring_started_at"]).date().isoformat()
-            eligible = [v for v in eligible if v["date"] >= start_date or v.get("attempts", 0)]
+            eligible = [v for v in eligible if v["date"] >= start_date
+                        or v.get("new_since_monitoring") or v.get("attempts", 0)]
         if not eligible:
             print("No eligible new VOD; no media transferred.")
             return

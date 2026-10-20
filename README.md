@@ -22,7 +22,7 @@ Human playback review of the first upload remains recommended before increasing 
 | Schedule | Every six hours, at 00:17, 06:17, 12:17 and 18:17 UTC |
 | Pilot volume | At most three new uploads in a rolling seven-day period |
 | Initial pilot | One newest eligible complete recording, or an exact supplied VOD UUID |
-| Routine coverage | New recordings from the pilot's monitoring start date; no historical bulk backfill |
+| Routine coverage | Recordings from the monitoring start date or newly appearing in the inventory afterward; no historical bulk backfill |
 | Source freshness | At most 21 days old; unknown dates do not transfer |
 | Quality | Highest supported muxed audio/video rendition; original codecs, no re-encoding |
 | Runtime allowance | 300 recorded/estimated runner minutes per calendar month, including worker polling |
