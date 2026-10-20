@@ -1,0 +1,2 @@
+# Only the one-time local sign-in helper requires third-party Python packages.
+google-auth-oauthlib>=1.2,<2
