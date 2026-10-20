@@ -8,7 +8,7 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from .core import ArchiveError, read_config, reserve, settle, timestamp, upload_metadata, utcnow
-from .source import (acquire, eligible_date, get_text, page_url, parse_inventory,
+from .source import (acquire, eligible_date, ensure_media_tools, get_text, page_url, parse_inventory,
                      parse_playlist, read_page, resolve)
 from .state import StateStore
 from .youtube import YouTube
@@ -168,6 +168,8 @@ def run(mode, vod_id=None):
             gate()
             if get_text(variant, media=True) != playlist:
                 raise ArchiveError("Source is still changing; retry later")
+            ensure_media_tools()
+            gate()
             with tempfile.TemporaryDirectory(prefix="infrared-archive-") as tmp:
                 output = Path(tmp) / "vod.mp4"
                 vod["media"] = acquire(segments, output, config, gate)

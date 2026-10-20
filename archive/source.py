@@ -19,6 +19,20 @@ HEADERS = {"User-Agent": "InfraredArchive/1.0", "Referer": "https://kick.com/"}
 DATE = re.compile(r"\b(20\d{2}-\d{2}-\d{2})\b")
 
 
+def ensure_media_tools():
+    if shutil.which("ffmpeg") and shutil.which("ffprobe"):
+        return
+    # Install only for an actual transfer, after its runtime reservation is saved.
+    # Polling and verification runs remain dependency-free.
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        raise ArchiveError("Install FFmpeg and FFprobe before running media transfer")
+    for command in (["sudo", "apt-get", "update", "-qq"],
+                    ["sudo", "apt-get", "install", "-y", "--no-install-recommends", "ffmpeg"]):
+        result = subprocess.run(command, capture_output=True, timeout=180)
+        if result.returncode:
+            raise ArchiveError("FFmpeg installation failed on the archive runner")
+
+
 def page_url(vod_id):
     if not valid_uuid(vod_id):
         raise ArchiveError("Invalid source VOD ID")

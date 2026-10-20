@@ -31,10 +31,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Check runtime
-        run: |
-          python3 --version
-          ffmpeg -version | head -1
-          ffprobe -version | head -1
+        run: python3 --version
       - name: Run archive worker
         env:
           MODE: ${{ inputs.mode || 'auto' }}
