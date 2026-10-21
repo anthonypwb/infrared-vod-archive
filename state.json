@@ -943,7 +943,7 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "Creator requested expedited oldest-first retry with retained FFmpeg diagnostics.",
+      "note": "YouTube is still processing the upload",
       "retry_after": "2026-10-21T17:17:22.534Z",
       "source_channel_id": 129849,
       "source_provider": "kick",
