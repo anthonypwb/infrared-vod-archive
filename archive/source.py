@@ -304,6 +304,25 @@ def probe_file(path, expected):
             "video_codec": streams["video"]["codec_name"], "sample_decode_passed": True}
 
 
+def remux_error(process, err, segment, total, path):
+    try:
+        process.wait(timeout=3)
+    except subprocess.TimeoutExpired:
+        process.kill()
+        process.wait()
+    err.seek(0, 2)
+    err.seek(max(0, err.tell() - 4000))
+    detail = err.read().decode('utf-8', 'replace')
+    detail = re.sub(r'https?://\S+', '[redacted URL]', detail)
+    detail = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', detail)
+    exc = ArchiveError(f'Lossless remux exited {process.returncode} at segment {segment}')
+    exc.diagnostic = {'stage': 'remux', 'exit_code': process.returncode,
+                      'segment_index': segment, 'source_bytes': total,
+                      'free_disk_bytes': shutil.disk_usage(path.parent).free,
+                      'stderr_tail': detail}
+    return exc
+
+
 def acquire(rows, path, config, gate):
     """Feed checked TS segments to ffmpeg over stdin, retaining one output file."""
     expected = sum(row["duration"] for row in rows)
@@ -319,9 +338,9 @@ def acquire(rows, path, config, gate):
                                     "-protocol_whitelist", "pipe", "-f", "mpegts", "-i", "pipe:0",
                                     "-map", "0:v:0", "-map", "0:a:0", "-c", "copy", "-f", "mp4", str(path)],
                                    stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=err)
-        total = 0
+        total, segment = 0, 0
         try:
-            for row in rows:
+            for segment, row in enumerate(rows, 1):
                 gate()
                 status, _, body = request(row["url"], headers=HEADERS, limit=100_000_000)
                 if status != 200 or not body:
@@ -338,7 +357,9 @@ def acquire(rows, path, config, gate):
                 process.stdin.write(body)
             process.stdin.close()
             if process.wait(timeout=90):
-                raise ArchiveError("Lossless remux failed")
+                raise remux_error(process, err, segment, total, path)
+        except BrokenPipeError:
+            raise remux_error(process, err, segment, total, path) from None
         finally:
             if process.poll() is None:
                 process.kill()

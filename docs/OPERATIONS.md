@@ -125,7 +125,7 @@ schedule was shortened from six hours to two hours (up to 12 attempts/day),
 with one oldest eligible VOD per run and no overlapping archive workers.
 The 1,000-minute monthly cap and Talonsight allocation remain unchanged.
 More frequent empty polls also use runner minutes; the budget controller counts
-these. Source-failure retries retain their six-hour backoff. This cadence does
+these. Source-failure retries now use a 15-minute backoff so the next two-hour slot can retry the oldest VOD. This cadence does
 not increase transfer speed or guarantee YouTube processing completion times.
 
 ## Basic upload metadata
@@ -145,3 +145,14 @@ larger of five minutes or five percent of source duration. The measured differen
 and threshold are saved in duration_check. Source download and pre-upload file
 checks remain strict. Archived videos are not periodically rechecked or reuploaded
 because of subsequent edits. This policy does not change source download retries.
+
+## Expedited source retry
+
+The creator authorized faster recovery on October 21, 2026. Source failures now
+wait 15 minutes instead of six hours before becoming eligible again. Routine
+runs still choose the oldest eligible available VOD, with the existing three-attempt
+limit and 1,000-minute budget. A one-time immediate retry of It's happening was
+requested with FFmpeg stderr, exit code, segment index and disk-space diagnostics
+retained in state and the run report. URLs are redacted from captured stderr.
+No media-integrity checks were relaxed. The temporary kickoff trigger is removed
+once the immediate run is registered.

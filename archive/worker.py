@@ -217,9 +217,11 @@ def run(mode, vod_id=None):
         except Exception as exc:
             if vod["status"] == "downloading":
                 vod["status"] = "retry"
-                vod["retry_after"] = (utcnow() + timedelta(hours=6)).isoformat()
+                vod["retry_after"] = (utcnow() + timedelta(minutes=15)).isoformat()
             elif vod["status"] == "uploading":
                 vod["status"] = "upload_unknown"
+            if hasattr(exc, 'diagnostic'):
+                vod['diagnostic'] = exc.diagnostic
             vod["note"] = str(exc) if isinstance(exc, ArchiveError) else type(exc).__name__
             store.save(state)
             raise
@@ -231,7 +233,7 @@ def run(mode, vod_id=None):
         summary = {"pilot_verified": state["pilot_verified"],
                    "monthly_recorded_minutes": sum(state["budget"][month].values()),
                    "statuses": {v["id"]: {"status": v["status"], "youtube_id": v.get("youtube_id"),
-                                          "note": v.get("note")} for v in state["vods"].values()
+                                          "note": v.get("note"), "diagnostic": v.get("diagnostic")} for v in state["vods"].values()
                                 if v["status"] != "discovered"}}
         Path("report.json").write_text(json.dumps(summary, indent=2) + "\n")
         if os.environ.get("GITHUB_STEP_SUMMARY"):
