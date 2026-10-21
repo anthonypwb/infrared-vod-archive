@@ -2971,16 +2971,17 @@
       "title": "2026-05-26 ACP DOMINATING | PIKER UNDER ATTACK | DEBATES"
     },
     "9abd5ae2-1bb9-4cac-a420-5b90e8070630": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-10-14",
       "first_seen": "2026-10-21T02:37:13.849243+00:00",
       "id": "9abd5ae2-1bb9-4cac-a420-5b90e8070630",
+      "is_pilot": false,
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/9abd5ae2-1bb9-4cac-a420-5b90e8070630",
       "started_at": "2026-10-14T03:35:22+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "BIG CHANGE"
     },
     "9d9025a5-5e00-404f-9387-7163e63354a4": {
