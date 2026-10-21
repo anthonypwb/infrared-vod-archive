@@ -1414,10 +1414,23 @@
       "first_seen": "2026-10-20T23:57:04.879172+00:00",
       "id": "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4",
       "is_pilot": true,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 8546.665667,
+        "height": 1080,
+        "output_bytes": 4938200589,
+        "sample_decode_passed": true,
+        "segments": 854,
+        "source_bytes": 5129398580,
+        "source_sha256": "3cc4e28e664c824bda373ef8384df3af8e4d7e851e49e7ba60fa6580a32c9c3b",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
-      "status": "downloading",
-      "title": "2026-10-03 Allahu Akbar."
+      "status": "uploading",
+      "title": "Allahu Akbar.",
+      "upload_started_at": "2026-10-21T00:05:19.491153+00:00"
     },
     "5c4126ec-a5b4-4f94-a1e3-31c124dfbd06": {
       "attempts": 0,
