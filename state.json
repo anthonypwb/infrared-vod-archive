@@ -8,7 +8,8 @@
   },
   "last_run_at": "2026-10-21T00:49:51.764197+00:00",
   "monitoring_started_at": "2026-10-20T23:57:04.879879+00:00",
-  "pilot_verified": false,
+  "pilot_verified": true,
+  "pilot_video_id": "uaTfcuLH40E",
   "schema_version": 1,
   "vods": {
     "0050d914-3dca-46e8-b588-c43600798487": {
@@ -1412,6 +1413,7 @@
       "title": "2025-11-17 SUPREMACY"
     },
     "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4": {
+      "archived_at": "2026-10-21T02:37:11.962151+00:00",
       "attempts": 1,
       "date": "2026-10-03",
       "first_seen": "2026-10-20T23:57:04.879172+00:00",
@@ -1430,9 +1432,9 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload and full duration verified",
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "Allahu Akbar.",
       "upload_started_at": "2026-10-21T00:05:19.491153+00:00",
       "youtube_id": "uaTfcuLH40E"
