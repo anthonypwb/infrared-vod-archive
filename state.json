@@ -947,8 +947,15 @@
       "title": "2026-06-26 INFRARED RENAISSANCE"
     },
     "285bea08-9bae-4c5a-b40d-09b67a811906": {
+      "archived_at": "2026-10-21T18:59:42.642371+00:00",
       "attempts": 2,
       "date": "2026-10-06",
+      "duration_check": {
+        "difference_seconds": -58.36466699999983,
+        "source_seconds": 10602.364667,
+        "tolerance_seconds": 530.11823335,
+        "youtube_seconds": 10544.0
+      },
       "first_seen": "2026-10-21T02:37:13.849250+00:00",
       "id": "285bea08-9bae-4c5a-b40d-09b67a811906",
       "is_pilot": false,
@@ -965,13 +972,13 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "retry_after": "2026-10-21T17:17:22.534Z",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/285bea08-9bae-4c5a-b40d-09b67a811906",
       "started_at": "2026-10-06T02:32:18+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "It's happening.",
       "upload_started_at": "2026-10-21T17:33:58.589539+00:00",
       "youtube_id": "ruq-0T3LcFY"
