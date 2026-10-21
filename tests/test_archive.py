@@ -197,11 +197,53 @@ class YouTubeTests(unittest.TestCase):
 
     def test_private_video_not_marked_archived(self):
         yt = self.youtube()
-        yt.get = Mock(return_value={"items": [{"snippet": {"channelId": yt.channel_id,
+        yt.get = Mock(return_value={"items": [{"id": "abcdefghijk", "snippet": {"channelId": yt.channel_id,
             "description": f"Archive source ID: {VOD}"}, "status": {"uploadStatus": "processed", "privacyStatus": "private"},
             "processingDetails": {"processingStatus": "succeeded"}, "contentDetails": {"duration": "PT1H"}}]})
         status, _ = yt.verify_video({"id": VOD, "youtube_id": "abcdefghijk", "media": {"duration_seconds": 3600}})
         self.assertEqual(status, "blocked")
+
+    def video_fixture(self, yt, description=""):
+        return {"id": "abcdefghijk", "snippet": {"channelId": yt.channel_id, "description": description},
+                "status": {"uploadStatus": "processed", "privacyStatus": "public"},
+                "processingDetails": {"processingStatus": "succeeded"},
+                "contentDetails": {"duration": "PT1H"}}
+
+    def test_known_pilot_verifies_after_description_edit_without_reupload(self):
+        for description in ("", "Updated description", f"Archive source ID: {VOD}"):
+            yt = self.youtube()
+            yt.get = Mock(return_value={"items": [self.video_fixture(yt, description)]})
+            yt.upload = Mock()
+            state = {"pilot_verified": False, "vods": {VOD: {"id": VOD, "youtube_id": "abcdefghijk",
+                "media": {"duration_seconds": 3600}, "status": "uploaded_pending", "is_pilot": True}}}
+            reconcile(state, yt, Mock())
+            self.assertTrue(state["pilot_verified"])
+            self.assertEqual(state["vods"][VOD]["status"], "archived")
+            yt.upload.assert_not_called()
+
+    def test_known_upload_rejects_wrong_video_channel_or_conflicting_source(self):
+        yt = self.youtube()
+        vod = {"id": VOD, "youtube_id": "abcdefghijk", "media": {"duration_seconds": 3600}}
+        for field, value in (("id", "other1234567"), ("channelId", "UC" + "b" * 22),
+                             ("description", "Archive source ID: other-source")):
+            item = self.video_fixture(yt)
+            (item if field == "id" else item["snippet"])[field] = value
+            yt.get = Mock(return_value={"items": [item]})
+            with self.assertRaises(ArchiveError):
+                yt.verify_video(vod)
+
+    def test_edited_description_still_requires_processing_publicity_and_full_duration(self):
+        yt = self.youtube()
+        vod = {"id": VOD, "youtube_id": "abcdefghijk", "media": {"duration_seconds": 3600}}
+        for section, key, value, expected in (
+                ("processingDetails", "processingStatus", "processing", "pending"),
+                ("status", "uploadStatus", "rejected", "blocked"),
+                ("status", "privacyStatus", "private", "blocked"),
+                ("contentDetails", "duration", "PT10M", "blocked")):
+            item = self.video_fixture(yt)
+            item[section][key] = value
+            yt.get = Mock(return_value={"items": [item]})
+            self.assertEqual(yt.verify_video(vod)[0], expected)
 
     def test_resumable_failure_queries_same_session_and_does_not_insert_twice(self):
         yt = self.youtube()

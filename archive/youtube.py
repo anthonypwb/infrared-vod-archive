@@ -146,14 +146,21 @@ class YouTube:
         raise ArchiveError("Upload completion was not confirmed")
 
     def verify_video(self, vod):
+        # This ID is saved from the upload response or a source-marker match.
+        # Descriptions remain editable after that durable association is made.
+        if not self.channel_id or not re.fullmatch(r"[A-Za-z0-9_-]{11}", vod.get("youtube_id", "")):
+            raise ArchiveError("Upload verification requires a saved video ID and checked channel")
         items = self.get("videos", part="snippet,status,processingDetails,contentDetails", id=vod["youtube_id"]).get("items", [])
         if len(items) != 1:
             return "pending", "Upload not yet visible through the API"
         item = items[0]
         snippet, status = item["snippet"], item["status"]
-        if (snippet["channelId"] != self.channel_id
-                or f"Archive source ID: {vod['id']}" not in snippet.get("description", "").splitlines()):
+        if item.get("id") != vod["youtube_id"] or snippet.get("channelId") != self.channel_id:
             raise ArchiveError("Uploaded video identity mismatch")
+        source_markers = [line.strip() for line in snippet.get("description", "").splitlines()
+                          if line.strip().startswith("Archive source ID:")]
+        if any(marker != f"Archive source ID: {vod['id']}" for marker in source_markers):
+            raise ArchiveError("Uploaded video has a conflicting archive source ID")
         processing = item.get("processingDetails", {}).get("processingStatus")
         if processing in ("failed", "terminated") or status.get("uploadStatus") in ("failed", "rejected", "deleted"):
             return "blocked", "YouTube rejected or failed to process the upload"
