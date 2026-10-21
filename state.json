@@ -2979,8 +2979,15 @@
       "title": "2026-05-26 ACP DOMINATING | PIKER UNDER ATTACK | DEBATES"
     },
     "9abd5ae2-1bb9-4cac-a420-5b90e8070630": {
+      "archived_at": "2026-10-21T22:49:06.461397+00:00",
       "attempts": 1,
       "date": "2026-10-14",
+      "duration_check": {
+        "difference_seconds": 0.11833300000034797,
+        "source_seconds": 8466.881667,
+        "tolerance_seconds": 423.34408335,
+        "youtube_seconds": 8467.0
+      },
       "first_seen": "2026-10-21T02:37:13.849243+00:00",
       "id": "9abd5ae2-1bb9-4cac-a420-5b90e8070630",
       "is_pilot": false,
@@ -2997,12 +3004,12 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/9abd5ae2-1bb9-4cac-a420-5b90e8070630",
       "started_at": "2026-10-14T03:35:22+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "BIG CHANGE",
       "upload_started_at": "2026-10-21T21:04:42.004883+00:00",
       "youtube_id": "v-lG0V19U5U"
