@@ -2993,9 +2993,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/9abd5ae2-1bb9-4cac-a420-5b90e8070630",
       "started_at": "2026-10-14T03:35:22+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "BIG CHANGE",
-      "upload_started_at": "2026-10-21T21:04:42.004883+00:00"
+      "upload_started_at": "2026-10-21T21:04:42.004883+00:00",
+      "youtube_id": "v-lG0V19U5U"
     },
     "9d9025a5-5e00-404f-9387-7163e63354a4": {
       "attempts": 0,
