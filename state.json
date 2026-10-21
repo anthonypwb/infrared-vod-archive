@@ -2521,14 +2521,27 @@
       "first_seen": "2026-10-20T23:57:04.879190+00:00",
       "id": "880dcb20-2e8c-4697-828c-822f01999554",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 9039.965667,
+        "height": 1080,
+        "output_bytes": 5223317243,
+        "sample_decode_passed": true,
+        "segments": 902,
+        "source_bytes": 5425496512,
+        "source_sha256": "71431653a734696e6b0dd21e56c641281c354483bcc66c8dfe668b19f9546a0a",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/880dcb20-2e8c-4697-828c-822f01999554",
       "started_at": "2026-09-28T02:45:17+00:00",
-      "status": "downloading",
+      "status": "uploading",
       "title": "Prepare for nuclear war.",
-      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/"
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/",
+      "upload_started_at": "2026-10-21T06:52:50.390444+00:00"
     },
     "8870382f-9c8c-471f-a781-05b5c0634ea6": {
       "attempts": 0,
