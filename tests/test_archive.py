@@ -96,6 +96,11 @@ class DiscoveryTests(unittest.TestCase):
         self.assertFalse(eligible_date("2026-10-21", 21, NOW.date()))
         self.assertTrue(eligible_date("2026-10-19", 21, NOW.date()))
 
+    def test_available_backlog_has_no_artificial_age_cutoff(self):
+        self.assertTrue(eligible_date("2026-09-21", None, NOW.date()))
+        for value in (None, "not-a-date", "2026-10-21"):
+            self.assertFalse(eligible_date(value, None, NOW.date()))
+
     def test_source_hosts_are_restricted(self):
         for url in ("http://kick.com/a", "https://kick.com.evil.test/a", "https://a.kick.com:8443/a",
                     "https://user:pass@kick.com/a", "https://127.0.0.1/a"):
@@ -118,6 +123,23 @@ class DiscoveryTests(unittest.TestCase):
 
 
 class StateTests(unittest.TestCase):
+    def test_backfill_processes_oldest_current_unarchived_recordings_first(self):
+        cfg = read_config()
+        rows = DiscoveryTests().kick_fixture()
+        inventory = parse_kick_videos(rows, cfg["source_channel_id"])
+        state = {"vods": {}, "monitoring_started_at": NOW.isoformat()}
+        merge_inventory(state, inventory)
+        pilot_id = "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4"
+        state["vods"][pilot_id].update(status="archived", youtube_id="abcdefghijk", attempts=1)
+        eligible = [v for v in state["vods"].values() if can_attempt(v, cfg, NOW)]
+        queue = automatic_candidates(state, eligible, cfg)
+        self.assertEqual(queue[0]["id"], "42e52ed4-772d-467f-aeb6-23dbdc63cc45")
+        self.assertEqual(queue[0]["date"], "2026-09-21")
+        self.assertEqual([v["started_at"] for v in queue], sorted(v["started_at"] for v in queue))
+        self.assertNotIn(pilot_id, [v["id"] for v in queue])
+        self.assertEqual(cfg["max_new_uploads_per_week"], 3)
+        self.assertEqual(cfg["monthly_runtime_minutes"], 300)
+
     def test_budget_reservation_survives_failure_and_blocks_excess(self):
         state = {}
         month = reserve(state, "first", 45, 50, NOW)

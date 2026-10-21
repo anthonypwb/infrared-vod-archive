@@ -1,5 +1,10 @@
 name: Archive Infrared VODs
 on:
+  # Temporary trigger for the single immediate rescue authorized 2026-10-20.
+  # Removed after that run starts; routine scheduling remains every six hours.
+  push:
+    branches: [main]
+    paths: ['config/archive.json']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
@@ -23,7 +28,7 @@ concurrency:
 
 jobs:
   archive:
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true')
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true') && (github.event_name != 'push' || startsWith(github.event.head_commit.message, 'Rescue oldest available Infrared VODs once'))
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:

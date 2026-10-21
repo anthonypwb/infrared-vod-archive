@@ -17,7 +17,7 @@ Massachusetts during daylight time; during standard time those become 7:17 PM,
 | `discover` | Read Kick channel/VOD metadata and the newest eligible HLS playlist; no credentials or video segments needed |
 | `pilot` | Request one complete public test upload from a verified account |
 | `verify` | Reconcile pending/uncertain uploads and check processing/public status |
-| `auto` | Verify earlier work, then transfer at most one eligible new recording within limits |
+| `auto` | Verify earlier work, then transfer at most one eligible available recording, oldest first, within limits |
 
 Worker runs and retries share one concurrency group. Runtime state lives on
 `archive-state` rather than changing implementation code on `main`.
@@ -30,15 +30,21 @@ Both discovery and media retrieval use Kick directly. The worker validates the
 required. Live, private, deleted and pruned entries are excluded. A VOD must also
 have a completed, settled HLS playlist before any transfer starts.
 
-The first direct-Kick poll records `kick_monitoring_started_at`. Existing older
-recordings in that response establish the baseline; they do not become new uploads
-merely because discovery changed providers. Recordings dated on/after the original
-monitoring start date, subsequent newly appearing entries, and existing retries
-remain eligible within all limits. UUIDs, attempts, YouTube IDs, pilot results and
-budget history survive the migration. Previously recorded transcript links are
+The user authorized oldest-first archival of the currently available backlog on
+October 20, 2026. `backfill_available_vods=true` includes older unarchived recordings
+from Kick's current public completed index, sorted by exact UTC start time. A null
+`max_source_age_days` removes the former 21-day cutoff; it does not imply that media
+is still available. Valid non-future dates, fresh playback URLs and complete,
+accessible playlists remain required. UUIDs, attempts, YouTube IDs, pilot results and
+budget history are preserved. Previously recorded transcript links are
 retained as optional provenance, not used to discover or retrieve the source.
 Playback URLs are kept only in memory and refreshed from each run's current index.
 An in-flight pilot continues using the commit it started with.
+
+The six-hour schedule, three uploads per rolling seven days and 300-minute monthly
+allowance still apply. One immediate run was authorized as a timing exception;
+it does not authorize repeated unscheduled runs or higher volume. With an existing
+backlog, these caps cannot guarantee that every VOD is rescued before Kick expires it.
 
 ## Stop and resume
 
