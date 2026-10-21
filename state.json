@@ -930,6 +930,18 @@
       "first_seen": "2026-10-21T02:37:13.849250+00:00",
       "id": "285bea08-9bae-4c5a-b40d-09b67a811906",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 10602.364667,
+        "height": 1080,
+        "output_bytes": 6131992969,
+        "sample_decode_passed": true,
+        "segments": 1058,
+        "source_bytes": 6367818500,
+        "source_sha256": "a086f0c7a01cb87c761852d7b86515c2df2f8563ada896d56b8baa92d74efc2c",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "note": "Creator requested expedited oldest-first retry with retained FFmpeg diagnostics.",
       "retry_after": "2026-10-21T17:17:22.534Z",
@@ -937,8 +949,9 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/285bea08-9bae-4c5a-b40d-09b67a811906",
       "started_at": "2026-10-06T02:32:18+00:00",
-      "status": "downloading",
-      "title": "It's happening."
+      "status": "uploading",
+      "title": "It's happening.",
+      "upload_started_at": "2026-10-21T17:33:58.589539+00:00"
     },
     "291743a3-98d0-44fe-83fc-c5cfca54440d": {
       "attempts": 0,
