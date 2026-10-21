@@ -80,20 +80,8 @@ middle and ending. Record actual transfer minutes before increasing volume or bu
 If Google rejects sign-in or requires account interaction, complete that prompt in
 your browser. Do not send passwords, verification codes or refresh tokens in chat.
 
-## Enable transcript-based metadata updates
+## Basic tags
 
-The original upload/read-only grant cannot edit existing videos. To enable the
-optional follow-up updater, pull the latest repository and rerun the local helper:
-
-```powershell
-git pull
-python setup_youtube.py --client-secrets "PATH-TO-YOUR-CLIENT-JSON" --enable-metadata
-```
-
-Use the same downloaded Desktop OAuth client JSON as before. Select the archive
-channel and approve the additional YouTube management permission. The helper adds
-`youtube.force-ssl`, verifies the destination, stores the refresh token directly
-in GitHub Secrets, and sets `ARCHIVE_METADATA_ENABLED=true`. It does not request
-another pilot. Never paste OAuth credentials into chat. Uploading continues with
-the original grant until this optional reconnection is completed. Disable only
-metadata updates by setting `ARCHIVE_METADATA_ENABLED=false`.
+New uploads include the fixed channel tags and clean description automatically.
+The proposed transcript enrichment was cancelled. No additional Google editing
+permission or `--enable-metadata` reconnection is required.

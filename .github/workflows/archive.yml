@@ -35,7 +35,6 @@ jobs:
         run: python3 --version
       - name: Run archive worker
         env:
-          ARCHIVE_METADATA_ENABLED: ${{ vars.ARCHIVE_METADATA_ENABLED }}
           MODE: ${{ inputs.mode || 'auto' }}
           VOD_ID: ${{ inputs.vod_id }}
           GH_TOKEN: ${{ github.token }}
@@ -47,9 +46,6 @@ jobs:
           args=()
           if [[ -n "$VOD_ID" ]]; then args+=(--vod-id "$VOD_ID"); fi
           python3 -m archive.worker "$MODE" "${args[@]}"
-          if [[ "$MODE" == "auto" || "$MODE" == "verify" ]]; then
-            python3 -m archive.metadata
-          fi
       - name: Keep small diagnostic report
         if: always()
         uses: actions/upload-artifact@v4

@@ -126,46 +126,7 @@ def apply_plan(youtube, store, state, plan, baseline=False):
 
 
 def main():
-    if os.environ.get('ARCHIVE_METADATA_ENABLED') != 'true':
-        print('Metadata updates await the one-time Google permission upgrade.')
-        return
-    def timeout(*_):
-        raise ArchiveError('Metadata follow-up time limit reached')
-    signal.signal(signal.SIGALRM, timeout)
-    signal.alarm(60)
-    try:
-        store = StateStore()
-        state = store.load()
-        if state.get('budget_pause'):
-            return
-        youtube = YouTube()
-        youtube.verify_channel(os.environ.get('YOUTUBE_CHANNEL_ID'), '@archiveinfrared')
-        count = 0
-        # Basic channel tags and template cleanup do not wait for a transcript.
-        for vod in state['vods'].values():
-            if vod.get('status') != 'archived' or vod.get('metadata_baseline_v1', {}).get('status') in ('applied', 'conflict'):
-                continue
-            apply_plan(youtube, store, state, {'vod_id': vod['id']}, baseline=True)
-            count += 1
-            if count >= 2:
-                return
-        for path in sorted(Path('metadata/plans').glob('*.json')):
-            plan = json.loads(path.read_text())
-            vod = state['vods'].get(plan.get('vod_id'), {})
-            if vod.get('status') != 'archived' or vod.get('metadata', {}).get('status') in ('applied', 'conflict'):
-                continue
-            count += 1
-            try:
-                apply_plan(youtube, store, state, plan)
-            except Exception as exc:
-                print('Metadata follow-up deferred:', type(exc).__name__)
-                break
-            if count >= 2:
-                break
-    except Exception as exc:
-        print('Metadata follow-up deferred:', type(exc).__name__)
-    finally:
-        signal.alarm(0)
+    print("Post-upload metadata editing retired by creator; fixed tags are set during upload.")
 
 
 if __name__ == '__main__':

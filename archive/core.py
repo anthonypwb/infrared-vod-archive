@@ -89,8 +89,26 @@ def settle(state, month, key, elapsed_seconds):
     ledger[key] = min(ledger[key], max(1, math.ceil((elapsed_seconds + 30) / 60)))
 
 
-BASE_TAGS = ['Infrared', 'Infrared Show', 'Haz', 'Haz Al-Din', 'Haz Al Din',
-             'Infrared livestream', 'political commentary', 'full livestream']
+BASE_TAGS = [
+    "Haz",
+    "Haz Al-Din",
+    "Haz Al Din",
+    "InfraHaz",
+    "Infrared",
+    "Infrared Show",
+    "American Communist Party",
+    "ACP",
+    "Communism",
+    "Marxism",
+    "Marxism-Leninism",
+    "Communist Party",
+    "Political Commentary",
+    "Political Philosophy",
+    "American Politics",
+    "MAGA Communism",
+    "Infrared livestream",
+    "full livestream"
+]
 
 
 def upload_metadata(vod):

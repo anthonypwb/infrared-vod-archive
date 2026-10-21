@@ -20,7 +20,6 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--client-secrets", required=True, help="Downloaded Desktop OAuth client JSON")
     parser.add_argument("--pilot-vod-id", help="Optional VOD UUID; otherwise use the newest eligible recording")
-    parser.add_argument("--enable-metadata", action="store_true", help="Authorize transcript-based description and tag updates; do not request a pilot")
     args = parser.parse_args()
     if not shutil.which("gh"):
         raise RuntimeError("Install GitHub CLI from https://cli.github.com and run gh auth login first")
@@ -30,8 +29,7 @@ def main():
         raise RuntimeError("Create a Desktop app OAuth client and download its JSON")
     from google_auth_oauthlib.flow import InstalledAppFlow
     from google.auth.transport.requests import AuthorizedSession
-    scopes = SCOPES + (["https://www.googleapis.com/auth/youtube.force-ssl"] if args.enable_metadata else [])
-    flow = InstalledAppFlow.from_client_config(client, scopes)
+    flow = InstalledAppFlow.from_client_config(client, SCOPES)
     credentials = flow.run_local_server(port=0, access_type="offline", prompt="consent select_account",
         authorization_prompt_message="Open this Google sign-in link in your browser: {url}",
         success_message="Authorization received. You can close this tab.")
@@ -58,12 +56,6 @@ def main():
     gh("variable", "set", "YOUTUBE_CHANNEL_ID", "--repo", REPO, "--body", mine[0]["id"])
     # All account operations completed before enabling the prepared schedule.
     gh("variable", "set", "ARCHIVE_CONNECTED", "--repo", REPO, "--body", "true")
-    if args.enable_metadata:
-        gh("variable", "set", "ARCHIVE_METADATA_ENABLED", "--repo", REPO, "--body", "true")
-        print("Metadata permission saved. Prepared updates will apply after scheduled archive runs.")
-        return
-    # A normal reconnect uses the original scopes, so disable metadata until reauthorized.
-    gh("variable", "set", "ARCHIVE_METADATA_ENABLED", "--repo", REPO, "--body", "false")
     command = ["workflow", "run", "archive.yml", "--repo", REPO, "--ref", "main", "-f", "mode=pilot"]
     if args.pilot_vod_id:
         command += ["-f", "vod_id=" + args.pilot_vod_id]
