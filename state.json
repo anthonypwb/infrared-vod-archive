@@ -2018,14 +2018,27 @@
       "first_seen": "2026-10-20T23:57:04.879193+00:00",
       "id": "76caa4ff-fd85-453b-b67b-10a7f26dedc6",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 7893.081667,
+        "height": 1080,
+        "output_bytes": 4583632516,
+        "sample_decode_passed": true,
+        "segments": 789,
+        "source_bytes": 4754265636,
+        "source_sha256": "fa0738f5e96498e083daf43f15365f0cf9b87a51a0cb55b043a9a5111ddb5fd5",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/76caa4ff-fd85-453b-b67b-10a7f26dedc6",
       "started_at": "2026-09-24T21:53:08+00:00",
-      "status": "downloading",
+      "status": "uploading",
       "title": "WW3| High IQ Interview",
-      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/"
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/",
+      "upload_started_at": "2026-10-21T03:27:04.454690+00:00"
     },
     "76e38dd0-c63b-48c0-ab5e-85b95dee9d0b": {
       "attempts": 0,
