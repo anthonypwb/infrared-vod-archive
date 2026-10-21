@@ -1,4 +1,4 @@
-"""Discover exact Infrared transcript links and copy complete, unencrypted HLS."""
+"""Discover Infrared recordings directly on Kick and copy complete, unencrypted HLS."""
 import hashlib
 import json
 import math
@@ -7,7 +7,7 @@ import re
 import shutil
 import subprocess
 import tempfile
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -17,6 +17,82 @@ SITE = "https://infrared-transcripts.pages.dev"
 MEDIA_HOSTS = ("kick.com", ".kick.com", ".cloudfront.net")
 HEADERS = {"User-Agent": "InfraredArchive/1.0", "Referer": "https://kick.com/"}
 DATE = re.compile(r"\b(20\d{2}-\d{2}-\d{2})\b")
+KICK_CHANNEL = "https://kick.com/api/v2/channels/infrared"
+KICK_VIDEOS = KICK_CHANNEL + "/videos"
+
+
+def kick_json(url):
+    if url not in (KICK_CHANNEL, KICK_VIDEOS):
+        raise ArchiveError("Unexpected Kick metadata endpoint")
+    status, _, body = request(url, headers={**HEADERS, "Accept": "application/json"})
+    if status != 200:
+        raise ArchiveError(f"Kick metadata unavailable: HTTP {status}")
+    try:
+        return json.loads(body)
+    except (ValueError, UnicodeError):
+        raise ArchiveError("Kick metadata was not JSON") from None
+
+
+def parse_kick_videos(payload, channel_id):
+    """Normalize the channel's public website VOD index, observed 2026-10-20.
+
+    No live/private/deleted/pruned entry is eligible. The completed HLS checks
+    remain mandatory later; is_live=false alone does not establish completeness.
+    """
+    if not isinstance(payload, list):
+        raise ArchiveError("Kick video index layout changed")
+    rows = {}
+    for item in payload:
+        if not isinstance(item, dict) or item.get("channel_id") != channel_id:
+            raise ArchiveError("Kick video index contains an unexpected channel")
+        video = item.get("video")
+        if item.get("is_live") is not False or not isinstance(video, dict):
+            continue
+        if (video.get("status") != "public" or video.get("is_private") is not False
+                or video.get("is_pruned") is not False or video.get("deleted_at") is not None):
+            continue
+        vod_id = video.get("uuid")
+        if not valid_uuid(vod_id):
+            raise ArchiveError("Kick recording has no valid UUID")
+        title = item.get("session_title")
+        if not isinstance(title, str) or not title.strip():
+            raise ArchiveError("Kick recording has no title")
+        started = item.get("start_time") or item.get("created_at")
+        try:
+            started = datetime.fromisoformat(started.replace("Z", "+00:00"))
+            started = (started.replace(tzinfo=timezone.utc) if started.tzinfo is None
+                       else started.astimezone(timezone.utc))
+        except (AttributeError, TypeError, ValueError):
+            raise ArchiveError("Kick recording has no valid start date") from None
+        master = item.get("source")
+        if not isinstance(master, str):
+            raise ArchiveError("Kick recording has no playback source")
+        allowed_url(master, MEDIA_HOSTS)
+        if not urlparse(master).path.endswith(".m3u8"):
+            raise ArchiveError("Unsupported Kick playback source")
+        row = {"id": vod_id, "title": " ".join(title.split()), "date": started.date().isoformat(),
+               "started_at": started.isoformat(), "source_provider": "kick", "source_channel_id": channel_id,
+               "source_url": f"https://kick.com/infrared/videos/{vod_id}", "master_url": master}
+        if vod_id in rows and rows[vod_id] != row:
+            raise ArchiveError("Kick index contains conflicting recording IDs")
+        rows[vod_id] = row
+    return list(rows.values())
+
+
+def discover_kick(config):
+    channel = kick_json(KICK_CHANNEL)
+    if (not isinstance(channel, dict) or channel.get("slug") != "infrared"
+            or channel.get("id") != config["source_channel_id"]):
+        raise ArchiveError("Kick source channel identity did not match Infrared")
+    return parse_kick_videos(kick_json(KICK_VIDEOS), config["source_channel_id"])
+
+
+def read_kick_source(vod, rows):
+    # Use this run's public index, never a stale saved or transcript-derived URL.
+    matches = [row for row in rows if row["id"] == vod["id"]]
+    if len(matches) != 1:
+        raise ArchiveError("Recording is absent from Kick's current public completed VOD index")
+    return matches[0]["master_url"]
 
 
 def ensure_media_tools():

@@ -14,13 +14,31 @@ Massachusetts during daylight time; during standard time those become 7:17 PM,
 
 | Mode | Behavior |
 | --- | --- |
-| `discover` | Read inventory metadata only; no credentials needed, no video download or upload |
+| `discover` | Read Kick channel/VOD metadata and the newest eligible HLS playlist; no credentials or video segments needed |
 | `pilot` | Request one complete public test upload from a verified account |
 | `verify` | Reconcile pending/uncertain uploads and check processing/public status |
 | `auto` | Verify earlier work, then transfer at most one eligible new recording within limits |
 
 Worker runs and retries share one concurrency group. Runtime state lives on
 `archive-state` rather than changing implementation code on `main`.
+
+## Direct Kick discovery
+
+Both discovery and media retrieval use Kick directly. The worker validates the
+`infrared` channel's ID (`129849`) and reads its recent public recordings via
+`https://kick.com/api/v2/channels/infrared/videos`. No transcript-site request is
+required. Live, private, deleted and pruned entries are excluded. A VOD must also
+have a completed, settled HLS playlist before any transfer starts.
+
+The first direct-Kick poll records `kick_monitoring_started_at`. Existing older
+recordings in that response establish the baseline; they do not become new uploads
+merely because discovery changed providers. Recordings dated on/after the original
+monitoring start date, subsequent newly appearing entries, and existing retries
+remain eligible within all limits. UUIDs, attempts, YouTube IDs, pilot results and
+budget history survive the migration. Previously recorded transcript links are
+retained as optional provenance, not used to discover or retrieve the source.
+Playback URLs are kept only in memory and refreshed from each run's current index.
+An in-flight pilot continues using the commit it started with.
 
 ## Stop and resume
 
@@ -35,9 +53,9 @@ Do not delete `state.json` to resume; that loses duplicate prevention and the le
   no alternate accounts, proxy bypasses, or invented source URLs. If expired, an
   accessible authorized copy is needed.
 - **Live/changing playlist:** wait for completion; no partial archive is published.
-- **Unknown date or changed inventory layout:** `metadata_review` prevents acquisition.
-  Correct the parser with a verified HTML example and return the affected entry to
-  `discovered` after its actual source date is recorded.
+- **Unknown date or changed Kick index layout:** discovery stops before acquisition.
+  Correct the parser using a verified current Kick response. Do not fabricate a date,
+  use stale saved playback URLs or silently switch back to delayed transcript discovery.
 - **Output too large:** stop. Moving to a larger worker or storage service is a
   separate infrastructure decision; the code does not silently lower quality.
 - **`upload_unknown`:** inspect YouTube Studio and recent source-ID mappings before
@@ -64,7 +82,7 @@ The user authorized full public republication of Infrared livestreams and select
 bulk historical backfill, thumbnails, paid storage or Talonsight production changes
 are included. General rights permission is not represented as a provider OAuth grant.
 
-Each successful record includes the original source UUID, transcript page, title/date,
+Each successful record includes the original source UUID, Kick recording URL, title/date,
 source byte hash, segment count, duration, codec/dimension checks and YouTube ID.
 This is a lookup map for later integration, not proof that YouTube supplies a recoverable
 original file. A full restore-to-edit workflow remains to be validated separately.

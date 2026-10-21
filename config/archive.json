@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_channel": "infrared",
-  "inventory_url": "https://infrared-transcripts.pages.dev/en/introduction/",
+  "source_channel_id": 129849,
   "destination_handle": "@archiveinfrared",
   "monthly_runtime_minutes": 300,
   "run_reservation_minutes": 45,
@@ -11,7 +11,6 @@
   "max_output_bytes": 10000000000,
   "disk_reserve_bytes": 2000000000,
   "max_transfer_attempts": 3,
-  "max_metadata_pages_per_run": 5,
   "source_settle_seconds": 60,
   "request_timeout_seconds": 30
 }

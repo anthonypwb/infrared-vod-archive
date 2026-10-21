@@ -1,4 +1,5 @@
 import json
+import copy
 import os
 import subprocess
 import tempfile
@@ -7,8 +8,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import Mock, patch
 from archive.core import ArchiveError, allowed_url, read_config, reserve, settle, upload_metadata
-from archive.source import Page, acquire, eligible_date, parse_inventory, parse_playlist, resolve
-from archive.worker import can_attempt, merge_inventory, reconcile, weekly_count
+from archive.source import (Page, acquire, discover_kick, eligible_date, kick_json, parse_inventory,
+                            parse_kick_videos, parse_playlist, read_kick_source, resolve)
+from archive.worker import automatic_candidates, can_attempt, discover, merge_inventory, reconcile, weekly_count
 from archive.youtube import YouTube, duration_seconds, next_offset
 
 VOD = "4e0647b7-fce2-442b-a503-9c359c8d0afc"
@@ -17,6 +19,63 @@ NOW = datetime(2026, 10, 20, 22, tzinfo=timezone.utc)
 
 
 class DiscoveryTests(unittest.TestCase):
+    def kick_fixture(self):
+        return json.loads((Path(__file__).parent / "fixtures/kick-videos.json").read_text())
+
+    def test_direct_kick_discovery_works_without_a_transcript(self):
+        payload = self.kick_fixture()
+        with patch("archive.source.kick_json", side_effect=[{"slug": "infrared", "id": 129849}, payload]) as api, \
+                patch("archive.worker.get_text") as transcript:
+            rows = discover(read_config())
+        self.assertEqual(rows[0]["id"], "4a6c5907-0018-4293-9ab5-8df1990edc8f")
+        self.assertEqual(rows[0]["date"], "2026-10-20")
+        self.assertEqual(rows[0]["title"], "WORLD REVOLUTION")
+        self.assertEqual(rows[0]["source_url"], f"https://kick.com/infrared/videos/{rows[0]['id']}")
+        self.assertEqual(read_kick_source(rows[0], rows), payload[0]["source"])
+        self.assertEqual(api.call_count, 2)
+        transcript.assert_not_called()
+
+    def test_wrong_channel_and_changed_schema_are_rejected(self):
+        cfg = read_config()
+        for identity in ({"slug": "someone-else", "id": 129849}, {"slug": "infrared", "id": 1}):
+            with patch("archive.source.kick_json", return_value=identity), self.assertRaises(ArchiveError):
+                discover_kick(cfg)
+        row = self.kick_fixture()[0]
+        row["channel_id"] = 1
+        for payload in ([row], {"data": []}, None):
+            with self.assertRaises(ArchiveError):
+                parse_kick_videos(payload, 129849)
+
+    def test_live_private_pruned_deleted_and_unknown_status_are_skipped(self):
+        for field, value in (("is_live", True), ("is_live", None), ("is_private", True),
+                             ("is_pruned", True), ("deleted_at", "2026-10-20"), ("status", "private")):
+            row = self.kick_fixture()[0]
+            (row if field == "is_live" else row["video"])[field] = value
+            self.assertEqual(parse_kick_videos([row], 129849), [])
+
+    def test_bad_playback_hosts_dates_ids_and_conflicts_are_rejected(self):
+        original = self.kick_fixture()[0]
+        for field, value in (("source", "https://evil.example/master.m3u8"),
+                             ("start_time", "not-a-date"), ("session_title", ""), ("uuid", "bad-id")):
+            row = copy.deepcopy(original)
+            (row["video"] if field == "uuid" else row)[field] = value
+            with self.assertRaises(ArchiveError):
+                parse_kick_videos([row], 129849)
+        changed = copy.deepcopy(original)
+        changed["source"] = "https://stream.kick.com/different.m3u8"
+        with self.assertRaises(ArchiveError):
+            parse_kick_videos([original, changed], 129849)
+        with self.assertRaises(ArchiveError):
+            read_kick_source({"id": VOD}, parse_kick_videos([original], 129849))
+
+    def test_source_denial_stops_without_transcript_fallback(self):
+        with patch("archive.source.request", return_value=(403, {}, b"denied")) as request:
+            with self.assertRaisesRegex(ArchiveError, "HTTP 403"):
+                discover_kick(read_config())
+            self.assertEqual(request.call_count, 1)
+        with self.assertRaises(ArchiveError):
+            kick_json("https://kick.com/api/v2/channels/other/videos")
+
     def test_site_heading_does_not_prefix_stream_title(self):
         page = Page()
         page.feed('<h1>Infrared Content Catalog</h1><main><h1>Stream title</h1></main>')
@@ -76,18 +135,38 @@ class StateTests(unittest.TestCase):
             self.assertFalse(can_attempt({"status": status, "date": "2026-10-20", "attempts": 0}, cfg, NOW))
 
     def test_refresh_does_not_reset_upload_state(self):
-        state = {"vods": {VOD: {"status": "archived", "date": "2026-10-20", "attempts": 1}}}
-        merge_inventory(state, [{"id": VOD, "date": "2026-10-20", "title": "New label"}])
+        state = {"vods": {VOD: {"status": "archived", "date": "2026-10-20", "attempts": 1,
+                               "youtube_id": "existing", "source_url": f"https://infrared-transcripts.pages.dev/en/kick/infrared/{VOD}/"}}}
+        merge_inventory(state, [{"id": VOD, "date": "2026-10-20", "title": "New label",
+                                 "source_url": f"https://kick.com/infrared/videos/{VOD}", "master_url": BASE}])
         self.assertEqual(state["vods"][VOD]["status"], "archived")
+        self.assertEqual(state["vods"][VOD]["youtube_id"], "existing")
+        self.assertEqual(state["vods"][VOD]["attempts"], 1)
+        self.assertIn("infrared-transcripts", state["vods"][VOD]["transcript_url"])
+        self.assertNotIn("master_url", state["vods"][VOD])
 
-    def test_delayed_transcript_can_be_new_without_bulk_backfill(self):
-        row = {"id": VOD, "date": "2026-10-19", "title": "Delayed indexing"}
+    def test_switching_discovery_does_not_trigger_bulk_historical_backfill(self):
+        row = {"id": VOD, "date": "2026-10-19", "title": "Existing Kick recording"}
         initial = {"vods": {}}
         merge_inventory(initial, [row])
         self.assertFalse(initial["vods"][VOD]["new_since_monitoring"])
         running = {"vods": {}, "monitoring_started_at": NOW.isoformat()}
-        merge_inventory(running, [row])
-        self.assertTrue(running["vods"][VOD]["new_since_monitoring"])
+        same_day = {"id": "4a6c5907-0018-4293-9ab5-8df1990edc8f", "date": "2026-10-20", "title": "Latest"}
+        merge_inventory(running, [row, same_day])
+        self.assertFalse(running["vods"][VOD]["new_since_monitoring"])
+        self.assertFalse(running["vods"][same_day["id"]]["new_since_monitoring"])
+        self.assertEqual([v["id"] for v in automatic_candidates(running, list(running["vods"].values()))],
+                         [same_day["id"]])
+
+    def test_newly_appearing_recordings_and_prior_attempts_remain_eligible(self):
+        running = {"vods": {}, "monitoring_started_at": NOW.isoformat(),
+                   "kick_monitoring_started_at": NOW.isoformat()}
+        merge_inventory(running, [{"id": VOD, "date": "2026-10-19", "title": "Late appearing VOD"}])
+        vod = running["vods"][VOD]
+        self.assertTrue(vod["new_since_monitoring"])
+        self.assertEqual(automatic_candidates(running, [vod]), [vod])
+        vod.update(new_since_monitoring=False, attempts=1)
+        self.assertEqual(automatic_candidates(running, [vod]), [vod])
 
     def test_uncertain_upload_is_reconciled_without_reupload(self):
         state = {"pilot_verified": False, "vods": {VOD: {"id": VOD, "status": "uploading", "is_pilot": True}}}
