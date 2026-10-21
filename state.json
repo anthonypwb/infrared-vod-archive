@@ -498,16 +498,17 @@
       "title": "2025-12-08 HIGH INTENSITY DEBATES"
     },
     "135190d8-114b-4279-ab24-c1f84a2aa7d5": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-10-01",
       "first_seen": "2026-10-20T23:57:04.879187+00:00",
       "id": "135190d8-114b-4279-ab24-c1f84a2aa7d5",
+      "is_pilot": false,
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/135190d8-114b-4279-ab24-c1f84a2aa7d5",
       "started_at": "2026-10-01T02:27:09+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "War",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/"
     },
