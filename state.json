@@ -503,14 +503,27 @@
       "first_seen": "2026-10-20T23:57:04.879187+00:00",
       "id": "135190d8-114b-4279-ab24-c1f84a2aa7d5",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 13111.548667,
+        "height": 1080,
+        "output_bytes": 7578416985,
+        "sample_decode_passed": true,
+        "segments": 1311,
+        "source_bytes": 7870546304,
+        "source_sha256": "4b0220eeb7fb792faa8d4281489b9d596ca92d1453fdc114b34f9dd1041e7128",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/135190d8-114b-4279-ab24-c1f84a2aa7d5",
       "started_at": "2026-10-01T02:27:09+00:00",
-      "status": "downloading",
+      "status": "uploading",
       "title": "War",
-      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/"
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/",
+      "upload_started_at": "2026-10-21T13:12:13.378056+00:00"
     },
     "139f2930-1633-49b8-b152-bc7784124ca9": {
       "attempts": 0,
