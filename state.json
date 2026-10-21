@@ -1463,16 +1463,17 @@
       "title": "2025-08-29 DOMINATING LIBS/N*ZIS/GROYPRS/OPPS"
     },
     "4a6c5907-0018-4293-9ab5-8df1990edc8f": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-10-20",
       "first_seen": "2026-10-21T02:37:13.849235+00:00",
       "id": "4a6c5907-0018-4293-9ab5-8df1990edc8f",
+      "is_pilot": false,
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/4a6c5907-0018-4293-9ab5-8df1990edc8f",
       "started_at": "2026-10-20T01:38:12+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "WORLD REVOLUTION"
     },
     "4c390950-5d9d-48b2-abd7-3608b6e2fc1d": {
