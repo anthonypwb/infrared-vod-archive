@@ -41,10 +41,22 @@ retained as optional provenance, not used to discover or retrieve the source.
 Playback URLs are kept only in memory and refreshed from each run's current index.
 An in-flight pilot continues using the commit it started with.
 
-The six-hour schedule, three uploads per rolling seven days and 300-minute monthly
-allowance still apply. One immediate run was authorized as a timing exception;
-it does not authorize repeated unscheduled runs or higher volume. With an existing
-backlog, these caps cannot guarantee that every VOD is rescued before Kick expires it.
+The user subsequently authorized enough exceptions to build an expiry buffer,
+with the 300-minute budget taking priority. The weekly upload cap is now disabled
+(`max_new_uploads_per_week=null`). Each six-hour run may transfer one recording,
+oldest first, until the available queue is caught up or the monthly budget pauses
+work. An immediate catch-up run applies this policy; ongoing runs need no prompting.
+
+Budget admission reconciles rounded GitHub job durations (including CI, retries
+and polls) with conservative state reservations, then requires 45 minutes plus
+five minutes of safety headroom. The worker has `actions: write` solely to read
+usage and disable its own `archive.yml` workflow when budget is insufficient or
+unverifiable. The separate `budget-reset.yml` runs at 00:07 UTC on the first of
+each month, shares the same concurrency group, and re-enables only a budget pause
+from an earlier month when `ARCHIVE_CONNECTED=true`. This reset job's minutes are
+included in the next usage scan. An operator stop using `ARCHIVE_CONNECTED=false`
+remains respected. Account-wide billing and unrelated manually initiated work are
+outside this repository controller's scope. It does not guarantee all VODs survive.
 
 ## Stop and resume
 
@@ -72,7 +84,9 @@ Do not delete `state.json` to resume; that loses duplicate prevention and the le
 - **YouTube `blocked`:** inspect rejection, privacy, processing or duration problems.
   Do not publish a replacement automatically. Once corrected, set `uploaded_pending`
   to recheck that same video.
-- **Monthly allowance reached:** no transfer starts. Reservations are conservative
+- **Monthly allowance reached:** the archive workflow is disabled to stop idle polls,
+  and resumes automatically after the UTC month changes. No transfer starts without
+  a complete reservation and safety headroom. Reservations are conservative
   and separate from actual account-wide billing. Reconcile cancelled runs against
   GitHub job timing before lowering a reservation. Do not erase history to get past a cap.
 - **Expired OAuth token:** run the connection helper again after resolving the

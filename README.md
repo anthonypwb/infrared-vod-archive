@@ -12,7 +12,7 @@ October 20, 2026, and the first pilot was requested. Check the
 and [runtime state](https://github.com/anthonypwb/infrared-vod-archive/blob/archive-state/state.json)
 for the current result. The [connection guide](docs/CONNECT-YOUTUBE.md) also covers reconnection.
 After the pilot passes source media checks, YouTube processing, full-duration and
-public-visibility checks, subsequent scheduled runs may upload new recordings.
+public-visibility checks, subsequent scheduled runs archive available recordings oldest first.
 Human playback review of the first upload remains recommended before increasing volume.
 
 ## Operating defaults
@@ -22,23 +22,29 @@ Human playback review of the first upload remains recommended before increasing 
 | Discovery | Infrared's recent public VOD index directly on Kick; no transcript dependency |
 | Destination | Exactly `@archiveinfrared`, checked against the authenticated channel ID every run |
 | Schedule | Every six hours, at 00:17, 06:17, 12:17 and 18:17 UTC |
-| Pilot volume | At most three new uploads in a rolling seven-day period |
+| Upload volume | No weekly count cap; at most one transfer per run, admitted only within the monthly budget |
 | Initial pilot | One newest eligible complete recording, or an exact supplied VOD UUID |
 | Routine coverage | All unarchived recordings in Kick's current public completed VOD index, oldest first, including the existing backlog |
 | Source availability | No artificial age cutoff; require a valid non-future date, fresh Kick listing and complete accessible media |
 | Quality | Highest supported muxed audio/video rendition; original codecs, no re-encoding |
-| Runtime allowance | 300 recorded/estimated runner minutes per calendar month, including worker polling |
+| Runtime allowance | 300 repository runner minutes per UTC calendar month; reconcile rounded GitHub job durations, including CI, with conservative worker reservations |
 | Job ceiling | 45 minutes; media work stops after 40 minutes to leave checkpoint time |
 | Temporary storage | Up to 10 GB, with at least 2 GB left free |
 | Retention | Temporary footage removed after the attempt; diagnostic artifacts expire after seven days |
 | AI/API-model usage | None in routine discovery or transfer |
 
-The runtime allowance is this repository's estimate, **not an account-wide billing
-cap**. GitHub rounds job usage, and CI checks consume additional minutes. Configure
-GitHub account budgets separately. A failed/cancelled worker leaves its full
-45-minute reservation charged until safely reconciled. This intentionally favors
-underspending over exhausting the account allowance. Admission requires room for
-the next complete reservation, so some allowance may remain unused.
+Before a transfer, the worker reads repository Actions job history, rounds each job
+up to a minute, includes CI and reruns, and preserves larger crash reservations.
+It requires room for a full 45-minute job plus five minutes of safety headroom.
+If there is not enough room, it disables the archive workflow so idle polling does
+not keep consuming minutes. A separate five-minute-maximum job checks once at the
+start of each UTC month and re-enables only a prior-month budget pause.
+
+This is a conservative controller for this repository's standard Ubuntu runners,
+**not an account-wide billing cap**. It cannot cap other repositories or unrelated
+manual jobs/changes. GitHub account billing controls remain separate. If usage
+cannot be verified, automatic transfers pause. Budget takes priority over coverage;
+some allowance can remain unused because the next full attempt would not fit.
 
 ## Reliability behavior
 
@@ -68,8 +74,10 @@ the next complete reservation, so some allowance may remain unused.
 
 ## Limits of this pilot
 
-The 300-minute allowance and three-per-week limit do not guarantee archiving every
-stream. Discovery uses Kick's returned recent-recording window; it does not promise
+The 300-minute allowance takes priority over rescuing every stream. Removing the
+weekly cap lets the backlog clear at six-hour intervals, but expiry, source failures
+and the finite budget prevent an unconditional preservation guarantee.
+Discovery uses Kick's returned recent-recording window; it does not promise
 exhaustive historical pagination. Longer-than-12-hour streams, recordings that exceed available disk, unusual
 HLS layouts (encryption, gaps, discontinuities, separate audio, byte ranges), expired
 sources and unresolved upload outcomes stop with a report. The worker never silently

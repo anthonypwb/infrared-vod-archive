@@ -1,0 +1,24 @@
+name: Archive budget reset
+on:
+  schedule:
+    - cron: '7 0 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: infrared-archive-worker
+  cancel-in-progress: false
+jobs:
+  reset:
+    if: github.ref == 'refs/heads/main' && vars.ARCHIVE_CONNECTED == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Resume only a previous-month budget pause
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -m archive.budget

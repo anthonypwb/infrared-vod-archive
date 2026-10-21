@@ -5,7 +5,7 @@
   "destination_handle": "@archiveinfrared",
   "monthly_runtime_minutes": 300,
   "run_reservation_minutes": 45,
-  "max_new_uploads_per_week": 3,
+  "max_new_uploads_per_week": null,
   "backfill_available_vods": true,
   "max_source_age_days": null,
   "max_source_duration_seconds": 43200,
