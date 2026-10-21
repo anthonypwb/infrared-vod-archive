@@ -2013,16 +2013,17 @@
       "title": "2024-12-04 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "76caa4ff-fd85-453b-b67b-10a7f26dedc6": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-09-24",
       "first_seen": "2026-10-20T23:57:04.879193+00:00",
       "id": "76caa4ff-fd85-453b-b67b-10a7f26dedc6",
+      "is_pilot": false,
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/76caa4ff-fd85-453b-b67b-10a7f26dedc6",
       "started_at": "2026-09-24T21:53:08+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "WW3| High IQ Interview",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/"
     },
