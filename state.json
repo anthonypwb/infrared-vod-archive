@@ -6,6 +6,7 @@
       "39534008714-1": 45
     }
   },
+  "kick_monitoring_started_at": "2026-10-21T02:37:13.849267+00:00",
   "last_run_at": "2026-10-21T00:49:51.764197+00:00",
   "monitoring_started_at": "2026-10-20T23:57:04.879879+00:00",
   "pilot_verified": true,
@@ -348,9 +349,13 @@
       "first_seen": "2026-10-20T23:57:04.879187+00:00",
       "id": "135190d8-114b-4279-ab24-c1f84a2aa7d5",
       "new_since_monitoring": false,
-      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/",
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/135190d8-114b-4279-ab24-c1f84a2aa7d5",
+      "started_at": "2026-10-01T02:27:09+00:00",
       "status": "discovered",
-      "title": "2026-10-01 War"
+      "title": "War",
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/"
     },
     "139f2930-1633-49b8-b152-bc7784124ca9": {
       "attempts": 0,
@@ -468,9 +473,13 @@
       "first_seen": "2026-10-20T23:57:04.879194+00:00",
       "id": "1977a95a-da0a-428c-97e6-b9c443fa93ae",
       "new_since_monitoring": false,
-      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/",
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/1977a95a-da0a-428c-97e6-b9c443fa93ae",
+      "started_at": "2026-09-23T01:32:21+00:00",
       "status": "discovered",
-      "title": "2026-09-23 WW3 IMMINENT"
+      "title": "WW3 IMMINENT",
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/"
     },
     "1988a99a-2691-4789-97c5-8f599b4079d6": {
       "attempts": 0,
@@ -551,6 +560,19 @@
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2152d152-92af-4763-8daf-575cb48ea564/",
       "status": "discovered",
       "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+    },
+    "221eb656-7569-4316-b3fd-61034a75f221": {
+      "attempts": 0,
+      "date": "2026-10-07",
+      "first_seen": "2026-10-21T02:37:13.849247+00:00",
+      "id": "221eb656-7569-4316-b3fd-61034a75f221",
+      "new_since_monitoring": false,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/221eb656-7569-4316-b3fd-61034a75f221",
+      "started_at": "2026-10-07T03:25:21+00:00",
+      "status": "discovered",
+      "title": "Into Battle."
     },
     "224c259f-3b51-487e-9da1-6173bee55ecb": {
       "attempts": 0,
@@ -651,6 +673,19 @@
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/28522a2c-5501-4634-8a80-b0a995dfd29a/",
       "status": "discovered",
       "title": "2026-06-26 INFRARED RENAISSANCE"
+    },
+    "285bea08-9bae-4c5a-b40d-09b67a811906": {
+      "attempts": 0,
+      "date": "2026-10-06",
+      "first_seen": "2026-10-21T02:37:13.849250+00:00",
+      "id": "285bea08-9bae-4c5a-b40d-09b67a811906",
+      "new_since_monitoring": false,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/285bea08-9bae-4c5a-b40d-09b67a811906",
+      "started_at": "2026-10-06T02:32:18+00:00",
+      "status": "discovered",
+      "title": "It's happening."
     },
     "291743a3-98d0-44fe-83fc-c5cfca54440d": {
       "attempts": 0,
@@ -1092,6 +1127,19 @@
       "status": "discovered",
       "title": "2025-08-29 DOMINATING LIBS/N*ZIS/GROYPRS/OPPS"
     },
+    "4a6c5907-0018-4293-9ab5-8df1990edc8f": {
+      "attempts": 0,
+      "date": "2026-10-20",
+      "first_seen": "2026-10-21T02:37:13.849235+00:00",
+      "id": "4a6c5907-0018-4293-9ab5-8df1990edc8f",
+      "new_since_monitoring": false,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/4a6c5907-0018-4293-9ab5-8df1990edc8f",
+      "started_at": "2026-10-20T01:38:12+00:00",
+      "status": "discovered",
+      "title": "WORLD REVOLUTION"
+    },
     "4c390950-5d9d-48b2-abd7-3608b6e2fc1d": {
       "attempts": 0,
       "date": "2025-04-02",
@@ -1433,9 +1481,13 @@
       },
       "new_since_monitoring": false,
       "note": "Public upload and full duration verified",
-      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4",
+      "started_at": "2026-10-03T02:55:22+00:00",
       "status": "archived",
       "title": "Allahu Akbar.",
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
       "upload_started_at": "2026-10-21T00:05:19.491153+00:00",
       "youtube_id": "uaTfcuLH40E"
     },
@@ -1825,9 +1877,13 @@
       "first_seen": "2026-10-20T23:57:04.879193+00:00",
       "id": "76caa4ff-fd85-453b-b67b-10a7f26dedc6",
       "new_since_monitoring": false,
-      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/",
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/76caa4ff-fd85-453b-b67b-10a7f26dedc6",
+      "started_at": "2026-09-24T21:53:08+00:00",
       "status": "discovered",
-      "title": "2026-09-24 WW3| High IQ Interview"
+      "title": "WW3| High IQ Interview",
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/"
     },
     "76e38dd0-c63b-48c0-ab5e-85b95dee9d0b": {
       "attempts": 0,
@@ -2285,9 +2341,13 @@
       "first_seen": "2026-10-20T23:57:04.879190+00:00",
       "id": "880dcb20-2e8c-4697-828c-822f01999554",
       "new_since_monitoring": false,
-      "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/",
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/880dcb20-2e8c-4697-828c-822f01999554",
+      "started_at": "2026-09-28T02:45:17+00:00",
       "status": "discovered",
-      "title": "2026-09-28 Prepare for nuclear war."
+      "title": "Prepare for nuclear war.",
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/"
     },
     "8870382f-9c8c-471f-a781-05b5c0634ea6": {
       "attempts": 0,
@@ -2548,6 +2608,19 @@
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9a2660d6-add0-43a2-a738-5151da9f7ab4/",
       "status": "discovered",
       "title": "2026-05-26 ACP DOMINATING | PIKER UNDER ATTACK | DEBATES"
+    },
+    "9abd5ae2-1bb9-4cac-a420-5b90e8070630": {
+      "attempts": 0,
+      "date": "2026-10-14",
+      "first_seen": "2026-10-21T02:37:13.849243+00:00",
+      "id": "9abd5ae2-1bb9-4cac-a420-5b90e8070630",
+      "new_since_monitoring": false,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/9abd5ae2-1bb9-4cac-a420-5b90e8070630",
+      "started_at": "2026-10-14T03:35:22+00:00",
+      "status": "discovered",
+      "title": "BIG CHANGE"
     },
     "9d9025a5-5e00-404f-9387-7163e63354a4": {
       "attempts": 0,
