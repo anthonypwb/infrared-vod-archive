@@ -2976,13 +2976,26 @@
       "first_seen": "2026-10-21T02:37:13.849243+00:00",
       "id": "9abd5ae2-1bb9-4cac-a420-5b90e8070630",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 8466.881667,
+        "height": 1080,
+        "output_bytes": 4896628949,
+        "sample_decode_passed": true,
+        "segments": 846,
+        "source_bytes": 5085092432,
+        "source_sha256": "36dde26a7bb9d5a1b1be69570f074e983b8eabe04b233179545276848e831bd6",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/9abd5ae2-1bb9-4cac-a420-5b90e8070630",
       "started_at": "2026-10-14T03:35:22+00:00",
-      "status": "downloading",
-      "title": "BIG CHANGE"
+      "status": "uploading",
+      "title": "BIG CHANGE",
+      "upload_started_at": "2026-10-21T21:04:42.004883+00:00"
     },
     "9d9025a5-5e00-404f-9387-7163e63354a4": {
       "attempts": 0,
