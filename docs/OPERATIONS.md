@@ -6,9 +6,9 @@ The scheduled workflow is installed but its job is skipped until `ARCHIVE_CONNEC
 is `true`. The setup helper sets this only after checking and saving the channel
 connection. The public pilot and actual `pilot_verified` state control transfers.
 
-The six-hour UTC schedule runs at 8:17 PM, 2:17 AM, 8:17 AM and 2:17 PM in
-Massachusetts during daylight time; during standard time those become 7:17 PM,
-1:17 AM, 7:17 AM and 1:17 PM. GitHub schedules may be delayed and are not exact timers.
+The two-hour UTC schedule runs at minute 17 of every even-numbered UTC hour.
+In Massachusetts this is every even-numbered local hour during daylight time,
+and every odd-numbered local hour during standard time. GitHub schedules may be delayed and are not exact timers.
 
 `Archive Infrared VODs` has four modes:
 
@@ -43,7 +43,7 @@ An in-flight pilot continues using the commit it started with.
 
 The user subsequently authorized enough exceptions to build an expiry buffer,
 initially with a 300-minute budget taking priority. The weekly upload cap is now disabled
-(`max_new_uploads_per_week=null`). Each six-hour run may transfer one recording,
+(`max_new_uploads_per_week=null`). Each two-hour run may transfer one recording,
 oldest first, until the available queue is caught up or the monthly budget pauses
 work. An immediate catch-up run applies this policy; ongoing runs need no prompting.
 
@@ -119,3 +119,11 @@ This allocation is not a GitHub-enforced reservation or an account-wide usage
 measurement. Keep account billing controls in place and reassess the allocation
 before expanding either project's cap. The existing archive budget admission,
 45-minute reservation, five-minute headroom and automatic pause remain active.
+
+On October 21, 2026, the user authorized ramping up archival. The recurring
+schedule was shortened from six hours to two hours (up to 12 attempts/day),
+with one oldest eligible VOD per run and no overlapping archive workers.
+The 1,000-minute monthly cap and Talonsight allocation remain unchanged.
+More frequent empty polls also use runner minutes; the budget controller counts
+these. Source-failure retries retain their six-hour backoff. This cadence does
+not increase transfer speed or guarantee YouTube processing completion times.

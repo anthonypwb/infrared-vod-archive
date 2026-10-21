@@ -21,7 +21,7 @@ Human playback review of the first upload remains recommended before increasing 
 | --- | --- |
 | Discovery | Infrared's recent public VOD index directly on Kick; no transcript dependency |
 | Destination | Exactly `@archiveinfrared`, checked against the authenticated channel ID every run |
-| Schedule | Every six hours, at 00:17, 06:17, 12:17 and 18:17 UTC |
+| Schedule | Every two hours, at minute 17 of even-numbered UTC hours |
 | Upload volume | No weekly count cap; at most one transfer per run, admitted only within the monthly budget |
 | Initial pilot | One newest eligible complete recording, or an exact supplied VOD UUID |
 | Routine coverage | All unarchived recordings in Kick's current public completed VOD index, oldest first, including the existing backlog |
@@ -75,7 +75,7 @@ some allowance can remain unused because the next full attempt would not fit.
 ## Limits of this pilot
 
 The 1,000-minute allowance takes priority over rescuing every stream. Removing the
-weekly cap lets the backlog clear at six-hour intervals, but expiry, source failures
+weekly cap lets the backlog clear at two-hour intervals, but expiry, source failures
 and the finite budget prevent an unconditional preservation guarantee.
 Discovery uses Kick's returned recent-recording window; it does not promise
 exhaustive historical pagination. Longer-than-12-hour streams, recordings that exceed available disk, unusual
