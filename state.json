@@ -2538,10 +2538,11 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/880dcb20-2e8c-4697-828c-822f01999554",
       "started_at": "2026-09-28T02:45:17+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "Prepare for nuclear war.",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/",
-      "upload_started_at": "2026-10-21T06:52:50.390444+00:00"
+      "upload_started_at": "2026-10-21T06:52:50.390444+00:00",
+      "youtube_id": "xL1TUVUUnks"
     },
     "8870382f-9c8c-471f-a781-05b5c0634ea6": {
       "attempts": 0,
