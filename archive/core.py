@@ -89,14 +89,19 @@ def settle(state, month, key, elapsed_seconds):
     ledger[key] = min(ledger[key], max(1, math.ceil((elapsed_seconds + 30) / 60)))
 
 
+BASE_TAGS = ['Infrared', 'Infrared Show', 'Haz', 'Haz Al-Din', 'Haz Al Din',
+             'Infrared livestream', 'political commentary', 'full livestream']
+
+
 def upload_metadata(vod):
     clean_title = re.sub(r"[<>\x00-\x1f]", "", vod["title"]).strip()
     title = f"{vod['date']} | {clean_title} | Infrared Archive"[:100]
     return {
-        "snippet": {"title": title, "categoryId": "25", "description":
-            "Full Infrared livestream, archived with the creator's permission.\n"
-            f"Original stream date: {vod['date']}\nOriginal channel: https://kick.com/infrared\n"
-            f"Original recording: {vod['source_url']}\n\n"
+        "snippet": {"title": title, "categoryId": "25", "tags": list(BASE_TAGS), "description":
+            "Full Infrared Show livestream with Haz Al-Din.\n\n"
+            f"Stream: {clean_title}\nDate: {vod['date']}\n\n"
+            "Watch Infrared: https://kick.com/infrared\n"
+            f"Original VOD: {vod['source_url']}\n\n"
             f"Archive source ID: {vod['id']}\n"},
         "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False},
     }

@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import re
 import signal
-from .core import ArchiveError, json_request, timestamp, valid_uuid
+from .core import ArchiveError, BASE_TAGS, json_request, timestamp, upload_metadata, valid_uuid
 from .state import StateStore
 from .youtube import API, YouTube
 
@@ -44,19 +44,30 @@ def fingerprint(snippet):
     return hashlib.sha256(json.dumps(snippet, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
 
 
-def prepare(snippet, plan, vod):
+def prepare(snippet, plan, vod, baseline=False):
     description = snippet.get('description', '')
     markers = [s.strip() for s in description.splitlines() if s.strip().startswith('Archive source ID:')]
     if any(s != f"Archive source ID: {vod['id']}" for s in markers):
         raise ArchiveError('Conflicting source marker')
     # Never replace an existing generated section or a subsequent human edit.
-    if START in description or END in description:
+    if not baseline and (START in description or END in description):
         raise ArchiveError('Overview already present; reconcile without overwriting')
-    block = f"{START}\n{plan['summary']}\n\nTranscript: {plan['transcript_url']}\n{END}"
     result = {k: snippet[k] for k in FIELDS if k in snippet}
-    result['description'] = description.rstrip() + '\n\n' + block
+    if baseline:
+        # Replace the old generated template, but retain custom descriptions and overviews.
+        old_intro = "Full Infrared livestream, archived with the creator's permission."
+        if not description.strip() or description.startswith(old_intro):
+            overview = description[description.index(START):] if START in description else ''
+            result['description'] = upload_metadata(vod)['snippet']['description'].rstrip()
+            if overview:
+                result['description'] += '\n\n' + overview
+        else:
+            result['description'] = re.sub(r"(?i)archived with the creator['’]s permission\.?", '', description).strip()
+    else:
+        block = f"{START}\n{plan['summary']}\n\nTranscript: {plan['transcript_url']}\n{END}"
+        result['description'] = description.rstrip() + '\n\n' + block
     tags = list(snippet.get('tags', []))
-    for tag in plan['tags']:
+    for tag in list(BASE_TAGS) + ([] if baseline else plan['tags']):
         if tag.casefold() not in {t.casefold() for t in tags}:
             tags.append(tag)
     if sum(len(t) + 3 for t in tags) > 500 or len(result['description'].encode()) > 5000:
@@ -65,12 +76,15 @@ def prepare(snippet, plan, vod):
     return result
 
 
-def apply_plan(youtube, store, state, plan):
+def apply_plan(youtube, store, state, plan, baseline=False):
     vod = state['vods'].get(plan.get('vod_id'))
     if not vod or vod.get('status') != 'archived':
         return
-    validate(plan, vod)
-    record = vod.setdefault('metadata', {})
+    if not baseline:
+        validate(plan, vod)
+    elif not valid_uuid(vod['id']) or not re.fullmatch(r'[A-Za-z0-9_-]{11}', vod.get('youtube_id', '')):
+        raise ArchiveError('Baseline identity mismatch')
+    record = vod.setdefault('metadata_baseline_v1' if baseline else 'metadata', {})
     if record.get('status') in ('applied', 'conflict'):
         return
     items = youtube.get('videos', part='snippet', id=vod['youtube_id']).get('items', [])
@@ -89,9 +103,13 @@ def apply_plan(youtube, store, state, plan):
             record.update(status='conflict', note='Live metadata changed; automatic overwrite withheld')
             store.save(state)
             return
-    target = prepare(current, plan, vod)
+    target = prepare(current, plan, vod, baseline)
+    if fingerprint(target) == digest:
+        record.update(status='applied', applied_at=timestamp())
+        store.save(state)
+        return
     record.update(status='applying', original_sha256=digest, target_sha256=fingerprint(target),
-                  transcript_sha256=plan['transcript_sha256'], started_at=timestamp())
+                  transcript_sha256=plan.get('transcript_sha256'), started_at=timestamp())
     store.save(state)
     headers = {**youtube.auth(), 'Content-Type': 'application/json'}
     if not item.get('etag'):
@@ -123,6 +141,14 @@ def main():
         youtube = YouTube()
         youtube.verify_channel(os.environ.get('YOUTUBE_CHANNEL_ID'), '@archiveinfrared')
         count = 0
+        # Basic channel tags and template cleanup do not wait for a transcript.
+        for vod in state['vods'].values():
+            if vod.get('status') != 'archived' or vod.get('metadata_baseline_v1', {}).get('status') in ('applied', 'conflict'):
+                continue
+            apply_plan(youtube, store, state, {'vod_id': vod['id']}, baseline=True)
+            count += 1
+            if count >= 2:
+                return
         for path in sorted(Path('metadata/plans').glob('*.json')):
             plan = json.loads(path.read_text())
             vod = state['vods'].get(plan.get('vod_id'), {})

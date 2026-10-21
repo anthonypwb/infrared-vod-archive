@@ -1,5 +1,24 @@
 # Transcript metadata coordinator
 
+## Basic metadata policy (October 21, 2026)
+
+The creator also authorized updates to existing uploads, channel-wide basic tags,
+and description reformatting. Every new upload immediately receives these tags:
+Infrared, Infrared Show, Haz, Haz Al-Din, Haz Al Din, Infrared livestream,
+political commentary, full livestream. Specific countries, people, organizations
+and ideologies belong in transcript-supported tags only when discussed.
+
+The default description is a short stream introduction, original stream title,
+date, channel link, original VOD link and source ID. It no longer includes
+"archived with the creator's permission". Once the Google editing grant is enabled,
+the runner automatically migrates existing generated descriptions and adds these
+basic tags without waiting for transcripts. Custom description text and completed
+overviews are retained, apart from the requested permission-phrase removal.
+This uses a separate `metadata_baseline_v1` checkpoint; it does not mark the
+transcript-based enrichment complete. Both types share the two-updates-per-run
+and 60-second follow-up limits. The coordinator still prepares only evidence-backed
+transcript plans; it need not create basic-tag plans or edit existing plans.
+
 Authorization: on October 21, 2026 the creator approved automatic video-specific
 tags and a fuller description after the transcript becomes available. This is for
 the full-VOD archive @archiveinfrared only, not Talonsight production.

@@ -1,7 +1,7 @@
 import copy
 import unittest
 from unittest.mock import Mock, patch
-from archive.core import ArchiveError
+from archive.core import ArchiveError, BASE_TAGS, upload_metadata
 from archive.metadata import apply_plan, prepare, validate
 
 UID = '59dcb3eb-94d6-4c33-86be-3fcff5de6ba4'
@@ -26,7 +26,7 @@ class MetadataTests(unittest.TestCase):
         target = prepare(self.snippet, self.plan, self.vod)
         self.assertTrue(target['description'].startswith('User edited description'))
         self.assertEqual(target['title'], self.snippet['title'])
-        self.assertEqual(target['tags'], ['existing', 'economic history'])
+        self.assertEqual(target['tags'], ['existing'] + BASE_TAGS + ['economic history'])
         self.assertEqual(target['defaultAudioLanguage'], 'en')
 
     def test_rejects_wrong_video_and_conflicting_marker_and_oversize(self):
@@ -36,6 +36,19 @@ class MetadataTests(unittest.TestCase):
             prepare(dict(self.snippet, description='Archive source ID: different'), self.plan, self.vod)
         with self.assertRaises(ArchiveError):
             prepare(dict(self.snippet, description='a'*4900), self.plan, self.vod)
+
+    def test_baseline_migrates_old_template_without_transcript(self):
+        vod = dict(self.vod, title='Example', date='2026-10-21', source_url='https://kick.com/infrared')
+        old = dict(self.snippet, description="Full Infrared livestream, archived with the creator's permission.\nOld template")
+        target = prepare(old, {}, vod, baseline=True)
+        self.assertNotIn("creator's permission", target['description'])
+        self.assertIn('Stream: Example', target['description'])
+        self.assertIn('Archive source ID: ' + UID, target['description'])
+        self.assertEqual(target['title'], old['title'])
+        self.assertEqual(prepare(target, {}, vod, baseline=True), target)
+        fresh = upload_metadata(vod)['snippet']
+        self.assertEqual(fresh['tags'], BASE_TAGS)
+        self.assertNotIn('permission', fresh['description'])
 
     def test_lost_response_is_reconciled_without_duplicate_write(self):
         yt, store = Mock(), Mock()
