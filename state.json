@@ -592,6 +592,7 @@
       "title": "2026-04-14 They're FREAKING OUT about us | Iran NEGOTIATIONS BREAKDOWN"
     },
     "1977a95a-da0a-428c-97e6-b9c443fa93ae": {
+      "archived_at": "2026-10-21T03:14:52.756310+00:00",
       "attempts": 1,
       "date": "2026-09-23",
       "first_seen": "2026-10-20T23:57:04.879194+00:00",
@@ -610,12 +611,12 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload and full duration verified",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1977a95a-da0a-428c-97e6-b9c443fa93ae",
       "started_at": "2026-09-23T01:32:21+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "WW3 IMMINENT",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/",
       "upload_started_at": "2026-10-21T02:51:45.101657+00:00",
