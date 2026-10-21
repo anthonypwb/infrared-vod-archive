@@ -842,8 +842,15 @@
       "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "221eb656-7569-4316-b3fd-61034a75f221": {
+      "archived_at": "2026-10-21T20:51:12.908128+00:00",
       "attempts": 1,
       "date": "2026-10-07",
+      "duration_check": {
+        "difference_seconds": 0.13533300000017334,
+        "source_seconds": 10725.864667,
+        "tolerance_seconds": 536.29323335,
+        "youtube_seconds": 10726.0
+      },
       "first_seen": "2026-10-21T02:37:13.849247+00:00",
       "id": "221eb656-7569-4316-b3fd-61034a75f221",
       "is_pilot": false,
@@ -860,12 +867,12 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/221eb656-7569-4316-b3fd-61034a75f221",
       "started_at": "2026-10-07T03:25:21+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "Into Battle.",
       "upload_started_at": "2026-10-21T19:12:35.661347+00:00",
       "youtube_id": "rfl6t9mri-U"
