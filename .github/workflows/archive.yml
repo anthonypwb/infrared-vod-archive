@@ -1,8 +1,5 @@
 name: Archive Infrared VODs
 on:
-  push:
-    branches: [main]
-    paths: ['archive/source.py']
   schedule:
     - cron: '17 */2 * * *'
   workflow_dispatch:
@@ -27,7 +24,7 @@ concurrency:
 
 jobs:
   archive:
-    if: (github.event_name != 'push' || startsWith(github.event.head_commit.message, 'Retry oldest VOD now:')) && github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true')
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
