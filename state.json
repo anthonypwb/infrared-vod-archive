@@ -2035,10 +2035,11 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/76caa4ff-fd85-453b-b67b-10a7f26dedc6",
       "started_at": "2026-09-24T21:53:08+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WW3| High IQ Interview",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76caa4ff-fd85-453b-b67b-10a7f26dedc6/",
-      "upload_started_at": "2026-10-21T03:27:04.454690+00:00"
+      "upload_started_at": "2026-10-21T03:27:04.454690+00:00",
+      "youtube_id": "tV7N1m7HjUo"
     },
     "76e38dd0-c63b-48c0-ab5e-85b95dee9d0b": {
       "attempts": 0,
