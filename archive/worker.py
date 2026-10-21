@@ -11,6 +11,7 @@ from .core import ArchiveError, read_config, reserve, settle, timestamp, upload_
 from .source import (acquire, discover_kick, eligible_date, ensure_media_tools, get_text,
                      parse_playlist, read_kick_source, resolve)
 from .state import StateStore
+from .budget import admit, has_room, pause
 from .youtube import YouTube
 
 
@@ -110,6 +111,17 @@ def run(mode, vod_id=None):
     store = StateStore()
     state = store.load()
     started = time.monotonic()
+
+    def budget_timeout(signum, frame):
+        raise ArchiveError("Budget preflight exceeded two minutes")
+
+    signal.signal(signal.SIGALRM, budget_timeout)
+    signal.alarm(120)
+    try:
+        if not admit(store, state, config):
+            return
+    finally:
+        signal.alarm(0)
     key = os.environ.get("GITHUB_RUN_ID", "local") + "-" + os.environ.get("GITHUB_RUN_ATTEMPT", "1")
     month = reserve(state, key, config["run_reservation_minutes"], config["monthly_runtime_minutes"])
     store.save(state)  # A crash leaves the full reservation charged.
@@ -143,7 +155,8 @@ def run(mode, vod_id=None):
                for v in state["vods"].values()) and not state["pilot_verified"]:
             print("Existing pilot requires verification or reconciliation; another pilot was not uploaded.")
             return
-        if weekly_count(state) >= config["max_new_uploads_per_week"]:
+        weekly_limit = config["max_new_uploads_per_week"]
+        if weekly_limit is not None and weekly_count(state) >= weekly_limit:
             print("Weekly upload limit reached; remaining recordings stay queued.")
             return
         rows = discover(config)
@@ -224,6 +237,8 @@ def run(mode, vod_id=None):
         if os.environ.get("GITHUB_STEP_SUMMARY"):
             with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
                 out.write("## Infrared archive run\n\n```json\n" + json.dumps(summary, indent=2) + "\n```\n")
+        if not has_room(sum(state["budget"][month].values()), config):
+            pause(store, state, "Remaining monthly budget is reserved for safe shutdown")
 
 
 def main():

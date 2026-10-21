@@ -1,5 +1,9 @@
 name: Archive Infrared VODs
 on:
+  # One immediate budget-first catch-up run; remove after it starts.
+  push:
+    branches: [main]
+    paths: ['config/archive.json']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
@@ -16,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: infrared-archive-worker
@@ -23,7 +28,7 @@ concurrency:
 
 jobs:
   archive:
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true')
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.ARCHIVE_CONNECTED == 'true') && (github.event_name != 'push' || startsWith(github.event.head_commit.message, 'Enable budget-first catch-up once'))
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
