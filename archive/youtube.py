@@ -170,6 +170,12 @@ class YouTube:
             return "blocked", "YouTube did not make the upload public; inspect channel/API restrictions"
         actual = duration_seconds(item["contentDetails"]["duration"])
         expected = vod["media"]["duration_seconds"]
-        if abs(actual - expected) > max(3, expected * .001):
-            return "blocked", "YouTube duration does not match the complete source"
-        return "archived", "Public upload and full duration verified"
+        # Creator routinely removes copyrighted intro material after upload.
+        # Only large discrepancies require review; pre-upload checks remain strict.
+        tolerance = max(300, expected * .05)
+        vod["duration_check"] = {"source_seconds": expected, "youtube_seconds": actual,
+                                 "difference_seconds": actual - expected,
+                                 "tolerance_seconds": tolerance}
+        if abs(actual - expected) > tolerance:
+            return "blocked", "Large YouTube duration discrepancy exceeds 5 minutes or 5 percent (whichever is greater)"
+        return "archived", "Public upload verified; duration within creator-authorized edit tolerance"

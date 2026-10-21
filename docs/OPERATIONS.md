@@ -134,3 +134,14 @@ The fixed channel tags in `archive/core.py` are included with every new upload.
 Descriptions use the clean stream template without permission wording. The creator
 cancelled transcript-based enrichment and post-upload editing on October 21, 2026.
 The daily metadata task is disabled. See `docs/METADATA.md` for the current policy.
+
+## Creator edits after upload
+
+On October 21, 2026 the creator confirmed that the roughly 51-second difference
+on War (BWGvzMeL9CY) was an intentional YouTube edit removing copyrighted intro
+material, and requested that small duration changes not trigger archive warnings.
+Post-upload duration verification now flags only differences greater than the
+larger of five minutes or five percent of source duration. The measured difference
+and threshold are saved in duration_check. Source download and pre-upload file
+checks remain strict. Archived videos are not periodically rechecked or reuploaded
+because of subsequent edits. This policy does not change source download retries.

@@ -254,7 +254,22 @@ class YouTubeTests(unittest.TestCase):
             with self.assertRaises(ArchiveError):
                 yt.verify_video(vod)
 
-    def test_edited_description_still_requires_processing_publicity_and_full_duration(self):
+    def test_creator_intro_trim_and_small_edits_are_accepted(self):
+        yt = self.youtube()
+        vod = {"id": VOD, "youtube_id": "abcdefghijk", "media": {"duration_seconds": 3600}}
+        for duration in ("PT59M10S", "PT55M"):
+            item = self.video_fixture(yt)
+            item['contentDetails']['duration'] = duration
+            yt.get = Mock(return_value={"items": [item]})
+            self.assertEqual(yt.verify_video(vod)[0], 'archived')
+        item['contentDetails']['duration'] = 'PT54M59S'
+        self.assertEqual(yt.verify_video(vod)[0], 'blocked')
+        vod['media']['duration_seconds'] = 13111.548667
+        item['contentDetails']['duration'] = 'PT3H37M40S'
+        self.assertEqual(yt.verify_video(vod)[0], 'archived')
+        self.assertAlmostEqual(vod['duration_check']['difference_seconds'], -51.548667)
+
+    def test_edited_description_still_requires_processing_publicity_and_no_large_duration_loss(self):
         yt = self.youtube()
         vod = {"id": VOD, "youtube_id": "abcdefghijk", "media": {"duration_seconds": 3600}}
         for section, key, value, expected in (
