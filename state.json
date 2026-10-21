@@ -839,13 +839,26 @@
       "first_seen": "2026-10-21T02:37:13.849247+00:00",
       "id": "221eb656-7569-4316-b3fd-61034a75f221",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 10725.864667,
+        "height": 1080,
+        "output_bytes": 6212789324,
+        "sample_decode_passed": true,
+        "segments": 1072,
+        "source_bytes": 6449471788,
+        "source_sha256": "6f8d7a7a5173d44bb65adccb723ab4a7da4ee5ccef357b4939efdad2f68d79c0",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/221eb656-7569-4316-b3fd-61034a75f221",
       "started_at": "2026-10-07T03:25:21+00:00",
-      "status": "downloading",
-      "title": "Into Battle."
+      "status": "uploading",
+      "title": "Into Battle.",
+      "upload_started_at": "2026-10-21T19:12:35.661347+00:00"
     },
     "224c259f-3b51-487e-9da1-6173bee55ecb": {
       "attempts": 0,
