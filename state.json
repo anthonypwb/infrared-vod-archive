@@ -1468,13 +1468,26 @@
       "first_seen": "2026-10-21T02:37:13.849235+00:00",
       "id": "4a6c5907-0018-4293-9ab5-8df1990edc8f",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 11683.148667,
+        "height": 1080,
+        "output_bytes": 6768815607,
+        "sample_decode_passed": true,
+        "segments": 1167,
+        "source_bytes": 7025587824,
+        "source_sha256": "980885c361fc3adc0dcb3a5963632a3dac35e3e33fc6d1fc98382fe78b355be8",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/4a6c5907-0018-4293-9ab5-8df1990edc8f",
       "started_at": "2026-10-20T01:38:12+00:00",
-      "status": "downloading",
-      "title": "WORLD REVOLUTION"
+      "status": "uploading",
+      "title": "WORLD REVOLUTION",
+      "upload_started_at": "2026-10-21T22:55:16.003399+00:00"
     },
     "4c390950-5d9d-48b2-abd7-3608b6e2fc1d": {
       "attempts": 0,
