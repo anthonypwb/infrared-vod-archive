@@ -127,3 +127,14 @@ The 1,000-minute monthly cap and Talonsight allocation remain unchanged.
 More frequent empty polls also use runner minutes; the budget controller counts
 these. Source-failure retries retain their six-hour backoff. This cadence does
 not increase transfer speed or guarantee YouTube processing completion times.
+
+## Transcript-based metadata follow-up
+
+See `docs/METADATA.md`. A ChatGPT task prepares transcript-backed plans in
+`metadata/plans`; it does not receive YouTube credentials. The existing archive
+job applies at most two plans after its upload/verification work, within a
+60-second follow-up and the existing 45-minute job ceiling. No new runner schedule
+is added. GitHub job accounting includes follow-up time on the next scan; the
+five-minute admission headroom remains in place. Metadata failures are isolated
+from completed uploads. The one-time `--enable-metadata` Google grant is required
+before application. Do not claim live application until state records `applied`.
