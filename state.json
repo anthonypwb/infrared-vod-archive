@@ -834,16 +834,17 @@
       "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "221eb656-7569-4316-b3fd-61034a75f221": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-10-07",
       "first_seen": "2026-10-21T02:37:13.849247+00:00",
       "id": "221eb656-7569-4316-b3fd-61034a75f221",
+      "is_pilot": false,
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/221eb656-7569-4316-b3fd-61034a75f221",
       "started_at": "2026-10-07T03:25:21+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "Into Battle."
     },
     "224c259f-3b51-487e-9da1-6173bee55ecb": {
