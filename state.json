@@ -1485,9 +1485,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/4a6c5907-0018-4293-9ab5-8df1990edc8f",
       "started_at": "2026-10-20T01:38:12+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WORLD REVOLUTION",
-      "upload_started_at": "2026-10-21T22:55:16.003399+00:00"
+      "upload_started_at": "2026-10-21T22:55:16.003399+00:00",
+      "youtube_id": "GgibasQ1W0E"
     },
     "4c390950-5d9d-48b2-abd7-3608b6e2fc1d": {
       "attempts": 0,
