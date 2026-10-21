@@ -856,9 +856,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/221eb656-7569-4316-b3fd-61034a75f221",
       "started_at": "2026-10-07T03:25:21+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "Into Battle.",
-      "upload_started_at": "2026-10-21T19:12:35.661347+00:00"
+      "upload_started_at": "2026-10-21T19:12:35.661347+00:00",
+      "youtube_id": "rfl6t9mri-U"
     },
     "224c259f-3b51-487e-9da1-6173bee55ecb": {
       "attempts": 0,
