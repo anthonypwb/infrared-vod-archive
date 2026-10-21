@@ -1428,9 +1428,10 @@
       },
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59dcb3eb-94d6-4c33-86be-3fcff5de6ba4/",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "Allahu Akbar.",
-      "upload_started_at": "2026-10-21T00:05:19.491153+00:00"
+      "upload_started_at": "2026-10-21T00:05:19.491153+00:00",
+      "youtube_id": "uaTfcuLH40E"
     },
     "5c4126ec-a5b4-4f94-a1e3-31c124dfbd06": {
       "attempts": 0,
