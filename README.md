@@ -27,7 +27,7 @@ Human playback review of the first upload remains recommended before increasing 
 | Routine coverage | All unarchived recordings in Kick's current public completed VOD index, oldest first, including the existing backlog |
 | Source availability | No artificial age cutoff; require a valid non-future date, fresh Kick listing and complete accessible media |
 | Quality | Highest supported muxed audio/video rendition; original codecs, no re-encoding |
-| Runtime allowance | 300 repository runner minutes per UTC calendar month; reconcile rounded GitHub job durations, including CI, with conservative worker reservations |
+| Runtime allowance | 1,000 repository runner minutes per UTC calendar month; reconcile rounded GitHub job durations, including CI, with conservative worker reservations |
 | Job ceiling | 45 minutes; media work stops after 40 minutes to leave checkpoint time |
 | Temporary storage | Up to 10 GB, with at least 2 GB left free |
 | Retention | Temporary footage removed after the attempt; diagnostic artifacts expire after seven days |
@@ -74,7 +74,7 @@ some allowance can remain unused because the next full attempt would not fit.
 
 ## Limits of this pilot
 
-The 300-minute allowance takes priority over rescuing every stream. Removing the
+The 1,000-minute allowance takes priority over rescuing every stream. Removing the
 weekly cap lets the backlog clear at six-hour intervals, but expiry, source failures
 and the finite budget prevent an unconditional preservation guarantee.
 Discovery uses Kick's returned recent-recording window; it does not promise

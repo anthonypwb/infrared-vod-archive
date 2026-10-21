@@ -101,7 +101,7 @@ def pause(store, state, reason):
                              "at": timestamp()}
     store.save(state)
     set_archive_enabled(store, False)
-    print("Archive schedule paused to protect the 300-minute budget:", reason)
+    print("Archive schedule paused to protect the configured monthly budget:", reason)
 
 
 def admit(store, state, config):

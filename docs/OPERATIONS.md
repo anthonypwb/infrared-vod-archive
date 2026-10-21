@@ -42,7 +42,7 @@ Playback URLs are kept only in memory and refreshed from each run's current inde
 An in-flight pilot continues using the commit it started with.
 
 The user subsequently authorized enough exceptions to build an expiry buffer,
-with the 300-minute budget taking priority. The weekly upload cap is now disabled
+initially with a 300-minute budget taking priority. The weekly upload cap is now disabled
 (`max_new_uploads_per_week=null`). Each six-hour run may transfer one recording,
 oldest first, until the available queue is caught up or the monthly budget pauses
 work. An immediate catch-up run applies this policy; ongoing runs need no prompting.
@@ -107,3 +107,15 @@ Each successful record includes the original source UUID, Kick recording URL, ti
 source byte hash, segment count, duration, codec/dimension checks and YouTube ID.
 This is a lookup map for later integration, not proof that YouTube supplies a recoverable
 original file. A full restore-to-edit workflow remains to be validated separately.
+
+## Shared allowance allocation (October 21, 2026)
+
+After reporting a GitHub Pro upgrade, the user authorized raising the archive cap
+while protecting Talonsight. The archive now allows 1,000 runner minutes per UTC
+month. Talonsight's current configured cap is also 1,000 minutes; against Pro's
+3,000 included monthly minutes, this leaves 1,000 minutes of shared headroom for
+other jobs, retries and development. Talonsight configuration is unchanged.
+This allocation is not a GitHub-enforced reservation or an account-wide usage
+measurement. Keep account billing controls in place and reassess the allocation
+before expanding either project's cap. The existing archive budget admission,
+45-minute reservation, five-minute headroom and automatic pause remain active.

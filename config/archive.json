@@ -3,7 +3,7 @@
   "source_channel": "infrared",
   "source_channel_id": 129849,
   "destination_handle": "@archiveinfrared",
-  "monthly_runtime_minutes": 300,
+  "monthly_runtime_minutes": 1000,
   "run_reservation_minutes": 45,
   "max_new_uploads_per_week": null,
   "backfill_available_vods": true,

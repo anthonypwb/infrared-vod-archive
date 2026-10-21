@@ -138,7 +138,7 @@ class StateTests(unittest.TestCase):
         self.assertEqual([v["started_at"] for v in queue], sorted(v["started_at"] for v in queue))
         self.assertNotIn(pilot_id, [v["id"] for v in queue])
         self.assertIsNone(cfg["max_new_uploads_per_week"])
-        self.assertEqual(cfg["monthly_runtime_minutes"], 300)
+        self.assertEqual(cfg["monthly_runtime_minutes"], 1000)
 
     def test_budget_reservation_survives_failure_and_blocks_excess(self):
         state = {}

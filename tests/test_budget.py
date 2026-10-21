@@ -55,10 +55,10 @@ class BudgetTests(unittest.TestCase):
 
     def test_budget_boundary_and_insufficient_budget_disables_schedule(self):
         cfg = read_config()
-        self.assertTrue(has_room(250, cfg))
-        self.assertFalse(has_room(251, cfg))
+        self.assertTrue(has_room(950, cfg))
+        self.assertFalse(has_room(951, cfg))
         store, state = Mock(), {}
-        with patch('archive.budget.sync_usage', return_value=251), \
+        with patch('archive.budget.sync_usage', return_value=951), \
                 patch('archive.budget.set_archive_enabled') as enabled:
             self.assertFalse(admit(store, state, cfg))
             enabled.assert_called_once_with(store, False)
