@@ -8,28 +8,38 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from .core import ArchiveError, read_config, reserve, settle, timestamp, upload_metadata, utcnow
-from .source import (acquire, eligible_date, ensure_media_tools, get_text, page_url, parse_inventory,
-                     parse_playlist, read_page, resolve)
+from .source import (acquire, discover_kick, eligible_date, ensure_media_tools, get_text,
+                     parse_playlist, read_kick_source, resolve)
 from .state import StateStore
 from .youtube import YouTube
 
 
 def discover(config):
-    rows = parse_inventory(get_text(config["inventory_url"]))
-    if not rows:
-        raise ArchiveError("No Infrared Kick entries found; inventory layout may have changed")
-    return rows
+    return discover_kick(config)
 
 
 def merge_inventory(state, rows):
+    # A feed migration establishes a baseline, not a historical bulk backfill.
+    # A same-day recording remains eligible under monitoring_started_at below.
+    already_monitoring_kick = bool(state.get("kick_monitoring_started_at"))
     for row in rows:
+        metadata = {key: value for key, value in row.items() if key != "master_url"}
         if row["id"] not in state["vods"]:
-            state["vods"][row["id"]] = {**row, "status": "discovered", "attempts": 0, "first_seen": timestamp(),
-                "new_since_monitoring": bool(state.get("monitoring_started_at"))}
+            state["vods"][row["id"]] = {**metadata, "status": "discovered", "attempts": 0,
+                "first_seen": timestamp(), "new_since_monitoring": already_monitoring_kick}
         else:
             existing = state["vods"][row["id"]]
-            if not existing.get("date") and row.get("date"):
-                existing["date"] = row["date"]
+            old_source = existing.get("source_url", "")
+            if old_source.startswith("https://infrared-transcripts.pages.dev/"):
+                existing.setdefault("transcript_url", old_source)
+            existing.update(metadata)
+    state.setdefault("kick_monitoring_started_at", timestamp())
+
+
+def automatic_candidates(state, eligible):
+    start_date = datetime.fromisoformat(state["monitoring_started_at"]).date().isoformat()
+    return [v for v in eligible if v["date"] >= start_date
+            or v.get("new_since_monitoring") or v.get("attempts", 0)]
 
 
 def can_attempt(vod, config, now=None):
@@ -77,14 +87,16 @@ def run(mode, vod_id=None):
     config = read_config()
     if mode == "discover":
         rows = discover(config)
-        report = {"entries": len(rows), "dated_entries": sum(bool(v["date"]) for v in rows),
+        report = {"discovery_source": "kick", "entries": len(rows),
+                  "dated_entries": sum(bool(v["date"]) for v in rows),
                   "recent_entries": sum(eligible_date(v["date"], config["max_source_age_days"]) for v in rows),
-                  "examples": rows[:5], "media_downloaded": False}
+                  "examples": [{k: v for k, v in row.items() if k != "master_url"} for row in rows[:5]],
+                  "media_downloaded": False}
         recent = [v for v in rows if eligible_date(v["date"], config["max_source_age_days"])]
         if recent:
-            latest = sorted(recent, key=lambda v: (v["date"], v["id"]), reverse=True)[0]
+            latest = sorted(recent, key=lambda v: (v["started_at"], v["id"]), reverse=True)[0]
             try:
-                variant, playlist = resolve(read_page(latest))
+                variant, playlist = resolve(read_kick_source(latest, rows))
                 segments = parse_playlist(playlist, variant)
                 report["source_preflight"] = {"id": latest["id"], "status": "accessible_complete_playlist",
                     "segments": len(segments), "duration_seconds": sum(s["duration"] for s in segments)}
@@ -136,32 +148,20 @@ def run(mode, vod_id=None):
         merge_inventory(state, rows)
         if "monitoring_started_at" not in state:
             state["monitoring_started_at"] = timestamp()
-        # Fill missing dates from explicit page metadata, with a bounded request count.
-        missing = [v for v in state["vods"].values() if not v.get("date") and v["status"] == "discovered"]
-        for vod in missing[:config["max_metadata_pages_per_run"]]:
-            gate()
-            try:
-                read_page(vod)
-            except ArchiveError:
-                pass
-            if not vod.get("date"):
-                vod["status"] = "metadata_review"
         store.save(state)
-        eligible = [v for v in state["vods"].values() if can_attempt(v, config)]
+        current_ids = {row["id"] for row in rows}
+        eligible = [v for v in state["vods"].values() if v["id"] in current_ids and can_attempt(v, config)]
         if vod_id:
             eligible = [v for v in eligible if v["id"] == vod_id]
             if not eligible:
                 raise ArchiveError("Requested VOD is absent, stale, undated, or already processed")
         elif mode == "auto":
-            # Archive newly appearing streams; historical bulk backfill is not automatic.
-            start_date = datetime.fromisoformat(state["monitoring_started_at"]).date().isoformat()
-            eligible = [v for v in eligible if v["date"] >= start_date
-                        or v.get("new_since_monitoring") or v.get("attempts", 0)]
+            eligible = automatic_candidates(state, eligible)
         if not eligible:
             print("No eligible new VOD; no media transferred.")
             return
         # The pilot chooses the newest recent recording; automatic runs process oldest new first.
-        vod = sorted(eligible, key=lambda v: (v["date"], v["id"]), reverse=mode == "pilot")[0]
+        vod = sorted(eligible, key=lambda v: (v["started_at"], v["id"]), reverse=mode == "pilot")[0]
         existing = youtube.recent_match(vod["id"])
         if existing:
             vod.update(status="existing_archive", youtube_id=existing,
@@ -173,7 +173,7 @@ def run(mode, vod_id=None):
         vod["is_pilot"] = mode == "pilot"
         store.save(state)
         try:
-            master = read_page(vod)
+            master = read_kick_source(vod, rows)
             if not eligible_date(vod.get("date"), config["max_source_age_days"]):
                 raise ArchiveError("Source date is missing or outside the allowed age")
             variant, playlist = resolve(master)

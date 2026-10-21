@@ -65,7 +65,8 @@ def json_request(url, **kwargs):
 
 def read_config():
     config = json.loads(Path("config/archive.json").read_text())
-    if config["destination_handle"] != "@archiveinfrared" or config["source_channel"] != "infrared":
+    if (config["destination_handle"] != "@archiveinfrared" or config["source_channel"] != "infrared"
+            or config["source_channel_id"] != 129849):
         raise ArchiveError("Source or destination configuration changed; inspect before running")
     return config
 
@@ -95,7 +96,7 @@ def upload_metadata(vod):
         "snippet": {"title": title, "categoryId": "25", "description":
             "Full Infrared livestream, archived with the creator's permission.\n"
             f"Original stream date: {vod['date']}\nOriginal channel: https://kick.com/infrared\n"
-            f"Transcript and source: {vod['source_url']}\n\n"
+            f"Original recording: {vod['source_url']}\n\n"
             f"Archive source ID: {vod['id']}\n"},
         "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False},
     }

@@ -6,9 +6,11 @@ The existing `talonsight-pilot` repository is not modified or required.
 
 ## Current status
 
-Implementation and automated tests are installed. **YouTube is not connected yet;
-no VOD has been uploaded and the scheduled worker is inactive.** Complete the
-[one-time connection](docs/CONNECT-YOUTUBE.md) to request a full pilot upload.
+Implementation and automated tests are installed. YouTube was connected on
+October 20, 2026, and the first pilot was requested. Check the
+[live workflow](https://github.com/anthonypwb/infrared-vod-archive/actions/workflows/archive.yml)
+and [runtime state](https://github.com/anthonypwb/infrared-vod-archive/blob/archive-state/state.json)
+for the current result. The [connection guide](docs/CONNECT-YOUTUBE.md) also covers reconnection.
 After the pilot passes source media checks, YouTube processing, full-duration and
 public-visibility checks, subsequent scheduled runs may upload new recordings.
 Human playback review of the first upload remains recommended before increasing volume.
@@ -17,12 +19,12 @@ Human playback review of the first upload remains recommended before increasing 
 
 | Setting | Default |
 | --- | --- |
-| Discovery | Infrared Kick entries on the Infrared Transcripts inventory |
+| Discovery | Infrared's recent public VOD index directly on Kick; no transcript dependency |
 | Destination | Exactly `@archiveinfrared`, checked against the authenticated channel ID every run |
 | Schedule | Every six hours, at 00:17, 06:17, 12:17 and 18:17 UTC |
 | Pilot volume | At most three new uploads in a rolling seven-day period |
 | Initial pilot | One newest eligible complete recording, or an exact supplied VOD UUID |
-| Routine coverage | Recordings from the monitoring start date or newly appearing in the inventory afterward; no historical bulk backfill |
+| Routine coverage | Recordings from the monitoring start date or newly appearing in Kick's index afterward; switching feeds establishes a baseline without bulk historical backfill |
 | Source freshness | At most 21 days old; unknown dates do not transfer |
 | Quality | Highest supported muxed audio/video rendition; original codecs, no re-encoding |
 | Runtime allowance | 300 recorded/estimated runner minutes per calendar month, including worker polling |
@@ -40,8 +42,15 @@ the next complete reservation, so some allowance may remain unused.
 
 ## Reliability behavior
 
-- Require an exact Infrared source page, accessible HLS, a completed `ENDLIST`,
-  and an unchanged playlist across a settling interval.
+- Check Kick's channel metadata for slug `infrared` and channel ID `129849`, then
+  read `https://kick.com/api/v2/channels/infrared/videos`. Accept only explicitly
+  public, non-live, non-private, non-pruned recordings from that channel. Titles,
+  UTC source dates, UUIDs and playback URLs come from Kick's response.
+- Require accessible HLS, a completed `ENDLIST`, and an unchanged playlist across
+  a settling interval. The footage is fetched directly from Kick's media hosts.
+  Transcript availability is not consulted. The website metadata endpoint is not
+  a guaranteed stable developer API; changed layouts or access refusals stop the
+  worker with a diagnostic instead of silently using stale transcript metadata.
 - Download every segment in order and fail on a missing segment. Feed segments
   through a local pipe to FFmpeg; never let FFmpeg fetch remote URLs. Only one
   full output file is stored, preserving disk space.
@@ -60,7 +69,8 @@ the next complete reservation, so some allowance may remain unused.
 ## Limits of this pilot
 
 The 300-minute allowance and three-per-week limit do not guarantee archiving every
-stream. Longer-than-12-hour streams, recordings that exceed available disk, unusual
+stream. Discovery uses Kick's returned recent-recording window; it does not promise
+exhaustive historical pagination. Longer-than-12-hour streams, recordings that exceed available disk, unusual
 HLS layouts (encryption, gaps, discontinuities, separate audio, byte ranges), expired
 sources and unresolved upload outcomes stop with a report. The worker never silently
 reduces quality, splits a full stream, skips footage, or starts paid infrastructure.
