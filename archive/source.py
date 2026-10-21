@@ -226,7 +226,9 @@ def eligible_date(value, max_age, today=None):
         return False
     try:
         age = ((today or utcnow().date()) - date.fromisoformat(value)).days
-        return 0 <= age <= max_age
+        # A null age limit permits still-accessible older recordings. The worker
+        # still requires a fresh Kick listing and a complete, accessible playlist.
+        return age >= 0 and (max_age is None or age <= max_age)
     except ValueError:
         return False
 

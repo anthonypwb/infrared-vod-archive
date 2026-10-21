@@ -28,5 +28,125 @@
       "is_pruned": false,
       "deleted_at": null
     }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "Into Battle.",
+    "start_time": "2026-10-07 03:25:21",
+    "created_at": "2026-10-07 03:25:25",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/10/7/3/25/xev6gy7ksogv/media/hls/master.m3u8",
+    "video": {
+      "uuid": "221eb656-7569-4316-b3fd-61034a75f221",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "It's happening.",
+    "start_time": "2026-10-06 02:32:18",
+    "created_at": "2026-10-06 02:32:23",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/10/6/2/32/WuOMWC4fnrVq/media/hls/master.m3u8",
+    "video": {
+      "uuid": "285bea08-9bae-4c5a-b40d-09b67a811906",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "Allahu Akbar.",
+    "start_time": "2026-10-03 02:55:22",
+    "created_at": "2026-10-03 02:55:26",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/10/3/2/55/5RVFUq7mPpdF/media/hls/master.m3u8",
+    "video": {
+      "uuid": "59dcb3eb-94d6-4c33-86be-3fcff5de6ba4",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "War",
+    "start_time": "2026-10-01 02:27:09",
+    "created_at": "2026-10-01 02:27:12",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/10/1/2/27/UXAHDseQwuSx/media/hls/master.m3u8",
+    "video": {
+      "uuid": "135190d8-114b-4279-ab24-c1f84a2aa7d5",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "Prepare for nuclear war.",
+    "start_time": "2026-09-28 02:45:17",
+    "created_at": "2026-09-28 02:45:19",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/9/28/2/45/P2aR08Ti19oK/media/hls/master.m3u8",
+    "video": {
+      "uuid": "880dcb20-2e8c-4697-828c-822f01999554",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "WW3| High IQ Interview",
+    "start_time": "2026-09-24 21:53:08",
+    "created_at": "2026-09-24 21:53:11",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/9/24/21/53/VclPZUGxebf6/media/hls/master.m3u8",
+    "video": {
+      "uuid": "76caa4ff-fd85-453b-b67b-10a7f26dedc6",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "WW3 IMMINENT",
+    "start_time": "2026-09-23 01:32:21",
+    "created_at": "2026-09-23 01:32:25",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/9/23/1/32/qZHhLPVybn4t/media/hls/master.m3u8",
+    "video": {
+      "uuid": "1977a95a-da0a-428c-97e6-b9c443fa93ae",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
+  },
+  {
+    "channel_id": 129849,
+    "session_title": "War has come.",
+    "start_time": "2026-09-21 02:33:31",
+    "created_at": "2026-09-21 02:33:35",
+    "is_live": false,
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/AXgjmm9Fc61F/2026/9/21/2/33/ALMrtv3Tn3tq/media/hls/master.m3u8",
+    "video": {
+      "uuid": "42e52ed4-772d-467f-aeb6-23dbdc63cc45",
+      "status": "public",
+      "is_private": false,
+      "is_pruned": false,
+      "deleted_at": null
+    }
   }
 ]

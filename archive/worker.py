@@ -36,7 +36,9 @@ def merge_inventory(state, rows):
     state.setdefault("kick_monitoring_started_at", timestamp())
 
 
-def automatic_candidates(state, eligible):
+def automatic_candidates(state, eligible, config=None):
+    if config and config.get("backfill_available_vods"):
+        return sorted(eligible, key=lambda v: (v["started_at"], v["id"]))
     start_date = datetime.fromisoformat(state["monitoring_started_at"]).date().isoformat()
     return [v for v in eligible if v["date"] >= start_date
             or v.get("new_since_monitoring") or v.get("attempts", 0)]
@@ -142,7 +144,7 @@ def run(mode, vod_id=None):
             print("Existing pilot requires verification or reconciliation; another pilot was not uploaded.")
             return
         if weekly_count(state) >= config["max_new_uploads_per_week"]:
-            print("Weekly pilot upload limit reached.")
+            print("Weekly upload limit reached; remaining recordings stay queued.")
             return
         rows = discover(config)
         merge_inventory(state, rows)
@@ -156,11 +158,11 @@ def run(mode, vod_id=None):
             if not eligible:
                 raise ArchiveError("Requested VOD is absent, stale, undated, or already processed")
         elif mode == "auto":
-            eligible = automatic_candidates(state, eligible)
+            eligible = automatic_candidates(state, eligible, config)
         if not eligible:
-            print("No eligible new VOD; no media transferred.")
+            print("No eligible available VOD; no media transferred.")
             return
-        # The pilot chooses the newest recent recording; automatic runs process oldest new first.
+        # The pilot chooses newest first; routine archival rescues the oldest available first.
         vod = sorted(eligible, key=lambda v: (v["started_at"], v["id"]), reverse=mode == "pilot")[0]
         existing = youtube.recent_match(vod["id"])
         if existing:

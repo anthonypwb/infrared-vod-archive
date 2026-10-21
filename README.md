@@ -24,8 +24,8 @@ Human playback review of the first upload remains recommended before increasing 
 | Schedule | Every six hours, at 00:17, 06:17, 12:17 and 18:17 UTC |
 | Pilot volume | At most three new uploads in a rolling seven-day period |
 | Initial pilot | One newest eligible complete recording, or an exact supplied VOD UUID |
-| Routine coverage | Recordings from the monitoring start date or newly appearing in Kick's index afterward; switching feeds establishes a baseline without bulk historical backfill |
-| Source freshness | At most 21 days old; unknown dates do not transfer |
+| Routine coverage | All unarchived recordings in Kick's current public completed VOD index, oldest first, including the existing backlog |
+| Source availability | No artificial age cutoff; require a valid non-future date, fresh Kick listing and complete accessible media |
 | Quality | Highest supported muxed audio/video rendition; original codecs, no re-encoding |
 | Runtime allowance | 300 recorded/estimated runner minutes per calendar month, including worker polling |
 | Job ceiling | 45 minutes; media work stops after 40 minutes to leave checkpoint time |
