@@ -8,13 +8,13 @@
       "39557689287-1": 9,
       "39602564725-1": 29,
       "39638562119-1": 8,
-      "github_other_jobs": 17
+      "github_other_jobs": 23
     }
   },
   "github_usage": {
-    "checked_at": "2026-10-21T16:51:51.153484+00:00",
+    "checked_at": "2026-10-21T17:17:46.797280+00:00",
     "month": "2026-10",
-    "observed_or_reserved_job_minutes": 113
+    "observed_or_reserved_job_minutes": 127
   },
   "github_usage_cache": {
     "month": "2026-10",
@@ -200,6 +200,20 @@
           "2026-10-21T15:47:08Z",
           1
         ]
+      },
+      "39638562119": {
+        "minutes": 8,
+        "stamp": [
+          "2026-10-21T16:59:14Z",
+          1
+        ]
+      },
+      "39641712951": {
+        "minutes": 1,
+        "stamp": [
+          "2026-10-21T17:13:00Z",
+          1
+        ]
       }
     }
   },
@@ -238,7 +252,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/00b7ceb7-35a5-41a4-b2ee-daf64436764d/",
       "status": "discovered",
-      "title": "2023-10-23 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-23 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "00e75c5d-493b-453c-9b4b-bca9603c6ed7": {
       "attempts": 0,
@@ -258,7 +272,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/01119c8c-ac23-48e1-a585-3de9ea8cf908/",
       "status": "discovered",
-      "title": "2023-11-10 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-10 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "013652d8-af3c-4acf-a404-8c3c2cceae55": {
       "attempts": 0,
@@ -268,7 +282,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/013652d8-af3c-4acf-a404-8c3c2cceae55/",
       "status": "discovered",
-      "title": "2024-07-01 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 |"
+      "title": "2024-07-01 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 |"
     },
     "01b75999-cac8-4153-b7fe-53ddacd54b59": {
       "attempts": 0,
@@ -288,7 +302,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/01ce5fb1-e574-44bd-96a6-4908eccbed5a/",
       "status": "discovered",
-      "title": "2024-08-02 🔴 RED NEWS | CIA AFTER JACKSON?! | VENEZUELA | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-02 \ud83d\udd34 RED NEWS | CIA AFTER JACKSON?! | VENEZUELA | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "02ad00f4-907f-4e5e-8799-5b901830c0a8": {
       "attempts": 0,
@@ -298,7 +312,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/02ad00f4-907f-4e5e-8799-5b901830c0a8/",
       "status": "discovered",
-      "title": "2023-10-18 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-18 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "02b060db-7ed8-4d8c-a7ef-c573160cc1e7": {
       "attempts": 0,
@@ -308,7 +322,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/02b060db-7ed8-4d8c-a7ef-c573160cc1e7/",
       "status": "discovered",
-      "title": "2023-11-13 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "04d35e46-1127-4b4c-b34a-0cce2f3920c5": {
       "attempts": 0,
@@ -318,7 +332,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/04d35e46-1127-4b4c-b34a-0cce2f3920c5/",
       "status": "discovered",
-      "title": "2023-12-08 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-08 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "0565a95f-b1d5-427e-bda3-70412ad7d294": {
       "attempts": 0,
@@ -348,7 +362,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0611ca77-3967-4e8d-9a99-0e5ce125788e/",
       "status": "discovered",
-      "title": "2024-04-12 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "06cc7338-aaa2-407c-a1b7-d50771b2effc": {
       "attempts": 0,
@@ -378,7 +392,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/07511e70-48ea-4551-bdbf-4c3d69156c1a/",
       "status": "discovered",
-      "title": "2024-11-08 🔴 RED NEWS | ELECTION!!!!!!| AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-08 \ud83d\udd34 RED NEWS | ELECTION!!!!!!| AMERICAN COMMUNIST PARTY UPDATES"
     },
     "0822ea53-8911-49ee-b2d8-044ad7fd9113": {
       "attempts": 0,
@@ -398,7 +412,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/08d60422-20ba-4d98-a3f9-0a2306427852/",
       "status": "discovered",
-      "title": "2023-10-26 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-26 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "0a270183-0af7-42e9-b87e-1913555d402d": {
       "attempts": 0,
@@ -408,7 +422,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0a270183-0af7-42e9-b87e-1913555d402d/",
       "status": "discovered",
-      "title": "2024-06-22 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | PUTIN IS GOOD 🇷🇺"
+      "title": "2024-06-22 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
     },
     "0a74ca2f-b808-4cb3-9dfa-38539c1a0c6b": {
       "attempts": 0,
@@ -438,7 +452,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0c383ecb-e747-41b7-a5f7-e798f2b19ac1/",
       "status": "discovered",
-      "title": "2024-05-14 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-05-14 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "0c48108e-c25e-421e-8777-5c364f1f455d": {
       "attempts": 0,
@@ -448,7 +462,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0c48108e-c25e-421e-8777-5c364f1f455d/",
       "status": "discovered",
-      "title": "2023-12-24 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "0d5b8c28-8d94-42b9-b27a-a7b865fbdd67": {
       "attempts": 0,
@@ -458,7 +472,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0d5b8c28-8d94-42b9-b27a-a7b865fbdd67/",
       "status": "discovered",
-      "title": "2025-09-09 IRL COLLEGE DEBATES 🔥"
+      "title": "2025-09-09 IRL COLLEGE DEBATES \ud83d\udd25"
     },
     "0e568818-36f9-4962-b5a4-b7649717f71b": {
       "attempts": 0,
@@ -488,7 +502,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/0f7c08ea-3a3f-4a62-bfa0-69d5531d0cc6/",
       "status": "discovered",
-      "title": "2025-12-15 🔴 TRUE RED PILL NEWS, INSIGHT AND FACTS"
+      "title": "2025-12-15 \ud83d\udd34 TRUE RED PILL NEWS, INSIGHT AND FACTS"
     },
     "0fa002d0-8a45-49a1-8a22-f5e9a11743db": {
       "attempts": 0,
@@ -528,7 +542,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/115738ad-8474-49be-a6e0-0a84ac54ab5c/",
       "status": "discovered",
-      "title": "2024-04-02 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "11a0fa31-2b5d-4bb0-9510-6118cab765e6": {
       "attempts": 0,
@@ -541,7 +555,12 @@
       "title": "2025-12-08 HIGH INTENSITY DEBATES"
     },
     "135190d8-114b-4279-ab24-c1f84a2aa7d5": {
+      "archived_at": "2026-10-21T17:12:34.268Z",
       "attempts": 1,
+      "creator_edit_confirmation": {
+        "reason": "Creator removed approximately 50 seconds of copyrighted movie intro in YouTube; small duration differences authorized.",
+        "recorded_at": "2026-10-21T17:12:34.268Z"
+      },
       "date": "2026-10-01",
       "first_seen": "2026-10-20T23:57:04.879187+00:00",
       "id": "135190d8-114b-4279-ab24-c1f84a2aa7d5",
@@ -568,12 +587,7 @@
       "title": "War",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/135190d8-114b-4279-ab24-c1f84a2aa7d5/",
       "upload_started_at": "2026-10-21T13:12:13.378056+00:00",
-      "youtube_id": "BWGvzMeL9CY",
-      "archived_at": "2026-10-21T17:12:34.268Z",
-      "creator_edit_confirmation": {
-        "recorded_at": "2026-10-21T17:12:34.268Z",
-        "reason": "Creator removed approximately 50 seconds of copyrighted movie intro in YouTube; small duration differences authorized."
-      }
+      "youtube_id": "BWGvzMeL9CY"
     },
     "139f2930-1633-49b8-b152-bc7784124ca9": {
       "attempts": 0,
@@ -593,7 +607,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/13bffea4-a1bc-4c77-919f-43de805535c1/",
       "status": "discovered",
-      "title": "2024-11-06 🔴 RED NEWS | ELECTION!!!!!!| AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-06 \ud83d\udd34 RED NEWS | ELECTION!!!!!!| AMERICAN COMMUNIST PARTY UPDATES"
     },
     "1416a582-8469-4c78-9776-c662db1aae81": {
       "attempts": 0,
@@ -613,7 +627,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/14f94259-9bf5-4ae8-aaed-31205e0fd690/",
       "status": "discovered",
-      "title": "2023-12-21 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-21 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "155e4244-f428-43ed-896d-69380691f25b": {
       "attempts": 0,
@@ -623,7 +637,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/155e4244-f428-43ed-896d-69380691f25b/",
       "status": "discovered",
-      "title": "2024-05-31 🔴 RED PILL NEWS | TRUMP FOUND GUILTY! | FREE PALESTINE 🇵🇸"
+      "title": "2024-05-31 \ud83d\udd34 RED PILL NEWS | TRUMP FOUND GUILTY! | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "15e927ba-7350-446f-8c8c-ca97e17ba2cf": {
       "attempts": 0,
@@ -643,7 +657,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/16a7013b-5961-47cd-98a5-ba6e8d012ecc/",
       "status": "discovered",
-      "title": "2025-01-09 🔴 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2025-01-09 \ud83d\udd34 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "17227559-7bf9-4b1d-ab3f-0d3ecc54102d": {
       "attempts": 0,
@@ -653,7 +667,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/17227559-7bf9-4b1d-ab3f-0d3ecc54102d/",
       "status": "discovered",
-      "title": "2023-11-12 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "17595dbf-d61c-4899-afd4-f64d5e5de3ea": {
       "attempts": 0,
@@ -673,7 +687,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/17ff0284-3aa3-4a1f-b5c5-8c38213ca0a8/",
       "status": "discovered",
-      "title": "2024-03-29 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-29 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "1939b0d8-8a60-4706-8b88-fdb51c4dc88b": {
       "attempts": 0,
@@ -734,7 +748,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1a7a545c-b436-47d1-a367-09f5fe91eaf7/",
       "status": "discovered",
-      "title": "2024-06-18 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | PUTIN IS GOOD 🇷🇺"
+      "title": "2024-06-18 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
     },
     "1aeb6780-e9ea-4f60-94b1-0862c10241c6": {
       "attempts": 0,
@@ -744,7 +758,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1aeb6780-e9ea-4f60-94b1-0862c10241c6/",
       "status": "discovered",
-      "title": "2026-05-13 ITS HEATING UP 🔥 | DEBATES | IRAN WAR"
+      "title": "2026-05-13 ITS HEATING UP \ud83d\udd25 | DEBATES | IRAN WAR"
     },
     "1d909978-3652-4149-9fcc-58b9073fe460": {
       "attempts": 0,
@@ -794,7 +808,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2152d152-92af-4763-8daf-575cb48ea564/",
       "status": "discovered",
-      "title": "2024-09-04 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "221eb656-7569-4316-b3fd-61034a75f221": {
       "attempts": 0,
@@ -837,7 +851,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2431f848-7799-4907-94bf-c623e9c5d0bb/",
       "status": "discovered",
-      "title": "2024-09-04 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "246f2156-0541-4f1a-9dbe-2009b8442b1f": {
       "attempts": 0,
@@ -847,7 +861,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/246f2156-0541-4f1a-9dbe-2009b8442b1f/",
       "status": "discovered",
-      "title": "2024-04-16 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-04-16 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "260a933b-ffa9-43b9-9922-ddf20d78b781": {
       "attempts": 0,
@@ -857,7 +871,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/260a933b-ffa9-43b9-9922-ddf20d78b781/",
       "status": "discovered",
-      "title": "2023-11-01 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-01 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "26d61ca5-5ffa-49b8-944e-d07c16d19f7e": {
       "attempts": 0,
@@ -867,7 +881,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/26d61ca5-5ffa-49b8-944e-d07c16d19f7e/",
       "status": "discovered",
-      "title": "2024-04-05 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-05 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "27017bba-ad38-4f80-83d7-77edf58e818d": {
       "attempts": 0,
@@ -877,7 +891,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/27017bba-ad38-4f80-83d7-77edf58e818d/",
       "status": "discovered",
-      "title": "2024-02-12 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-02-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "27ba0dc5-1eff-4729-8ffe-dabe454ea245": {
       "attempts": 0,
@@ -933,7 +947,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/291743a3-98d0-44fe-83fc-c5cfca54440d/",
       "status": "discovered",
-      "title": "2023-12-13 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "2aaac100-82e8-4b5e-b568-7b49cfaac04f": {
       "attempts": 0,
@@ -953,7 +967,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2b1280c3-6b98-4be2-8f94-fef64a557fd9/",
       "status": "discovered",
-      "title": "2024-11-01 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-01 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "2c4525ce-738a-4f16-9277-8f3b9d9f8068": {
       "attempts": 0,
@@ -963,7 +977,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2c4525ce-738a-4f16-9277-8f3b9d9f8068/",
       "status": "discovered",
-      "title": "2024-03-11 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "2d1ebdec-de63-4a81-be9d-17a254901bc5": {
       "attempts": 0,
@@ -973,7 +987,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/2d1ebdec-de63-4a81-be9d-17a254901bc5/",
       "status": "discovered",
-      "title": "2024-05-15 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸"
+      "title": "2024-05-15 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "2d9fb3c9-82c4-4213-9b11-15a9f546521b": {
       "attempts": 0,
@@ -1023,7 +1037,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/30fd6627-4d87-4131-91a3-e87252caab43/",
       "status": "discovered",
-      "title": "2024-05-10 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-05-10 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "314927c0-d2da-41bf-beae-17d92a0e18a5": {
       "attempts": 0,
@@ -1033,7 +1047,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/314927c0-d2da-41bf-beae-17d92a0e18a5/",
       "status": "discovered",
-      "title": "2024-02-05 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-02-05 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "3210a2c9-0c8c-406c-b838-1f5873805d71": {
       "attempts": 0,
@@ -1043,7 +1057,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3210a2c9-0c8c-406c-b838-1f5873805d71/",
       "status": "discovered",
-      "title": "2026-01-23 MAJOR VICTORY | HEATED DEBATE COOKING GROYPERS 🔥"
+      "title": "2026-01-23 MAJOR VICTORY | HEATED DEBATE COOKING GROYPERS \ud83d\udd25"
     },
     "32188035-664c-4c95-ae2a-be1d87f4fefa": {
       "attempts": 0,
@@ -1053,7 +1067,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/32188035-664c-4c95-ae2a-be1d87f4fefa/",
       "status": "discovered",
-      "title": "2023-10-09 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-09 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "3220980c-b1ff-46e4-b425-4c8e1c8e9a31": {
       "attempts": 0,
@@ -1123,7 +1137,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/3744af92-1de6-4a21-917a-d7ff274fa298/",
       "status": "discovered",
-      "title": "2024-08-07 🔴 RED NEWS | UK RACE RIOTS | IRAN WAR | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-07 \ud83d\udd34 RED NEWS | UK RACE RIOTS | IRAN WAR | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "38f06028-e353-4f38-aa84-ddc64909240c": {
       "attempts": 0,
@@ -1143,7 +1157,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/396d691c-63ce-40ba-a1b5-882f3c88109e/",
       "status": "discovered",
-      "title": "2024-05-20 🔴 RED PILL NEWS | IRAN PRESIDENT DEAD? | FREE PALESTINE 🇵🇸"
+      "title": "2024-05-20 \ud83d\udd34 RED PILL NEWS | IRAN PRESIDENT DEAD? | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "39715f0a-1ba0-49b9-883e-49a64ebd6828": {
       "attempts": 0,
@@ -1153,7 +1167,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/39715f0a-1ba0-49b9-883e-49a64ebd6828/",
       "status": "discovered",
-      "title": "2024-03-19 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-19 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "3a1c08b6-9105-42b9-8b27-1e91e3b4440d": {
       "attempts": 0,
@@ -1283,7 +1297,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/439b93bf-5728-48d9-9c81-fc1b084aaf43/",
       "status": "discovered",
-      "title": "2024-07-09 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 |"
+      "title": "2024-07-09 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 |"
     },
     "441898fe-67c8-4945-b857-dbd0991efd57": {
       "attempts": 0,
@@ -1293,7 +1307,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/441898fe-67c8-4945-b857-dbd0991efd57/",
       "status": "discovered",
-      "title": "2024-09-02 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-02 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "44e3ea44-2f2e-4890-939b-acec08e81c77": {
       "attempts": 0,
@@ -1333,7 +1347,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4660f51f-2614-4f93-aacc-2cc83e03ee13/",
       "status": "discovered",
-      "title": "2023-11-27 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "46d634c7-e4e4-42c8-8c54-b6004a88ca2b": {
       "attempts": 0,
@@ -1353,7 +1367,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/47e67c34-14a4-45d3-ac1b-15544e0bcedb/",
       "status": "discovered",
-      "title": "2023-11-22 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-22 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "498f1c60-eac5-4df7-b192-1edb95365f2d": {
       "attempts": 0,
@@ -1426,7 +1440,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/4f263eea-e676-4b55-815f-dcc5de6b0018/",
       "status": "discovered",
-      "title": "2024-08-12 🔴 RED NEWS | HEZBOLLAH ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-12 \ud83d\udd34 RED NEWS | HEZBOLLAH ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "4f2b4de2-717d-4a25-8365-c5bc0329af5b": {
       "attempts": 0,
@@ -1526,7 +1540,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/54ae9915-bc88-44fd-801a-eac3268f5078/",
       "status": "discovered",
-      "title": "2023-10-20 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-20 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "54b4669d-632d-45a5-a2e7-8b44ca3c563d": {
       "attempts": 0,
@@ -1546,7 +1560,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5527bf8b-f7ce-4161-8516-29566bcbcd7f/",
       "status": "discovered",
-      "title": "2023-12-17 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-17 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "5533ed63-5383-4848-8efc-38194bbf0dc8": {
       "attempts": 0,
@@ -1566,7 +1580,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5572804f-7b1c-4b7f-bdd2-4966326112ce/",
       "status": "discovered",
-      "title": "2023-12-27 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "55c4bf15-453a-42c2-bb6a-910eec32f2bf": {
       "attempts": 0,
@@ -1586,7 +1600,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/55cb0709-77b2-44df-aabd-5e65b14ed1fb/",
       "status": "discovered",
-      "title": "2024-12-09 🔴 RED NEWS | SYRIA HAS FALLEN | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-09 \ud83d\udd34 RED NEWS | SYRIA HAS FALLEN | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "562ad3ef-a289-42cc-b934-e6ad229eb9c0": {
       "attempts": 0,
@@ -1616,7 +1630,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/56ccea8d-0ff9-408e-8577-4bf91e1ad1e0/",
       "status": "discovered",
-      "title": "2024-09-05 🔴 RED NEWS | \"RUSSIAN AGENTS\" ARRESTED! | DEBATING NEO-N*ZI | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-05 \ud83d\udd34 RED NEWS | \"RUSSIAN AGENTS\" ARRESTED! | DEBATING NEO-N*ZI | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "56fd23d0-7aed-4973-8a96-6aed3a9e7478": {
       "attempts": 0,
@@ -1646,7 +1660,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5813535b-a45c-4234-8f96-23b301f239d0/",
       "status": "discovered",
-      "title": "2023-11-02 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "5863d015-ab50-4efa-afb5-db5295db1b4e": {
       "attempts": 0,
@@ -1656,7 +1670,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5863d015-ab50-4efa-afb5-db5295db1b4e/",
       "status": "discovered",
-      "title": "2024-10-21 🔴 RED NEWS | ISRAEL IS GETTING DESTROYED | DEBATING LIBERAL | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-10-21 \ud83d\udd34 RED NEWS | ISRAEL IS GETTING DESTROYED | DEBATING LIBERAL | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "58b7fe80-7751-46b3-b349-4d5823b6043f": {
       "attempts": 0,
@@ -1666,7 +1680,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/58b7fe80-7751-46b3-b349-4d5823b6043f/",
       "status": "discovered",
-      "title": "2024-08-09 🔴 RED NEWS | UK RACE RIOTS | IRAN WAR | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-09 \ud83d\udd34 RED NEWS | UK RACE RIOTS | IRAN WAR | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "5919767e-d21e-4b7f-86c6-41b7e3e98afa": {
       "attempts": 0,
@@ -1686,7 +1700,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/59383758-a5d0-4ae5-9712-da17f6252184/",
       "status": "discovered",
-      "title": "2024-06-04 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | PUTIN IS GOOD 🇷🇺"
+      "title": "2024-06-04 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
     },
     "598e6c70-1af9-4763-b2b6-8c96a3f49c0f": {
       "attempts": 0,
@@ -1737,7 +1751,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5c4126ec-a5b4-4f94-a1e3-31c124dfbd06/",
       "status": "discovered",
-      "title": "2024-04-08 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-08 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "5c5a7759-516b-45e3-80f8-9fce88524171": {
       "attempts": 0,
@@ -1767,7 +1781,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5d4b21f7-0538-4a9b-a2fe-edf61e4be566/",
       "status": "discovered",
-      "title": "2024-08-15 🔴 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-15 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "5d543f38-4144-415e-b571-291a260b38fc": {
       "attempts": 0,
@@ -1777,7 +1791,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5d543f38-4144-415e-b571-291a260b38fc/",
       "status": "discovered",
-      "title": "2024-05-30 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸"
+      "title": "2024-05-30 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "5df2b057-6dcc-4df9-8131-9ef88b3af4bc": {
       "attempts": 0,
@@ -1787,7 +1801,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5df2b057-6dcc-4df9-8131-9ef88b3af4bc/",
       "status": "discovered",
-      "title": "2024-08-19 🔴 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-19 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "5e76e0d7-c4cc-459e-b8b1-65ade98827ae": {
       "attempts": 0,
@@ -1797,7 +1811,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5e76e0d7-c4cc-459e-b8b1-65ade98827ae/",
       "status": "discovered",
-      "title": "2024-10-28 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-10-28 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "5ed11713-63ad-441e-b292-f26fdae01147": {
       "attempts": 0,
@@ -1817,7 +1831,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5fbfc6dc-82b7-4464-ae32-c8165f5bd588/",
       "status": "discovered",
-      "title": "2024-05-17 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸"
+      "title": "2024-05-17 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "5fd70829-d694-4fbe-96f5-201de4da848f": {
       "attempts": 0,
@@ -1827,7 +1841,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/5fd70829-d694-4fbe-96f5-201de4da848f/",
       "status": "discovered",
-      "title": "2024-09-13 🔴 RED NEWS | DEBATING A HUGE LOSER | AMERICAN COMMUNIST PARTY UPDATESH"
+      "title": "2024-09-13 \ud83d\udd34 RED NEWS | DEBATING A HUGE LOSER | AMERICAN COMMUNIST PARTY UPDATESH"
     },
     "61e7847d-1566-4605-aaef-3ae07918ce3e": {
       "attempts": 0,
@@ -1887,7 +1901,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/63bb4f77-470d-4134-9ba2-42878e63f678/",
       "status": "discovered",
-      "title": "2024-07-17 🔴 RED PILL NEWS | TRUMP GOT SHOT! | FREE PALESTINE 🇵🇸"
+      "title": "2024-07-17 \ud83d\udd34 RED PILL NEWS | TRUMP GOT SHOT! | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "64443189-26fb-4fa8-a694-4622cdf84533": {
       "attempts": 0,
@@ -1917,7 +1931,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6591aaed-5497-41c1-9b9d-119baee640a2/",
       "status": "discovered",
-      "title": "2023-10-11 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "6662dea8-a20a-46f9-a32f-b9d5e379f6f0": {
       "attempts": 0,
@@ -1947,7 +1961,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/67d56a4c-ecb1-40a6-b47f-df7dcd9c5726/",
       "status": "discovered",
-      "title": "2024-09-09 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "69436080-2c41-4516-aa79-8acb721f0550": {
       "attempts": 0,
@@ -1967,7 +1981,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6a6684ff-4a37-4137-8d21-e9569d637669/",
       "status": "discovered",
-      "title": "2025-01-17 🔴 RED NEWS | DEBATE | RIP DAVID LYNCH | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2025-01-17 \ud83d\udd34 RED NEWS | DEBATE | RIP DAVID LYNCH | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "6be7401d-a8e2-42d1-9f91-586bc6732093": {
       "attempts": 0,
@@ -1977,7 +1991,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6be7401d-a8e2-42d1-9f91-586bc6732093/",
       "status": "discovered",
-      "title": "2023-12-02 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "6d217dd1-aca1-4715-aa56-717d127d0baf": {
       "attempts": 0,
@@ -2007,7 +2021,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6e6a6ada-5c30-4542-b400-55039e5772fe/",
       "status": "discovered",
-      "title": "2024-09-11 🔴 RED NEWS | KAMALA TRUMP DEBATE! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-11 \ud83d\udd34 RED NEWS | KAMALA TRUMP DEBATE! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "6e743e93-4e00-472e-b2f4-563aa8a43dcc": {
       "attempts": 0,
@@ -2017,7 +2031,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6e743e93-4e00-472e-b2f4-563aa8a43dcc/",
       "status": "discovered",
-      "title": "2024-11-01 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-01 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "6ea05eca-b73b-454b-9b4b-f15b4309e164": {
       "attempts": 0,
@@ -2037,7 +2051,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6efa8fa7-b4b7-423b-80eb-9e7eb5d798b4/",
       "status": "discovered",
-      "title": "2024-09-04 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-04 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "6f373043-ca75-403b-9052-8b20561c09e5": {
       "attempts": 0,
@@ -2047,7 +2061,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/6f373043-ca75-403b-9052-8b20561c09e5/",
       "status": "discovered",
-      "title": "2024-02-20 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-02-20 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "717e86ff-0377-4737-b117-43867d3e3bb6": {
       "attempts": 0,
@@ -2067,7 +2081,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/718e175d-eb6b-44d1-99de-f1818cca1c6e/",
       "status": "discovered",
-      "title": "2024-03-29 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-29 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "719fe1a3-9236-4146-8fa6-fea14dd28802": {
       "attempts": 0,
@@ -2077,7 +2091,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/719fe1a3-9236-4146-8fa6-fea14dd28802/",
       "status": "discovered",
-      "title": "2024-04-14 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-04-14 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "71dc5d33-5a32-4d03-babc-050d83e01fe4": {
       "attempts": 0,
@@ -2087,7 +2101,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/71dc5d33-5a32-4d03-babc-050d83e01fe4/",
       "status": "discovered",
-      "title": "2024-10-15 🔴 RED NEWS | MY TRIP TO RUSSIA & MORE| AMERICAN COMMUNIST PARTY UPDATESH"
+      "title": "2024-10-15 \ud83d\udd34 RED NEWS | MY TRIP TO RUSSIA & MORE| AMERICAN COMMUNIST PARTY UPDATESH"
     },
     "73af2734-2a65-445d-9f77-2be9057cf2e2": {
       "attempts": 0,
@@ -2107,7 +2121,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/75ae8ac1-73da-4671-be6e-97846e2a0896/",
       "status": "discovered",
-      "title": "2024-12-04 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-04 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "76caa4ff-fd85-453b-b67b-10a7f26dedc6": {
       "archived_at": "2026-10-21T06:48:16.563959+00:00",
@@ -2148,7 +2162,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/76e38dd0-c63b-48c0-ab5e-85b95dee9d0b/",
       "status": "discovered",
-      "title": "2023-10-26 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-26 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "77c77bec-6cbe-4db6-820e-bf1e0d4bfe2f": {
       "attempts": 0,
@@ -2158,7 +2172,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/77c77bec-6cbe-4db6-820e-bf1e0d4bfe2f/",
       "status": "discovered",
-      "title": "2024-01-04 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-01-04 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "7830e01e-204e-4f6b-9d17-0d6efa6367f1": {
       "attempts": 0,
@@ -2178,7 +2192,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/783271bc-4914-4dee-a789-77201481f18f/",
       "status": "discovered",
-      "title": "2024-03-07 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-07 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "78727f1b-bfd6-49fc-863e-bf67603855f7": {
       "attempts": 0,
@@ -2188,7 +2202,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/78727f1b-bfd6-49fc-863e-bf67603855f7/",
       "status": "discovered",
-      "title": "2024-11-11 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-11 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "788136f6-a62e-4be0-be72-cc9a506a3df8": {
       "attempts": 0,
@@ -2218,7 +2232,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7912e0c1-916d-4dc6-bb0c-e6d5e3652cf2/",
       "status": "discovered",
-      "title": "2023-10-06 🔴 RED PILL NEWS | HELL IS COMING"
+      "title": "2023-10-06 \ud83d\udd34 RED PILL NEWS | HELL IS COMING"
     },
     "794654a7-69dd-4d11-b7a1-5566850dbf84": {
       "attempts": 0,
@@ -2228,7 +2242,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/794654a7-69dd-4d11-b7a1-5566850dbf84/",
       "status": "discovered",
-      "title": "2024-07-14 🔴 RED PILL NEWS | TRUMP GOT SHOT! | FREE PALESTINE 🇵🇸 | DEBATING A N*ZI"
+      "title": "2024-07-14 \ud83d\udd34 RED PILL NEWS | TRUMP GOT SHOT! | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | DEBATING A N*ZI"
     },
     "7b68f52e-40ab-4a1b-bbda-1f8cc14a7aad": {
       "attempts": 0,
@@ -2258,7 +2272,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7c1557ed-6b49-468a-be0b-32bb1ab5e158/",
       "status": "discovered",
-      "title": "2024-04-01 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-01 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "7c7451fb-bb3b-4e4d-9903-ef1f9ee3883d": {
       "attempts": 0,
@@ -2278,7 +2292,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7cb2dc9b-35aa-469c-9b69-528bf2271330/",
       "status": "discovered",
-      "title": "2023-10-19 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-19 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "7cb5cb1d-3e33-4b2b-ac16-17c93b98a636": {
       "attempts": 0,
@@ -2298,7 +2312,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d11cb9b-1941-4aa9-a59c-5dd26b3704b4/",
       "status": "discovered",
-      "title": "2023-10-05 🔴 RED PILL NEWS | DESTROYING RIGHT WINGERS"
+      "title": "2023-10-05 \ud83d\udd34 RED PILL NEWS | DESTROYING RIGHT WINGERS"
     },
     "7d286765-0c23-4307-bdf8-e5e35a754889": {
       "attempts": 0,
@@ -2308,7 +2322,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d286765-0c23-4307-bdf8-e5e35a754889/",
       "status": "discovered",
-      "title": "2024-12-03 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "7d2b7bb5-12f6-4279-9fed-b0deaefb7fb3": {
       "attempts": 0,
@@ -2318,7 +2332,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d2b7bb5-12f6-4279-9fed-b0deaefb7fb3/",
       "status": "discovered",
-      "title": "2024-03-25 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-25 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "7d30ce86-789b-48b0-a0d3-40ac665e4b20": {
       "attempts": 0,
@@ -2328,7 +2342,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7d30ce86-789b-48b0-a0d3-40ac665e4b20/",
       "status": "discovered",
-      "title": "2023-10-08 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-08 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "7d797b18-43cd-42a9-83fa-0b61182ca15b": {
       "attempts": 0,
@@ -2358,7 +2372,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/7ea8a0a2-7343-47c7-9f76-363287c9c2cb/",
       "status": "discovered",
-      "title": "2024-06-25 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | LEBANON WAR??"
+      "title": "2024-06-25 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | LEBANON WAR??"
     },
     "7ebeda26-697e-41bd-b949-223e80043b3f": {
       "attempts": 0,
@@ -2388,7 +2402,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/801ff230-161f-41ca-877e-2d78d0c94528/",
       "status": "discovered",
-      "title": "2023-12-11 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "81614933-2df3-4be5-9bb5-56b603299784": {
       "attempts": 0,
@@ -2398,7 +2412,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/81614933-2df3-4be5-9bb5-56b603299784/",
       "status": "discovered",
-      "title": "2023-11-27 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "81a64991-3a22-4cc4-b512-6cc60c1d892c": {
       "attempts": 0,
@@ -2408,7 +2422,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/81a64991-3a22-4cc4-b512-6cc60c1d892c/",
       "status": "discovered",
-      "title": "2024-05-28 🔴 RED PILL NEWS | IRAN PRESIDENT DEAD? | FREE PALESTINE 🇵🇸"
+      "title": "2024-05-28 \ud83d\udd34 RED PILL NEWS | IRAN PRESIDENT DEAD? | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8"
     },
     "81ac0c46-da3f-47f1-b081-728b4b1705b7": {
       "attempts": 0,
@@ -2438,7 +2452,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82611274-0415-4d46-8f75-9f417656fdcd/",
       "status": "discovered",
-      "title": "2023-10-24 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "82a0ad0e-fb6c-4849-91bd-a8e43497c4fc": {
       "attempts": 0,
@@ -2458,7 +2472,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/82ab4dfc-cf41-482d-9faa-e205dd43cd22/",
       "status": "discovered",
-      "title": "2024-04-25 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-04-25 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "82ab676c-f66b-4f7f-b522-a1f07234acbf": {
       "attempts": 0,
@@ -2508,7 +2522,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/854e1c5d-8053-4ea6-bbca-445788649735/",
       "status": "discovered",
-      "title": "2024-03-27 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "859cda52-73d9-4dad-b974-8997ae069598": {
       "attempts": 0,
@@ -2518,7 +2532,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/859cda52-73d9-4dad-b974-8997ae069598/",
       "status": "discovered",
-      "title": "2023-10-27 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-27 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "86499ced-8cf7-4f2b-9f1f-a61490fb22d7": {
       "attempts": 0,
@@ -2528,7 +2542,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/86499ced-8cf7-4f2b-9f1f-a61490fb22d7/",
       "status": "discovered",
-      "title": "2023-11-16 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-16 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "86c96611-8fe4-4f02-9243-552dd9b72c10": {
       "attempts": 0,
@@ -2578,7 +2592,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/87ce0210-2d8e-44bc-9faa-57378b811b7d/",
       "status": "discovered",
-      "title": "2024-11-04 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-04 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "87f9a389-f0e7-4c8c-a971-3ba413b87ae2": {
       "attempts": 0,
@@ -2669,7 +2683,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8a4ea0da-47db-4e54-82df-fb8fcc402662/",
       "status": "discovered",
-      "title": "2025-01-10 🔴 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2025-01-10 \ud83d\udd34 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "8c4f10dd-f5ee-4532-bbfa-da58aeb5aa96": {
       "attempts": 0,
@@ -2679,7 +2693,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8c4f10dd-f5ee-4532-bbfa-da58aeb5aa96/",
       "status": "discovered",
-      "title": "2024-09-17 🔴 RED NEWS | TRUMP ASSASSINATION?! | AMERICAN COMMUNIST PARTY UPDATESH"
+      "title": "2024-09-17 \ud83d\udd34 RED NEWS | TRUMP ASSASSINATION?! | AMERICAN COMMUNIST PARTY UPDATESH"
     },
     "8c6032ba-3cd5-4516-bc3f-d57c57fb3379": {
       "attempts": 0,
@@ -2699,7 +2713,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8d775f2e-6a7f-4a4c-adba-24073d6971c4/",
       "status": "discovered",
-      "title": "2024-07-31 🔴 RED NEWS | VENEZUELA | LEBANON | KAMALA | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-07-31 \ud83d\udd34 RED NEWS | VENEZUELA | LEBANON | KAMALA | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "8dc26ab4-fa2c-4abe-96ee-04c70b9a5ec2": {
       "attempts": 0,
@@ -2719,7 +2733,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1/",
       "status": "discovered",
-      "title": "2024-02-16 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-02-16 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "8f71d070-737d-481f-a525-a4b3f39bd387": {
       "attempts": 0,
@@ -2729,7 +2743,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/8f71d070-737d-481f-a525-a4b3f39bd387/",
       "status": "discovered",
-      "title": "2024-03-13 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "901d78ea-cb93-4ac1-9afd-e46070aae6eb": {
       "attempts": 0,
@@ -2779,7 +2793,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/91349282-c781-45f5-984e-8b2215959a62/",
       "status": "discovered",
-      "title": "2024-11-25 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-25 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "9146b61f-71c3-4459-8a24-1897e4d1bca6": {
       "attempts": 0,
@@ -2849,7 +2863,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9522afb1-e150-4a24-be71-8755ef6973fe/",
       "status": "discovered",
-      "title": "2024-03-24 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "96e22190-2dc5-45bd-8a96-0fa3465c83c2": {
       "attempts": 0,
@@ -2859,7 +2873,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/96e22190-2dc5-45bd-8a96-0fa3465c83c2/",
       "status": "discovered",
-      "title": "2024-09-09 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "9a193e58-82ba-40c7-b75d-ee13fd7717c5": {
       "attempts": 0,
@@ -2922,7 +2936,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/9fb28adf-8dc1-4f3e-b8cf-77d379dd6f6b/",
       "status": "discovered",
-      "title": "2024-02-08 🔴 RED PILL NEWS | TUCKER x PUTIN 🇵🇸"
+      "title": "2024-02-08 \ud83d\udd34 RED PILL NEWS | TUCKER x PUTIN \ud83c\uddf5\ud83c\uddf8"
     },
     "a046025b-18b5-4306-8302-9a3aab2c703f": {
       "attempts": 0,
@@ -2932,7 +2946,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a046025b-18b5-4306-8302-9a3aab2c703f/",
       "status": "discovered",
-      "title": "2026-01-21 GREENLAND | COOKING GROYPERS 🔥 | ICE | IRAN UPDATES"
+      "title": "2026-01-21 GREENLAND | COOKING GROYPERS \ud83d\udd25 | ICE | IRAN UPDATES"
     },
     "a0bfa6af-e42c-4c62-b729-f260235fdd62": {
       "attempts": 0,
@@ -2962,7 +2976,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a1074ddf-7f5a-45b0-a2d6-89da5c702d97/",
       "status": "discovered",
-      "title": "2024-04-10 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-10 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "a23a7bee-eb4c-4223-ad0b-f1b87ff51a1a": {
       "attempts": 0,
@@ -2972,7 +2986,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a23a7bee-eb4c-4223-ad0b-f1b87ff51a1a/",
       "status": "discovered",
-      "title": "2024-04-28 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-04-28 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "a3690d71-08cc-49a6-bee5-ba155a6617bd": {
       "attempts": 0,
@@ -2982,7 +2996,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a3690d71-08cc-49a6-bee5-ba155a6617bd/",
       "status": "discovered",
-      "title": "2024-11-22 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-22 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "a437c609-2373-479b-b540-46db6bb9bfe4": {
       "attempts": 0,
@@ -3022,7 +3036,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a85ea7c1-d475-4142-984e-8c31c28b630e/",
       "status": "discovered",
-      "title": "2024-08-22 🔴 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-22 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "a94d9738-400d-438e-a5fc-b1302aaa3552": {
       "attempts": 0,
@@ -3042,7 +3056,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a9985436-5c65-4121-93c6-d64d050e1c27/",
       "status": "discovered",
-      "title": "2024-11-13 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-13 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "a9e0d8a0-25e0-4347-8c91-37e07194d71c": {
       "attempts": 0,
@@ -3052,7 +3066,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/a9e0d8a0-25e0-4347-8c91-37e07194d71c/",
       "status": "discovered",
-      "title": "2024-07-08 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 |"
+      "title": "2024-07-08 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 |"
     },
     "aa1a9692-631d-413a-8d5e-3e1d083feb22": {
       "attempts": 0,
@@ -3122,7 +3136,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ad4069a6-4863-4285-8045-760554ca7cd3/",
       "status": "discovered",
-      "title": "2025-01-16 🔴 RED NEWS | PALESTINE CEASEFIRE?!! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2025-01-16 \ud83d\udd34 RED NEWS | PALESTINE CEASEFIRE?!! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "af481095-265a-48fd-a35d-ab4a2d1045b0": {
       "attempts": 0,
@@ -3132,7 +3146,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/af481095-265a-48fd-a35d-ab4a2d1045b0/",
       "status": "discovered",
-      "title": "2024-05-07 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-05-07 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "afef4b78-7652-4a16-a622-32d5c8ccb9e3": {
       "attempts": 0,
@@ -3152,7 +3166,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b0676b51-3987-42be-adeb-afec11d6729a/",
       "status": "discovered",
-      "title": "2024-08-17 🔴 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-08-17 \ud83d\udd34 RED NEWS | IRAN ATTACK | UKRAINE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "b1316057-a1a8-4934-bb44-1d54422dd926": {
       "attempts": 0,
@@ -3172,7 +3186,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b148c2f1-9543-49a5-94e2-315be9a38e09/",
       "status": "discovered",
-      "title": "2023-10-25 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-25 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "b183be3f-7035-4b49-a50d-f8bdff715e7e": {
       "attempts": 0,
@@ -3192,7 +3206,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b1ac4ccd-9d88-4157-95c2-aaf1de8c1ed4/",
       "status": "discovered",
-      "title": "2024-06-11 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | PUTIN IS GOOD 🇷🇺"
+      "title": "2024-06-11 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
     },
     "b2da819c-8e71-4dab-aabf-f6412dc56deb": {
       "attempts": 0,
@@ -3202,7 +3216,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b2da819c-8e71-4dab-aabf-f6412dc56deb/",
       "status": "discovered",
-      "title": "2023-11-21 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-21 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "b2e02cb7-5f90-448f-9a6e-5b923d5dba6d": {
       "attempts": 0,
@@ -3222,7 +3236,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b40805c9-feaf-4ecf-be58-03add0b2393e/",
       "status": "discovered",
-      "title": "2024-11-28 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-28 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "b44aa1e0-392e-4571-99cd-e7f3202f393c": {
       "attempts": 0,
@@ -3232,7 +3246,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b44aa1e0-392e-4571-99cd-e7f3202f393c/",
       "status": "discovered",
-      "title": "2023-10-16 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-16 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "b526b283-c991-407a-ad73-0b320cf32c2d": {
       "attempts": 0,
@@ -3242,7 +3256,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b526b283-c991-407a-ad73-0b320cf32c2d/",
       "status": "discovered",
-      "title": "2023-10-17 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-17 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "b632b0d8-318d-4639-9709-31ee47ae5c06": {
       "attempts": 0,
@@ -3262,7 +3276,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b68642ac-8c75-41e7-a39b-dcec6c73cb6c/",
       "status": "discovered",
-      "title": "2024-10-17 🔴 RED NEWS | ISRAEL IS GETTING DESTROYED | DEBATING LIBERAL | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-10-17 \ud83d\udd34 RED NEWS | ISRAEL IS GETTING DESTROYED | DEBATING LIBERAL | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "b6b05111-fa79-43b9-bf9d-48c096215146": {
       "attempts": 0,
@@ -3282,7 +3296,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b752af18-058c-44f7-843e-cd5e524b1b09/",
       "status": "discovered",
-      "title": "2024-11-12 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-12 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "b828b021-f1e2-4163-9019-5f27aefcb00a": {
       "attempts": 0,
@@ -3292,7 +3306,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b828b021-f1e2-4163-9019-5f27aefcb00a/",
       "status": "discovered",
-      "title": "2024-10-30 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-10-30 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "b98ce08f-7d9a-4a7e-97dd-1981fa2b29b5": {
       "attempts": 0,
@@ -3302,7 +3316,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/b98ce08f-7d9a-4a7e-97dd-1981fa2b29b5/",
       "status": "discovered",
-      "title": "2023-11-07 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-07 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "ba428f60-492c-4580-97e4-063cf833b893": {
       "attempts": 0,
@@ -3312,7 +3326,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ba428f60-492c-4580-97e4-063cf833b893/",
       "status": "discovered",
-      "title": "2024-01-28 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-01-28 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "ba48d60e-0eb7-4baa-9882-f6900fb521a3": {
       "attempts": 0,
@@ -3342,7 +3356,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/bbbc8120-f458-476c-b4d0-a097a620b3e4/",
       "status": "discovered",
-      "title": "2023-11-04 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-04 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "bc254742-1602-42e8-94ed-d3d452dc38e9": {
       "attempts": 0,
@@ -3352,7 +3366,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/bc254742-1602-42e8-94ed-d3d452dc38e9/",
       "status": "discovered",
-      "title": "2023-12-02 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-02 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "be192658-8b5b-4685-a3a7-20208338113d": {
       "attempts": 0,
@@ -3405,7 +3419,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c1cec2f6-ecfa-475f-abaa-3ad12ef750da/",
       "status": "discovered",
-      "title": "2023-11-18 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-18 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "c1e72606-0097-4288-94b5-457c48230f85": {
       "attempts": 0,
@@ -3425,7 +3439,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c2d4ee2e-c237-4210-9652-619bcb2a0b0a/",
       "status": "discovered",
-      "title": "2023-11-06 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-06 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "c3041118-984a-4306-80ad-e12bea395139": {
       "attempts": 0,
@@ -3445,7 +3459,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c39c240a-e17c-4389-b2b8-1e845c724f34/",
       "status": "discovered",
-      "title": "2024-04-22 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-04-22 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "c40870a4-f990-4e35-8ea5-9c2a5e8245a3": {
       "attempts": 0,
@@ -3465,7 +3479,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c6c56887-bb39-404c-9499-f43a41220d4f/",
       "status": "discovered",
-      "title": "2024-07-26 🔴 THE AMERICAN COMMUNIST PARTY IS HERE"
+      "title": "2024-07-26 \ud83d\udd34 THE AMERICAN COMMUNIST PARTY IS HERE"
     },
     "c79c2a28-1fa6-42be-be86-1c89d1010e1f": {
       "attempts": 0,
@@ -3495,7 +3509,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c8bd9daa-3531-4d0f-b7fe-ff8c58edb2e0/",
       "status": "discovered",
-      "title": "2023-11-25 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-25 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "c909c03d-1069-4640-bc4c-085d73f0228f": {
       "attempts": 0,
@@ -3505,7 +3519,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c909c03d-1069-4640-bc4c-085d73f0228f/",
       "status": "discovered",
-      "title": "2024-12-03 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "c93622ab-bea4-49cf-a380-44ec5c929b85": {
       "attempts": 0,
@@ -3515,7 +3529,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/c93622ab-bea4-49cf-a380-44ec5c929b85/",
       "status": "discovered",
-      "title": "2023-10-12 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-12 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "c95234f3-c643-4fae-91df-0c3c34601e9b": {
       "attempts": 0,
@@ -3555,7 +3569,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cab9eeea-58c6-41bf-ac3d-59b17ee2d6fe/",
       "status": "discovered",
-      "title": "2025-01-07 🔴 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2025-01-07 \ud83d\udd34 RED NEWS | WW3 STARTING!!!!! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "cbba7aeb-e0b4-41da-87d8-0c6d62d1f4e7": {
       "attempts": 0,
@@ -3565,7 +3579,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cbba7aeb-e0b4-41da-87d8-0c6d62d1f4e7/",
       "status": "discovered",
-      "title": "2023-12-15 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-15 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "cbc8905c-cb18-4d08-9c0b-81611388e7d8": {
       "attempts": 0,
@@ -3575,7 +3589,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cbc8905c-cb18-4d08-9c0b-81611388e7d8/",
       "status": "discovered",
-      "title": "2024-03-29 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-29 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "ccd49dd8-1610-4b73-b9a1-f35ed922b139": {
       "attempts": 0,
@@ -3595,7 +3609,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/cdac014e-714a-4067-a20f-6b7f5fa89780/",
       "status": "discovered",
-      "title": "2024-12-03 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "ceac6b33-6fed-453f-90a6-b88b1c55d4da": {
       "attempts": 0,
@@ -3625,7 +3639,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d12ab561-28fe-47cc-b2a9-340c9dd80133/",
       "status": "discovered",
-      "title": "2026-01-20 VICTORY | COOKING GROYPERS 🔥 | ICE | IRAN WAR"
+      "title": "2026-01-20 VICTORY | COOKING GROYPERS \ud83d\udd25 | ICE | IRAN WAR"
     },
     "d18dffec-1ea2-49b7-9e7e-cd45e9629700": {
       "attempts": 0,
@@ -3635,7 +3649,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d18dffec-1ea2-49b7-9e7e-cd45e9629700/",
       "status": "discovered",
-      "title": "2026-01-20 VICTORY | COOKING GROYPERS 🔥 | ICE | IRAN WAR"
+      "title": "2026-01-20 VICTORY | COOKING GROYPERS \ud83d\udd25 | ICE | IRAN WAR"
     },
     "d1d6cf1b-49e1-4797-9b5f-d5938aba10a6": {
       "attempts": 0,
@@ -3655,7 +3669,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d26107ed-f3cf-44c3-b9b6-cc2eee611042/",
       "status": "discovered",
-      "title": "2024-05-04 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-05-04 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "d2d6c416-bda6-44b8-a12d-2b158747dead": {
       "attempts": 0,
@@ -3685,7 +3699,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d363df77-0ee4-4719-9d01-957f604d92ad/",
       "status": "discovered",
-      "title": "2024-12-15 🔴 RED NEWS | SYRIA HAS FALLEN | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-15 \ud83d\udd34 RED NEWS | SYRIA HAS FALLEN | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "d393c2f1-835a-43ec-999f-104884dff00b": {
       "attempts": 0,
@@ -3705,7 +3719,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d7269efb-7696-4ac4-b78d-ad1015aa8cdf/",
       "status": "discovered",
-      "title": "2024-04-19 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-04-19 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "d83f4d1c-050f-4b81-bb1b-7b8420326aad": {
       "attempts": 0,
@@ -3745,7 +3759,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d926a308-98c3-41a5-808f-03058f72e996/",
       "status": "discovered",
-      "title": "2023-12-30 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-30 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "d96e2155-2f2e-4f00-b00f-c083f53eff7b": {
       "attempts": 0,
@@ -3755,7 +3769,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d96e2155-2f2e-4f00-b00f-c083f53eff7b/",
       "status": "discovered",
-      "title": "2024-05-06 🔴 RED PILL NEWS | IRAN-ISRAEL WAR? 🇵🇸"
+      "title": "2024-05-06 \ud83d\udd34 RED PILL NEWS | IRAN-ISRAEL WAR? \ud83c\uddf5\ud83c\uddf8"
     },
     "d9aa75be-8ef3-471f-bb42-f6b273f106cd": {
       "attempts": 0,
@@ -3765,7 +3779,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/d9aa75be-8ef3-471f-bb42-f6b273f106cd/",
       "status": "discovered",
-      "title": "2024-07-24 🔴 THE AMERICAN COMMUNIST PARTY IS HERE"
+      "title": "2024-07-24 \ud83d\udd34 THE AMERICAN COMMUNIST PARTY IS HERE"
     },
     "da7b7d01-3d2a-449f-a380-3c01353acb63": {
       "attempts": 0,
@@ -3835,7 +3849,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/dd8e9248-05ea-412f-8b04-447ee8220bc3/",
       "status": "discovered",
-      "title": "2025-09-09 IRL COLLEGE DEBATES 🔥"
+      "title": "2025-09-09 IRL COLLEGE DEBATES \ud83d\udd25"
     },
     "ddc623f7-7c9f-4d95-94fd-3f5e2c7ca1c5": {
       "attempts": 0,
@@ -3855,7 +3869,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e03e2aec-16a5-4109-889d-a06712c461a0/",
       "status": "discovered",
-      "title": "2023-12-05 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-05 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "e16bd305-6ef9-44a5-b08b-1f0b4b073d60": {
       "attempts": 0,
@@ -3875,7 +3889,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e1f4fb52-60a3-4f89-8048-9d316730d5e5/",
       "status": "discovered",
-      "title": "2024-03-15 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-03-15 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "e23f3ef9-12e3-4fef-9197-1b3152fc51eb": {
       "attempts": 0,
@@ -3895,7 +3909,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e4ec0eb0-1a24-4ca0-b7ec-c79e3019bd0a/",
       "status": "discovered",
-      "title": "2025-06-13 🚨IRAN UNDER ATTACK - WW3?!!"
+      "title": "2025-06-13 \ud83d\udea8IRAN UNDER ATTACK - WW3?!!"
     },
     "e4ec55d6-85c0-4d92-8d24-a8b20d4c1542": {
       "attempts": 0,
@@ -3905,7 +3919,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e4ec55d6-85c0-4d92-8d24-a8b20d4c1542/",
       "status": "discovered",
-      "title": "2023-11-24 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-11-24 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "e602f81b-dd17-4f1e-9d7b-48c56d938a76": {
       "attempts": 0,
@@ -3915,7 +3929,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e602f81b-dd17-4f1e-9d7b-48c56d938a76/",
       "status": "discovered",
-      "title": "2024-01-06 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-01-06 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "e736c7f1-2f52-4c9c-84fd-90b5ac1335b2": {
       "attempts": 0,
@@ -3925,7 +3939,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/e736c7f1-2f52-4c9c-84fd-90b5ac1335b2/",
       "status": "discovered",
-      "title": "2023-10-10 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-10 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "e9083de8-8ac2-4892-a322-f18509b62832": {
       "attempts": 0,
@@ -3995,7 +4009,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ebcce1ce-8193-4906-b8d3-4b38f3ccb056/",
       "status": "discovered",
-      "title": "2026-02-06 HEATED DEBATES | 🔥 COOKING GROYPERS 🔥 | LEFT vs. RIGHT"
+      "title": "2026-02-06 HEATED DEBATES | \ud83d\udd25 COOKING GROYPERS \ud83d\udd25 | LEFT vs. RIGHT"
     },
     "ec232361-856b-4291-9f4b-9fb5a765a7ed": {
       "attempts": 0,
@@ -4005,7 +4019,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/ec232361-856b-4291-9f4b-9fb5a765a7ed/",
       "status": "discovered",
-      "title": "2024-09-09 🔴 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "ec3656b6-862a-44c6-a17e-288387f9662e": {
       "attempts": 0,
@@ -4045,7 +4059,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/edddce63-10e2-4a5a-90b5-ef32dd74c09e/",
       "status": "discovered",
-      "title": "2023-10-13 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "ef135d74-fffc-418c-ac5b-9ee3dc37e8df": {
       "attempts": 0,
@@ -4075,7 +4089,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f08ec0db-f133-4a25-a90e-5b8a17ee380b/",
       "status": "discovered",
-      "title": "2025-06-13 🚨IRAN UNDER ATTACK - WW3?!!"
+      "title": "2025-06-13 \ud83d\udea8IRAN UNDER ATTACK - WW3?!!"
     },
     "f2745ed7-e09b-4762-b44e-c656fb85d7fe": {
       "attempts": 0,
@@ -4105,7 +4119,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f36895e1-1430-4501-b924-220ce509f680/",
       "status": "discovered",
-      "title": "2024-06-08 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | PUTIN IS GOOD 🇷🇺"
+      "title": "2024-06-08 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
     },
     "f3d05425-d33a-4285-ac98-0ab03715102d": {
       "attempts": 0,
@@ -4115,7 +4129,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f3d05425-d33a-4285-ac98-0ab03715102d/",
       "status": "discovered",
-      "title": "2024-06-17 🔴 RED PILL NEWS | FREE PALESTINE 🇵🇸 | PUTIN IS GOOD 🇷🇺"
+      "title": "2024-06-17 \ud83d\udd34 RED PILL NEWS | FREE PALESTINE \ud83c\uddf5\ud83c\uddf8 | PUTIN IS GOOD \ud83c\uddf7\ud83c\uddfa"
     },
     "f4e2598f-2c22-42e6-ba52-5420ef6f6159": {
       "attempts": 0,
@@ -4135,7 +4149,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f512e534-0936-4e1c-8dd1-04e7f4fc9c91/",
       "status": "discovered",
-      "title": "2024-11-15 🔴 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-15 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "f5b75a5a-df4e-4b36-8449-059b6f4b4806": {
       "attempts": 0,
@@ -4165,7 +4179,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f8039275-ec0b-46f2-b80f-bbc3c96826c0/",
       "status": "discovered",
-      "title": "2024-01-11 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-01-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "f88e8e62-186f-4817-96f6-18843315aa79": {
       "attempts": 0,
@@ -4195,7 +4209,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/f955b25d-dc1a-458e-9702-0dcf2cd17bc7/",
       "status": "discovered",
-      "title": "2024-11-17 🔴 RED NEWS | DEBATING NEON*ZI | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-11-17 \ud83d\udd34 RED NEWS | DEBATING NEON*ZI | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "f9a6048d-51f2-4c52-a17e-5c562d068820": {
       "attempts": 0,
@@ -4225,7 +4239,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fb3939d1-3450-4074-97fb-cac01d83f615/",
       "status": "discovered",
-      "title": "2024-12-03 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "fbd0cf26-68e0-4fcb-a897-7796dfeed23f": {
       "attempts": 0,
@@ -4245,7 +4259,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fcb122f0-5342-4c4f-bfbc-695e6145de35/",
       "status": "discovered",
-      "title": "2024-04-01 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2024-04-01 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "fcb2dbf5-38f3-40ae-8cce-a90949beca2e": {
       "attempts": 0,
@@ -4255,7 +4269,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fcb2dbf5-38f3-40ae-8cce-a90949beca2e/",
       "status": "discovered",
-      "title": "2023-10-15 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-10-15 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "fd010a84-2b39-424f-8826-dda5d1f6760c": {
       "attempts": 0,
@@ -4265,7 +4279,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fd010a84-2b39-424f-8826-dda5d1f6760c/",
       "status": "discovered",
-      "title": "2023-12-18 🔴 RED PILL NEWS | PALESTINE WAR 🇵🇸"
+      "title": "2023-12-18 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "fd1f0682-f404-4e7e-8976-3e330fd449bc": {
       "attempts": 0,
@@ -4295,7 +4309,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fd65cc50-b342-456f-ac30-cae21d4ee70d/",
       "status": "discovered",
-      "title": "2024-09-23 🔴 RED NEWS | CNN HIT PIECE| AMERICAN COMMUNIST PARTY UPDATESH"
+      "title": "2024-09-23 \ud83d\udd34 RED NEWS | CNN HIT PIECE| AMERICAN COMMUNIST PARTY UPDATESH"
     },
     "fe0274df-4699-4173-b521-1ddf6a6feb1a": {
       "attempts": 0,
@@ -4325,7 +4339,7 @@
       "new_since_monitoring": false,
       "source_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/fef424ac-fa44-4a25-85f4-cfbbdf8f8160/",
       "status": "discovered",
-      "title": "2024-12-07 🔴 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
+      "title": "2024-12-07 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "ffccb99e-67e1-441e-b89a-a5a2ef9ed267": {
       "attempts": 0,
