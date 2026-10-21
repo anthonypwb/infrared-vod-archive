@@ -490,10 +490,11 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1977a95a-da0a-428c-97e6-b9c443fa93ae",
       "started_at": "2026-09-23T01:32:21+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WW3 IMMINENT",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/",
-      "upload_started_at": "2026-10-21T02:51:45.101657+00:00"
+      "upload_started_at": "2026-10-21T02:51:45.101657+00:00",
+      "youtube_id": "7BBuJQzSniA"
     },
     "1988a99a-2691-4789-97c5-8f599b4079d6": {
       "attempts": 0,
