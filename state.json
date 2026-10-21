@@ -9,13 +9,13 @@
       "39602564725-1": 29,
       "39638562119-1": 8,
       "39642502216-1": 22,
-      "github_other_jobs": 23
+      "github_other_jobs": 19
     }
   },
   "github_usage": {
-    "checked_at": "2026-10-21T17:17:46.797280+00:00",
+    "checked_at": "2026-10-21T18:59:39.185755+00:00",
     "month": "2026-10",
-    "observed_or_reserved_job_minutes": 127
+    "observed_or_reserved_job_minutes": 145
   },
   "github_usage_cache": {
     "month": "2026-10",
@@ -213,6 +213,27 @@
         "minutes": 1,
         "stamp": [
           "2026-10-21T17:13:00Z",
+          1
+        ]
+      },
+      "39642502178": {
+        "minutes": 1,
+        "stamp": [
+          "2026-10-21T17:18:13Z",
+          1
+        ]
+      },
+      "39642502216": {
+        "minutes": 21,
+        "stamp": [
+          "2026-10-21T17:38:26Z",
+          1
+        ]
+      },
+      "39642548389": {
+        "minutes": 1,
+        "stamp": [
+          "2026-10-21T17:18:29Z",
           1
         ]
       }
