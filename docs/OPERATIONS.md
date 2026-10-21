@@ -98,8 +98,9 @@ settings. There is no configured email, Slack, or separate ChatGPT notification 
 ## Scope and provenance
 
 The user authorized full public republication of Infrared livestreams and selected
-@archiveinfrared as the destination on October 20, 2026. No unrelated channel,
-bulk historical backfill, thumbnails, paid storage or Talonsight production changes
+@archiveinfrared as the destination on October 20, 2026, then authorized the
+available Kick backlog and budget-first catch-up. No unrelated channel,
+thumbnails, paid storage or Talonsight production changes
 are included. General rights permission is not represented as a provider OAuth grant.
 
 Each successful record includes the original source UUID, Kick recording URL, title/date,
