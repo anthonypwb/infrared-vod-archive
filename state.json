@@ -2516,16 +2516,17 @@
       "title": "2026-01-16 DEBATES NONSTOP | IRAN"
     },
     "880dcb20-2e8c-4697-828c-822f01999554": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-09-28",
       "first_seen": "2026-10-20T23:57:04.879190+00:00",
       "id": "880dcb20-2e8c-4697-828c-822f01999554",
+      "is_pilot": false,
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/880dcb20-2e8c-4697-828c-822f01999554",
       "started_at": "2026-09-28T02:45:17+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "Prepare for nuclear war.",
       "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/880dcb20-2e8c-4697-828c-822f01999554/"
     },
