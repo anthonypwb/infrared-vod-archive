@@ -473,14 +473,27 @@
       "first_seen": "2026-10-20T23:57:04.879194+00:00",
       "id": "1977a95a-da0a-428c-97e6-b9c443fa93ae",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 11081.515667,
+        "height": 1080,
+        "output_bytes": 6414437559,
+        "sample_decode_passed": true,
+        "segments": 1107,
+        "source_bytes": 6659637552,
+        "source_sha256": "dcd5c95391f0d7f0703399a43031cd99763440bc902d02e531826660973984c6",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": false,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1977a95a-da0a-428c-97e6-b9c443fa93ae",
       "started_at": "2026-09-23T01:32:21+00:00",
-      "status": "downloading",
+      "status": "uploading",
       "title": "WW3 IMMINENT",
-      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/"
+      "transcript_url": "https://infrared-transcripts.pages.dev/en/kick/infrared/1977a95a-da0a-428c-97e6-b9c443fa93ae/",
+      "upload_started_at": "2026-10-21T02:51:45.101657+00:00"
     },
     "1988a99a-2691-4789-97c5-8f599b4079d6": {
       "attempts": 0,
