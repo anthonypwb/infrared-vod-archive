@@ -6,9 +6,9 @@ The scheduled workflow is installed but its job is skipped until `ARCHIVE_CONNEC
 is `true`. The setup helper sets this only after checking and saving the channel
 connection. The public pilot and actual `pilot_verified` state control transfers.
 
-The two-hour UTC schedule runs at minute 17 of every even-numbered UTC hour.
-In Massachusetts this is every even-numbered local hour during daylight time,
-and every odd-numbered local hour during standard time. GitHub schedules may be delayed and are not exact timers.
+The current schedule runs every 12 hours, at 00:17 and 12:17 UTC.
+In Massachusetts this is 8:17 AM and 8:17 PM during daylight time,
+and 7:17 AM and 7:17 PM during standard time. GitHub schedules may be delayed and are not exact timers.
 
 `Archive Infrared VODs` has four modes:
 
@@ -43,7 +43,7 @@ An in-flight pilot continues using the commit it started with.
 
 The user subsequently authorized enough exceptions to build an expiry buffer,
 initially with a 300-minute budget taking priority. The weekly upload cap is now disabled
-(`max_new_uploads_per_week=null`). Each two-hour run may transfer one recording,
+(`max_new_uploads_per_week=null`). Each scheduled run may transfer one recording,
 oldest first, until the available queue is caught up or the monthly budget pauses
 work. An immediate catch-up run applies this policy; ongoing runs need no prompting.
 
@@ -125,7 +125,7 @@ schedule was shortened from six hours to two hours (up to 12 attempts/day),
 with one oldest eligible VOD per run and no overlapping archive workers.
 The 1,000-minute monthly cap and Talonsight allocation remain unchanged.
 More frequent empty polls also use runner minutes; the budget controller counts
-these. Source-failure retries now use a 15-minute backoff so the next two-hour slot can retry the oldest VOD. This cadence does
+these. Source-failure retries now use a 15-minute backoff so the next scheduled slot can retry the oldest VOD. This cadence does
 not increase transfer speed or guarantee YouTube processing completion times.
 
 ## Basic upload metadata
@@ -156,3 +156,12 @@ requested with FFmpeg stderr, exit code, segment index and disk-space diagnostic
 retained in state and the run report. URLs are redacted from captured stderr.
 No media-integrity checks were relaxed. The temporary kickoff trigger is removed
 once the immediate run is registered.
+
+## Maintenance cadence after catch-up
+
+The creator authorized twice-daily checks after the ten known VODs were uploaded.
+This supersedes the temporary two-hour catch-up cadence described above. The cron
+is now `17 0,12 * * *`: two checks every day, including unscheduled stream days.
+Each check verifies pending uploads and archives at most one oldest eligible
+completed Kick VOD. Failed attempts become eligible after 15 minutes but normally
+wait for the next 12-hour scheduled run. The 1,000-minute cap remains in place.
