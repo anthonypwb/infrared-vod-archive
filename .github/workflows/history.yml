@@ -1,0 +1,22 @@
+name: Archive historical VODs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['archive/history_probe.py']
+permissions:
+  contents: read
+concurrency:
+  group: infrared-archive-worker
+  cancel-in-progress: false
+jobs:
+  history:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Read-only historical source probe
+        run: python3 -m archive.history_probe

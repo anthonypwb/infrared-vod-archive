@@ -17,7 +17,7 @@ def instant(value):
 def job_minutes(job, month_start, current_run, current_attempt, reservation):
     if (str(job["run_id"]) == str(current_run)
             and job.get("run_attempt") == current_attempt
-            and job.get("name") == "archive" and job["status"] != "completed"):
+            and job.get("name") in ("archive", "history") and job["status"] != "completed"):
         return 0  # The caller reserves this whole job separately.
     if job.get("conclusion") == "skipped":
         return 0
@@ -29,7 +29,7 @@ def job_minutes(job, month_start, current_run, current_attempt, reservation):
     if job["status"] != "completed":
         if job.get("workflow_name") in ("Archive checks", "Archive budget reset"):
             return 5
-        if job.get("workflow_name") == "Archive Infrared VODs":
+        if job.get("workflow_name") in ("Archive Infrared VODs", "Archive historical VODs"):
             return reservation
         raise ArchiveError("Unknown active workflow; cannot bound repository runtime")
     if not start or not end:
@@ -134,3 +134,4 @@ def reset_month():
 
 if __name__ == "__main__":
     reset_month()
+
