@@ -3538,9 +3538,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/bef83ec4-4640-439d-9296-91ceaba83af6",
       "started_at": "2026-10-21T03:23:50+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "The Purge.",
-      "upload_started_at": "2026-10-22T01:06:43.523519+00:00"
+      "upload_started_at": "2026-10-22T01:06:43.523519+00:00",
+      "youtube_id": "DW-z7IjE3C8"
     },
     "c1089d5c-403d-4ae7-930c-16e8943a12cc": {
       "attempts": 0,
