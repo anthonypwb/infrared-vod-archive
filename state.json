@@ -3516,16 +3516,17 @@
       "title": "2026-09-02 You won't believe this."
     },
     "bef83ec4-4640-439d-9296-91ceaba83af6": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-10-21",
       "first_seen": "2026-10-21T06:48:18.371096+00:00",
       "id": "bef83ec4-4640-439d-9296-91ceaba83af6",
+      "is_pilot": false,
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/bef83ec4-4640-439d-9296-91ceaba83af6",
       "started_at": "2026-10-21T03:23:50+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "The Purge."
     },
     "c1089d5c-403d-4ae7-930c-16e8943a12cc": {
