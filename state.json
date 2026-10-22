@@ -3521,13 +3521,26 @@
       "first_seen": "2026-10-21T06:48:18.371096+00:00",
       "id": "bef83ec4-4640-439d-9296-91ceaba83af6",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 7814.398667,
+        "height": 1080,
+        "output_bytes": 4506722060,
+        "sample_decode_passed": true,
+        "segments": 780,
+        "source_bytes": 4683440584,
+        "source_sha256": "a6ed6e99383b35ffd97cd501b08db7068a4c346750284d97e41c6d4f486b90b0",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/bef83ec4-4640-439d-9296-91ceaba83af6",
       "started_at": "2026-10-21T03:23:50+00:00",
-      "status": "downloading",
-      "title": "The Purge."
+      "status": "uploading",
+      "title": "The Purge.",
+      "upload_started_at": "2026-10-22T01:06:43.523519+00:00"
     },
     "c1089d5c-403d-4ae7-930c-16e8943a12cc": {
       "attempts": 0,
