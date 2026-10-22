@@ -10,3 +10,5 @@ token*.json
 *.m3u8
 *.log
 report.json
+history-report.json
+

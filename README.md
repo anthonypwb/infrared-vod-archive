@@ -4,6 +4,11 @@ An independent archive worker for full Infrared Kick livestreams, publishing to
 [@archiveinfrared](https://youtube.com/@archiveinfrared) with the creator's permission.
 The existing `talonsight-pilot` repository is not modified or required.
 
+The separate [historical Rumble workflow](docs/HISTORICAL-ARCHIVE.md) is prepared
+for one eligible VOD weekly, with mandatory matching transcripts and the user's
+strict word filter. Historical publication is currently disabled pending verified
+Rumble access; new Kick archiving keeps its existing schedule.
+
 ## Current status
 
 Implementation and automated tests are installed. YouTube was connected on
@@ -107,3 +112,4 @@ Primary technical references checked October 20, 2026:
 - [Resumable upload protocol](https://developers.google.com/youtube/data/guides/using_resumable_upload_protocol)
 - [Google OAuth and refresh-token expiration](https://developers.google.com/identity/protocols/oauth2)
 - [GitHub-hosted runner resources](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)
+

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "blocked_reason": "Rumble catalog access returned HTTP 403 with a browser-verification challenge on the GitHub runner; browser access was denied by the approval gate. Source access and extraction must be validated before activation.",
+  "channels": ["https://rumble.com/c/InfraredArchive", "https://rumble.com/user/swaggghili"],
+  "transcript_index": "https://infrared-transcripts.pages.dev/en/introduction/",
+  "uploads_per_calendar_week": 1,
+  "monthly_history_minutes": 250,
+  "kick_reserve_minutes": 180,
+  "max_catalog_pages_per_channel": 100,
+  "max_transcripts_per_run": 40,
+  "max_transcript_start_seconds": 60,
+  "max_transcript_tail_seconds": 60,
+  "max_transcript_gap_seconds": 120,
+  "minimum_words_per_minute": 15
+}

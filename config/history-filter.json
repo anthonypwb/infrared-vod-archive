@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "description": "User-requested strict rejection filter from the latest chat list. A match is a skip, including quotations, benign meanings, and close spellings. This is not a YouTube policy classifier.",
+  "terms": [
+    "fag", "faggot", "dyke", "tranny",
+    "retard", "retarded", "spaz", "spastic", "mongoloid",
+    "nigger", "nigga", "coon", "darkie", "porch monkey",
+    "kike", "heeb", "chink", "gook", "jap", "nip",
+    "spic", "spick", "wetback", "beaner",
+    "raghead", "towelhead", "sand nigger", "sand nigga", "paki",
+    "redskin", "injun", "cracker", "honky",
+    "vermin", "parasite", "parasites", "subhuman", "a disease", "inherently inferior",
+    "fuck", "motherfucker", "shit", "bullshit", "bitch", "cunt", "asshole",
+    "bastard", "dick", "pussy", "slut", "whore",
+    "kill yourself", "someone should shoot", "kill them", "kill all", "assault them",
+    "exterminate them", "exterminate all", "bombard with abuse", "expose private information",
+    "sexual assault", "rape you", "rape her", "rape him"
+  ],
+  "variants": [
+    "faggit", "faggott", "fagot", "faggotry", "dykey", "trannies",
+    "retards", "retarding", "retardation", "retarted", "retart", "spazz", "spazzing", "spazzy",
+    "niggar", "niggas", "niggers", "niggah", "darkies", "porch monkeys", "beaners",
+    "honkey", "honkeys", "honkies", "pussies", "motherfuck", "motherfucking", "motherfuckers",
+    "fucking", "fucked", "fucker", "fuckers", "fucks", "shitty", "shitting", "shitted",
+    "shithead", "shitheads", "bullshitting", "bitches", "bitching", "bitchy", "assholes",
+    "dickhead", "dickheads", "slutty", "whoring", "whores", "n word", "f slur", "r word"
+  ],
+  "masked_markers": ["[ __ ]", "[___]", "[bleep]", "[censored]", "[redacted]", "[profanity]", "[slur]", "***"],
+  "near_match_min_length": 5,
+  "near_match_max_edits": 1,
+  "long_match_min_length": 9,
+  "long_match_max_edits": 2
+}

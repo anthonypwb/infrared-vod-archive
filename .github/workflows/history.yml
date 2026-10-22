@@ -1,11 +1,16 @@
 name: Archive historical VODs
 on:
+  schedule:
+    - cron: '37 14 * * 6'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['archive/history_probe.py']
+    inputs:
+      mode:
+        description: 'Validate checks configuration locally; auto imports at most one eligible historical VOD'
+        type: choice
+        options: [validate, auto]
+        default: validate
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: infrared-archive-worker
   cancel-in-progress: false
@@ -13,10 +18,25 @@ jobs:
   history:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Read-only historical source probe
-        run: python3 -m archive.history_probe
+      - name: Run separate historical worker
+        env:
+          MODE: ${{ inputs.mode || 'auto' }}
+          GH_TOKEN: ${{ github.token }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+        run: python3 -m archive.history "$MODE"
+      - name: Keep historical screening report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: history-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: history-report.json
+          if-no-files-found: ignore
+          retention-days: 14
