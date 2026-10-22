@@ -1471,8 +1471,15 @@
       "title": "2025-08-29 DOMINATING LIBS/N*ZIS/GROYPRS/OPPS"
     },
     "4a6c5907-0018-4293-9ab5-8df1990edc8f": {
+      "archived_at": "2026-10-22T01:01:31.249055+00:00",
       "attempts": 1,
       "date": "2026-10-20",
+      "duration_check": {
+        "difference_seconds": 0.8513330000005226,
+        "source_seconds": 11683.148667,
+        "tolerance_seconds": 584.15743335,
+        "youtube_seconds": 11684.0
+      },
       "first_seen": "2026-10-21T02:37:13.849235+00:00",
       "id": "4a6c5907-0018-4293-9ab5-8df1990edc8f",
       "is_pilot": false,
@@ -1489,12 +1496,12 @@
         "width": 1920
       },
       "new_since_monitoring": false,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/4a6c5907-0018-4293-9ab5-8df1990edc8f",
       "started_at": "2026-10-20T01:38:12+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "WORLD REVOLUTION",
       "upload_started_at": "2026-10-21T22:55:16.003399+00:00",
       "youtube_id": "GgibasQ1W0E"
