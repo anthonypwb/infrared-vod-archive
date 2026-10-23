@@ -1701,9 +1701,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/54117b4a-61b5-4e68-a5c6-00f012da120b",
       "started_at": "2026-10-23T02:32:20+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WISDOM.",
-      "upload_started_at": "2026-10-23T13:17:38.091687+00:00"
+      "upload_started_at": "2026-10-23T13:17:38.091687+00:00",
+      "youtube_id": "HIYzcCz0VIA"
     },
     "5489aec9-2e98-489d-9bb9-5b15921d588c": {
       "attempts": 0,
