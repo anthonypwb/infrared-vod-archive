@@ -1684,13 +1684,26 @@
       "first_seen": "2026-10-23T12:59:41.161985+00:00",
       "id": "54117b4a-61b5-4e68-a5c6-00f012da120b",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 11606.698667,
+        "height": 1080,
+        "output_bytes": 6701513776,
+        "sample_decode_passed": true,
+        "segments": 1160,
+        "source_bytes": 6958203736,
+        "source_sha256": "5e8d2e3c31977b4a91d12adbe1dd3f86300126f62807387940643b68a0945994",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/54117b4a-61b5-4e68-a5c6-00f012da120b",
       "started_at": "2026-10-23T02:32:20+00:00",
-      "status": "downloading",
-      "title": "WISDOM."
+      "status": "uploading",
+      "title": "WISDOM.",
+      "upload_started_at": "2026-10-23T13:17:38.091687+00:00"
     },
     "5489aec9-2e98-489d-9bb9-5b15921d588c": {
       "attempts": 0,
