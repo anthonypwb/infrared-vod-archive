@@ -3826,8 +3826,15 @@
       "title": "2024-12-03 \ud83d\udd34 RED NEWS | PUTIN NUKES! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "c9187042-bbde-4811-8e32-d942f2449859": {
+      "archived_at": "2026-10-26T14:57:18.687470+00:00",
       "attempts": 1,
       "date": "2026-10-26",
+      "duration_check": {
+        "difference_seconds": 0.41833299999962037,
+        "source_seconds": 8776.581667,
+        "tolerance_seconds": 438.82908335,
+        "youtube_seconds": 8777.0
+      },
       "first_seen": "2026-10-26T12:46:47.001308+00:00",
       "id": "c9187042-bbde-4811-8e32-d942f2449859",
       "is_pilot": false,
@@ -3844,12 +3851,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/c9187042-bbde-4811-8e32-d942f2449859",
       "started_at": "2026-10-26T03:29:51+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "WISDOM",
       "upload_started_at": "2026-10-26T12:54:04.188581+00:00",
       "youtube_id": "2ZZHX1dSY0c"
