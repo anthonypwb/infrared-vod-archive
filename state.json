@@ -3840,9 +3840,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/c9187042-bbde-4811-8e32-d942f2449859",
       "started_at": "2026-10-26T03:29:51+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WISDOM",
-      "upload_started_at": "2026-10-26T12:54:04.188581+00:00"
+      "upload_started_at": "2026-10-26T12:54:04.188581+00:00",
+      "youtube_id": "2ZZHX1dSY0c"
     },
     "c93622ab-bea4-49cf-a380-44ec5c929b85": {
       "attempts": 0,
