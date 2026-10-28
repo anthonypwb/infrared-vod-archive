@@ -6,9 +6,10 @@ The scheduled workflow is installed but its job is skipped until `ARCHIVE_CONNEC
 is `true`. The setup helper sets this only after checking and saving the channel
 connection. The public pilot and actual `pilot_verified` state control transfers.
 
-The current schedule runs every 12 hours, at 00:17 and 12:17 UTC.
-In Massachusetts this is 8:17 AM and 8:17 PM during daylight time,
-and 7:17 AM and 7:17 PM during standard time. GitHub schedules may be delayed and are not exact timers.
+The current schedule runs once daily at 5:30 AM Eastern using cron `30 5 * * *`
+and timezone `America/New_York`. It remains at 5:30 AM through daylight-saving
+changes (09:30 UTC during daylight time; 10:30 UTC during standard time).
+There is no evening check. GitHub schedules may be delayed and are not exact timers.
 
 `Archive Infrared VODs` has four modes:
 
@@ -159,9 +160,10 @@ once the immediate run is registered.
 
 ## Maintenance cadence after catch-up
 
-The creator authorized twice-daily checks after the ten known VODs were uploaded.
-This supersedes the temporary two-hour catch-up cadence described above. The cron
-is now `17 0,12 * * *`: two checks every day, including unscheduled stream days.
-Each check verifies pending uploads and archives at most one oldest eligible
-completed Kick VOD. Failed attempts become eligible after 15 minutes but normally
-wait for the next 12-hour scheduled run. The 1,000-minute cap remains in place.
+On October 28, 2026, the creator authorized one daily check at 5:30 AM Eastern
+and removed the evening check. This supersedes the twice-daily maintenance cadence
+and temporary two-hour catch-up cadence described above. The schedule is
+`30 5 * * *` with `timezone: America/New_York`, every day including unscheduled
+stream days. Each check verifies pending uploads and archives at most one oldest
+eligible completed Kick VOD. Failed attempts become eligible after 15 minutes but
+normally wait for the next daily scheduled run. The 1,000-minute cap remains in place.

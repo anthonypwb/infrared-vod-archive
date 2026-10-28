@@ -26,7 +26,7 @@ Human playback review of the first upload remains recommended before increasing 
 | --- | --- |
 | Discovery | Infrared's recent public VOD index directly on Kick; no transcript dependency |
 | Destination | Exactly `@archiveinfrared`, checked against the authenticated channel ID every run |
-| Schedule | Every 12 hours, at 00:17 and 12:17 UTC |
+| Schedule | Once daily at 5:30 AM America/New_York (Eastern), with automatic daylight-saving adjustment; no evening check |
 | Upload volume | No weekly count cap; at most one transfer per run, admitted only within the monthly budget |
 | Initial pilot | One newest eligible complete recording, or an exact supplied VOD UUID |
 | Routine coverage | All unarchived recordings in Kick's current public completed VOD index, oldest first, including the existing backlog |
