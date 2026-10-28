@@ -1,0 +1,77 @@
+name: One-time archive connection diagnostic
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/archive-diagnostic.yml']
+permissions:
+  contents: read
+concurrency:
+  group: infrared-archive-worker
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check current Kick inventory and YouTube authorization
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from urllib.parse import urlparse
+          from archive.core import ArchiveError, read_config, request
+          from archive.source import discover_kick
+          import archive.youtube as youtube
+          try:
+              rows = discover_kick(read_config())
+              print("KICK_DISCOVERY", json.dumps({
+                  "count": len(rows),
+                  "latest": [{"id": r["id"], "title": r["title"], "date": r["date"]}
+                             for r in sorted(rows, key=lambda r: r["started_at"], reverse=True)[:5]]
+              }))
+          except Exception as exc:
+              print("KICK_DISCOVERY_FAILED", type(exc).__name__)
+          allowed_codes = {
+              "invalid_grant", "invalid_client", "unauthorized_client",
+              "invalid_request", "invalid_scope", "access_denied",
+              "temporarily_unavailable", "server_error",
+              "badRequest", "forbidden", "quotaExceeded",
+              "accessNotConfigured", "authError", "insufficientPermissions"
+          }
+          def safe_json_request(url, **kwargs):
+              status, headers, body = request(url, **kwargs)
+              if status not in (200, 201):
+                  endpoint = urlparse(url)
+                  stage = ("GOOGLE_TOKEN_REFRESH" if endpoint.hostname == "oauth2.googleapis.com"
+                           else "YOUTUBE_API")
+                  codes = []
+                  try:
+                      error = json.loads(body).get("error")
+                      if isinstance(error, str) and error in allowed_codes:
+                          codes.append(error)
+                      elif isinstance(error, dict):
+                          codes.extend(e.get("reason") for e in error.get("errors", [])
+                                       if isinstance(e, dict) and e.get("reason") in allowed_codes)
+                  except (ValueError, UnicodeError, AttributeError, TypeError):
+                      pass
+                  # Emit only fixed endpoint labels, numeric status, and allowlisted codes.
+                  print("CONNECTION_FAILURE", json.dumps({
+                      "stage": stage, "http_status": status, "codes": codes
+                  }))
+                  raise ArchiveError("Connection diagnostic failed")
+              return json.loads(body), headers
+          youtube.json_request = safe_json_request
+          try:
+              youtube.YouTube().verify_channel(os.environ["YOUTUBE_CHANNEL_ID"], "@archiveinfrared")
+              print("YOUTUBE_CONNECTION_OK")
+          except Exception as exc:
+              print("YOUTUBE_CONNECTION_FAILED", type(exc).__name__)
+          PY
