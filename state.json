@@ -4577,6 +4577,19 @@
       "status": "discovered",
       "title": "2025-01-22 We're going to war"
     },
+    "f63d3b2f-d359-4993-bc72-59b54eae4522": {
+      "attempts": 0,
+      "date": "2026-10-28",
+      "first_seen": "2026-10-28T23:44:04.042822+00:00",
+      "id": "f63d3b2f-d359-4993-bc72-59b54eae4522",
+      "new_since_monitoring": true,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/f63d3b2f-d359-4993-bc72-59b54eae4522",
+      "started_at": "2026-10-28T03:32:53+00:00",
+      "status": "discovered",
+      "title": "Jihad."
+    },
     "f7f81a97-1007-4359-9e8e-0310992983fa": {
       "attempts": 0,
       "date": "2025-03-20",
