@@ -4600,9 +4600,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/f63d3b2f-d359-4993-bc72-59b54eae4522",
       "started_at": "2026-10-28T03:32:53+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "Jihad.",
-      "upload_started_at": "2026-10-29T00:07:00.329435+00:00"
+      "upload_started_at": "2026-10-29T00:07:00.329435+00:00",
+      "youtube_id": "jFbApT0Zqy8"
     },
     "f7f81a97-1007-4359-9e8e-0310992983fa": {
       "attempts": 0,
