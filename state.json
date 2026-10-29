@@ -4579,8 +4579,15 @@
       "title": "2025-01-22 We're going to war"
     },
     "f63d3b2f-d359-4993-bc72-59b54eae4522": {
+      "archived_at": "2026-10-29T10:18:24.865136+00:00",
       "attempts": 1,
       "date": "2026-10-28",
+      "duration_check": {
+        "difference_seconds": 0.6343329999999696,
+        "source_seconds": 14927.365667,
+        "tolerance_seconds": 746.3682833500001,
+        "youtube_seconds": 14928.0
+      },
       "first_seen": "2026-10-28T23:44:04.042822+00:00",
       "id": "f63d3b2f-d359-4993-bc72-59b54eae4522",
       "is_pilot": false,
@@ -4597,12 +4604,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/f63d3b2f-d359-4993-bc72-59b54eae4522",
       "started_at": "2026-10-28T03:32:53+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "Jihad.",
       "upload_started_at": "2026-10-29T00:07:00.329435+00:00",
       "youtube_id": "jFbApT0Zqy8"
