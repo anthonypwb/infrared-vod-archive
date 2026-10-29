@@ -4583,13 +4583,26 @@
       "first_seen": "2026-10-28T23:44:04.042822+00:00",
       "id": "f63d3b2f-d359-4993-bc72-59b54eae4522",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 14927.365667,
+        "height": 1080,
+        "output_bytes": 8634114725,
+        "sample_decode_passed": true,
+        "segments": 1491,
+        "source_bytes": 8965919844,
+        "source_sha256": "95e23fdc17256646a98820065a44eeee8a31e9ed858926f00c09927e85cf8312",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/f63d3b2f-d359-4993-bc72-59b54eae4522",
       "started_at": "2026-10-28T03:32:53+00:00",
-      "status": "downloading",
-      "title": "Jihad."
+      "status": "uploading",
+      "title": "Jihad.",
+      "upload_started_at": "2026-10-29T00:07:00.329435+00:00"
     },
     "f7f81a97-1007-4359-9e8e-0310992983fa": {
       "attempts": 0,
