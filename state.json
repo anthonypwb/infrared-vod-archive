@@ -3224,13 +3224,26 @@
       "first_seen": "2026-10-30T10:18:41.958246+00:00",
       "id": "98824adc-8375-4749-a757-d44a86e7dbba",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 13591.631667,
+        "height": 1080,
+        "output_bytes": 7846275894,
+        "sample_decode_passed": true,
+        "segments": 1356,
+        "source_bytes": 8151739408,
+        "source_sha256": "e1d92f4fd947b8c543bc189a28a9aeff9847d77cad88c199f1a7c1f72321f435",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/98824adc-8375-4749-a757-d44a86e7dbba",
       "started_at": "2026-10-30T02:49:00+00:00",
-      "status": "downloading",
-      "title": "IRAN WAR RESUMES"
+      "status": "uploading",
+      "title": "IRAN WAR RESUMES",
+      "upload_started_at": "2026-10-30T10:31:10.415671+00:00"
     },
     "9a193e58-82ba-40c7-b75d-ee13fd7717c5": {
       "attempts": 0,
