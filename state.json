@@ -3241,9 +3241,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/98824adc-8375-4749-a757-d44a86e7dbba",
       "started_at": "2026-10-30T02:49:00+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "IRAN WAR RESUMES",
-      "upload_started_at": "2026-10-30T10:31:10.415671+00:00"
+      "upload_started_at": "2026-10-30T10:31:10.415671+00:00",
+      "youtube_id": "RFYPS1zyVRw"
     },
     "9a193e58-82ba-40c7-b75d-ee13fd7717c5": {
       "attempts": 0,
