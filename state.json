@@ -3227,8 +3227,15 @@
       "title": "2024-09-09 \ud83d\udd34 RED NEWS | DEBATING LEFTIST! | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "98824adc-8375-4749-a757-d44a86e7dbba": {
+      "archived_at": "2026-10-31T10:07:29.589783+00:00",
       "attempts": 1,
       "date": "2026-10-30",
+      "duration_check": {
+        "difference_seconds": 0.36833300000034797,
+        "source_seconds": 13591.631667,
+        "tolerance_seconds": 679.5815833500001,
+        "youtube_seconds": 13592.0
+      },
       "first_seen": "2026-10-30T10:18:41.958246+00:00",
       "id": "98824adc-8375-4749-a757-d44a86e7dbba",
       "is_pilot": false,
@@ -3245,12 +3252,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/98824adc-8375-4749-a757-d44a86e7dbba",
       "started_at": "2026-10-30T02:49:00+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "IRAN WAR RESUMES",
       "upload_started_at": "2026-10-30T10:31:10.415671+00:00",
       "youtube_id": "RFYPS1zyVRw"
