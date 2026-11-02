@@ -1929,13 +1929,26 @@
       "first_seen": "2026-11-02T11:21:49.656446+00:00",
       "id": "69f3e9be-8365-47f0-a4d9-52ba085d8f58",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 10305.131667,
+        "height": 1080,
+        "output_bytes": 5954935859,
+        "sample_decode_passed": true,
+        "segments": 1029,
+        "source_bytes": 6185428984,
+        "source_sha256": "a97cc223e5584a08790759ec2ebf8c3c54abee2f2385ced418f2a54e4d77c57a",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/69f3e9be-8365-47f0-a4d9-52ba085d8f58",
       "started_at": "2026-11-02T03:49:37+00:00",
-      "status": "downloading",
-      "title": "\ud83d\udd34 NUCLEAR WAR | MIDTERMS NEAR"
+      "status": "uploading",
+      "title": "\ud83d\udd34 NUCLEAR WAR | MIDTERMS NEAR",
+      "upload_started_at": "2026-11-02T11:36:57.064835+00:00"
     },
     "6a6684ff-4a37-4137-8d21-e9569d637669": {
       "attempts": 0,
