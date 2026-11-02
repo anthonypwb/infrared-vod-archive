@@ -1923,6 +1923,19 @@
       "status": "discovered",
       "title": "2025-10-15 POWERFUL TRUKE BOMBS"
     },
+    "69f3e9be-8365-47f0-a4d9-52ba085d8f58": {
+      "attempts": 0,
+      "date": "2026-11-02",
+      "first_seen": "2026-11-02T11:21:49.656446+00:00",
+      "id": "69f3e9be-8365-47f0-a4d9-52ba085d8f58",
+      "new_since_monitoring": true,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/69f3e9be-8365-47f0-a4d9-52ba085d8f58",
+      "started_at": "2026-11-02T03:49:37+00:00",
+      "status": "discovered",
+      "title": "\ud83d\udd34 NUCLEAR WAR | MIDTERMS NEAR"
+    },
     "6a6684ff-4a37-4137-8d21-e9569d637669": {
       "attempts": 0,
       "date": "2025-01-17",
