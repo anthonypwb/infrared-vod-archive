@@ -1932,8 +1932,15 @@
       "title": "2025-10-15 POWERFUL TRUKE BOMBS"
     },
     "69f3e9be-8365-47f0-a4d9-52ba085d8f58": {
+      "archived_at": "2026-11-03T11:22:02.895078+00:00",
       "attempts": 1,
       "date": "2026-11-02",
+      "duration_check": {
+        "difference_seconds": 0.868333000000348,
+        "source_seconds": 10305.131667,
+        "tolerance_seconds": 515.25658335,
+        "youtube_seconds": 10306.0
+      },
       "first_seen": "2026-11-02T11:21:49.656446+00:00",
       "id": "69f3e9be-8365-47f0-a4d9-52ba085d8f58",
       "is_pilot": false,
@@ -1950,12 +1957,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/69f3e9be-8365-47f0-a4d9-52ba085d8f58",
       "started_at": "2026-11-02T03:49:37+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "\ud83d\udd34 NUCLEAR WAR | MIDTERMS NEAR",
       "upload_started_at": "2026-11-02T11:36:57.064835+00:00",
       "youtube_id": "mJ2x7enhYPg"
