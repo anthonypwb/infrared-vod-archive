@@ -2400,16 +2400,17 @@
       "title": "2023-12-11 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "805a0037-ea2c-4944-bf0a-4de70ae48423": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-11-04",
       "first_seen": "2026-11-04T13:49:35.139491+00:00",
       "id": "805a0037-ea2c-4944-bf0a-4de70ae48423",
+      "is_pilot": false,
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/805a0037-ea2c-4944-bf0a-4de70ae48423",
       "started_at": "2026-11-04T03:20:56+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "MIDTERM RESULTS: CIVIL WAR"
     },
     "81614933-2df3-4be5-9bb5-56b603299784": {
