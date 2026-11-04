@@ -2422,9 +2422,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/805a0037-ea2c-4944-bf0a-4de70ae48423",
       "started_at": "2026-11-04T03:20:56+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "MIDTERM RESULTS: CIVIL WAR",
-      "upload_started_at": "2026-11-04T14:05:07.875042+00:00"
+      "upload_started_at": "2026-11-04T14:05:07.875042+00:00",
+      "youtube_id": "ATcCGiUhHag"
     },
     "81614933-2df3-4be5-9bb5-56b603299784": {
       "attempts": 0,
