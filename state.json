@@ -2405,13 +2405,26 @@
       "first_seen": "2026-11-04T13:49:35.139491+00:00",
       "id": "805a0037-ea2c-4944-bf0a-4de70ae48423",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 11215.765667,
+        "height": 1080,
+        "output_bytes": 6470361774,
+        "sample_decode_passed": true,
+        "segments": 1119,
+        "source_bytes": 6722965916,
+        "source_sha256": "39b306b2e79ef9485ef62b4dc06badbd6a459ea33edea7b52cb82b0c545d4c5b",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/805a0037-ea2c-4944-bf0a-4de70ae48423",
       "started_at": "2026-11-04T03:20:56+00:00",
-      "status": "downloading",
-      "title": "MIDTERM RESULTS: CIVIL WAR"
+      "status": "uploading",
+      "title": "MIDTERM RESULTS: CIVIL WAR",
+      "upload_started_at": "2026-11-04T14:05:07.875042+00:00"
     },
     "81614933-2df3-4be5-9bb5-56b603299784": {
       "attempts": 0,
