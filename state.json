@@ -42,13 +42,13 @@
       "41884466929-1": 1,
       "42081898128-1": 1,
       "42081898128-2": 12,
-      "github_other_jobs": 1
+      "github_other_jobs": 0
     }
   },
   "github_usage": {
-    "checked_at": "2026-11-06T11:07:04.881444+00:00",
+    "checked_at": "2026-11-06T17:38:21.129505+00:00",
     "month": "2026-11",
-    "observed_or_reserved_job_minutes": 46
+    "observed_or_reserved_job_minutes": 57
   },
   "github_usage_cache": {
     "month": "2026-11",
@@ -86,6 +86,13 @@
         "stamp": [
           "2026-11-04T18:10:46Z",
           1
+        ]
+      },
+      "42081898128": {
+        "minutes": 12,
+        "stamp": [
+          "2026-11-06T11:17:46Z",
+          2
         ]
       }
     }
