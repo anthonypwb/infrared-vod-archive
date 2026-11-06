@@ -664,16 +664,17 @@
       "title": "2026-01-26 ANTI-ICE UPRISING MINNEAPOLIS | CATFISH EXPOSED | MUCH MORE"
     },
     "1ec09939-4d47-412a-be4f-222e42fd0dac": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-11-06",
       "first_seen": "2026-11-06T11:07:08.686421+00:00",
       "id": "1ec09939-4d47-412a-be4f-222e42fd0dac",
+      "is_pilot": false,
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1ec09939-4d47-412a-be4f-222e42fd0dac",
       "started_at": "2026-11-06T04:01:15+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "MIDTERMS: WHAT HAPPENS NEXT"
     },
     "20153b9a-72e3-4878-9f97-86602310c9a9": {
