@@ -669,13 +669,26 @@
       "first_seen": "2026-11-06T11:07:08.686421+00:00",
       "id": "1ec09939-4d47-412a-be4f-222e42fd0dac",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 6975.098667,
+        "height": 1080,
+        "output_bytes": 3990753915,
+        "sample_decode_passed": true,
+        "segments": 697,
+        "source_bytes": 4146146360,
+        "source_sha256": "af1a1bb66b2a267d5d09bf1a28b697478d102ad48615dbca9743494b225fcc7e",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1ec09939-4d47-412a-be4f-222e42fd0dac",
       "started_at": "2026-11-06T04:01:15+00:00",
-      "status": "downloading",
-      "title": "MIDTERMS: WHAT HAPPENS NEXT"
+      "status": "uploading",
+      "title": "MIDTERMS: WHAT HAPPENS NEXT",
+      "upload_started_at": "2026-11-06T11:13:53.747881+00:00"
     },
     "20153b9a-72e3-4878-9f97-86602310c9a9": {
       "attempts": 0,
