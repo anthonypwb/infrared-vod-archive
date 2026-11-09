@@ -601,13 +601,26 @@
       "first_seen": "2026-11-09T09:51:46.835674+00:00",
       "id": "1811d795-a428-49f9-b67c-4bd01676fd36",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 13413.681667,
+        "height": 1080,
+        "output_bytes": 7707234069,
+        "sample_decode_passed": true,
+        "segments": 1340,
+        "source_bytes": 8003971032,
+        "source_sha256": "ad13620a2013954c2f1d83c819d0172c7fc1bb250fabf65e9181b52dcd776159",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1811d795-a428-49f9-b67c-4bd01676fd36",
       "started_at": "2026-11-09T03:51:36+00:00",
-      "status": "downloading",
-      "title": "WW3: HOW IT ALL ENDS"
+      "status": "uploading",
+      "title": "WW3: HOW IT ALL ENDS",
+      "upload_started_at": "2026-11-09T10:01:13.818335+00:00"
     },
     "1939b0d8-8a60-4706-8b88-fdb51c4dc88b": {
       "attempts": 0,
