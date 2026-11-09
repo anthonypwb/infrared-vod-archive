@@ -618,9 +618,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/1811d795-a428-49f9-b67c-4bd01676fd36",
       "started_at": "2026-11-09T03:51:36+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WW3: HOW IT ALL ENDS",
-      "upload_started_at": "2026-11-09T10:01:13.818335+00:00"
+      "upload_started_at": "2026-11-09T10:01:13.818335+00:00",
+      "youtube_id": "3Ycd2kCaGX8"
     },
     "1939b0d8-8a60-4706-8b88-fdb51c4dc88b": {
       "attempts": 0,
