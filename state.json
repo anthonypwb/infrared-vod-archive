@@ -1927,16 +1927,17 @@
       "title": "2024-10-28 \ud83d\udd34 RED NEWS | MASSIVE DEBATE ROYALE | AMERICAN COMMUNIST PARTY UPDATES"
     },
     "5e9e2e05-fd22-4cc8-b37e-fb71512da9e6": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-11-12",
       "first_seen": "2026-11-12T18:30:12.966252+00:00",
       "id": "5e9e2e05-fd22-4cc8-b37e-fb71512da9e6",
+      "is_pilot": false,
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/5e9e2e05-fd22-4cc8-b37e-fb71512da9e6",
       "started_at": "2026-11-12T04:48:50+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "VICTORY AND THE ENEMY FLEES"
     },
     "5ed11713-63ad-441e-b292-f26fdae01147": {
