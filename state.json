@@ -1932,13 +1932,26 @@
       "first_seen": "2026-11-12T18:30:12.966252+00:00",
       "id": "5e9e2e05-fd22-4cc8-b37e-fb71512da9e6",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 5588.810333,
+        "height": 1080,
+        "output_bytes": 3060441251,
+        "sample_decode_passed": true,
+        "segments": 448,
+        "source_bytes": 3166403160,
+        "source_sha256": "771fc7b27e900905d968d7f974b8a852be95f0bceac9ecc6a21af7002678aaa8",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/5e9e2e05-fd22-4cc8-b37e-fb71512da9e6",
       "started_at": "2026-11-12T04:48:50+00:00",
-      "status": "downloading",
-      "title": "VICTORY AND THE ENEMY FLEES"
+      "status": "uploading",
+      "title": "VICTORY AND THE ENEMY FLEES",
+      "upload_started_at": "2026-11-12T18:32:42.170756+00:00"
     },
     "5ed11713-63ad-441e-b292-f26fdae01147": {
       "attempts": 0,
