@@ -1949,9 +1949,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/5e9e2e05-fd22-4cc8-b37e-fb71512da9e6",
       "started_at": "2026-11-12T04:48:50+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "VICTORY AND THE ENEMY FLEES",
-      "upload_started_at": "2026-11-12T18:32:42.170756+00:00"
+      "upload_started_at": "2026-11-12T18:32:42.170756+00:00",
+      "youtube_id": "qBcTHMGrABs"
     },
     "5ed11713-63ad-441e-b292-f26fdae01147": {
       "attempts": 0,
