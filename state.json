@@ -1044,8 +1044,15 @@
       "title": "2023-12-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
     "29ee11de-ae19-431f-bd8e-96d189db6ef8": {
+      "archived_at": "2026-11-16T20:37:59.985094+00:00",
       "attempts": 1,
       "date": "2026-11-16",
+      "duration_check": {
+        "difference_seconds": 0.3843329999999696,
+        "source_seconds": 9153.615667,
+        "tolerance_seconds": 457.68078335,
+        "youtube_seconds": 9154.0
+      },
       "first_seen": "2026-11-16T12:53:53.669128+00:00",
       "id": "29ee11de-ae19-431f-bd8e-96d189db6ef8",
       "is_pilot": false,
@@ -1062,12 +1069,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/29ee11de-ae19-431f-bd8e-96d189db6ef8",
       "started_at": "2026-11-16T02:47:00+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "WARFARE",
       "upload_started_at": "2026-11-16T13:02:48.140584+00:00",
       "youtube_id": "YcxA38l1El8"
