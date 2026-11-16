@@ -1041,13 +1041,26 @@
       "first_seen": "2026-11-16T12:53:53.669128+00:00",
       "id": "29ee11de-ae19-431f-bd8e-96d189db6ef8",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 9153.615667,
+        "height": 1080,
+        "output_bytes": 5255546597,
+        "sample_decode_passed": true,
+        "segments": 914,
+        "source_bytes": 5457474372,
+        "source_sha256": "d193da6ad4c2f509bcc623fbfe6ccc819909523a877e6f5eba31c781dbabfc9f",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/29ee11de-ae19-431f-bd8e-96d189db6ef8",
       "started_at": "2026-11-16T02:47:00+00:00",
-      "status": "downloading",
-      "title": "WARFARE"
+      "status": "uploading",
+      "title": "WARFARE",
+      "upload_started_at": "2026-11-16T13:02:48.140584+00:00"
     },
     "2aaac100-82e8-4b5e-b568-7b49cfaac04f": {
       "attempts": 0,
