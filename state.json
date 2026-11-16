@@ -1058,9 +1058,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/29ee11de-ae19-431f-bd8e-96d189db6ef8",
       "started_at": "2026-11-16T02:47:00+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WARFARE",
-      "upload_started_at": "2026-11-16T13:02:48.140584+00:00"
+      "upload_started_at": "2026-11-16T13:02:48.140584+00:00",
+      "youtube_id": "YcxA38l1El8"
     },
     "2aaac100-82e8-4b5e-b568-7b49cfaac04f": {
       "attempts": 0,
