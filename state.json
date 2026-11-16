@@ -1035,6 +1035,19 @@
       "status": "discovered",
       "title": "2023-12-13 \ud83d\udd34 RED PILL NEWS | PALESTINE WAR \ud83c\uddf5\ud83c\uddf8"
     },
+    "29ee11de-ae19-431f-bd8e-96d189db6ef8": {
+      "attempts": 0,
+      "date": "2026-11-16",
+      "first_seen": "2026-11-16T12:53:53.669128+00:00",
+      "id": "29ee11de-ae19-431f-bd8e-96d189db6ef8",
+      "new_since_monitoring": true,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/29ee11de-ae19-431f-bd8e-96d189db6ef8",
+      "started_at": "2026-11-16T02:47:00+00:00",
+      "status": "discovered",
+      "title": "WARFARE"
+    },
     "2aaac100-82e8-4b5e-b568-7b49cfaac04f": {
       "attempts": 0,
       "date": "2025-07-29",
