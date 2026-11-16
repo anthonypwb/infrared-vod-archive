@@ -59,9 +59,9 @@
     }
   },
   "github_usage": {
-    "checked_at": "2026-11-16T12:53:49.830934+00:00",
+    "checked_at": "2026-11-16T20:37:57.218258+00:00",
     "month": "2026-11",
-    "observed_or_reserved_job_minutes": 88
+    "observed_or_reserved_job_minutes": 101
   },
   "github_usage_cache": {
     "month": "2026-11",
@@ -183,6 +183,13 @@
         "stamp": [
           "2026-11-14T19:27:01Z",
           1
+        ]
+      },
+      "43740583850": {
+        "minutes": 14,
+        "stamp": [
+          "2026-11-16T13:05:53Z",
+          2
         ]
       }
     }
