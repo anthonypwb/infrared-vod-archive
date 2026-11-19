@@ -3414,9 +3414,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/a4975604-1281-423c-920c-8d85049abfe5",
       "started_at": "2026-11-18T02:35:08+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "AMERICA SHUT DOWN",
-      "upload_started_at": "2026-11-19T19:10:01.435624+00:00"
+      "upload_started_at": "2026-11-19T19:10:01.435624+00:00",
+      "youtube_id": "c-UQ-Ep6Zio"
     },
     "a54c9386-4da7-40c7-954c-5a7f40eb170b": {
       "attempts": 0,
