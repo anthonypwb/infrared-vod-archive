@@ -3395,6 +3395,18 @@
       "first_seen": "2026-11-18T18:57:54.874647+00:00",
       "id": "a4975604-1281-423c-920c-8d85049abfe5",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 13355.948667,
+        "height": 1080,
+        "output_bytes": 7691096426,
+        "sample_decode_passed": true,
+        "segments": 1335,
+        "source_bytes": 7985432164,
+        "source_sha256": "dc1d0599ac83951d87e28af62662736648b37416a511c4ebfdc8ff2965c18ac3",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "note": "TimeoutExpired",
       "retry_after": "2026-11-18T19:17:32.236953+00:00",
@@ -3402,8 +3414,9 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/a4975604-1281-423c-920c-8d85049abfe5",
       "started_at": "2026-11-18T02:35:08+00:00",
-      "status": "downloading",
-      "title": "AMERICA SHUT DOWN"
+      "status": "uploading",
+      "title": "AMERICA SHUT DOWN",
+      "upload_started_at": "2026-11-19T19:10:01.435624+00:00"
     },
     "a54c9386-4da7-40c7-954c-5a7f40eb170b": {
       "attempts": 0,
