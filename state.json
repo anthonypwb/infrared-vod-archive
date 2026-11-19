@@ -3408,7 +3408,7 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "TimeoutExpired",
+      "note": "YouTube is still processing the upload",
       "retry_after": "2026-11-18T19:17:32.236953+00:00",
       "source_channel_id": 129849,
       "source_provider": "kick",
