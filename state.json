@@ -3390,7 +3390,7 @@
       "title": "2025-03-02 Here's the truth"
     },
     "a4975604-1281-423c-920c-8d85049abfe5": {
-      "attempts": 1,
+      "attempts": 2,
       "date": "2026-11-18",
       "first_seen": "2026-11-18T18:57:54.874647+00:00",
       "id": "a4975604-1281-423c-920c-8d85049abfe5",
@@ -3402,7 +3402,7 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/a4975604-1281-423c-920c-8d85049abfe5",
       "started_at": "2026-11-18T02:35:08+00:00",
-      "status": "retry",
+      "status": "downloading",
       "title": "AMERICA SHUT DOWN"
     },
     "a54c9386-4da7-40c7-954c-5a7f40eb170b": {
