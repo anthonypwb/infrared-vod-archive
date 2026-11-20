@@ -1348,13 +1348,26 @@
       "first_seen": "2026-11-20T18:43:34.504878+00:00",
       "id": "3c2d46f3-565d-4fd2-820f-06dcec628436",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 16065.998667,
+        "height": 1080,
+        "output_bytes": 9163067792,
+        "sample_decode_passed": true,
+        "segments": 1606,
+        "source_bytes": 9519774236,
+        "source_sha256": "cf7711b568a03e0d075e4ea58185893bee2a409abf84f9cda783a1714f07e089",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/3c2d46f3-565d-4fd2-820f-06dcec628436",
       "started_at": "2026-11-20T03:09:34+00:00",
-      "status": "downloading",
-      "title": "WORLD IS ENDING"
+      "status": "uploading",
+      "title": "WORLD IS ENDING",
+      "upload_started_at": "2026-11-20T18:53:29.834123+00:00"
     },
     "3ce5e79d-e91a-4ee4-89dc-1148bc90bb26": {
       "attempts": 0,
