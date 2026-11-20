@@ -3398,8 +3398,15 @@
       "title": "2025-03-02 Here's the truth"
     },
     "a4975604-1281-423c-920c-8d85049abfe5": {
+      "archived_at": "2026-11-20T18:43:32.539879+00:00",
       "attempts": 2,
       "date": "2026-11-18",
+      "duration_check": {
+        "difference_seconds": 0.051332999999431195,
+        "source_seconds": 13355.948667,
+        "tolerance_seconds": 667.7974333500001,
+        "youtube_seconds": 13356.0
+      },
       "first_seen": "2026-11-18T18:57:54.874647+00:00",
       "id": "a4975604-1281-423c-920c-8d85049abfe5",
       "is_pilot": false,
@@ -3416,13 +3423,13 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "retry_after": "2026-11-18T19:17:32.236953+00:00",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/a4975604-1281-423c-920c-8d85049abfe5",
       "started_at": "2026-11-18T02:35:08+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "AMERICA SHUT DOWN",
       "upload_started_at": "2026-11-19T19:10:01.435624+00:00",
       "youtube_id": "c-UQ-Ep6Zio"
