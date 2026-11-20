@@ -1343,16 +1343,17 @@
       "title": "2025-07-21 UCLA COLLEGE LIBS CONFRONT THE CHAIRMAN"
     },
     "3c2d46f3-565d-4fd2-820f-06dcec628436": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-11-20",
       "first_seen": "2026-11-20T18:43:34.504878+00:00",
       "id": "3c2d46f3-565d-4fd2-820f-06dcec628436",
+      "is_pilot": false,
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/3c2d46f3-565d-4fd2-820f-06dcec628436",
       "started_at": "2026-11-20T03:09:34+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "WORLD IS ENDING"
     },
     "3ce5e79d-e91a-4ee4-89dc-1148bc90bb26": {
