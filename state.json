@@ -1365,9 +1365,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/3c2d46f3-565d-4fd2-820f-06dcec628436",
       "started_at": "2026-11-20T03:09:34+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "WORLD IS ENDING",
-      "upload_started_at": "2026-11-20T18:53:29.834123+00:00"
+      "upload_started_at": "2026-11-20T18:53:29.834123+00:00",
+      "youtube_id": "IiOPqSRPTNs"
     },
     "3ce5e79d-e91a-4ee4-89dc-1148bc90bb26": {
       "attempts": 0,
