@@ -3116,16 +3116,17 @@
       "title": "2025-06-30 CIA GRIFTERS EXPOSED"
     },
     "8edd574f-58bd-4530-b073-254a2044fb12": {
-      "attempts": 0,
+      "attempts": 1,
       "date": "2026-11-23",
       "first_seen": "2026-11-23T11:25:46.384253+00:00",
       "id": "8edd574f-58bd-4530-b073-254a2044fb12",
+      "is_pilot": false,
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/8edd574f-58bd-4530-b073-254a2044fb12",
       "started_at": "2026-11-23T02:50:43+00:00",
-      "status": "discovered",
+      "status": "downloading",
       "title": "THE REAL TRUTH"
     },
     "8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1": {
