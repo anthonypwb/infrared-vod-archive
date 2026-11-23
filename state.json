@@ -3138,9 +3138,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/8edd574f-58bd-4530-b073-254a2044fb12",
       "started_at": "2026-11-23T02:50:43+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "THE REAL TRUTH",
-      "upload_started_at": "2026-11-23T11:35:12.529557+00:00"
+      "upload_started_at": "2026-11-23T11:35:12.529557+00:00",
+      "youtube_id": "_H4u1s0As_s"
     },
     "8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1": {
       "attempts": 0,
