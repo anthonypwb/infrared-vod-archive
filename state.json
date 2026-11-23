@@ -3121,13 +3121,26 @@
       "first_seen": "2026-11-23T11:25:46.384253+00:00",
       "id": "8edd574f-58bd-4530-b073-254a2044fb12",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 13728.464667,
+        "height": 1080,
+        "output_bytes": 7884356983,
+        "sample_decode_passed": true,
+        "segments": 1372,
+        "source_bytes": 8188061948,
+        "source_sha256": "5396fa0c6354459c995bdf2fcfde1cf607e5217c4cbe72e51c42db68dfd32f48",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/8edd574f-58bd-4530-b073-254a2044fb12",
       "started_at": "2026-11-23T02:50:43+00:00",
-      "status": "downloading",
-      "title": "THE REAL TRUTH"
+      "status": "uploading",
+      "title": "THE REAL TRUTH",
+      "upload_started_at": "2026-11-23T11:35:12.529557+00:00"
     },
     "8f579b33-cb0a-4dd1-9a52-82dd2fb24ce1": {
       "attempts": 0,
