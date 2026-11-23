@@ -3124,8 +3124,15 @@
       "title": "2025-06-30 CIA GRIFTERS EXPOSED"
     },
     "8edd574f-58bd-4530-b073-254a2044fb12": {
+      "archived_at": "2026-11-23T22:10:44.685616+00:00",
       "attempts": 1,
       "date": "2026-11-23",
+      "duration_check": {
+        "difference_seconds": 0.5353329999998095,
+        "source_seconds": 13728.464667,
+        "tolerance_seconds": 686.42323335,
+        "youtube_seconds": 13729.0
+      },
       "first_seen": "2026-11-23T11:25:46.384253+00:00",
       "id": "8edd574f-58bd-4530-b073-254a2044fb12",
       "is_pilot": false,
@@ -3142,12 +3149,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/8edd574f-58bd-4530-b073-254a2044fb12",
       "started_at": "2026-11-23T02:50:43+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "THE REAL TRUTH",
       "upload_started_at": "2026-11-23T11:35:12.529557+00:00",
       "youtube_id": "_H4u1s0As_s"
