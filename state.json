@@ -4709,6 +4709,19 @@
       "status": "discovered",
       "title": "2025-06-16 IRAN WAR - WHAT COMES NEXT"
     },
+    "f331f88f-5975-47d6-aec8-a96311075d4c": {
+      "attempts": 0,
+      "date": "2026-11-25",
+      "first_seen": "2026-11-25T13:49:25.639723+00:00",
+      "id": "f331f88f-5975-47d6-aec8-a96311075d4c",
+      "new_since_monitoring": true,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/f331f88f-5975-47d6-aec8-a96311075d4c",
+      "started_at": "2026-11-25T02:37:09+00:00",
+      "status": "discovered",
+      "title": "UNLIMITED WARFARE"
+    },
     "f36895e1-1430-4501-b924-220ce509f680": {
       "attempts": 0,
       "date": "2024-06-08",
