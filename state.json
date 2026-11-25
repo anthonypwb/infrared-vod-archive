@@ -4718,8 +4718,15 @@
       "title": "2025-06-16 IRAN WAR - WHAT COMES NEXT"
     },
     "f331f88f-5975-47d6-aec8-a96311075d4c": {
+      "archived_at": "2026-11-25T20:03:18.173344+00:00",
       "attempts": 1,
       "date": "2026-11-25",
+      "duration_check": {
+        "difference_seconds": 0.6683329999996204,
+        "source_seconds": 15035.331667,
+        "tolerance_seconds": 751.76658335,
+        "youtube_seconds": 15036.0
+      },
       "first_seen": "2026-11-25T13:49:25.639723+00:00",
       "id": "f331f88f-5975-47d6-aec8-a96311075d4c",
       "is_pilot": false,
@@ -4736,12 +4743,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/f331f88f-5975-47d6-aec8-a96311075d4c",
       "started_at": "2026-11-25T02:37:09+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "UNLIMITED WARFARE",
       "upload_started_at": "2026-11-25T13:57:59.620941+00:00",
       "youtube_id": "666GVqNeQaQ"
