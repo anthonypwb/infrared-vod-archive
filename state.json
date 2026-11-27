@@ -4347,8 +4347,15 @@
       "title": "2025-07-20 SOLDIERS REPORT FOR DUTY"
     },
     "d41dd33e-81e4-4d6c-805f-eca37327df46": {
+      "archived_at": "2026-11-27T16:08:34.411339+00:00",
       "attempts": 1,
       "date": "2026-11-27",
+      "duration_check": {
+        "difference_seconds": 0.5343329999996058,
+        "source_seconds": 14480.465667,
+        "tolerance_seconds": 724.02328335,
+        "youtube_seconds": 14481.0
+      },
       "first_seen": "2026-11-27T15:33:55.455460+00:00",
       "id": "d41dd33e-81e4-4d6c-805f-eca37327df46",
       "is_pilot": false,
@@ -4365,12 +4372,12 @@
         "width": 1920
       },
       "new_since_monitoring": true,
-      "note": "YouTube is still processing the upload",
+      "note": "Public upload verified; duration within creator-authorized edit tolerance",
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/d41dd33e-81e4-4d6c-805f-eca37327df46",
       "started_at": "2026-11-27T04:00:12+00:00",
-      "status": "uploaded_pending",
+      "status": "archived",
       "title": "TOTAL WARFARE - ACP vs. EVERYBODY",
       "upload_started_at": "2026-11-27T15:49:09.271505+00:00",
       "youtube_id": "kqiycNzmRfk"
