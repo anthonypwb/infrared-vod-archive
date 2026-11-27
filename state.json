@@ -4333,6 +4333,19 @@
       "status": "discovered",
       "title": "2025-07-20 SOLDIERS REPORT FOR DUTY"
     },
+    "d41dd33e-81e4-4d6c-805f-eca37327df46": {
+      "attempts": 0,
+      "date": "2026-11-27",
+      "first_seen": "2026-11-27T15:33:55.455460+00:00",
+      "id": "d41dd33e-81e4-4d6c-805f-eca37327df46",
+      "new_since_monitoring": true,
+      "source_channel_id": 129849,
+      "source_provider": "kick",
+      "source_url": "https://kick.com/infrared/videos/d41dd33e-81e4-4d6c-805f-eca37327df46",
+      "started_at": "2026-11-27T04:00:12+00:00",
+      "status": "discovered",
+      "title": "TOTAL WARFARE - ACP vs. EVERYBODY"
+    },
     "d7269efb-7696-4ac4-b78d-ad1015aa8cdf": {
       "attempts": 0,
       "date": "2024-04-19",
