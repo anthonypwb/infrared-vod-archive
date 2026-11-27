@@ -4347,13 +4347,26 @@
       "first_seen": "2026-11-27T15:33:55.455460+00:00",
       "id": "d41dd33e-81e4-4d6c-805f-eca37327df46",
       "is_pilot": false,
+      "media": {
+        "audio_codec": "aac",
+        "duration_seconds": 14480.465667,
+        "height": 1080,
+        "output_bytes": 8339832086,
+        "sample_decode_passed": true,
+        "segments": 1447,
+        "source_bytes": 8658288864,
+        "source_sha256": "f0d0c2dbb3750d03ca281e8fca509e8b87f8b9be0614aee6948d44c607141c68",
+        "video_codec": "h264",
+        "width": 1920
+      },
       "new_since_monitoring": true,
       "source_channel_id": 129849,
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/d41dd33e-81e4-4d6c-805f-eca37327df46",
       "started_at": "2026-11-27T04:00:12+00:00",
-      "status": "downloading",
-      "title": "TOTAL WARFARE - ACP vs. EVERYBODY"
+      "status": "uploading",
+      "title": "TOTAL WARFARE - ACP vs. EVERYBODY",
+      "upload_started_at": "2026-11-27T15:49:09.271505+00:00"
     },
     "d7269efb-7696-4ac4-b78d-ad1015aa8cdf": {
       "attempts": 0,
