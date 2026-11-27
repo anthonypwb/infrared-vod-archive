@@ -4364,9 +4364,10 @@
       "source_provider": "kick",
       "source_url": "https://kick.com/infrared/videos/d41dd33e-81e4-4d6c-805f-eca37327df46",
       "started_at": "2026-11-27T04:00:12+00:00",
-      "status": "uploading",
+      "status": "uploaded_pending",
       "title": "TOTAL WARFARE - ACP vs. EVERYBODY",
-      "upload_started_at": "2026-11-27T15:49:09.271505+00:00"
+      "upload_started_at": "2026-11-27T15:49:09.271505+00:00",
+      "youtube_id": "kqiycNzmRfk"
     },
     "d7269efb-7696-4ac4-b78d-ad1015aa8cdf": {
       "attempts": 0,
